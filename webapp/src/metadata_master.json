@@ -1,0 +1,911 @@
+{
+  "DERM_799377": {
+    "id": "DERM_799377",
+    "src": "images/DERM_799377.webp",
+    "diagnosis": "Seborrheic Keratosis",
+    "code": "sk",
+    "superclass": "Nonmelanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image reveals a seborrheic keratosis characterized by comedo-like openings and milia-like cysts. These features are typical of seborrheic keratosis, a benign skin lesion.\n"
+  },
+  "DERM_808422": {
+    "id": "DERM_808422",
+    "src": "images/DERM_808422.webp",
+    "diagnosis": "Blue Banal Dermal Nevus",
+    "code": "bdb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image shows a benign, melanocytic lesion consistent with a Blue Banal Dermal Nevus, indicated by its blue color and well-defined borders. The symmetry and lack of atypical features further support the diagnosis.\n"
+  },
+  "DERM_179641": {
+    "id": "DERM_179641",
+    "src": "images/DERM_179641.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image exhibits features of a dysplastic junctional nevus, including an irregular border, variable pigmentation, and a somewhat symmetric but atypical pigment network. These characteristics suggest a melanocytic lesion with some architectural disorder, necessitating monitoring.\n"
+  },
+  "DERM_462452": {
+    "id": "DERM_462452",
+    "src": "images/DERM_462452.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image exhibits features indicative of a Dysplastic Junctional Nevus, including a reticular or cobblestone pattern and irregular pigment network. These features, along with the overall architecture, support the diagnosis of a benign melanocytic lesion with dysplastic characteristics.\n"
+  },
+  "DERM_923847": {
+    "id": "DERM_923847",
+    "src": "images/DERM_923847.webp",
+    "diagnosis": "Seborrheic Keratosis",
+    "code": "sk",
+    "superclass": "Nonmelanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image exhibits cerebriform structures, which appear as brain-like convolutions and are indicative of Seborrheic Keratosis. Comedo-like openings, which are dark, round structures resembling comedones, are also visible, further supporting the diagnosis.\n"
+  },
+  "DERM_874781": {
+    "id": "DERM_874781",
+    "src": "images/DERM_874781.webp",
+    "diagnosis": "Melanoma",
+    "code": "mel",
+    "superclass": "Melanocytic",
+    "malignancy": "Malignant",
+    "vlm_explanation": "This dermoscopy image shows features consistent with melanoma, including asymmetry, irregular borders, and multiple colors. The presence of these characteristics raises concern for a malignant melanocytic lesion.\n"
+  },
+  "DERM_813215": {
+    "id": "DERM_813215",
+    "src": "images/DERM_813215.webp",
+    "diagnosis": "Acral Banal Junctional Nevus",
+    "code": "ajb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The lesion shows a parallel furrow pattern and fibrillar pattern, which is consistent with a benign melanocytic lesion. The presence of these patterns, along with the overall symmetry and regular pigment network, supports the diagnosis of an Acral Banal Junctional Nevus.\n"
+  },
+  "DERM_718579": {
+    "id": "DERM_718579",
+    "src": "images/DERM_718579.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image reveals a lesion with an irregular border, blotches, and a network-like pattern, suggestive of a dysplastic junctional nevus. The presence of these multiple features raises suspicion for a melanocytic lesion with atypical characteristics.\n"
+  },
+  "DERM_364574": {
+    "id": "DERM_364574",
+    "src": "images/DERM_364574.webp",
+    "diagnosis": "Acral Banal Junctional Nevus",
+    "code": "ajb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopic image reveals a benign melanocytic lesion with a parallel furrow pattern, which is commonly observed in acral nevi. The presence of this pattern, along with the lesion's symmetry and uniform pigmentation, supports the diagnosis of an Acral Banal Junctional Nevus.\n"
+  },
+  "DERM_734912": {
+    "id": "DERM_734912",
+    "src": "images/DERM_734912.webp",
+    "diagnosis": "Banal Compound Nevus",
+    "code": "cb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopic image reveals a benign melanocytic lesion, characterized by a well-defined border, uniform pigmentation, and a symmetrical pattern, consistent with a banal compound nevus. The absence of atypical features such as irregular networks, streaks, or globules further supports this diagnosis.\n"
+  },
+  "DERM_956731": {
+    "id": "DERM_956731",
+    "src": "images/DERM_956731.webp",
+    "diagnosis": "Banal Compound Nevus",
+    "code": "cb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image reveals a benign melanocytic lesion, specifically a banal compound nevus, characterized by its well-defined borders and uniform pigmentation. The presence of a regular pigment network and the absence of atypical features such as asymmetry, irregular borders, or multiple colors support this diagnosis.\n"
+  },
+  "DERM_783577": {
+    "id": "DERM_783577",
+    "src": "images/DERM_783577.webp",
+    "diagnosis": "Acral Nodular Melanoma",
+    "code": "anm",
+    "superclass": "Melanocytic",
+    "malignancy": "Malignant",
+    "vlm_explanation": "The dermoscopy image exhibits features consistent with acral nodular melanoma, including an irregular border, asymmetrical pigmentation, and atypical vascular patterns. The presence of these characteristics raises suspicion for malignancy.\n"
+  },
+  "DERM_841355": {
+    "id": "DERM_841355",
+    "src": "images/DERM_841355.webp",
+    "diagnosis": "Acral Banal Junctional Nevus",
+    "code": "ajb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "This lesion exhibits a parallel furrow pattern with a symmetric, round-oval shape and a homogenous distribution of pigment. These features are consistent with an Acral Banal Junctional Nevus, a benign melanocytic lesion typically found on the palms or soles.\n"
+  },
+  "DERM_111850": {
+    "id": "DERM_111850",
+    "src": "images/DERM_111850.webp",
+    "diagnosis": "Banal Dermal Nevus Nevus",
+    "code": "db",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The image shows a banal dermal nevus nevus, which is a benign, melanocytic lesion. Key features include a symmetrical structure, regular pigment network, and absence of concerning features such as asymmetry, irregular borders, or multiple colors."
+  },
+  "DERM_905041": {
+    "id": "DERM_905041",
+    "src": "images/DERM_905041.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The image shows a benign melanocytic lesion, specifically a Dysplastic Junctional Nevus, characterized by a well-defined border, round shape, and homogenous pigment network. No concerning features such as asymmetry, irregular borders, or multiple colors are noted.\n"
+  },
+  "DERM_591902": {
+    "id": "DERM_591902",
+    "src": "images/DERM_591902.webp",
+    "diagnosis": "Acral Banal Junctional Nevus",
+    "code": "ajb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopic image reveals a benign melanocytic lesion, characterized by a parallel furrow pattern and uniform pigmentation, indicative of an acral banal junctional nevus. The absence of atypical network, streaks, or globules supports its benign nature.\n"
+  },
+  "DERM_511287": {
+    "id": "DERM_511287",
+    "src": "images/DERM_511287.webp",
+    "diagnosis": "Banal Junctional Nevus",
+    "code": "jb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The lesion displays a symmetric, homogeneous pigment network with regular borders, consistent with a benign melanocytic nevus. The even distribution of color and lack of atypical features further support the diagnosis of a banal junctional nevus.\n"
+  },
+  "DERM_831113": {
+    "id": "DERM_831113",
+    "src": "images/DERM_831113.webp",
+    "diagnosis": "Dysplastic Compound Nevus",
+    "code": "cd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "This dermoscopy image exhibits features of a dysplastic nevus, including an irregular border and heterogeneous pigmentation. The presence of both junctional and dermal components suggests a compound nevus.\n"
+  },
+  "DERM_691351": {
+    "id": "DERM_691351",
+    "src": "images/DERM_691351.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image reveals a lesion with a junctional pattern, characterized by a network-like pigmentation at the periphery and a relatively homogenous, light-brown pigmentation centrally, consistent with a dysplastic junctional nevus. The lesion also displays subtle pigment network irregularities, which can be associated with dysplasia.\n"
+  },
+  "DERM_561977": {
+    "id": "DERM_561977",
+    "src": "images/DERM_561977.webp",
+    "diagnosis": "Kaposi Sarcoma",
+    "code": "ks",
+    "superclass": "Nonmelanocytic",
+    "malignancy": "Malignant",
+    "vlm_explanation": "The image displays a polymorphous vascular pattern with angulated vessels and irregular, poorly defined reddish-purple areas, indicative of Kaposi Sarcoma. These atypical vascular structures and coloration are key dermoscopic features for identifying this malignant nonmelanocytic lesion.\n"
+  },
+  "DERM_766795": {
+    "id": "DERM_766795",
+    "src": "images/DERM_766795.webp",
+    "diagnosis": "Banal Compound Nevus",
+    "code": "cb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopic image reveals a benign melanocytic lesion, characterized by a well-defined border, symmetrical shape, and uniform color distribution, consistent with a banal nevus. The presence of a regular pigment network and absence of atypical features such as asymmetry, irregular borders, or multiple colors further supports the diagnosis of a benign compound nevus.\n"
+  },
+  "DERM_371540": {
+    "id": "DERM_371540",
+    "src": "images/DERM_371540.webp",
+    "diagnosis": "Seborrheic Keratosis",
+    "code": "sk",
+    "superclass": "Nonmelanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image exhibits features consistent with seborrheic keratosis, including comedo-like openings and milia-like cysts. These are benign, nonmelanocytic characteristics.\n"
+  },
+  "DERM_848401": {
+    "id": "DERM_848401",
+    "src": "images/DERM_848401.webp",
+    "diagnosis": "Banal Junctional Nevus",
+    "code": "jb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image shows a benign melanocytic lesion, characterized by a well-defined border, uniform pigmentation, and a symmetrical pattern, consistent with a banal junctional nevus. The absence of concerning features such as irregular borders, multiple colors, or asymmetry supports this diagnosis.\n"
+  },
+  "DERM_691561": {
+    "id": "DERM_691561",
+    "src": "images/DERM_691561.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image reveals a benign melanocytic lesion, specifically a dysplastic junctional nevus, characterized by a well-circumscribed, symmetrical pigmented area with a reticular network and subtle peripheral globules. These features suggest a benign growth pattern, though the presence of some architectural disorder necessitates monitoring for changes.\n"
+  },
+  "DERM_769715": {
+    "id": "DERM_769715",
+    "src": "images/DERM_769715.webp",
+    "diagnosis": "Acral Banal Junctional Nevus",
+    "code": "ajb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The image reveals a parallel furrow pattern with brown lines running along the ridges, typical of acral nevi, in the absence of irregular features or concerning structures associated with melanoma. This supports a diagnosis of a banal junctional nevus on acral skin.\n"
+  },
+  "DERM_845557": {
+    "id": "DERM_845557",
+    "src": "images/DERM_845557.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image exhibits features consistent with a dysplastic junctional nevus, including a somewhat symmetric, but ill-defined, pigmentation pattern with variation in color and presence of globules at the periphery. The lesion appears to be a benign melanocytic growth.\n"
+  },
+  "DERM_730255": {
+    "id": "DERM_730255",
+    "src": "images/DERM_730255.webp",
+    "diagnosis": "Lentigo Maligna Melanoma",
+    "code": "lmm",
+    "superclass": "Melanocytic",
+    "malignancy": "Malignant",
+    "vlm_explanation": "The dermoscopic image exhibits features of a malignant melanocytic lesion, specifically Lentigo Maligna Melanoma, characterized by atypical pigmented network, asymmetry of structures and colors. Additionally, the presence of regression structures further supports the diagnosis.\n"
+  },
+  "DERM_631233": {
+    "id": "DERM_631233",
+    "src": "images/DERM_631233.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The lesion displays a somewhat irregular border and uneven pigment distribution, concerning features for a dysplastic nevus. The junctional component is suggested by the location of the melanocytic proliferation at the dermoepidermal junction.\n"
+  },
+  "DERM_536223": {
+    "id": "DERM_536223",
+    "src": "images/DERM_536223.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The lesion displays a junctional growth pattern with an irregular border and somewhat reticular appearance, consistent with a melanocytic nevus showing dysplastic features. The pigmentation is not entirely uniform, and there are variations in color within the lesion.\n"
+  },
+  "DERM_568024": {
+    "id": "DERM_568024",
+    "src": "images/DERM_568024.webp",
+    "diagnosis": "Basal Cell Carcinoma",
+    "code": "bcc",
+    "superclass": "Nonmelanocytic",
+    "malignancy": "Malignant",
+    "vlm_explanation": "This dermoscopy image exhibits features consistent with Basal Cell Carcinoma, including arborizing vessels and ulceration. These characteristics are indicative of a malignant, nonmelanocytic lesion.\n"
+  },
+  "DERM_905066": {
+    "id": "DERM_905066",
+    "src": "images/DERM_905066.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image exhibits features of a dysplastic junctional nevus, including a symmetrical pattern, a network-like structure with globules at the periphery, and some irregular borders. The even pigment distribution and lack of regression structures suggest a benign, melanocytic lesion.\n"
+  },
+  "DERM_525897": {
+    "id": "DERM_525897",
+    "src": "images/DERM_525897.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The image shows a lesion with a dark brown color and a cobblestone appearance, featuring a symmetrical pattern of globules without concerning features like irregular networks or streaks. These characteristics suggest a benign melanocytic lesion, consistent with a Dysplastic Junctional Nevus.\n"
+  },
+  "DERM_775669": {
+    "id": "DERM_775669",
+    "src": "images/DERM_775669.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The image displays a melanocytic lesion with irregular borders and heterogeneous pigmentation, indicative of a dysplastic nevus. The junctional component is suggested by the presence of pigment extending to the periphery of the lesion.\n"
+  },
+  "DERM_765612": {
+    "id": "DERM_765612",
+    "src": "images/DERM_765612.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopic image displays a benign melanocytic lesion with features of a dysplastic junctional nevus, characterized by a well-defined border, a homogenous pigment network, and a symmetric pattern. There is an absence of concerning features such as irregular blotches, streaks, or regression structures.\n"
+  },
+  "DERM_263771": {
+    "id": "DERM_263771",
+    "src": "images/DERM_263771.webp",
+    "diagnosis": "Seborrheic Keratosis",
+    "code": "sk",
+    "superclass": "Nonmelanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image exhibits features of Seborrheic Keratosis, a benign, nonmelanocytic lesion. Visual cues include a well-defined border, comedo-like openings, and a cerebriform appearance.\n"
+  },
+  "DERM_413469": {
+    "id": "DERM_413469",
+    "src": "images/DERM_413469.webp",
+    "diagnosis": "Banal Junctional Nevus",
+    "code": "jb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopic image shows a well-circumscribed, symmetric melanocytic lesion with a regular pigment network and even pigmentation, consistent with a banal junctional nevus. No concerning features such as asymmetry, irregular borders, or atypical pigment network are identified.\n"
+  },
+  "DERM_922729": {
+    "id": "DERM_922729",
+    "src": "images/DERM_922729.webp",
+    "diagnosis": "Congenital Banal Compound Nevus",
+    "code": "ccb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "This dermoscopy image exhibits features consistent with a congenital nevus, including a reticular pattern, which appears as a network of pigmented lines, and the presence of globules, which are small, round, well-circumscribed structures, both of which are melanocytic features. The presence of hairs is also noted.\n"
+  },
+  "DERM_132100": {
+    "id": "DERM_132100",
+    "src": "images/DERM_132100.webp",
+    "diagnosis": "Miescher Banal Compound Nevus",
+    "code": "mcb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image shows a well-circumscribed, symmetrical lesion with globular and cobblestone-like structures, consistent with a Miescher Banal Compound Nevus. The lesion exhibits a benign, melanocytic pattern with no concerning features such as asymmetry, irregular borders, or atypical pigment network.\n"
+  },
+  "DERM_303028": {
+    "id": "DERM_303028",
+    "src": "images/DERM_303028.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopic image shows a melanocytic lesion with a junctional pattern, characterized by a network of pigmented cells at the epidermal-dermal junction. This lesion is diagnosed as a dysplastic junctional nevus, a benign melanocytic lesion exhibiting structural irregularities.\n"
+  },
+  "DERM_228431": {
+    "id": "DERM_228431",
+    "src": "images/DERM_228431.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image reveals a lesion with a junctional pattern of melanocytic proliferation, characterized by a network of pigmented cells at the dermoepidermal junction and some architectural disorder, suggesting a dysplastic junctional nevus. The presence of irregular pigment distribution and some peripheral fading may further support the diagnosis.\n"
+  },
+  "DERM_666371": {
+    "id": "DERM_666371",
+    "src": "images/DERM_666371.webp",
+    "diagnosis": "Banal Dermal Nevus Nevus",
+    "code": "db",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image reveals a benign melanocytic lesion, characterized by its regular pigment network and homogenous color distribution, indicative of a banal dermal nevus. The absence of atypical features like asymmetry, irregular borders, or multiple colors further supports this diagnosis.\n"
+  },
+  "DERM_491754": {
+    "id": "DERM_491754",
+    "src": "images/DERM_491754.webp",
+    "diagnosis": "Banal Junctional Nevus",
+    "code": "jb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopic image reveals a benign melanocytic lesion, characterized by its round to oval shape, well-defined borders, and even pigmentation. These features suggest a banal junctional nevus without concerning characteristics of melanoma.\n"
+  },
+  "DERM_913263": {
+    "id": "DERM_913263",
+    "src": "images/DERM_913263.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopic image reveals a benign, melanocytic lesion indicative of a Dysplastic Junctional Nevus, characterized by its junctional nature and dysplastic features. Further evaluation may be considered to monitor for any changes.\n"
+  },
+  "DERM_165409": {
+    "id": "DERM_165409",
+    "src": "images/DERM_165409.webp",
+    "diagnosis": "Dermatofibroma",
+    "code": "df",
+    "superclass": "Nonmelanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image shows a dermatofibroma, characterized by a central scar-like area and a peripheral delicate pigment network. These features are typical of dermatofibromas, which are benign skin lesions.\n"
+  },
+  "DERM_350112": {
+    "id": "DERM_350112",
+    "src": "images/DERM_350112.webp",
+    "diagnosis": "Banal Compound Nevus",
+    "code": "cb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopic image reveals a benign, melanocytic lesion consistent with a Banal Compound Nevus, characterized by its symmetrical pattern, regular borders, and uniform pigmentation. The presence of globules and a reticular network further supports this diagnosis, lacking features indicative of malignancy.\n"
+  },
+  "DERM_100084": {
+    "id": "DERM_100084",
+    "src": "images/DERM_100084.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image reveals features of a dysplastic junctional nevus, characterized by a well-defined border, a reticular network, and globules. There is also a slight variation in pigmentation.\n"
+  },
+  "DERM_794831": {
+    "id": "DERM_794831",
+    "src": "images/DERM_794831.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The image displays a melanocytic lesion with a junctional component, characterized by an irregular pigment network and some asymmetry in color distribution. These features raise suspicion for a dysplastic nevus.\n"
+  },
+  "DERM_506456": {
+    "id": "DERM_506456",
+    "src": "images/DERM_506456.webp",
+    "diagnosis": "Banal Dermal Nevus Nevus",
+    "code": "db",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "This dermoscopy image exhibits features consistent with a Banal Dermal Nevus, displaying a symmetrical pattern with regular pigment distribution. The presence of globules and a lack of atypical network further support the diagnosis of a benign melanocytic lesion.\n"
+  },
+  "DERM_385970": {
+    "id": "DERM_385970",
+    "src": "images/DERM_385970.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "This dermoscopy image exhibits features of a dysplastic junctional nevus, characterized by an irregular border, dark pigmentation, and an asymmetrical shape. These features, while concerning, do not exhibit the more aggressive characteristics of melanoma.\n"
+  },
+  "DERM_741181": {
+    "id": "DERM_741181",
+    "src": "images/DERM_741181.webp",
+    "diagnosis": "Banal Compound Nevus",
+    "code": "cb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "This lesion exhibits a symmetrical, well-defined border and a uniform, globular pigment network, indicative of a melanocytic nevus. The overall regularity in color and structure suggests a benign, banal compound nevus.\n"
+  },
+  "DERM_330993": {
+    "id": "DERM_330993",
+    "src": "images/DERM_330993.webp",
+    "diagnosis": "Congenital Banal Compound Nevus",
+    "code": "ccb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopic image reveals a benign melanocytic lesion with a cobblestone pattern and aggregated globules, consistent with a nevus. Presence of hairs is also noted within the lesion.\n"
+  },
+  "DERM_707718": {
+    "id": "DERM_707718",
+    "src": "images/DERM_707718.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The image shows a melanocytic lesion exhibiting features of a junctional nevus, including a somewhat symmetrical shape and relatively homogeneous pigmentation. However, subtle irregularities in pigment distribution and border definition suggest a dysplastic component, warranting further evaluation to rule out malignancy.\n"
+  },
+  "DERM_312773": {
+    "id": "DERM_312773",
+    "src": "images/DERM_312773.webp",
+    "diagnosis": "Congenital Banal Junctional Nevus",
+    "code": "cjb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The lesion shows a heavily pigmented, dark brown to black color with a relatively symmetric and well-defined border, consistent with a benign melanocytic nevus. The presence of hair follicles within the lesion indicates that it is likely a congenital or long-standing nevus.\n"
+  },
+  "DERM_448137": {
+    "id": "DERM_448137",
+    "src": "images/DERM_448137.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image exhibits features of a melanocytic lesion with a junctional component, displaying an atypical or dysplastic appearance. These include an irregular pigment network, asymmetrical structure, and variable coloration, concerning for a dysplastic nevus.\n"
+  },
+  "DERM_790261": {
+    "id": "DERM_790261",
+    "src": "images/DERM_790261.webp",
+    "diagnosis": "Solar Lentigo",
+    "code": "sl",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopic image exhibits features characteristic of solar lentigo, including a light brown pseudonetwork and ill-defined borders, indicative of increased melanization in the basal layer of the epidermis. Additionally, the presence of moth-eaten borders suggests sun-induced damage.\n"
+  },
+  "DERM_404819": {
+    "id": "DERM_404819",
+    "src": "images/DERM_404819.webp",
+    "diagnosis": "Dysplastic Compound Nevus",
+    "code": "cd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopic image reveals a melanocytic lesion with a reticular network and some globules, consistent with a nevus. The presence of both junctional and dermal components suggests a compound nevus, and some asymmetry raises concern for dysplasia.\n"
+  },
+  "DERM_376808": {
+    "id": "DERM_376808",
+    "src": "images/DERM_376808.webp",
+    "diagnosis": "Banal Compound Nevus",
+    "code": "cb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image exhibits features of a benign melanocytic lesion, specifically a banal compound nevus, characterized by a well-defined, symmetric pattern with uniform pigmentation and a globular appearance. These features indicate a benign growth pattern without concerning signs of malignancy.\n"
+  },
+  "DERM_145585": {
+    "id": "DERM_145585",
+    "src": "images/DERM_145585.webp",
+    "diagnosis": "Banal Compound Nevus",
+    "code": "cb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image reveals a benign melanocytic lesion, specifically a banal compound nevus, characterized by its well-defined borders, symmetrical shape, and uniform pigmentation pattern. The presence of subtle network-like structures and the absence of atypical features such as irregular blotches or regression structures further support the diagnosis.\n"
+  },
+  "DERM_578207": {
+    "id": "DERM_578207",
+    "src": "images/DERM_578207.webp",
+    "diagnosis": "Hemangioma",
+    "code": "ha",
+    "superclass": "Nonmelanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image exhibits a well-circumscribed, round to oval-shaped red lesion, indicative of vascular proliferation. These features are consistent with a diagnosis of hemangioma, a benign vascular tumor.\n"
+  },
+  "DERM_939865": {
+    "id": "DERM_939865",
+    "src": "images/DERM_939865.webp",
+    "diagnosis": "Congenital Banal Junctional Nevus",
+    "code": "cjb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "This dermoscopy image exhibits multiple small, evenly distributed brown globules at the dermoepidermal junction, characteristic of a banal junctional nevus. The lesion shows no signs of atypia or concerning features, supporting its benign nature.\n"
+  },
+  "DERM_971626": {
+    "id": "DERM_971626",
+    "src": "images/DERM_971626.webp",
+    "diagnosis": "Congenital Banal Junctional Nevus",
+    "code": "cjb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopic image reveals a benign melanocytic lesion, specifically a Congenital Banal Junctional Nevus, characterized by a well-defined, symmetric pattern of pigmentation and a lack of atypical features or concerning structures. The lesion exhibits a uniform color distribution and regular borders, consistent with a benign nevus.\n"
+  },
+  "DERM_804404": {
+    "id": "DERM_804404",
+    "src": "images/DERM_804404.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "This dermoscopy image shows features consistent with a dysplastic junctional nevus, characterized by a well-circumscribed, uniformly pigmented lesion. The presence of symmetry and a regular border suggests a benign melanocytic origin.\n"
+  },
+  "DERM_599157": {
+    "id": "DERM_599157",
+    "src": "images/DERM_599157.webp",
+    "diagnosis": "Banal Junctional Nevus",
+    "code": "jb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "This lesion is a Banal Junctional Nevus, characterized by its symmetry, even color distribution, and the absence of concerning features such as irregular borders or atypical pigment network. The lesion appears as a well-defined, round to oval-shaped macule with a consistent brown hue, typical of a benign melanocytic nevus.\n"
+  },
+  "DERM_863702": {
+    "id": "DERM_863702",
+    "src": "images/DERM_863702.webp",
+    "diagnosis": "Acral Dysplastic Junctional Nevus",
+    "code": "ajd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The image displays a lesion with irregular borders and asymmetrical pigment distribution, concerning for dysplastic features within a junctional nevus on acral skin. Further evaluation with biopsy may be warranted to rule out malignancy.\n"
+  },
+  "DERM_439393": {
+    "id": "DERM_439393",
+    "src": "images/DERM_439393.webp",
+    "diagnosis": "Banal Junctional Nevus",
+    "code": "jb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image displays features consistent with a Banal Junctional Nevus, including a well-defined border, even pigmentation, and a symmetrical pattern. The lesion exhibits a homogenous, light-brown color with a regular distribution of pigment throughout the nevus.\n"
+  },
+  "DERM_720870": {
+    "id": "DERM_720870",
+    "src": "images/DERM_720870.webp",
+    "diagnosis": "Dysplastic Compound Nevus",
+    "code": "cd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image reveals a melanocytic lesion with a reticular network and globules, displaying a compound pattern with features suggestive of a dysplastic nevus, such as architectural disorder. The presence of both network and globules, along with irregular distribution of pigment, raises suspicion for dysplasia.\n"
+  },
+  "DERM_918769": {
+    "id": "DERM_918769",
+    "src": "images/DERM_918769.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image reveals a melanocytic lesion with a junctional pattern, displaying features of asymmetry and irregular borders, indicative of a dysplastic nevus. The presence of pigment network and globules further supports this classification.\n"
+  },
+  "DERM_122682": {
+    "id": "DERM_122682",
+    "src": "images/DERM_122682.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image exhibits features of a dysplastic junctional nevus, characterized by an irregular pigment network and some asymmetry in color and structure. These findings, while not definitively malignant, warrant monitoring or further evaluation due to the dysplastic potential.\n"
+  },
+  "DERM_566279": {
+    "id": "DERM_566279",
+    "src": "images/DERM_566279.webp",
+    "diagnosis": "Acral Banal Junctional Nevus",
+    "code": "ajb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopic image reveals a parallel furrow pattern, which is characterized by pigmented lines running along the furrows of the skin, consistent with a benign melanocytic lesion. The presence of this pattern, without atypical features, supports the diagnosis of Acral Banal Junctional Nevus.\n"
+  },
+  "DERM_858673": {
+    "id": "DERM_858673",
+    "src": "images/DERM_858673.webp",
+    "diagnosis": "Bowen's Disease",
+    "code": "bd",
+    "superclass": "Nonmelanocytic",
+    "malignancy": "Malignant",
+    "vlm_explanation": "This dermoscopy image exhibits features consistent with Bowen's Disease, including the presence of dotted vessels and subtle scaling on an erythematous background. These characteristics are indicative of a malignant nonmelanocytic lesion.\n"
+  },
+  "DERM_726443": {
+    "id": "DERM_726443",
+    "src": "images/DERM_726443.webp",
+    "diagnosis": "Banal Dermal Nevus Nevus",
+    "code": "db",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "This dermoscopy image shows a benign melanocytic lesion with a homogeneous, light brown color and a well-defined border, consistent with a banal nevus. The absence of concerning features such as asymmetry, irregular borders, or multiple colors further supports the diagnosis of a benign lesion.\n"
+  },
+  "DERM_172205": {
+    "id": "DERM_172205",
+    "src": "images/DERM_172205.webp",
+    "diagnosis": "Actinic Keratosis",
+    "code": "ak",
+    "superclass": "Nonmelanocytic",
+    "malignancy": "Malignant",
+    "vlm_explanation": "This dermoscopy image exhibits features consistent with Actinic Keratosis, including scales, linear vessels, and a pseudo network. Additionally, the presence of white circles and blotches further supports this diagnosis.\n"
+  },
+  "DERM_805409": {
+    "id": "DERM_805409",
+    "src": "images/DERM_805409.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image reveals a benign melanocytic lesion, specifically a Dysplastic Junctional Nevus, characterized by a reticular pattern with some architectural disorder. Additionally, there are subtle areas of increased pigmentation and indistinct borders, features consistent with dysplasia but without clear signs of malignancy.\n"
+  },
+  "DERM_808846": {
+    "id": "DERM_808846",
+    "src": "images/DERM_808846.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image exhibits features of a melanocytic lesion with a junctional component, displaying an atypical pigment network, irregular border, and globular structures. These characteristics are consistent with a dysplastic nevus.\n"
+  },
+  "DERM_882045": {
+    "id": "DERM_882045",
+    "src": "images/DERM_882045.webp",
+    "diagnosis": "Seborrheic Keratosis",
+    "code": "sk",
+    "superclass": "Nonmelanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "Seborrheic keratosis is suggested by the presence of comedo-like openings and sharp demarcation. Milia-like cysts are also noted.\n"
+  },
+  "DERM_378575": {
+    "id": "DERM_378575",
+    "src": "images/DERM_378575.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image reveals a benign, melanocytic lesion consistent with a Dysplastic Junctional Nevus, characterized by a junctional proliferation of atypical melanocytes. Key features include a reticular pattern and a symmetric shape.\n"
+  },
+  "DERM_379364": {
+    "id": "DERM_379364",
+    "src": "images/DERM_379364.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image reveals features of a melanocytic lesion with a junctional pattern, exhibiting network and globular components without clear signs of regression structures or asymmetry of structures and colors. These characteristics are consistent with a Dysplastic Junctional Nevus.\n"
+  },
+  "DERM_898809": {
+    "id": "DERM_898809",
+    "src": "images/DERM_898809.webp",
+    "diagnosis": "Actinic Keratosis",
+    "code": "ak",
+    "superclass": "Nonmelanocytic",
+    "malignancy": "Malignant",
+    "vlm_explanation": "The dermoscopic image exhibits features characteristic of Actinic Keratosis, including the presence of scales, erythema, and pseudofollicular openings. These features are indicative of keratinocyte dysplasia and inflammation commonly associated with sun-damaged skin.\n"
+  },
+  "DERM_934882": {
+    "id": "DERM_934882",
+    "src": "images/DERM_934882.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image reveals a benign melanocytic lesion, specifically a Dysplastic Junctional Nevus, characterized by its junctional activity and melanocytic features. These characteristics suggest a clustering of melanocytes at the junction between the epidermis and dermis, which is typical of junctional nevi, along with features indicative of dysplasia.\n"
+  },
+  "DERM_861240": {
+    "id": "DERM_861240",
+    "src": "images/DERM_861240.webp",
+    "diagnosis": "Dermatofibroma",
+    "code": "df",
+    "superclass": "Nonmelanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image exhibits features consistent with dermatofibroma, including a central scar-like area and peripheral pigment network. These characteristics are indicative of this benign skin lesion.\n"
+  },
+  "DERM_429286": {
+    "id": "DERM_429286",
+    "src": "images/DERM_429286.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The image displays a melanocytic lesion with irregular borders, and an asymmetrical distribution of pigment. These features can be indicative of a dysplastic nevus.\n"
+  },
+  "DERM_964434": {
+    "id": "DERM_964434",
+    "src": "images/DERM_964434.webp",
+    "diagnosis": "Dysplastic Compound Nevus",
+    "code": "cd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image reveals a melanocytic lesion with a reticular pattern, globules, and some areas of homogeneous pigmentation. These features suggest a dysplastic nevus with both junctional and dermal components.\n"
+  },
+  "DERM_404472": {
+    "id": "DERM_404472",
+    "src": "images/DERM_404472.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image shows a benign, melanocytic lesion consistent with a Dysplastic Junctional Nevus, characterized by an asymmetric pigment network and some irregular blotches. Faint peripheral increased pigment also supports this diagnosis.\n"
+  },
+  "DERM_719583": {
+    "id": "DERM_719583",
+    "src": "images/DERM_719583.webp",
+    "diagnosis": "Kaposi Sarcoma",
+    "code": "ks",
+    "superclass": "Nonmelanocytic",
+    "malignancy": "Malignant",
+    "vlm_explanation": "The dermoscopy image reveals a malignant nonmelanocytic lesion indicative of Kaposi Sarcoma, characterized by its reddish-purple hue and possibly irregular vascular patterns. The presence of these distinct colorations and vascular structures under dermoscopy raises suspicion for Kaposi Sarcoma.\n"
+  },
+  "DERM_980880": {
+    "id": "DERM_980880",
+    "src": "images/DERM_980880.webp",
+    "diagnosis": "Congenital Banal Compound Nevus",
+    "code": "ccb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopic image shows a benign melanocytic lesion with regular pigment network and aggregated globules/clods. These features are consistent with a Congenital Banal Compound Nevus.\n"
+  },
+  "DERM_981511": {
+    "id": "DERM_981511",
+    "src": "images/DERM_981511.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "This lesion displays an irregular border, asymmetry, and variable pigmentation, concerning for a dysplastic nevus, while the junctional component is suggested by the location of the nevus cells at the dermoepidermal junction. Further evaluation, such as biopsy, may be necessary to rule out melanoma.\n"
+  },
+  "DERM_417008": {
+    "id": "DERM_417008",
+    "src": "images/DERM_417008.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image reveals a lesion with a network-like pattern and irregular, ill-defined borders, suggesting a dysplastic nevus. Additionally, the presence of multiple shades of brown and black pigmentation further supports this diagnosis.\n"
+  },
+  "DERM_337050": {
+    "id": "DERM_337050",
+    "src": "images/DERM_337050.webp",
+    "diagnosis": "Banal Junctional Nevus",
+    "code": "jb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopic image reveals a well-defined, symmetrical lesion with a regular pigment network and even color distribution. These features are consistent with a benign melanocytic lesion, specifically a Banal Junctional Nevus.\n"
+  },
+  "DERM_572380": {
+    "id": "DERM_572380",
+    "src": "images/DERM_572380.webp",
+    "diagnosis": "Melanoma",
+    "code": "mel",
+    "superclass": "Melanocytic",
+    "malignancy": "Malignant",
+    "vlm_explanation": "This dermoscopy image displays features indicative of melanoma, including irregular borders, asymmetric shape, and multiple colors (red, white, and blue). The presence of these characteristics raises suspicion for a malignant melanocytic lesion.\n"
+  },
+  "DERM_345139": {
+    "id": "DERM_345139",
+    "src": "images/DERM_345139.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The lesion exhibits an irregular border and uneven pigment distribution, suggestive of a dysplastic nevus. The junctional component is indicated by the darker pigmentation at the periphery of the lesion.\n"
+  },
+  "DERM_277453": {
+    "id": "DERM_277453",
+    "src": "images/DERM_277453.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopic image reveals features of a melanocytic lesion including reticular networks, globules, and a faint pigment network, suggestive of a junctional nevus with dysplastic features. The presence of these combined features warrants further evaluation for potential atypical characteristics.\n"
+  },
+  "DERM_691685": {
+    "id": "DERM_691685",
+    "src": "images/DERM_691685.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The image displays features consistent with a dysplastic junctional nevus, showing a benign melanocytic lesion with irregular borders and an asymmetrical shape. The color is not uniform throughout the lesion.\n"
+  },
+  "DERM_447841": {
+    "id": "DERM_447841",
+    "src": "images/DERM_447841.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image reveals a lesion with an irregular border and uneven pigment distribution, concerning for a dysplastic nevus. A junctional component is suggested by the location of the melanocytic proliferation at the dermo-epidermal junction.\n"
+  },
+  "DERM_548028": {
+    "id": "DERM_548028",
+    "src": "images/DERM_548028.webp",
+    "diagnosis": "Banal Dermal Nevus Nevus",
+    "code": "db",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "This dermoscopy image exhibits features consistent with a Banal Dermal Nevus, characterized by a well-defined, symmetrical structure with uniform pigmentation. The presence of a global pattern and absence of atypical features such as irregular borders or multiple colors supports the diagnosis of a benign melanocytic lesion.\n"
+  },
+  "DERM_470354": {
+    "id": "DERM_470354",
+    "src": "images/DERM_470354.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image reveals a lesion characterized by a junctional proliferation pattern, exhibiting well-defined borders and a relatively uniform distribution of pigment. These features are consistent with a benign melanocytic lesion, specifically a dysplastic junctional nevus.\n"
+  },
+  "DERM_436164": {
+    "id": "DERM_436164",
+    "src": "images/DERM_436164.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image shows a melanocytic lesion with a junctional component, characterized by an overall symmetric pattern with a dark brown color. The lesion exhibits a globular pattern and network-like structures that are somewhat irregular, which is consistent with a Dysplastic Junctional Nevus.\n"
+  },
+  "DERM_288182": {
+    "id": "DERM_288182",
+    "src": "images/DERM_288182.webp",
+    "diagnosis": "Dysplastic Junctional Nevus",
+    "code": "jd",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image reveals a benign, melanocytic lesion indicative of a Dysplastic Junctional Nevus, characterized by its junctional melanocytic proliferation and dysplastic features. Key features include irregular pigmentation, indistinct borders, and a somewhat symmetrical pattern, which are consistent with a dysplastic nevus but without clear signs of malignancy.\n"
+  },
+  "DERM_349301": {
+    "id": "DERM_349301",
+    "src": "images/DERM_349301.webp",
+    "diagnosis": "Basal Cell Carcinoma",
+    "code": "bcc",
+    "superclass": "Nonmelanocytic",
+    "malignancy": "Malignant",
+    "vlm_explanation": "This dermoscopy image exhibits features indicative of Basal Cell Carcinoma, including the presence of ulceration, large blue-gray ovoid nests, and arborizing vessels. These characteristics are commonly associated with this type of malignant, nonmelanocytic lesion.\n"
+  },
+  "DERM_714168": {
+    "id": "DERM_714168",
+    "src": "images/DERM_714168.webp",
+    "diagnosis": "Banal Junctional Nevus",
+    "code": "jb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "The dermoscopy image reveals a benign melanocytic lesion, specifically a Banal Junctional Nevus, characterized by its well-defined borders, homogeneous pigmentation, and symmetrical pattern. These features indicate a benign nature without concerning signs of malignancy.\n"
+  },
+  "DERM_319925": {
+    "id": "DERM_319925",
+    "src": "images/DERM_319925.webp",
+    "diagnosis": "Banal Junctional Nevus",
+    "code": "jb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "This is a benign melanocytic lesion exhibiting a symmetric, round to oval shape with a uniform color distribution and a well-defined border, consistent with a banal junctional nevus. The absence of irregular features, such as asymmetry, irregular borders, color variegation, or diameter greater than 6mm, further supports this diagnosis.\n"
+  },
+  "DERM_636697": {
+    "id": "DERM_636697",
+    "src": "images/DERM_636697.webp",
+    "diagnosis": "Banal Junctional Nevus",
+    "code": "jb",
+    "superclass": "Melanocytic",
+    "malignancy": "Benign",
+    "vlm_explanation": "This lesion exhibits features consistent with a banal junctional nevus, including a well-defined border, a uniform color distribution, and a symmetrical pattern. The absence of concerning features such as irregular borders, multiple colors, or asymmetry supports this diagnosis.\n"
+  }
+}

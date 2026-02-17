@@ -1,0 +1,64 @@
+# Logs
+*logs
+*.log
+*npm-debug.log*
+*yarn-debug.log*
+*yarn-error.log*
+*pnpm-debug.log*
+*lerna-debug.log*
+
+*node_modules
+*dist
+*dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node dependencies
+webapp/node_modules/
+webapp/dist/
+
+# Python/Conda
+__pycache__/
+.venv/
+.env
+
+# DATA (The most important part)
+# This ignores all images so your Git remains lightweight
+public/images/
+data_pipeline/raw_images/
+
+# --- DIRECTORIES (Ignore everywhere) ---
+**/node_modules/
+**/__pycache__/
+**/.venv/
+**/dist/
+**/build/
+
+# --- DATA & IMAGES (Ignore everywhere) ---
+# This catches any folder named 'images' or 'raw_data' anywhere in the tree
+**/images/
+**/ham10000_data/
+**/web_optimized/
+
+# --- SPECIFIC FILE TYPES ---
+# Ignores all image files regardless of where they are stored
+*.webp
+*.jpg
+*.jpeg
+*.png
+*.tiff
+
+# --- OS / IDE FILES ---
+.DS_Store
+.vscode/
+.idea/
