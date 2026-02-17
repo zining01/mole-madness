@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import data from 'metadata_cloud.json';
+import data from './metadata_cloud.json'; // Assuming this is your JSON file with all the cases
 
 function App() {
   const [ids, setIds] = useState([]); // Start with an empty list
