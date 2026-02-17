@@ -122,10 +122,13 @@ function App() {
               style={{ width: '100%', aspectRatio: '1/1', objectFit: 'cover', borderRadius: '16px' }} 
             />
              <p style={{ lineHeight: '2', color: '#444' }}>{currentItem.diagnosis}</p>
-             <p style={{ lineHeight: '1.6', color: '#444' }}>{currentItem.vlm_explanation}</p>
+             <p style={{ lineHeight: '1.6', color: '#444', textAlign: 'left' }}>{currentItem.vlm_explanation}</p>
              <button onClick={handleNext} style={nextButtonStyle}>Next Case (Space)</button>
           </div>
         )}
+        <footer style={{paddingTop: '30px', textAlign: 'left'}}>
+          <p style={{ fontSize: '0.8rem', margin: 0, color: '#8d8c8c'}}>Yilmaz, A., Yasar, S. P., Gencoglan, G. & Temelkuran, B. DERM12345: A Large, Multisource Dermatoscopic Skin Lesion Dataset with 40 Subclasses. Harvard Dataverse https://doi.org/10.7910/DVN/DAXZ7P (2024).</p>
+        </footer>
       </main>
     </div>
   </div>
