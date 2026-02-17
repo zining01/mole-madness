@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import data from './metadata_master.json';
+// import data from './metadata_master.json';
+import data from './metadata_cloud.json';
 
 function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -37,7 +38,8 @@ function App() {
           /* --- QUESTION VIEW --- */
           <div style={{ borderRadius: '24px', overflow: 'hidden', boxShadow: '0 10px 25px rgba(0,0,0,0.08)', backgroundColor: 'white' }}>
             <img 
-              src={`/images/${ids[currentIndex]}.webp`} 
+              /* src={`/images/${ids[currentIndex]}.webp`} */
+              src={currentItem.image_url}
               alt="Dermatoscopic view" 
               style={{ width: '100%', aspectRatio: '1/1', objectFit: 'cover', display: 'block' }} 
             />
@@ -71,7 +73,8 @@ function App() {
             boxShadow: '0 4px 12px rgba(0,0,0,0.05)'
           }}>
             <img 
-              src={`/images/${ids[currentIndex]}.webp`} 
+              /* src={`/images/${ids[currentIndex]}.webp`} */
+              src={currentItem.image_url}
               alt="Dermatoscopic view" 
               style={{ width: '100%', aspectRatio: '1/1', objectFit: 'cover', display: 'block' }} 
             />

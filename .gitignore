@@ -62,3 +62,5 @@ data_pipeline/raw_images/
 .DS_Store
 .vscode/
 .idea/
+
+*upload_webp.py
