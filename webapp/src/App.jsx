@@ -121,6 +121,7 @@ function App() {
               alt="Dermatoscopic view" 
               style={{ width: '100%', aspectRatio: '1/1', objectFit: 'cover', borderRadius: '16px' }} 
             />
+             <p style={{ lineHeight: '2', color: '#444' }}>{currentItem.diagnosis}</p>
              <p style={{ lineHeight: '1.6', color: '#444' }}>{currentItem.vlm_explanation}</p>
              <button onClick={handleNext} style={nextButtonStyle}>Next Case (Space)</button>
           </div>
