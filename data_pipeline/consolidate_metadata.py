@@ -5,6 +5,7 @@ import os
 ORIGINAL_DATA_FILE = "./ham10000_data/derm12345_metadata.json"  # File with diagnosis/superclass
 VLM_DATA_FILE = "./ham10000_data/vlm_annotations_with_logic.json"    # File from Gemini script
 MASTER_OUTPUT = "./ham10000_data/metadata_master.json"           # Final file for your web app
+DEFAULT_EXPLANATION = "No VLM explanation available."
 
 def consolidate_data():
     # 1. Load your original clinical metadata
@@ -28,22 +29,22 @@ def consolidate_data():
 
     print(f"Filtering master list... targeting {len(vlm_dict)} images.")
 
-    # 3. Build the final dict using ONLY keys present in the VLM file
-    for img_id, vlm_content in vlm_dict.items():
-        if img_id in master_dict:
-            # Create a combined record
-            combined_record = master_dict[img_id].copy()
+    # 3. Build the final dict using ALL keys in the master list
+    for img_id, master_content in master_dict.items():
+        # Create a combined record
+        combined_record = master_dict[img_id].copy()
+        vlm_content = vlm_dict.get(img_id, {})
             
-            # Extract the explanation text
-            if isinstance(vlm_content, dict):
-                explanation = vlm_content.get("explanation", "")
-            else:
-                explanation = vlm_content
+        # Extract the explanation text
+        if len(vlm_content) > 0:
+            explanation = vlm_content.get("explanation", "")
+        else:
+            explanation = DEFAULT_EXPLANATION
             
-            combined_record["vlm_explanation"] = explanation
+        combined_record["vlm_explanation"] = explanation
             
-            # Add to our final filtered set
-            final_output_dict[img_id] = combined_record
+        # Add to our final filtered set
+        final_output_dict[img_id] = combined_record
 
     # 4. Save the final file
     with open(MASTER_OUTPUT, 'w', encoding='utf-8') as f:
