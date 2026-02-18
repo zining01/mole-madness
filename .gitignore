@@ -64,3 +64,6 @@ data_pipeline/raw_images/
 .idea/
 
 *upload_webp.py
+
+# track the schematics
+!*assets/schematics/*
