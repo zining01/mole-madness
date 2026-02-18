@@ -2,8 +2,56 @@ import React, { useState, useEffect } from 'react';
 import data from './metadata_cloud.json'; // Assuming this is your JSON file with all the cases
 
 function App() {
-  const [ids, setIds] = useState([]); // Start with an empty list
+  const [sessionActive, setSessionActive] = useState(false);
+  const [ids, setIds] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
+  
+  // Setup State
+  // Inside your App component
+  const [settings, setSettings] = useState({
+    count: 20,
+    malignantFraction: 0.5, // 0.5 means 50% Malignant, 50% Benign
+    type: 'both'
+  });
+
+  // Calculate percentages for the display labels
+  const malPercent = Math.round(settings.malignantFraction * 100);
+  const benignPercent = 100 - malPercent;
+
+  const startSession = () => {
+    // 1. Filter by Lesion Type
+    let pool = Object.keys(data).filter(id => {
+      const item = data[id];
+      if (settings.type === 'both') return true;
+      return item.lesion_type === settings.type;
+    });
+
+    // 2. Separate by Malignancy
+    const malignantPool = pool.filter(id => data[id].malignancy === 'Malignant');
+    const benignPool = pool.filter(id => data[id].malignancy === 'Benign');
+
+    // 3. Calculate target numbers
+    let targetMalignant = Math.round(settings.count * settings.malignantFraction);
+    let targetBenign = settings.count - targetMalignant;
+
+    // 4. Handle Edge Cases (Not enough malignant cases)
+    if (targetMalignant > malignantPool.length) {
+      targetMalignant = malignantPool.length;
+      targetBenign = settings.count - targetMalignant; // Fill the rest with benign
+      alert(`Only ${malignantPool.length} malignant cases available. Filling the rest with benign.`);
+    }
+
+    // 5. Shuffle and Slice
+    const selectedMalignant = malignantPool.sort(() => 0.5 - Math.random()).slice(0, targetMalignant);
+    const selectedBenign = benignPool.sort(() => 0.5 - Math.random()).slice(0, targetBenign);
+
+    // 6. Final Shuffle of the combined deck
+    const finalDeck = [...selectedMalignant, ...selectedBenign].sort(() => 0.5 - Math.random());
+    
+    setIds(finalDeck);
+    setSessionActive(true);
+  };
+
   const [showFeedback, setShowFeedback] = useState(false);
   const [userResult, setUserResult] = useState(null);
 
@@ -52,6 +100,48 @@ function App() {
   // WAIT FOR SHUFFLE: Don't render until we have IDs
   if (ids.length === 0 || !currentItem) {
     return <div style={wrapperStyle}><h1>Loading cases...</h1></div>;
+  }
+
+  if (!sessionActive) {
+    return (
+      <div style={wrapperStyle}>
+        <div style={containerStyle}>
+          <header style={headerStyle}><h1>Session Setup</h1></header>
+          <div style={{ padding: '20px', display: 'flex', flexDirection: 'column', gap: '15px' }}>
+            {/* Case Count Input */}
+            <label className="setup-label">
+              Total Number of Cases
+              <input 
+                type="number" 
+                value={settings.count} 
+                onChange={(e) => setSettings({...settings, count: parseInt(e.target.value) || 0})}
+                className="setup-input"
+              />
+            </label>
+            {/* The Ratio Slider */}
+            <div className="setup-label">
+              <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '10px' }}>
+                <span>Malignant: <strong>{malPercent}%</strong></span>
+              </div>
+              
+              <input 
+                type="range" 
+                min="0" 
+                max="1" 
+                step="0.01" 
+                value={settings.malignantFraction} 
+                onChange={(e) => setSettings({...settings, malignantFraction: parseFloat(e.target.value)})}
+                className="setup-slider"
+              />
+              <div style={{ textAlign: 'center', fontSize: '0.8rem', color: '#666', marginTop: '5px' }}>
+                Drag to adjust the balance of cases
+              </div>
+            </div>
+            <button onClick={startSession} style={nextBtnStyle}>Start Training</button>
+          </div>
+        </div>
+      </div>
+    );
   }
 
   return (
@@ -144,12 +234,12 @@ const nextButtonStyle = { width: '100%', padding: '18px', background: '#1a1a1a',
 
 const wrapperStyle = {
   minHeight: '100vh', width: '100vw', display: 'flex', 
-  alignItems: 'center', justifyContent: 'center', 
+  alignItems: 'center', justifyContent: 'center', color: '#1a1a1a',
   backgroundColor: '#f8f9fa', padding: '20px', boxSizing: 'border-box'
 };
 
 const containerStyle = {
-  width: '100%', maxWidth: '550px', backgroundColor: '#fff',
+  width: '100%', maxWidth: '550px', backgroundColor: '#fff',color: '#1a1a1a',
   borderRadius: '20px', boxShadow: '0 15px 35px rgba(0,0,0,0.1)',
   display: 'flex', flexDirection: 'column', overflow: 'hidden'
 };
