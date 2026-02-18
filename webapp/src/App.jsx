@@ -109,7 +109,12 @@ function App() {
         <div style={containerStyle}>
           <header style={headerStyle}>
             <h1>Mole Madness!</h1>
-            <h2>Session Setup</h2>
+            <p>a learning game for dermoscopy</p>
+            <img 
+              src={"/assets/mole.png"} 
+              alt="mole mascot" 
+              style={{ width: '50%', aspectRatio: '1/1', objectFit: 'cover', borderRadius: '16px' }} 
+            />
           </header>
           <div style={{ padding: '20px', display: 'flex', flexDirection: 'column', gap: '15px' }}>
             {/* Case Count Input */}

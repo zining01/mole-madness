@@ -129,7 +129,7 @@ export const findingsLibrary = {
     cartoon: "/assets/schematics/acral_melanoma_two_step.jpg",
     teachingTip: "Nodular melanomas often show a two-step pattern with an atypical global pattern and a local pattern of structureless blue pigmentation."
   },
-  "Acral Lentiginous Melanoma": {
+  "Acral Lentiginious Melanoma": {
     cartoon: "/assets/schematics/acral_melanoma_two_step.jpg",
     teachingTip: "Acral lentiginous melanomas often show a two-step pattern with an atypical global pattern and a local pattern of parallel ridge pattern."
   },
