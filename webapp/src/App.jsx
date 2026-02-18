@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { EducationalDetails } from './EducationalDetails';
 import data from './metadata_cloud.json'; // Assuming this is your JSON file with all the cases
 
 function App() {
@@ -106,16 +107,20 @@ function App() {
     return (
       <div style={wrapperStyle}>
         <div style={containerStyle}>
-          <header style={headerStyle}><h1>Session Setup</h1></header>
+          <header style={headerStyle}>
+            <h1>Mole Madness!</h1>
+            <h2>Session Setup</h2>
+          </header>
           <div style={{ padding: '20px', display: 'flex', flexDirection: 'column', gap: '15px' }}>
             {/* Case Count Input */}
             <label className="setup-label">
               Total Number of Cases
+              <p></p>
               <input 
                 type="number" 
                 value={settings.count} 
                 onChange={(e) => setSettings({...settings, count: parseInt(e.target.value) || 0})}
-                className="setup-input"
+                className="setup-label-input"
               />
             </label>
             {/* The Ratio Slider */}
@@ -139,6 +144,11 @@ function App() {
             </div>
             <button onClick={startSession} style={nextBtnStyle}>Start Training</button>
           </div>
+          <footer style={{padding: '30px', textAlign: 'left'}}>
+          <p style={{ fontSize: '0.8rem', margin: 0, color: '#8d8c8c'}}>Yilmaz, A., Yasar, S. P., Gencoglan, G. & Temelkuran, B. DERM12345: A Large, Multisource Dermatoscopic Skin Lesion Dataset with 40 Subclasses. Harvard Dataverse https://doi.org/10.7910/DVN/DAXZ7P (2024).</p>
+          <p></p>
+          <p style={{ fontSize: '0.8rem', margin: 0, color: '#8d8c8c'}}>Argenziano et al.: Dermoscopy of pigmented skin lesions: results of a consensus meeting via the Internet. J. Am. Acad. Dermatol. 2003;48:679-93. PMID: 12734496. https://dx.doi.org/10.1067/mjd.2003.281</p>
+        </footer>
         </div>
       </div>
     );
@@ -213,11 +223,14 @@ function App() {
             />
              <p style={{ lineHeight: '2', color: '#444' }}>{currentItem.diagnosis}</p>
              <p style={{ lineHeight: '1.6', color: '#444', textAlign: 'left' }}>{currentItem.vlm_explanation}</p>
+             <EducationalDetails diagnosis={currentItem.diagnosis} />
              <button onClick={handleNext} style={nextButtonStyle}>Next Case (Space)</button>
           </div>
         )}
         <footer style={{paddingTop: '30px', textAlign: 'left'}}>
           <p style={{ fontSize: '0.8rem', margin: 0, color: '#8d8c8c'}}>Yilmaz, A., Yasar, S. P., Gencoglan, G. & Temelkuran, B. DERM12345: A Large, Multisource Dermatoscopic Skin Lesion Dataset with 40 Subclasses. Harvard Dataverse https://doi.org/10.7910/DVN/DAXZ7P (2024).</p>
+          <p></p>
+          <p style={{ fontSize: '0.8rem', margin: 0, color: '#8d8c8c'}}>Argenziano et al.: Dermoscopy of pigmented skin lesions: results of a consensus meeting via the Internet. J. Am. Acad. Dermatol. 2003;48:679-93. PMID: 12734496. https://dx.doi.org/10.1067/mjd.2003.281</p>
         </footer>
       </main>
     </div>
