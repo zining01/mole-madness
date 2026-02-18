@@ -5,7 +5,7 @@ import shutil
 # --- CONFIGURATION ---
 SOURCE_DIR = "./ham10000_data/derm12345_optimized"   # Your folder with 10,000 .webp images
 TRIAL_DIR = "./ham10000_data/derm12345_subsample"        # Where the 100 samples will go
-SAMPLE_SIZE = 100
+SAMPLE_SIZE = 10
 
 def create_trial_set():
     # 1. Create the destination folder if it doesn't exist
