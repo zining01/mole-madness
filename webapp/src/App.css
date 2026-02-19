@@ -40,35 +40,3 @@
 .read-the-docs {
   color: #888;
 }
-
-/* Targets both the number inputs and the dropdown menus */
-.setup-label input, 
-.setup-label select {
-  /* 1. Padding: Adds space inside the box (Top/Bottom, Left/Right) */
-  padding: 12px 16px;
-  margin: 12px 16px;
-
-  /* 2. Text Color: Forcing a dark gray so it's visible on white */
-  color: #1f2937;
-
-  /* 3. Background Color: Pure white or a very light gray */
-  background-color: #ffffff;
-
-  /* 4. Borders & Shape */
-  border: 1px solid #d1d5db;
-  border-radius: 10px;
-  font-size: 1.5rem;
-  
-  /* 5. Sizing: Ensures they fill the container width */
-  width: 100%;
-  box-sizing: border-box; 
-  transition: border-color 0.2s;
-}
-
-/* 6. Hover/Focus States: Makes the app feel interactive */
-.setup-label input:focus, 
-.setup-label select:focus {
-  outline: none;
-  border-color: #2563eb; /* Changes to blue when clicked */
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
-}
