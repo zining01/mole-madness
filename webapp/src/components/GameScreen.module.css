@@ -35,14 +35,16 @@
 .imageContainer {
   position: relative;
   width: 100%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 5/3;
   margin-bottom: 20px;
 }
 
 .lesionImage {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* Use 'contain' to see the whole image, 'cover' to fill the square */
+  object-fit: contain; 
+  background-color: transparent; /* Adds a nice background if the image is rectangular */
   border-radius: 16px;
 }
 

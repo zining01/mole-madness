@@ -49,11 +49,13 @@ export function GameScreen({ ids, data, currentIndex, onNext, onChoice, showFeed
                <h2 style={{ color: userResult ? '#065f46' : '#991b1b' }}>
                  {userResult ? 'Correct Choice' : 'Incorrect Choice'}
                </h2>
-               <img 
-                 src={currentItem?.image_url || `/images/${currentId}.webp`} 
-                 className={styles.lesionImage}
-                 alt="Result view"
-               />
+               <div className={styles.imageContainer}>
+                <img 
+                  src={currentItem?.image_url || `/images/${currentId}.webp`} 
+                  className={styles.lesionImage}
+                  alt="Result view"
+                />
+              </div>
                <p className={styles.diagnosis}>{currentItem?.diagnosis}</p>
                <p className={styles.explanation}>{currentItem?.vlm_explanation}</p>
                <EducationalDetails diagnosis={currentItem?.diagnosis} />
