@@ -26,6 +26,7 @@ export function SetupScreen({ settings, setSettings, onStart }) {
       <div className={styles.container}>
         <header className={styles.header}>
           <h1>Session Setup</h1>
+          <img src='/assets/mole.jpeg' alt='Mole Madness Logo' className={styles.mascotStyle} />
         </header>
         <div style={{ padding: '20px', display: 'flex', flexDirection: 'column', gap: '15px' }}>
           <label className={styles.setupLabel}>

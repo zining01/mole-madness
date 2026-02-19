@@ -6,11 +6,6 @@ export function Header({ onLogoClick }) {
     <header className={styles.header}>
       <div className={styles.content}>
         <div className={styles.logoGroup} onClick={onLogoClick} style={{ cursor: 'pointer' }}>
-          <div className={styles.logoPlaceholder}>
-            <div className={styles.logoPlaceholder}>
-              <div className={styles.lensInner}></div>
-          </div>
-          </div>
           <h1 className={styles.title}>Mole Madness</h1>
         </div>
         <div className={styles.tagline}>a dermoscopy training game</div>

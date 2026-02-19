@@ -67,4 +67,4 @@ data_pipeline/raw_images/
 
 # track the schematics
 !/webapp/public/assets/schematics/*
-!/webapp/public/assets/mole.png
+!/webapp/public/assets/mole*
