@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { LoadingScreen } from './components/LoadingScreen'
 import { SetupScreen } from './components/SetupScreen';
 import { GameScreen } from './components/GameScreen';
+import { SummaryScreen } from './components/SummaryScreen';
+import { ReviewScreen } from './components/ReviewScreen';
 import data from './metadata_cloud.json'; // Assuming this is your JSON file with all the cases
 import { generateDeck } from './utils/sessionBuilder'; // Import the deck generation function
 import { fastShuffle } from './utils/helpers'; // Import the shuffle function
@@ -11,7 +13,15 @@ function App() {
   const [sessionActive, setSessionActive] = useState(false);
   const [ids, setIds] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [reviewIndex, setReviewIndex] = useState(0);
   const [imgLoaded, setImgLoaded] = useState(false);
+  const [results, setResults] = useState({});
+  const [mode, setMode] = useState('game'); // 'game', 'summary', or 'review'
+  const [showFeedback, setShowFeedback] = useState(false);
+  const [userResult, setUserResult] = useState(null);
+
+  const currentId = ids[currentIndex];
+  const currentItem = data[currentId] || {};
   
   // Setup State
   const [settings, setSettings] = useState({
@@ -34,16 +44,14 @@ function App() {
     setSessionActive(true);
   };
 
-  const [showFeedback, setShowFeedback] = useState(false);
-  const [userResult, setUserResult] = useState(null);
-
-  const currentId = ids[currentIndex];
-  const currentItem = data[currentId] || {};
-
   // Handle user choice and provide feedback
   const handleChoice = (guess) => {
-    if (showFeedback) return; // Prevent double-voting
+    if (showFeedback) return;
     const isCorrect = guess === currentItem.malignancy;
+    
+    // Track the result
+    setResults(prev => ({ ...prev, [currentId]: isCorrect }));
+    
     setUserResult(isCorrect);
     setShowFeedback(true);
   };
@@ -52,8 +60,26 @@ function App() {
   const handleNext = () => {
     setShowFeedback(false);
     setUserResult(null);
-    setCurrentIndex((prev) => (prev + 1) % ids.length);
+    
+    // Check if we are at the end
+    if (currentIndex === ids.length - 1) {
+      setMode('summary');
+    } else {
+      setCurrentIndex((prev) => prev + 1);
+    }
   };
+
+const resetSession = () => {
+  setCurrentIndex(0);
+  setResults({});
+  setShowFeedback(false);
+  setMode('game');
+};
+
+const startNewSession = () => {
+  setSessionActive(false);
+  resetSession();
+};
 
   // KEYBOARD CONTROLS: Left for Benign, Right for Malignant, Space or Enter for Next
 // Use the custom hook
@@ -93,6 +119,29 @@ function App() {
     );
   }
 
+  if (mode === 'summary') {
+    return <SummaryScreen 
+      results={results} 
+      ids={ids} 
+      data={data} 
+      onReview={() => setMode('review')} 
+      onNewSession={startNewSession} 
+    />;
+  }
+
+  if (mode === 'review') {
+    return <ReviewScreen 
+      results={results} 
+      data={data}
+      reviewIndex={reviewIndex}
+      setReviewIndex={setReviewIndex} 
+      onExit={() => {
+        setMode('summary');
+        setReviewIndex(0); // Reset for next time
+      }}
+    />;
+  }
+
   return (
     <GameScreen 
       ids={ids} 
@@ -102,6 +151,8 @@ function App() {
       onChoice={handleChoice} 
       showFeedback={showFeedback} 
       userResult={userResult}
+      onReset={resetSession}
+      onNewSession={startNewSession}
     />
   );
 };

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styles from './GameScreen.module.css';
 import { EducationalDetails } from './EducationalDetails';
 
-export function GameScreen({ ids, data, currentIndex, onNext, onChoice, showFeedback, userResult }) {
+export function GameScreen({ ids, data, currentIndex, onNext, onChoice, showFeedback, userResult, onReset , onNewSession }) {
   const [imgLoaded, setImgLoaded] = useState(false);
   const currentId = ids[currentIndex];
   const currentItem = data[currentId];
@@ -18,6 +18,10 @@ export function GameScreen({ ids, data, currentIndex, onNext, onChoice, showFeed
         <header className={styles.header}>
           <h1>Mole Madness</h1>
           <p>CASE {currentIndex + 1} OF {ids.length}</p>
+          <div className={styles.headerControls}>
+            <button onClick={onReset} className={styles.resetBtn}>Reset Session</button>
+            <button onClick={onNewSession} className={styles.newSessionBtn}>New Session</button>
+          </div>
         </header>
 
         <main className={styles.main}>

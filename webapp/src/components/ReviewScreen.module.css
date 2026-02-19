@@ -1,0 +1,146 @@
+/* ReviewScreen.module.css */
+
+.wrapper {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f2f5; /* Matches GameScreen background */
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 100%;
+  max-width: 550px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  display: flex; 
+  flex-direction: column;
+  overflow: hidden;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.header {
+  width: 100%;
+  padding: 25px 20px;
+  text-align: center;
+  border-bottom: 1px solid #f0f0f0;
+  box-sizing: border-box;
+}
+
+.counter {
+  color: #666;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.main {
+  padding: 24px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.badge {
+  display: inline-block;
+  padding: 6px 16px;
+  background-color: #cadcff; /* Light blue */
+  color: #1434eb; /* Dark blue */
+  border-radius: 100px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  border: 1px solid #cadcff;
+}
+
+.image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.diagnosis {
+  color: #1a1a1a;
+  font-size: 1.5rem;
+  margin: 0 0 10px 0;
+}
+
+.explanation {
+  line-height: 1.6;
+  color: #444;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+/* Navigation Controls */
+.navControls {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+/* Row for Prev/Next */
+.navControls div {
+  display: flex;
+  gap: 12px;
+}
+
+.navRow {
+  display: flex;       /* This aligns children horizontally */
+  gap: 12px;           /* Adds space between the buttons */
+  width: 100%;         /* Ensures it fills the card */
+  margin-bottom: 12px; /* Space before the Exit button */
+  margin-top: 12px;    /* Space after the explanation */
+}
+
+.navBtn {
+  flex: 1;
+  padding: 15px;
+  background-color: #f8fafc;
+  color: #1a1a1a;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.navBtn:hover:not(:disabled) {
+  background-color: #f1f5f9;
+}
+
+.navBtn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.exitBtn {
+  width: 100%;
+  padding: 15px;
+  background-color: #1a1a1a; /* Matches your "Start" and "Next" buttons */
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 8px;
+  transition: opacity 0.2s;
+}
+
+.exitBtn:hover {
+  opacity: 0.9;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
