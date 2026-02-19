@@ -51,63 +51,63 @@
 export const findingsLibrary = {
   "Acral Benign Compound Nevus": {
     cartoon: "/assets/schematics/nevus_two_step.jpg",
-    teachingTip: "Benign nevi typically show a single, symmetric global pattern."
+    teachingTip: "Benign nevi are typically symmetric with a single dominant global pattern. The pigment distribution of acral nevi can be influenced by the skin architecture, and classic patterns are the parallel furrow pattern, lattice-like pattern, and fibrillar pattern. However, the key is that these patterns are still symmetric and organized."
   },
   "Congenital Benign Compound Nevus": {
     cartoon: "/assets/schematics/nevus_two_step.jpg",
-    teachingTip: "Benign nevi typically show a single, symmetric global pattern."
+    teachingTip: "Benign nevi typically show a single, symmetric global pattern. Congenital nevi can sometimes have a more complex appearance with a globular pattern, cobblestone pattern with closely packed, 'pebbled' globules, homogenous areas, or hair follicles."
   },
   "Miescher Benign Compound Nevus": {
     cartoon: "/assets/schematics/nevus_two_step.jpg",
-    teachingTip: "Benign nevi typically show a single, symmetric global pattern."
+    teachingTip: "Benign nevi are typically symmetric with a single dominant global pattern. Compound nevi typically have a mixed pattern with a network and globules, but the key is that this combination pattern is still symmetric and organized."
   },
   "Benign Compound Nevus": {
     cartoon: "/assets/schematics/nevus_two_step.jpg",
-    teachingTip: "Benign nevi typically show a single, symmetric global pattern."
+    teachingTip: "Benign nevi are typically symmetric with a single dominant global pattern. Compound nevi typically have a mixed pattern with a network and globules, but the key is that this combination pattern is still symmetric and organized."
   },
   "Blue Benign Dermal Nevus": {
     cartoon: "/assets/schematics/nevus_two_step.jpg",
-    teachingTip: "Benign nevi typically show a single, symmetric global pattern."
+    teachingTip: "Blue nevi typically show a single, symmetric global pattern with structureless blue pigmentation. The blue color is due to the Tyndall effect, where melanin located deeper in the dermis appears blue."
   },
   "Benign Dermal Nevus": {
     cartoon: "/assets/schematics/nevus_two_step.jpg",
-    teachingTip: "Benign nevi typically show a single, symmetric global pattern."
+    teachingTip: "Benign dermal nevi are typically symmetric with a single dominant global pattern. They may contain comma (curved) vesses, appear homogenous light brown, have a globular pattern, and lack a pigment network."
   },
   "Acral Benign Junctional Nevus": {
     cartoon: "/assets/schematics/nevus_two_step.jpg",
-    teachingTip: "Benign nevi typically show a single, symmetric global pattern."
+    teachingTip: "Benign nevi are typically symmetric with a single dominant global pattern. The pigment distribution of acral nevi can be influenced by the skin architecture, and classic patterns are the parallel furrow pattern, lattice-like pattern, and fibrillar pattern. However, the key is that these patterns are still symmetric and organized."
   },
   "Congenital Benign Junctional Nevus": {
     cartoon: "/assets/schematics/nevus_two_step.jpg",
-    teachingTip: "Benign nevi typically show a single, symmetric global pattern."
+    teachingTip:"Benign nevi typically show a single, symmetric global pattern. Congenital nevi can sometimes have a more complex appearance with a globular pattern, cobblestone pattern with closely packed, 'pebbled' globules, homogenous areas, or hair follicles."
   },
   "Benign Junctional Nevus": {
     cartoon: "/assets/schematics/nevus_two_step.jpg",
-    teachingTip: "Benign nevi typically show a single, symmetric global pattern."
+    teachingTip: "Benign junctional nevi are typically symmetric with a single dominant global pattern. They often show a pigment network, which is a honeycomb-like pattern of lines that corresponds to the rete ridges of the epidermis. The holes of the network correspond to the dermal papillae, and the color can range from light brown to dark brown depending on the amount of melanin."
   },
   "Acral Dysplastic Compound Nevus": {
     cartoon: "/assets/schematics/nevus_two_step.jpg",
-    teachingTip: "Dysplastic nevi often show a two-step pattern with a benign global pattern but atypical local features."
+    teachingTip: "The pigment distribution of acral nevi can be influenced by the skin architecture, and classic patterns are the parallel furrow pattern, lattice-like pattern, and fibrillar pattern. Dysplastic nevi often have an overall organized global pattern but atypical local features, such as an irregular network, multiple shades of brown, peripheral globules, or a central darker area."
   },
   "Congenital Dysplastic Compound Nevus": {
     cartoon: "/assets/schematics/nevus_two_step.jpg",
-    teachingTip: "Dysplastic nevi often show a two-step pattern with a benign global pattern but atypical local features."
+    teachingTip: "Congenital nevi can sometimes have a more complex appearance with a globular pattern, cobblestone pattern with closely packed, 'pebbled' globules, homogenous areas, or hair follicles. Dysplastic nevi often have an overall organized global pattern but atypical local features, such as an irregular network, multiple shades of brown, peripheral globules, or a central darker area."
   },
-    "Dysplastic Compound Nevus": { 
+  "Dysplastic Compound Nevus": { 
     cartoon: "/assets/schematics/nevus_two_step.jpg",
-    teachingTip: "Dysplastic nevi often show a two-step pattern with a benign global pattern but atypical local features."
+    teachingTip: "Compound nevi typically have a mixed pattern with a network and globules. Dysplastic nevi often have an overall organized global pattern but atypical local features, such as an irregular network, multiple shades of brown, peripheral globules, or a central darker area."
   },
   "Acral Dysplastic Junctional Nevus": {
     cartoon: "/assets/schematics/nevus_two_step.jpg",
-    teachingTip: "Dysplastic nevi often show a two-step pattern with a benign global pattern but atypical local features."
+    teachingTip: "The pigment distribution of acral nevi can be influenced by the skin architecture, and classic patterns are the parallel furrow pattern, lattice-like pattern, and fibrillar pattern. Dysplastic nevi often have an overall organized global pattern but atypical local features, such as an irregular network, multiple shades of brown, peripheral globules, or a central darker area."
   },
   "Spitz/Reed Dysplastic Junctional": {
     cartoon: "/assets/schematics/reed_spitz_two_step.jpg",
-    teachingTip: "When you see a tiered peripheral globular pattern or starburst pattern in an individual of older age, this lesion should be viewed with suspicions."
+    teachingTip: "A Spitz nevus is a melanocytic nevus that typically occurs in children and adolescents. A Reed nevus is considered a pigmented variant of Spitz that appears very dark brown or black.It ofen shows a starburst pattern with symmetric radial streaks evenly distributed around the entire perimeter with a dark brown or black center. A globular pattern with large brown globules or a homogenous pink pattern (seen in amelanotic Spitz) with dotted vessels on a pink background can also be present.",
   },
-    "Dysplastic Junctional Nevus": {
+  "Dysplastic Junctional Nevus": {
     cartoon: "/assets/schematics/nevus_two_step.jpg",
-    teachingTip: "Dysplastic nevi often show a two-step pattern with a benign global pattern but atypical local features."
+    teachingTip: "Junctional nevi often show a pigment network, which is a honeycomb-like pattern of lines that corresponds to the rete ridges of the epidermis. The holes of the network correspond to the dermal papillae, and the color can range from light brown to dark brown depending on the amount of melanin. Dysplastic nevi often show a two-step pattern with a benign global pattern but atypical local features."
   },
   "Dysplastic Recurrent Nevus": {
     cartoon: "/assets/schematics/recurrent_nevus_two_step.jpg",
@@ -115,98 +115,114 @@ export const findingsLibrary = {
   },
   "Ink Spot Lentigo": {
     cartoon: "/assets/schematics/sk_two_step.jpg",
-    teachingTip: "Lentigines typically show a single, symmetric global pattern."
+    teachingTip: "Ink spot lentigo is a variant of solar lentigo that typically shows homogenous black pigmentation with an angular jagged edge that is sharply demarcated from the surrounding skin, with a fine net-like reticulated pattern that is evenly distributed."
   },
   "Lentigo Simplex": {
     cartoon: "/assets/schematics/sk_two_step.jpg",
-    teachingTip: "Lentigines typically show a single, symmetric global pattern."
+    teachingTip: "Lentigo simplex refers to benign melanocytic hyperplasia and features a uniform brown color, fine reticular pigment network, symmetry, and a delicate and consistent structure (very similar to small junctional nevus but will lack globules and is more uniform)"
   },
   "Solar Lentigo": {
     cartoon: "/assets/schematics/sk_two_step.jpg",
-    teachingTip: "Lentigines typically show a single, symmetric global pattern."
+    teachingTip: "Solar lentigo is a sun-induced hyperpigmented macule. Characteristic patterns are fingerprint pattern with curved and swirling fine parallel lines, moth-eaten border (with irregular scalloped edges), pseudonetwork (with pigment around follicular openings), and light to dark brown homogenous pigementation."
   },
-  "Acral Nodular Melanoma": {
-    cartoon: "/assets/schematics/acral_melanoma_two_step.jpg",
-    teachingTip: "Nodular melanomas often show a two-step pattern with an atypical global pattern and a local pattern of structureless blue pigmentation."
-  },
-  "Acral Lentiginious Melanoma": {
-    cartoon: "/assets/schematics/acral_melanoma_two_step.jpg",
-    teachingTip: "Acral lentiginous melanomas often show a two-step pattern with an atypical global pattern and a local pattern of parallel ridge pattern."
-  },
-  "Lentigo Maligna": {
-    cartoon: "/assets/schematics/melanoma_two_step.jpg",
-    teachingTip: "Lentigo maligna typically shows an atypical global pattern with a local pattern of parallel ridge pattern."
-  },
-    "Lentigo Maligna Melanoma": {
-    cartoon: "/assets/schematics/melanoma_two_step.jpg",
-    teachingTip: "Lentigo maligna melanoma typically shows an atypical global pattern with a local pattern of parallel ridge pattern."
-  },
+"Acral Nodular Melanoma": {
+  cartoon: "/assets/schematics/acral_melanoma_two_step.jpg",
+  teachingTip: "Acral nodular melanomas typically present as asymmetric, structureless lesions with blue-black or multicolored pigmentation. Ulceration, irregular blotches, and polymorphous vessels may be present. The lesion often lacks a parallel furrow pattern and instead shows chaotic pigmentation on acral skin."
+},
+
+"Acral Lentiginous Melanoma": {
+  cartoon: "/assets/schematics/acral_melanoma_two_step.jpg",
+  teachingTip: "Acral lentiginous melanoma characteristically shows the parallel ridge pattern, with pigmentation accentuating the ridges rather than the furrows of acral skin. Asymmetry, irregular diffuse pigmentation, and multicomponent patterns further support malignancy."
+},
+
+"Lentigo Maligna": {
+  cartoon: "/assets/schematics/melanoma_two_step.jpg",
+  teachingTip: "Lentigo maligna demonstrates asymmetric pigmented follicular openings, rhomboidal structures, annular-granular pattern, and gray dots around follicles on sun-damaged facial skin. Obliteration of follicular openings is a concerning feature."
+},
+
+"Lentigo Maligna Melanoma": {
+  cartoon: "/assets/schematics/melanoma_two_step.jpg",
+  teachingTip: "Lentigo maligna melanoma shows the dermoscopic features of lentigo maligna with additional signs of invasion such as structureless areas, blue-gray pigmentation, atypical vascular patterns, and areas of regression, reflecting progression beyond the epidermis."
+},
+
   "Melanoma": {
     cartoon: "/assets/schematics/melanoma_two_step.jpg",
-    teachingTip: "Melanomas often show a two-step pattern with an atypical global pattern and local patterns of atypical network, structureless pigmentation, or irregular globules."
+    teachingTip: "Melanomas are almost always asymmetric with multiple structures in an uneven distribution. Major dematoscopic features include thick lines, a network that fades abruptly, and irregular holes. At the periphery, look for bulbous ends (pseudopods) and uneven projections (contrast this with the symmetric starburs seen in Spitz nevi). Melanomas can also have a blue-white veil, which is an irregular, structureless area of confluent blue pigmentation with an overlying white 'ground-glass' haze that obscures the underlying structures. This corresponds to compact orthokeratosis above a zone of dense melanin in the superficial dermis with associated epidermal atrophy.",
   },
   "Seborrheic Keratosis": {
     cartoon: "/assets/schematics/sk_two_step.jpg",
-    teachingTip: "Seborrheic keratoses typically show a single, symmetric global pattern."
+    teachingTip: "Seborrheic keratoses typically show a single, symmetric global pattern, such as milia-like cysts (which reflect intraepidermal keratin cysts), comedo-like openings (keratin-filled invaginations), fissures and ridges (a cerebriform pattern), sharply demarcated borders, haipin vessels (especially in irritated SKs), a moth-eaten border, or a fingerprint pattern. SKs especially on the face may show a pseudo-network that does not actually correspond to pigment at rete ridges that is superficial and patchy"
   },
   "Lichenoid Keratosis": {
     cartoon: "/assets/schematics/sk_two_step.jpg",
     teachingTip: "Lichenoid keratoses typically show a single, symmetric global pattern."
   },
-  "Dermatofibroma": {
-    cartoon: "/assets/schematics/dermatofibroma_two_step.jpg",
-    teachingTip: "Dermatofibromas typically show a single, symmetric global pattern with a local pattern of a central white scar-like area and peripheral delicate pigment network."
-  },
-  "Angiokeratoma": {
-    cartoon: "/assets/schematics/angioma_two_step.jpg",
-    teachingTip: "Angiokeratomas typically show a single, symmetric global pattern with a local pattern of well-demarcated red to dark lacunae."
-  },
-  "Hemangioma": { 
-    cartoon: "/assets/schematics/angioma_two_step.jpg",
-    teachingTip: "Hemangiomas typically show a single, symmetric global pattern with a local pattern of well-demarcated red to dark lacunae."
-  },
-  "Lymphangioma": {
-    cartoon: "/assets/schematics/angioma_two_step.jpg",
-    teachingTip: "Lymphangiomas typically show a single, symmetric global pattern with a local pattern of well-demarcated red to dark lacunae."
-  },
-  "Pyogenic Granuloma": {
-    cartoon: "/assets/schematics/angioma_two_step.jpg",
-    teachingTip: "Pyogenic granulomas typically show a single, symmetric global pattern with a local pattern of well-demarcated red to dark lacunae."
-  },
-  "Spider Angioma": {
-    cartoon: "/assets/schematics/angioma_two_step.jpg",
-    teachingTip: "a central, bright red, well-demarcated punctum (or papule) representing an arteriole, with thin, linear radiating vessels extending outwards like spider legs."
-    },
-    "Actinic Keratosis": {
-    cartoon: "/assets/schematics/scc_two_step.jpg",
-    teachingTip: "Actinic keratoses typically show an atypical global pattern with a local pattern of scaly surface and sometimes a strawberry pattern of prominent follicular openings surrounded by erythema."
-  },
-  "Basal Cell Carcinoma": {
-    cartoon: "/assets/schematics/bcc_two_step.jpg",
-    teachingTip: "Basal cell carcinomas typically show an atypical global pattern with local patterns of arborizing vessels, leaf-like areas, or large blue-gray ovoid nests."
-  },
-  "Bowen's Disease": {
-    cartoon: "/assets/schematics/scc_two_step.jpg",
-    teachingTip: "Bowen's disease typically shows an atypical global pattern with a local pattern of scaly surface and glomerular vessels."
-    },
-    "Cutaneous Horn": {
-    cartoon: "/assets/schematics/scc_two_step.jpg",
-    teachingTip: "Cutaneous horns typically show an atypical global pattern with a local pattern of a hyperkeratotic horn. The underlying lesion can be benign, premalignant, or malignant, so look carefully for other features that might suggest malignancy such as an irregular base or surrounding erythema."
-  },
-  "Mammary Paget Disease": {
-    cartoon: "/assets/schematics/scc_two_step.jpg",
-    teachingTip: "Mammary Paget disease typically shows an atypical global pattern with a local pattern of scaly surface and sometimes a strawberry pattern of prominent follicular openings surrounded by erythema."
-  },
-  "Squamous Cell Carcinoma": {
-    cartoon: "/assets/schematics/scc_two_step.jpg",
-    teachingTip: "Squamous cell carcinomas typically show an atypical global pattern with a local pattern of scaly surface and glomerular vessels."
-  },
-  "Dermatofibrosarcoma Protuberans": {
-    cartoon: "/assets/schematics/dfsp_two_step.jpg",
-    teachingTip: "Dermatofibrosarcoma protuberans typically shows an atypical global pattern with a local pattern of structureless pigmentation and sometimes a pink background."
-  },
-  "Kaposi Sarcoma": {
-    cartoon: "/assets/schematics/ks_two_step.jpg",
-    teachingTip: "Kaposi sarcomas typically show an atypical global pattern with a local pattern of structureless pigmentation and sometimes a pink background."
+"Dermatofibroma": {
+  cartoon: "/assets/schematics/dermatofibroma_two_step.jpg",
+  teachingTip: "Dermatofibromas typically display a symmetric global pattern with a central white scar-like area and a delicate peripheral pigment network. The central area often appears structureless and lighter, reflecting fibrosis, while the network at the edge is fine and regular."
+},
+
+"Angiokeratoma": {
+  cartoon: "/assets/schematics/angioma_two_step.jpg",
+  teachingTip: "Angiokeratomas show multiple well-demarcated, dark red to black lacunae separated by pale septa. The lacunae are sharply defined and may appear thrombosed, giving a dark blue or black coloration."
+},
+
+"Hemangioma": { 
+  cartoon: "/assets/schematics/angioma_two_step.jpg",
+  teachingTip: "Hemangiomas demonstrate multiple red, red-blue, or violaceous lacunae that are round to oval and sharply demarcated. The overall architecture is symmetric and lacks pigment network or keratin structures."
+},
+
+"Lymphangioma": {
+  cartoon: "/assets/schematics/angioma_two_step.jpg",
+  teachingTip: "Lymphangiomas show clustered, translucent or pale-yellow lacunae that may contain hemorrhagic areas. The lacunae often appear less uniformly red than hemangiomas and may resemble 'frog spawn' under dermoscopy."
+},
+
+"Pyogenic Granuloma": {
+  cartoon: "/assets/schematics/angioma_two_step.jpg",
+  teachingTip: "Pyogenic granulomas display a homogeneous red to reddish-white structureless area often surrounded by a white collarette. Vessels may be present but are typically obscured by the dense vascular proliferation."
+},
+
+"Spider Angioma": {
+  cartoon: "/assets/schematics/angioma_two_step.jpg",
+  teachingTip: "Spider angiomas show a central red papule representing a feeding arteriole, with fine, radiating linear vessels extending symmetrically outward like spokes of a wheel."
+},
+
+"Actinic Keratosis": {
+  cartoon: "/assets/schematics/scc_two_step.jpg",
+  teachingTip: "Actinic keratoses often show an erythematous background with prominent follicular openings surrounded by white halos (the 'strawberry pattern'). Surface scale and rosettes may be visible under polarized dermoscopy."
+},
+
+"Basal Cell Carcinoma": {
+  cartoon: "/assets/schematics/bcc_two_step.jpg",
+  teachingTip: "Basal cell carcinomas demonstrate arborizing vessels, shiny white structures, blue-gray ovoid nests, or leaf-like areas. Ulceration and absence of a pigment network are key distinguishing features."
+},
+
+"Bowen's Disease": {
+  cartoon: "/assets/schematics/scc_two_step.jpg",
+  teachingTip: "Bowen’s disease shows clustered glomerular (coiled) vessels on a scaly, erythematous background. The vascular pattern is typically regularly distributed across the lesion."
+},
+
+"Cutaneous Horn": {
+  cartoon: "/assets/schematics/cutaneous_horn_two_step.jpg",
+  teachingTip: "Cutaneous horns appear as dense, conical hyperkeratotic projections. Dermoscopic evaluation of the base is critical to assess for features of actinic keratosis, squamous cell carcinoma, or other underlying pathology."
+},
+
+"Mammary Paget Disease": {
+  cartoon: "/assets/schematics/mammary_paget_two_step.jpg",
+  teachingTip: "Mammary Paget disease presents as an erythematous, scaly plaque with irregular vascular patterns and structureless pink to red areas. Pigmentation may be present but lacks a true melanocytic network."
+},
+
+"Squamous Cell Carcinoma": {
+  cartoon: "/assets/schematics/scc_two_step.jpg",
+  teachingTip: "Squamous cell carcinomas often show keratin scale, white structureless areas, and polymorphous or glomerular vessels on an erythematous background. Ulceration and hemorrhagic crust may be present."
+},
+
+"Dermatofibrosarcoma Protuberans": {
+  cartoon: "/assets/schematics/dfsp_two_step.jpg",
+  teachingTip: "Dermatofibrosarcoma protuberans may show a pink to light-brown structureless background with delicate linear vessels. Pigment network is typically absent, and the lesion may appear well-circumscribed."
+},
+"Kaposi Sarcoma": {
+  cartoon: "/assets/schematics/ks_two_step.jpg",
+  teachingTip: "Kaposi sarcoma commonly displays a homogeneous violaceous to red-purple coloration with a structureless pattern. A rainbow pattern may be seen under polarized dermoscopy."
 }
 };
