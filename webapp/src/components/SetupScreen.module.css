@@ -73,6 +73,11 @@
   transform: translateY(-1px); /* Subtle lift effect */
 }
 
+.setupInput:invalid {
+  border-color: #ef4444;
+  background-color: #fef2f2;
+}
+
 .mascotStyle {
   width: 50%;
   height: auto;

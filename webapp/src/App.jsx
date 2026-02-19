@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { LoadingScreen } from './components/LoadingScreen'
+import { LoadingScreen } from './components/LoadingScreen';
 import { SetupScreen } from './components/SetupScreen';
 import { GameScreen } from './components/GameScreen';
 import { SummaryScreen } from './components/SummaryScreen';
 import { ReviewScreen } from './components/ReviewScreen';
-import data from './metadata_cloud.json'; // Assuming this is your JSON file with all the cases
-import { generateDeck } from './utils/sessionBuilder'; // Import the deck generation function
-import { fastShuffle } from './utils/helpers'; // Import the shuffle function
-import { useKeyboardControls } from './hooks/useKeyboardControls'; // Import the custom hook for keyboard controls
+import { Header } from './components/Header';
+import { Footer } from './components/Footer';
+import data from './metadata_cloud.json';
+import { generateDeck } from './utils/sessionBuilder';
+import { fastShuffle } from './utils/helpers';
+import { useKeyboardControls } from './hooks/useKeyboardControls';
 
 function App() {
   const [sessionActive, setSessionActive] = useState(false);
@@ -16,52 +18,37 @@ function App() {
   const [reviewIndex, setReviewIndex] = useState(0);
   const [imgLoaded, setImgLoaded] = useState(false);
   const [results, setResults] = useState({});
-  const [mode, setMode] = useState('game'); // 'game', 'summary', or 'review'
+  const [mode, setMode] = useState('game'); 
   const [showFeedback, setShowFeedback] = useState(false);
   const [userResult, setUserResult] = useState(null);
-
-  const currentId = ids[currentIndex];
-  const currentItem = data[currentId] || {};
   
-  // Setup State
   const [settings, setSettings] = useState({
     count: 20,
-    malignantFraction: 0.5, // 0.5 means 50% Malignant, 50% Benign
+    malignantFraction: 0.5,
     type: 'both'
   });
 
-  // Calculate percentages for the display labels
-  const malPercent = Math.round(settings.malignantFraction * 100);
-  const benignPercent = 100 - malPercent;
+  const currentId = ids[currentIndex];
+  const currentItem = data[currentId] || {};
 
   const startSession = () => {
-    // Generate the deck based on settings
     const newDeck = generateDeck(data, settings, fastShuffle);
-    
-    // Update state
     setIds(newDeck);
-    setCurrentIndex(0); // Good practice to reset index here
+    setCurrentIndex(0);
     setSessionActive(true);
   };
 
-  // Handle user choice and provide feedback
   const handleChoice = (guess) => {
     if (showFeedback) return;
     const isCorrect = guess === currentItem.malignancy;
-    
-    // Track the result
     setResults(prev => ({ ...prev, [currentId]: isCorrect }));
-    
     setUserResult(isCorrect);
     setShowFeedback(true);
   };
 
-  // Move to the next case
   const handleNext = () => {
     setShowFeedback(false);
     setUserResult(null);
-    
-    // Check if we are at the end
     if (currentIndex === ids.length - 1) {
       setMode('summary');
     } else {
@@ -69,92 +56,61 @@ function App() {
     }
   };
 
-const resetSession = () => {
-  setCurrentIndex(0);
-  setResults({});
-  setShowFeedback(false);
-  setMode('game');
-};
+  const resetSession = () => {
+    setCurrentIndex(0);
+    setResults({});
+    setShowFeedback(false);
+    setMode('game');
+  };
 
-const startNewSession = () => {
-  setSessionActive(false);
-  resetSession();
-};
+  const startNewSession = () => {
+    setSessionActive(false);
+    resetSession();
+  };
 
-  // KEYBOARD CONTROLS: Left for Benign, Right for Malignant, Space or Enter for Next
-// Use the custom hook
   useKeyboardControls(
-    () => handleChoice('Benign'),    // onLeft
-    () => handleChoice('Malignant'), // onRight
-    handleNext,                      // onSpace
-    showFeedback                     // isDisabled/Mode toggle
+    () => handleChoice('Benign'),
+    () => handleChoice('Malignant'),
+    handleNext,
+    showFeedback
   );
 
-  // Reset image loaded state when moving to a new case or restarting session
   useEffect(() => {
     setImgLoaded(false);
   }, [currentIndex, sessionActive]);
 
-  // If the session has started, but we don't have data yet, show the loader
-  if (sessionActive && (!currentId || !data[currentId])) {
-    return <LoadingScreen />;
-  }
-
-  // PRELOAD FIRST IMAGE: This is a simple optimization to ensure the first image loads quickly when the session starts.
   useEffect(() => {
-  if (sessionActive && ids.length > 0) {
-    const firstImg = new Image();
-    const firstItem = data[ids[0]];
-    firstImg.src = firstItem.image_url || `/images/${ids[0]}.webp`;
-  }
+    if (sessionActive && ids.length > 0) {
+      const firstImg = new Image();
+      const firstItem = data[ids[0]];
+      firstImg.src = firstItem.image_url || `/images/${ids[0]}.webp`;
+    }
   }, [sessionActive, ids]);
 
+  // 2. Determine which screen to show
+  let content;
   if (!sessionActive) {
-    return (
-      <SetupScreen 
-        settings={settings} 
-        setSettings={setSettings} 
-        onStart={startSession} 
-      />
-    );
+    content = <SetupScreen settings={settings} setSettings={setSettings} onStart={startSession} />;
+  } else if (!currentId || !data[currentId]) {
+    content = <LoadingScreen />;
+  } else if (mode === 'summary') {
+    content = <SummaryScreen results={results} ids={ids} data={data} onReview={() => setMode('review')} onNewSession={startNewSession} />;
+  } else if (mode === 'review') {
+    content = <ReviewScreen results={results} data={data} reviewIndex={reviewIndex} setReviewIndex={setReviewIndex} onExit={() => { setMode('summary'); setReviewIndex(0); }} />;
+  } else {
+    content = <GameScreen ids={ids} data={data} currentIndex={currentIndex} onNext={handleNext} onChoice={handleChoice} showFeedback={showFeedback} userResult={userResult} onReset={resetSession} onNewSession={startNewSession} />;
   }
 
-  if (mode === 'summary') {
-    return <SummaryScreen 
-      results={results} 
-      ids={ids} 
-      data={data} 
-      onReview={() => setMode('review')} 
-      onNewSession={startNewSession} 
-    />;
-  }
-
-  if (mode === 'review') {
-    return <ReviewScreen 
-      results={results} 
-      data={data}
-      reviewIndex={reviewIndex}
-      setReviewIndex={setReviewIndex} 
-      onExit={() => {
-        setMode('summary');
-        setReviewIndex(0); // Reset for next time
-      }}
-    />;
-  }
-
+  // 3. Final Render with Global Wrapper
   return (
-    <GameScreen 
-      ids={ids} 
-      data={data} 
-      currentIndex={currentIndex} 
-      onNext={handleNext} 
-      onChoice={handleChoice} 
-      showFeedback={showFeedback} 
-      userResult={userResult}
-      onReset={resetSession}
-      onNewSession={startNewSession}
-    />
+    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+      <Header onLogoClick={startNewSession} />
+      <main style={{ flex: 1 }}>
+        {content}
+      </main>
+      <Footer />
+    </div>
   );
-};
+}
 
 export default App;
