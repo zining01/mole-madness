@@ -1,0 +1,12 @@
+.toggleBtn {
+  width: 30%;
+  padding: 16px;
+  background-color: transparent;
+  color: #4b5563;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 5px;
+}

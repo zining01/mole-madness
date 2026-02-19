@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { findingsLibrary } from './findingsLibrary';
+import styles from './EducationalDetails.module.css';
 
 const imageStyle = {
   maxWidth: '100%',    // Never wider than the card
@@ -19,7 +20,7 @@ export const EducationalDetails = ({ diagnosis }) => {
 
   return (
     <div className="educational-section">
-      <button onClick={() => setIsOpen(!isOpen)} className="peek-button">
+      <button onClick={() => setIsOpen(!isOpen)} className={styles.toggleBtn}>
         {isOpen ? "Hide Details ▲" : "Show Details ▼"}
       </button>
 
