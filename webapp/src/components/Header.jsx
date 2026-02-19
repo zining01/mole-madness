@@ -8,7 +8,7 @@ export function Header({ onLogoClick }) {
         <div className={styles.logoGroup} onClick={onLogoClick} style={{ cursor: 'pointer' }}>
           <h1 className={styles.title}>Mole Madness</h1>
         </div>
-        <div className={styles.tagline}>a dermoscopy training game</div>
+        <div className={styles.tagline}>a dermoscopy learning game</div>
       </div>
     </header>
   );
