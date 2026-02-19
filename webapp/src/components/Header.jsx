@@ -8,7 +8,7 @@ export function Header({ onLogoClick }) {
         <div className={styles.logoGroup} onClick={onLogoClick} style={{ cursor: 'pointer' }}>
           <div className={styles.logoPlaceholder}>
             <div className={styles.logoPlaceholder}>
-            <img src='/assets/mole.jpeg' alt='Mole Madness Logo' className={styles.logo} />
+              <div className={styles.lensInner}></div>
           </div>
           </div>
           <h1 className={styles.title}>Mole Madness</h1>
