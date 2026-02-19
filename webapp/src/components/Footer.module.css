@@ -4,28 +4,37 @@
   padding: 20px;
   background-color: #f8f9fa;
   border-top: 1px solid #e5e7eb;
-  margin-top: auto; /* Pushes footer to bottom if container is flex */
+  margin-top: auto;
   text-align: center;
+  /* CRITICAL: Ensures 100% width includes the padding */
+  box-sizing: border-box; 
 }
 
 .content {
-  max-width: 600px;
+  /* Match this to your Header and Card max-width (e.g., 550px) */
+  max-width: 550px; 
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .footer p {
-  margin: 4px 0;
-  padding: 15px;
+  margin: 8px 0;
+  /* Removed the 15px padding that was likely pushing text over the edge */
   font-size: 0.85rem;
   color: #6b7280;
+  line-height: 1.4;
 }
 
 .citations {
   font-style: italic;
-  font-size: 0.4rem;
+  font-size: 0.65rem; /* 0.4rem is dangerously small/unreadable on mobile */
   text-align: left;
+  /* Ensures long URLs or DOIs don't break the layout */
+  word-break: break-word; 
+  overflow-wrap: break-word;
 }
 
 .creds {
   font-size: 0.75rem;
+  margin-top: 15px;
 }
