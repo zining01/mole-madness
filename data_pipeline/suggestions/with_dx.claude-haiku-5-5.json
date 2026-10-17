@@ -1,0 +1,1386 @@
+{
+  "DERM_100736": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "recurrent_nevus",
+    "created": "2026-10-17T01:43:41+00:00",
+    "features": {
+      "pigment_within_scar": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "central_white_patch": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "irregular_globules": {
+        "status": "present",
+        "evidence": "Multiple small round pale or whitish globules are scattered within and around the brown pigmented patches, varying in size and unevenly distributed, most visible in the central and right-central areas."
+      },
+      "irregular_streaks": {
+        "status": "present",
+        "evidence": "The brown pigmented areas have ragged, fringe-like projections at their margins, especially on the left-upper brown patch and along the lower edge of the right brown area."
+      },
+      "symmetric_single_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "asymmetric_multicomponent": {
+        "status": "present",
+        "evidence": "Two or more separate brown pigmented zones with globules and irregular projections are distributed unevenly across the field, with no uniform pattern."
+      },
+      "multiple_colors": {
+        "status": "uncertain",
+        "evidence": "Brown and darker brown-to-reddish pigment is seen along with pale whitish-pink globules, but blue-gray or black components are not clearly identified, so the three-color threshold is not confidently met."
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "sharp_demarcation": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "no_pigment_network": {
+        "status": "present",
+        "evidence": "No reticular pigment network is evident; the pigment appears as amorphous brown blotches and clumps rather than a meshwork of lines and holes."
+      }
+    },
+    "usage": {
+      "input_tokens": 2756,
+      "output_tokens": 1294
+    }
+  },
+  "DERM_125446": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "banal_nevus",
+    "created": "2026-10-17T01:43:39+00:00",
+    "features": {
+      "symmetric_single_pattern": {
+        "status": "present",
+        "evidence": "Round, well-circumscribed lesion with colors and dots evenly distributed across the whole lesion and one dominant pattern of brown globules on a brown background."
+      },
+      "typical_network": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "regular_globules": {
+        "status": "present",
+        "evidence": "Numerous small, round, dark-brown dots of similar size scattered evenly over the central and mid-lesion area."
+      },
+      "structureless_brown": {
+        "status": "uncertain",
+        "evidence": "Diffuse light-to-medium brown background between the dots in the central area, but it is not fully homogeneous and is mixed with globules."
+      },
+      "peripheral_globules": {
+        "status": "uncertain",
+        "evidence": "A few brown dots sit near the lower and right margins, but no distinct continuous ring of peripheral globules is clearly seen."
+      },
+      "asymmetric_multicomponent": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "multiple_colors": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "sharp_demarcation": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "no_pigment_network": {
+        "status": "present",
+        "evidence": "No reticular brown lines or network meshwork are visible; the pigment is expressed as discrete dots and diffuse brown tone."
+      }
+    },
+    "usage": {
+      "input_tokens": 2730,
+      "output_tokens": 856
+    }
+  },
+  "DERM_134644": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "dysplastic_acral_nevus",
+    "created": "2026-10-17T01:44:10+00:00",
+    "features": {
+      "parallel_furrow": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "lattice_pattern": {
+        "status": "uncertain",
+        "evidence": "Across the lesion there is a fine reticular arrangement of brown dots and short linear strands that could be read as crossing lines, but it is not clearly a ladder-like lattice along furrows."
+      },
+      "fibrillar_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "irregular_globules": {
+        "status": "present",
+        "evidence": "Throughout the lesion, especially in the central and lower areas, there are dark brown dots and small globules of varying size and shade, unevenly distributed."
+      },
+      "central_hyperpigmentation": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "symmetric_single_pattern": {
+        "status": "uncertain",
+        "evidence": "The oval lesion has a fairly even overall distribution of brown pigment and a single dotted/reticular texture, but the internal distribution is not clearly symmetric."
+      },
+      "asymmetric_multicomponent": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "multiple_colors": {
+        "status": "absent",
+        "evidence": "Only shades of brown are seen (light to dark brown); no blue-gray, black, red or white areas are evident."
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "sharp_demarcation": {
+        "status": "absent",
+        "evidence": "The lesion border is blurred and fades gradually into the surrounding skin, particularly on the left and lower edges."
+      },
+      "no_pigment_network": {
+        "status": "absent",
+        "evidence": ""
+      }
+    },
+    "usage": {
+      "input_tokens": 2974,
+      "output_tokens": 915
+    }
+  },
+  "DERM_153270": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "blue_nevus",
+    "created": "2026-10-17T01:44:09+00:00",
+    "features": {
+      "homogeneous_blue": {
+        "status": "present",
+        "evidence": "Central and right-of-center area shows a diffuse, structureless blue-gray color with a smoky, steel-like tone, consistent with deep dermal melanin."
+      },
+      "symmetric_single_pattern": {
+        "status": "present",
+        "evidence": "The lesion is a single, fairly uniform, roughly oval blue-gray patch with one dominant pattern and no competing structures."
+      },
+      "no_pigment_network": {
+        "status": "present",
+        "evidence": "No pigment network is seen anywhere in the lesion or surrounding skin; only fine vellus and terminal hairs are visible."
+      },
+      "asymmetric_multicomponent": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "multiple_colors": {
+        "status": "uncertain",
+        "evidence": "Blue-gray dominates the center, with a reddish-brown tint along the upper-left edge. A third distinct color (black, dark brown, or white) is not clearly identifiable, and the image is blurred."
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "sharp_demarcation": {
+        "status": "absent",
+        "evidence": "The blue-gray area fades gradually into surrounding skin, especially toward the lower and right margins, rather than stopping abruptly."
+      }
+    },
+    "usage": {
+      "input_tokens": 2212,
+      "output_tokens": 767
+    }
+  },
+  "DERM_156861": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "scc",
+    "created": "2026-10-17T01:44:13+00:00",
+    "features": {
+      "glomerular_vessels": {
+        "status": "uncertain",
+        "evidence": "Faint curved reddish vessel segments at the upper right margin of the central lesion may be coiled, but they are not clearly glomeruloid."
+      },
+      "keratin_scale": {
+        "status": "present",
+        "evidence": "Yellow-white, keratin-like scale covers the lobules in the lower left and upper right of the lesion."
+      },
+      "white_circles": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "white_structureless": {
+        "status": "present",
+        "evidence": "Opaque yellow-white areas fill the lower-left lobule and parts of the upper-right lobule, consistent with keratinous structureless material."
+      },
+      "dotted_vessels": {
+        "status": "present",
+        "evidence": "Numerous tiny red dots are scattered through the central and upper lobules."
+      },
+      "hairpin_vessels": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "polymorphous_vessels": {
+        "status": "present",
+        "evidence": "Dotted red vessels in the center are accompanied by linear, irregular red streaks, giving two vessel types in the same lesion."
+      },
+      "ulceration": {
+        "status": "present",
+        "evidence": "Dark red-black hemorrhagic crusts and blood-stained areas are scattered across the central lesion."
+      },
+      "rosettes": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "symmetric_single_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "asymmetric_multicomponent": {
+        "status": "present",
+        "evidence": "The lesion is made of several separate lobules and structures (upper right, center, lower left) distributed unevenly."
+      },
+      "multiple_colors": {
+        "status": "present",
+        "evidence": "Red, yellow-white, and black-brown to black crusted spots are all visible, giving three or more colors."
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "sharp_demarcation": {
+        "status": "uncertain",
+        "evidence": "The lobular outer edges are fairly well defined against the surrounding pink skin, but the transition is partly gradual."
+      },
+      "no_pigment_network": {
+        "status": "present",
+        "evidence": "No pigment network is seen; the surrounding skin shows only a faint pink background texture."
+      }
+    },
+    "usage": {
+      "input_tokens": 3661,
+      "output_tokens": 1488
+    }
+  },
+  "DERM_167989": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "banal_congenital_nevus",
+    "created": "2026-10-17T01:44:14+00:00",
+    "features": {
+      "regular_globules": {
+        "status": "present",
+        "evidence": "Numerous small, round to slightly irregular brown dots scattered across the central and lower lesion, especially in the mid-right and lower areas."
+      },
+      "cobblestone_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "structureless_brown": {
+        "status": "uncertain",
+        "evidence": "The upper-left and upper-central portions are fairly homogeneous dark brown with few visible structures, but dots are present throughout, so a structureless area is only partly suggested."
+      },
+      "typical_network": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "symmetric_single_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "hypertrichosis": {
+        "status": "uncertain",
+        "evidence": "Many fine hairs cross both the lesion and the surrounding skin. They look thin and light rather than clearly thick or dark terminal hairs confined to the lesion."
+      },
+      "perifollicular_hypopigmentation": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "asymmetric_multicomponent": {
+        "status": "present",
+        "evidence": "The lesion has an irregular outline, with darker confluent clusters in the upper area, a dotted lower-central area, and paler brown zones at the edges, distributed unevenly."
+      },
+      "multiple_colors": {
+        "status": "uncertain",
+        "evidence": "Light brown and dark brown tones are visible, with some darker dots, but no clear blue-gray, black, red, or white areas are seen."
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "sharp_demarcation": {
+        "status": "present",
+        "evidence": "The lower-left border meets the pale surrounding skin fairly abruptly, though its edge is somewhat irregular."
+      },
+      "no_pigment_network": {
+        "status": "present",
+        "evidence": "No distinct reticular pigment network is seen; the pigment is organized mainly as dots and confluent brown areas."
+      }
+    },
+    "usage": {
+      "input_tokens": 3134,
+      "output_tokens": 1410
+    }
+  },
+  "DERM_168887": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "seb_keratosis",
+    "created": "2026-10-17T01:44:20+00:00",
+    "features": {
+      "milia_like_cysts": {
+        "status": "uncertain",
+        "evidence": "Two small whitish, shiny blotches are visible, one at the top center near the upper edge (around x=280, y=90) and one at the left side (around x=195, y=170). They could be milia-like cysts, but they are larger and less crisply round than typical milia."
+      },
+      "comedo_like_openings": {
+        "status": "present",
+        "evidence": "Several dark brown to black round dots sit within the lesion body, most clearly in the central and right portions (around x=213, y=108; x=262, y=180; x=296, y=172; x=355, y=127). These look like comedo-like openings filled with keratin."
+      },
+      "fissures_ridges": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "sharp_demarcation": {
+        "status": "present",
+        "evidence": "The brown lesion has a fairly well-defined edge against the surrounding skin, with the pigmented area stopping relatively abruptly rather than fading out gradually."
+      },
+      "hairpin_vessels": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "moth_eaten_border": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "fingerprint_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "pseudonetwork": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "symmetric_single_pattern": {
+        "status": "present",
+        "evidence": "The lesion is roughly oval and fairly evenly colored, with one dominant pattern of brown pigment dotted with dark round globules and no strongly divergent second structure."
+      },
+      "asymmetric_multicomponent": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "multiple_colors": {
+        "status": "present",
+        "evidence": "The lesion contains medium brown background pigment, dark brown to black round dots, and whitish shiny areas, giving at least three colors."
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "no_pigment_network": {
+        "status": "present",
+        "evidence": "No pigment network is seen within the lesion; the brown pigment is diffuse with round dots and no reticular meshwork."
+      }
+    },
+    "usage": {
+      "input_tokens": 3321,
+      "output_tokens": 1545
+    }
+  },
+  "DERM_172873": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "actinic_keratosis",
+    "created": "2026-10-17T01:44:19+00:00",
+    "features": {
+      "strawberry_pattern": {
+        "status": "uncertain",
+        "evidence": "Diffuse pink-red background over the central and upper field, but follicular plugs surrounded by white halos are not clearly discernible."
+      },
+      "keratin_scale": {
+        "status": "present",
+        "evidence": "Yellow-white to yellow-brown clumped scale-like structures in the upper-left quadrant and scattered across the left-center, resembling surface keratin."
+      },
+      "rosettes": {
+        "status": "absent",
+        "evidence": "Image appears non-polarized; no clear four-dot square arrangements around follicles are seen."
+      },
+      "white_circles": {
+        "status": "uncertain",
+        "evidence": "Some small white granular dots and areas in the central-lower field could be keratinized follicular openings, but ring-shaped white halos are not clearly defined."
+      },
+      "symmetric_single_pattern": {
+        "status": "absent",
+        "evidence": "Yellow scale, pink vascular-looking areas, and white zones are unevenly distributed, with no single dominant symmetric pattern."
+      },
+      "asymmetric_multicomponent": {
+        "status": "present",
+        "evidence": "Several different structures coexist unevenly: yellow keratin clumps on the left, pink-red reddish area in the upper center, and white granular zones in the center and lower field."
+      },
+      "multiple_colors": {
+        "status": "present",
+        "evidence": "Yellow-light brown, red-pink, and white are all visible; no dark brown, black, or blue-gray."
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": "No radial streaks or pseudopods arranged around the perimeter are seen."
+      },
+      "sharp_demarcation": {
+        "status": "uncertain",
+        "evidence": "The lesion fills much of the field and its margin is not fully visible; the edge against surrounding skin on the left and lower sides is indistinct."
+      },
+      "no_pigment_network": {
+        "status": "present",
+        "evidence": "No brown pigment network is seen anywhere; the lesion shows yellow scale, pink areas and white zones instead."
+      }
+    },
+    "usage": {
+      "input_tokens": 2715,
+      "output_tokens": 1164
+    }
+  },
+  "DERM_177759": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "intradermal_nevus",
+    "created": "2026-10-17T01:44:21+00:00",
+    "features": {
+      "comma_vessels": {
+        "status": "uncertain",
+        "evidence": "Short red linear vessels along the upper-left and lower-right edges of the oval lesion may be slightly curved, but they are not clearly comma-shaped."
+      },
+      "structureless_brown": {
+        "status": "present",
+        "evidence": "The central part of the oval lesion is a fairly homogeneous light tan-brown area with only faint fibrous streaks and no clear network or globules."
+      },
+      "regular_globules": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "cobblestone_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "no_pigment_network": {
+        "status": "present",
+        "evidence": "No pigment network is seen anywhere in the lesion; the surrounding skin shows only fine hair and faint vessels."
+      },
+      "symmetric_single_pattern": {
+        "status": "present",
+        "evidence": "The lesion is a roughly oval, evenly colored structure with one dominant tan-brown pattern across its centre."
+      },
+      "asymmetric_multicomponent": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "multiple_colors": {
+        "status": "uncertain",
+        "evidence": "Light tan-yellow centre and red areas at the periphery are visible; a small white spot on the right edge may be a highlight rather than a true white structure, so three distinct colours are not clearly confirmed."
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "sharp_demarcation": {
+        "status": "present",
+        "evidence": "The oval border is fairly well defined and stops relatively abruptly against the surrounding pale skin."
+      }
+    },
+    "usage": {
+      "input_tokens": 2734,
+      "output_tokens": 1097
+    }
+  },
+  "DERM_178493": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "angiokeratoma",
+    "created": "2026-10-17T01:44:21+00:00",
+    "features": {
+      "dark_lacunae": {
+        "status": "present",
+        "evidence": "Multiple round, dark blue-black to black lacunae cluster across the center of the lesion, most prominent at the top, upper right, and lower center."
+      },
+      "whitish_veil": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "red_lacunae": {
+        "status": "uncertain",
+        "evidence": "Diffuse pink-red and violaceous zones lie at the lower left and right periphery of the lesion, but they are not clearly sharply demarcated round lacunae."
+      },
+      "ulceration": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "symmetric_single_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "asymmetric_multicomponent": {
+        "status": "present",
+        "evidence": "Black lacunae, a blue-gray background, and red-violaceous areas are distributed unevenly, with the lacunae clustered irregularly around the central blue-gray field."
+      },
+      "multiple_colors": {
+        "status": "present",
+        "evidence": "Black lacunae, blue-gray central background, and red-pink peripheral areas together make at least three colors."
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "sharp_demarcation": {
+        "status": "uncertain",
+        "evidence": "The central blue-gray cluster has a fairly well-defined outline, but the pink peripheral zones fade gradually into the surrounding skin."
+      },
+      "no_pigment_network": {
+        "status": "present",
+        "evidence": "No pigment network is seen in the blue-gray background; the lesion consists of lacunae and homogeneous blue-gray areas."
+      }
+    },
+    "usage": {
+      "input_tokens": 2857,
+      "output_tokens": 896
+    }
+  },
+  "DERM_184319": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "bcc",
+    "created": "2026-10-17T01:44:28+00:00",
+    "features": {
+      "arborizing_vessels": {
+        "status": "uncertain",
+        "evidence": "Pink-red areas in the central lesion show faint, fine linear structures, but no sharply focused, tree-like branching red vessels are clearly seen."
+      },
+      "blue_gray_ovoid_nests": {
+        "status": "uncertain",
+        "evidence": "Dark brown to black, roughly rounded blotches and globules are scattered in the center and lower half, but they are brown-black rather than clearly blue-gray and are not well defined as ovoid nests."
+      },
+      "leaf_like_areas": {
+        "status": "uncertain",
+        "evidence": "The left and lower-left periphery has irregular brown projections that could be bulbous extensions, but none is clearly leaf-shaped."
+      },
+      "spoke_wheel": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "shiny_white_structures": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "ulceration": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "short_fine_telangiectasias": {
+        "status": "uncertain",
+        "evidence": "Fine, thin, short linear structures cross the pink central area and the upper lesion, but they look more like white streaks than clearly red, minimally branching vessels."
+      },
+      "no_pigment_network": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "symmetric_single_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "asymmetric_multicomponent": {
+        "status": "present",
+        "evidence": "Several structures are unevenly distributed: dark brown-black blotches, pink-red central areas, fine white linear streaks, and irregular peripheral brown projections."
+      },
+      "multiple_colors": {
+        "status": "present",
+        "evidence": "Dark brown, black, pink-red and white or light tones are all visible within the lesion."
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "sharp_demarcation": {
+        "status": "absent",
+        "evidence": ""
+      }
+    },
+    "usage": {
+      "input_tokens": 3376,
+      "output_tokens": 1198
+    }
+  },
+  "DERM_185855": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "dysplastic_congenital_nevus",
+    "created": "2026-10-17T01:44:29+00:00",
+    "features": {
+      "regular_globules": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "structureless_brown": {
+        "status": "present",
+        "evidence": "Central and mid-portion of the lesion shows a homogeneous reddish-brown area without a visible network or globules."
+      },
+      "atypical_network": {
+        "status": "present",
+        "evidence": "Thick, ragged, irregular brown lines form a peripheral network along the lower left, lower right and upper edges, with irregular holes that fade out at the margin."
+      },
+      "central_hyperpigmentation": {
+        "status": "present",
+        "evidence": "A darker, roughly centered, hazy brown zone sits within the lesion, surrounded by the more organized peripheral pattern."
+      },
+      "cobblestone_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "irregular_globules": {
+        "status": "uncertain",
+        "evidence": "Small, irregularly shaped dark dots are scattered in the central and peripheral areas, but they are hard to separate from the background texture at this magnification."
+      },
+      "hypertrichosis": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "perifollicular_hypopigmentation": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "symmetric_single_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "asymmetric_multicomponent": {
+        "status": "present",
+        "evidence": "Several structures coexist unevenly: a peripheral irregular network, a central structureless brown area, and scattered dots, with the peripheral pattern heavier on the lower and left sides."
+      },
+      "multiple_colors": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "sharp_demarcation": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "no_pigment_network": {
+        "status": "absent",
+        "evidence": ""
+      }
+    },
+    "usage": {
+      "input_tokens": 3528,
+      "output_tokens": 1248
+    }
+  },
+  "DERM_194460": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "dysplastic_nevus",
+    "created": "2026-10-17T01:44:28+00:00",
+    "features": {
+      "atypical_network": {
+        "status": "uncertain",
+        "evidence": "Diffuse, fuzzy reticular texture across the lesion with irregular, blurred meshes; the lines are not clearly thick or abruptly ending, so an atypical network is possible but not confidently seen."
+      },
+      "central_hyperpigmentation": {
+        "status": "uncertain",
+        "evidence": "The darker brown zone in the center-right of the lesion is somewhat more intense, but it is not clearly structureless or sharply defined against a more organized periphery."
+      },
+      "peripheral_globules": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "symmetric_single_pattern": {
+        "status": "uncertain",
+        "evidence": "The overall oval shape and single reticular pattern are fairly uniform, but the pigment distribution is uneven across the lesion, so symmetry is not clearly established."
+      },
+      "irregular_globules": {
+        "status": "uncertain",
+        "evidence": "Granular, clumped brown areas in the central and right portions may represent irregular dots or globules, but the texture is blurred and they are not clearly distinct."
+      },
+      "structureless_brown": {
+        "status": "uncertain",
+        "evidence": "Some darker central-to-right areas appear relatively homogeneous brown with little visible structure, though the texture is not fully featureless."
+      },
+      "asymmetric_multicomponent": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "multiple_colors": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "sharp_demarcation": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "no_pigment_network": {
+        "status": "absent",
+        "evidence": ""
+      }
+    },
+    "usage": {
+      "input_tokens": 2949,
+      "output_tokens": 869
+    }
+  },
+  "DERM_194546": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "spitz_reed",
+    "created": "2026-10-17T01:44:28+00:00",
+    "features": {
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "central_hyperpigmentation": {
+        "status": "uncertain",
+        "evidence": "The central part of the lesion looks slightly darker brown than the periphery, but the lesion is dark throughout and the contrast is subtle."
+      },
+      "regular_globules": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "dotted_vessels": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "negative_network": {
+        "status": "present",
+        "evidence": "Thin, light, serpiginous lines cross the dark brown-black body of the lesion, especially in the central and peripheral areas, forming meshes around darker zones."
+      },
+      "symmetric_single_pattern": {
+        "status": "present",
+        "evidence": "The lesion is round and fairly evenly symmetric, with a single dominant dark brown pattern and the light-line meshwork distributed throughout."
+      },
+      "asymmetric_multicomponent": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "multiple_colors": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "sharp_demarcation": {
+        "status": "present",
+        "evidence": "The outer border is relatively well defined and stops against the surrounding skin, although it is irregular and slightly fuzzy in places."
+      },
+      "no_pigment_network": {
+        "status": "absent",
+        "evidence": ""
+      }
+    },
+    "usage": {
+      "input_tokens": 2749,
+      "output_tokens": 1056
+    }
+  },
+  "DERM_217371": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "solar_lentigo",
+    "created": "2026-10-17T01:44:36+00:00",
+    "features": {
+      "fingerprint_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "moth_eaten_border": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "sharp_demarcation": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "structureless_brown": {
+        "status": "present",
+        "evidence": "Central-left dark brown patch is largely homogeneous, with no visible network or globules within it."
+      },
+      "pseudonetwork": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "typical_network": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "symmetric_single_pattern": {
+        "status": "uncertain",
+        "evidence": "One dominant brown patch sits on the left-centre, but it is surrounded by pink patches and fine hairs, and the image is blurry, so symmetry and pattern count are hard to judge."
+      },
+      "asymmetric_multicomponent": {
+        "status": "uncertain",
+        "evidence": "Several separate areas (dark brown centre, pink-red patches at lower left and lower centre, lighter tan background) are unevenly distributed, but these may reflect erythema and background skin rather than distinct lesion structures."
+      },
+      "multiple_colors": {
+        "status": "present",
+        "evidence": "Dark brown central patch, lighter tan surrounding skin, and pink-red patches across the field give at least three colours."
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "no_pigment_network": {
+        "status": "present",
+        "evidence": "No pigment network is visible anywhere in the lesion or surrounding skin; only fine skin texture and hairs are seen."
+      }
+    },
+    "usage": {
+      "input_tokens": 2839,
+      "output_tokens": 1148
+    }
+  },
+  "DERM_246034": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "melanoma",
+    "created": "2026-10-17T01:44:39+00:00",
+    "features": {
+      "asymmetric_multicomponent": {
+        "status": "present",
+        "evidence": "Off-center dark blue-black blotch in the middle and upper-left, with brown peripheral zones and scattered dots on the right; the components are unevenly distributed."
+      },
+      "multiple_colors": {
+        "status": "present",
+        "evidence": "Dark brown and black areas centrally, blue-gray pigment in the upper-middle, light brown at the periphery, and small white dots or bubbles at the right."
+      },
+      "atypical_network": {
+        "status": "uncertain",
+        "evidence": "No clearly defined network; the center shows a blotchy dark pattern with some irregular holes, but the lines are not well resolved."
+      },
+      "irregular_streaks": {
+        "status": "uncertain",
+        "evidence": "Irregular, jagged outer edge at the upper left and upper right with some projections, but no clear radial streaks or pseudopods."
+      },
+      "irregular_globules": {
+        "status": "present",
+        "evidence": "Small dark and bubble-like globules scattered in the central and right-central area, varying in size and unevenly distributed."
+      },
+      "irregular_blotch": {
+        "status": "present",
+        "evidence": "Large dark, structureless central area that is off-center and irregular in shape, partly obscuring underlying structures."
+      },
+      "blue_white_veil": {
+        "status": "uncertain",
+        "evidence": "Bluish-gray haze over the central area, but no clearly confluent veil with an overlying white ground-glass haze."
+      },
+      "regression_structures": {
+        "status": "uncertain",
+        "evidence": "Possible lighter, pale areas within the central lesion, but no definite white scar-like regression areas are seen."
+      },
+      "negative_network": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "shiny_white_structures": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "peripheral_brown_structureless": {
+        "status": "present",
+        "evidence": "Light brown, featureless zones along the upper-right edge and the lower-right periphery."
+      },
+      "peppering": {
+        "status": "uncertain",
+        "evidence": "Fine granular dark dots in the central region may represent peppering, but resolution is limited."
+      },
+      "polymorphous_vessels": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "symmetric_single_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "sharp_demarcation": {
+        "status": "present",
+        "evidence": "The lesion edge stops fairly abruptly against the surrounding pale skin, especially along the right and lower borders."
+      },
+      "no_pigment_network": {
+        "status": "uncertain",
+        "evidence": "A conventional pigment network is not clearly identifiable, though the pattern is difficult to assess due to the blotchy dark center."
+      }
+    },
+    "usage": {
+      "input_tokens": 4171,
+      "output_tokens": 1449
+    }
+  },
+  "DERM_255498": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "banal_acral_nevus",
+    "created": "2026-10-17T01:44:35+00:00",
+    "features": {
+      "parallel_furrow": {
+        "status": "uncertain",
+        "evidence": "Central lesion shows dark brown lines running between pale rounded areas, which may reflect furrow-associated pigment, but the lines form polygons rather than clearly parallel rows."
+      },
+      "lattice_pattern": {
+        "status": "present",
+        "evidence": "Across the central and left portion, dark brown lines outline pale rounded compartments and cross one another in a meshwork or ladder-like arrangement."
+      },
+      "fibrillar_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "symmetric_single_pattern": {
+        "status": "uncertain",
+        "evidence": "The lesion has one dominant meshwork pattern spread across the oval area, but the outline is irregular and the lower right portion is less defined, so symmetry is hard to judge."
+      },
+      "asymmetric_multicomponent": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "multiple_colors": {
+        "status": "absent",
+        "evidence": "Only light brown and darker brown tones are seen against the pinkish background; no black, blue-gray, red or white areas are evident."
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "sharp_demarcation": {
+        "status": "absent",
+        "evidence": "The lesion edges fade gradually into the surrounding skin, with a diffuse halo rather than an abrupt border."
+      },
+      "no_pigment_network": {
+        "status": "absent",
+        "evidence": ""
+      }
+    },
+    "usage": {
+      "input_tokens": 2582,
+      "output_tokens": 909
+    }
+  },
+  "DERM_263338": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "acral_melanoma",
+    "created": "2026-10-17T01:44:38+00:00",
+    "features": {
+      "parallel_ridge": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "irregular_diffuse_pigmentation": {
+        "status": "uncertain",
+        "evidence": "Greyish-purple to brownish haze in the upper-left area of the lesion, which could be diffuse pigment, but it is faint and blends into the red background."
+      },
+      "asymmetric_multicomponent": {
+        "status": "uncertain",
+        "evidence": "Several red-pink nodular areas, white zones and a dark upper-left region are unevenly distributed, but the image does not clearly show three or more distinct melanocytic structures."
+      },
+      "multiple_colors": {
+        "status": "uncertain",
+        "evidence": "Red-pink, white and yellow-green tones are present, along with a small dark brown-black spot in the upper-left area and a dark streak near the upper-left; a clear set of three qualifying colors is hard to confirm."
+      },
+      "blue_white_veil": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "ulceration": {
+        "status": "uncertain",
+        "evidence": "Red, blood-like areas with a yellow crust-like periphery may represent hemorrhagic crust or erosion, but the surface loss cannot be confirmed."
+      },
+      "polymorphous_vessels": {
+        "status": "uncertain",
+        "evidence": "Diffuse red areas are visible centrally, but discrete vessel morphologies are not clearly identifiable; the thin white lines appear to be hairs."
+      },
+      "irregular_globules": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "symmetric_single_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "sharp_demarcation": {
+        "status": "uncertain",
+        "evidence": "The red central lesion contrasts with the yellow periphery, but the margin fades irregularly rather than stopping abruptly."
+      },
+      "no_pigment_network": {
+        "status": "present",
+        "evidence": "No pigment network is seen across the lesion; the pattern is dominated by red, white and yellow areas with hair-like lines."
+      }
+    },
+    "usage": {
+      "input_tokens": 3269,
+      "output_tokens": 1199
+    }
+  },
+  "DERM_274760": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "lichenoid_keratosis",
+    "created": "2026-10-17T01:44:44+00:00",
+    "features": {
+      "peppering": {
+        "status": "uncertain",
+        "evidence": "Scattered fine dark brown specks in the central and lower-central reddish-brown area; they are not clearly blue-gray and the image is not sharp enough to confirm dermal melanophage granularity."
+      },
+      "fingerprint_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "moth_eaten_border": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "pseudonetwork": {
+        "status": "uncertain",
+        "evidence": "Faint roundish light areas with brown outlines on the left side may hint at follicular openings, but no clear diffuse pigment network interrupted by round openings is seen."
+      },
+      "dotted_vessels": {
+        "status": "uncertain",
+        "evidence": "Diffuse pinkish-red erythema across the upper and left areas, with no clearly discrete tiny red dots or loops identified."
+      },
+      "symmetric_single_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "asymmetric_multicomponent": {
+        "status": "present",
+        "evidence": "Pink-red patches in the upper left, a dark reddish-brown central zone, and tan-brown areas on the right are unevenly distributed across the lesion."
+      },
+      "multiple_colors": {
+        "status": "present",
+        "evidence": "Pink-red, light tan, medium brown and darker reddish-brown tones are all visible; no black or blue-gray is evident."
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "sharp_demarcation": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "no_pigment_network": {
+        "status": "present",
+        "evidence": "No distinct reticular brown network is seen anywhere in the lesion; the pigment appears as diffuse, structureless blotches and patches."
+      }
+    },
+    "usage": {
+      "input_tokens": 2840,
+      "output_tokens": 1196
+    }
+  },
+  "DERM_274993": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "vascular_lesion",
+    "created": "2026-10-17T01:44:43+00:00",
+    "features": {
+      "red_lacunae": {
+        "status": "uncertain",
+        "evidence": "Faint, blurred reddish-brown patches in the upper right (around the right-upper area near the lesion) and a diffuse reddish zone to the right of the central vessel cluster. They are not sharply demarcated round lacunae, so this is weak and unconvincing."
+      },
+      "pale_lacunae": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "radiating_vessels": {
+        "status": "present",
+        "evidence": "Central dark-red, tangled, arborizing vessel cluster at the image centre (around x 240-300, y 165-210) with fine branches spreading outward from a central point."
+      },
+      "sharp_demarcation": {
+        "status": "uncertain",
+        "evidence": "The central vascular cluster fades into the surrounding pink skin with no clearly abrupt border; the image is also out of focus at the edges."
+      },
+      "no_pigment_network": {
+        "status": "present",
+        "evidence": "The surrounding pink skin shows no reticular brown pigment network; the only structure is the central vascular cluster, which fits a non-melanocytic lesion."
+      },
+      "symmetric_single_pattern": {
+        "status": "uncertain",
+        "evidence": "A single central vascular structure dominates the field, but the lesion extent is unclear and the field is not clearly symmetric around it."
+      },
+      "asymmetric_multicomponent": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "multiple_colors": {
+        "status": "absent",
+        "evidence": "Only pink, red and dark red-brown tones are visible; no black, blue-gray or white structures and no clear third colour."
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": ""
+      }
+    },
+    "usage": {
+      "input_tokens": 2596,
+      "output_tokens": 1026
+    }
+  },
+  "DERM_310503": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "lentigo_maligna",
+    "created": "2026-10-17T01:44:48+00:00",
+    "features": {
+      "asymmetric_follicular_openings": {
+        "status": "uncertain",
+        "evidence": "Small round follicular openings are scattered across the reddish-brown field, with some pigment around them, but the image is blurred and non-polarized, so an uneven one-sided rim cannot be confirmed."
+      },
+      "annular_granular": {
+        "status": "uncertain",
+        "evidence": "Some follicles have faint darker rings around light centers, mainly in the left and central areas, but the ring-and-dot arrangement is not clearly resolved."
+      },
+      "rhomboidal_structures": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "obliterated_follicles": {
+        "status": "uncertain",
+        "evidence": "Darker central and lower-left zones may hide follicular openings under pigment, but this cannot be confirmed at this resolution."
+      },
+      "pseudonetwork": {
+        "status": "present",
+        "evidence": "Diffuse brown pigment fills most of the field and is interrupted by numerous round follicular openings across the left, central and upper areas, consistent with a facial pseudonetwork."
+      },
+      "peppering": {
+        "status": "uncertain",
+        "evidence": "Fine granular dots are not clearly separable from the diffuse pigment haze, so peppering cannot be confidently identified."
+      },
+      "regression_structures": {
+        "status": "uncertain",
+        "evidence": "Lighter pinkish-tan areas occur in the upper right and at the lower edge, but they are not clearly white scar-like areas."
+      },
+      "polymorphous_vessels": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "symmetric_single_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "asymmetric_multicomponent": {
+        "status": "uncertain",
+        "evidence": "Dark clumps, lighter pink zones and follicle-associated pigment are unevenly distributed across the lesion, which may suggest multiple components, though this is not clearly distinct."
+      },
+      "multiple_colors": {
+        "status": "uncertain",
+        "evidence": "Light tan, reddish-brown and very dark brown to near-black tones are present, but blue-gray or white are not clearly seen, so three or more distinct colors cannot be confirmed."
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "sharp_demarcation": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "no_pigment_network": {
+        "status": "uncertain",
+        "evidence": "A continuous reticular pigment network is not clearly seen; the pigment appears diffuse with follicular openings, so this cannot be called definitively."
+      }
+    },
+    "usage": {
+      "input_tokens": 3506,
+      "output_tokens": 1518
+    }
+  },
+  "DERM_333477": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "kaposi",
+    "created": "2026-10-17T01:44:46+00:00",
+    "features": {
+      "red_structureless": {
+        "status": "present",
+        "evidence": "Large violaceous-purple nodular areas, especially the left nodule and the central-right nodule, appear homogeneous and structureless with few discrete vessels."
+      },
+      "rainbow_pattern": {
+        "status": "absent",
+        "evidence": "The image appears non-polarized, and no iridescent multicolored areas are seen."
+      },
+      "keratin_scale": {
+        "status": "uncertain",
+        "evidence": "The right nodule and the upper central area show whitish, flaky, crusted material that could be surface scale or keratin, but it is not clearly a discrete keratin mass."
+      },
+      "symmetric_single_pattern": {
+        "status": "absent",
+        "evidence": "The lesion has two separate nodular components with different textures and colors, so it is not a symmetric single pattern."
+      },
+      "asymmetric_multicomponent": {
+        "status": "present",
+        "evidence": "Two distinct nodular components differ in color and texture: the left nodule is smooth violaceous with red areas, and the right nodule has white streaks, crusting, and dark red-black areas at its edge."
+      },
+      "multiple_colors": {
+        "status": "uncertain",
+        "evidence": "Violaceous purple, red, and white are visible, and dark red-black areas appear at the right edge, but blue-gray or light brown components are not clearly distinct."
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": "No radial streaks or pseudopods arranged evenly around the perimeter are seen."
+      },
+      "sharp_demarcation": {
+        "status": "uncertain",
+        "evidence": "The left nodule has a fairly well-defined rounded border against the surrounding skin, but the right and lower margins blend into dark red and surrounding tissue."
+      },
+      "no_pigment_network": {
+        "status": "present",
+        "evidence": "No pigment network is seen in the lesion; the surface shows only violaceous structureless nodules and vague red areas."
+      }
+    },
+    "usage": {
+      "input_tokens": 2516,
+      "output_tokens": 962
+    }
+  },
+  "DERM_385398": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "dermatofibroma",
+    "created": "2026-10-17T01:44:50+00:00",
+    "features": {
+      "central_white_patch": {
+        "status": "present",
+        "evidence": "Central whitish, somewhat structureless area with fine white scale-like streaks at the center of the pink lesion, consistent with dermal fibrosis."
+      },
+      "typical_network": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "shiny_white_structures": {
+        "status": "absent",
+        "evidence": "Image appears non-polarized; no bright orthogonal white lines or chrysalis-like structures are clearly identifiable."
+      },
+      "dotted_vessels": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "symmetric_single_pattern": {
+        "status": "uncertain",
+        "evidence": "The lesion is a roughly round, centrally whitened pink area with one dominant pattern, but overlapping hairs and the fine white streaks make the symmetry hard to judge confidently."
+      },
+      "asymmetric_multicomponent": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "multiple_colors": {
+        "status": "absent",
+        "evidence": "Colors are limited to pink-red and white; no dark brown, black, or blue-gray areas are seen."
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "sharp_demarcation": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "no_pigment_network": {
+        "status": "present",
+        "evidence": "No pigment network is seen anywhere in the lesion; the central area shows only pink background and white streaks, with crossing hairs."
+      }
+    },
+    "usage": {
+      "input_tokens": 2755,
+      "output_tokens": 832
+    }
+  },
+  "DERM_446335": {
+    "model": "claude-haiku-5-5",
+    "served_by": "claude-haiku-5-5",
+    "variant": "with_dx",
+    "dx": "pyogenic_granuloma",
+    "created": "2026-10-17T01:44:51+00:00",
+    "features": {
+      "red_structureless": {
+        "status": "present",
+        "evidence": "Diffuse pink-red to violaceous structureless background fills most of the field, especially the area surrounding the central crater and extending to the right, with no discrete vessels identifiable."
+      },
+      "white_collarette": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "ulceration": {
+        "status": "present",
+        "evidence": "Central crusted, orange-brown hemorrhagic crust with a pale glistening center, surrounded by dark red-purple erosion, in the middle of the lesion."
+      },
+      "polymorphous_vessels": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "symmetric_single_pattern": {
+        "status": "uncertain",
+        "evidence": "The lesion is dominated by one red structureless pattern centrally, but the crust and surrounding color\u53d8\u5316 make it hard to judge whether colors and structures are evenly distributed."
+      },
+      "asymmetric_multicomponent": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "multiple_colors": {
+        "status": "uncertain",
+        "evidence": "Red-purple background and orange-brown crust are visible, with a small pale white area in the crust center; a third distinct color is borderline, so this is not a confident call."
+      },
+      "starburst_pattern": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "sharp_demarcation": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "no_pigment_network": {
+        "status": "present",
+        "evidence": "No pigment network is seen anywhere in the lesion; the red-pink surface shows no brown or grey network lines."
+      }
+    },
+    "usage": {
+      "input_tokens": 2752,
+      "output_tokens": 907
+    }
+  }
+}

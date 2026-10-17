@@ -1,0 +1,682 @@
+image,dx,feature,feature_name,you,model,evidence
+DERM_263338,acral_melanoma,irregular_diffuse_pigmentation,Irregular diffuse pigmentation,not ticked,uncertain,Small dusky violaceous-brown structureless area at the upper left of the red nodule; otherwise largely amelanotic.
+DERM_263338,acral_melanoma,irregular_globules,Irregular dots / globules,not ticked,uncertain,"Small red dots/globules unevenly scattered over the pink areas, likely vascular."
+DERM_263338,acral_melanoma,no_pigment_network,No pigment network,not ticked,present,No pigment network anywhere; the lesion is amelanotic and nodular with structureless red-white areas.
+DERM_263338,acral_melanoma,polymorphous_vessels,Polymorphous vessels,not ticked,uncertain,"Scattered dotted red vessels within the milky-red background; possible faint linear vessels, but the many overlying fibers make this hard to judge."
+DERM_263338,acral_melanoma,sharp_demarcation,Sharp demarcation,not ticked,uncertain,"The red nodule is fairly well delimited from the surrounding yellow keratotic collar, but the edge is irregular and partly obscured."
+DERM_366769,acral_melanoma,blue_white_veil,Blue-white veil,not ticked,uncertain,Whitish-gray hazy areas over darker pigment in the upper right and right side could represent blue-white veil
+DERM_366769,acral_melanoma,no_pigment_network,No pigment network,not ticked,present,No pigment network visible; acral skin with structureless and globular pigment only
+DERM_366769,acral_melanoma,parallel_ridge,Parallel ridge pattern,not ticked,uncertain,"Faint linear parallel bands of brown pigment along the left side near the lesion edge, but ridge vs furrow localization cannot be confirmed"
+DERM_366769,acral_melanoma,ulceration,Ulceration / hemorrhagic crust,not ticked,uncertain,Red-purple to maroon areas in the lower right could represent hemorrhage or crust
+DERM_478092,acral_melanoma,blue_white_veil,Blue-white veil,not ticked,uncertain,"Center and lower center show gray-bluish pigment beneath a whitish hazy overlay, but this may be scale rather than a true veil."
+DERM_478092,acral_melanoma,irregular_globules,Irregular dots / globules,not ticked,uncertain,"Lower and left central areas contain dark dots and clods of varying size, partly obscured by scale."
+DERM_478092,acral_melanoma,no_pigment_network,No pigment network,not ticked,present,No pigment network is identifiable anywhere; the lesion is structureless and keratotic.
+DERM_478092,acral_melanoma,sharp_demarcation,Sharp demarcation,not ticked,present,Left border: the dark lesion stops fairly abruptly against the surrounding pink skin.
+DERM_478092,acral_melanoma,ulceration,Ulceration / hemorrhagic crust,present,uncertain,"Upper center shows small red-orange foci and crusted, eroded-looking keratotic material, suggesting possible hemorrhagic crust."
+DERM_534835,acral_melanoma,blue_white_veil,Blue-white veil,present,uncertain,"Central-upper area has a faint bluish-gray whitish haze over dark pigment, but it is not clearly confluent blue."
+DERM_534835,acral_melanoma,irregular_globules,Irregular dots / globules,not ticked,present,Dark brown dots of varying size scattered unevenly across the center and right edge.
+DERM_534835,acral_melanoma,no_pigment_network,No pigment network,not ticked,uncertain,Acral skin without a typical reticular network; pigment is diffuse and linear rather than reticular.
+DERM_534835,acral_melanoma,parallel_ridge,Parallel ridge pattern,present,uncertain,"Right edge shows linear bands of brown pigment along parallel acral lines with projections, possibly ridge pigmentation, but furrow vs ridge cannot be confirmed due to blur."
+DERM_534835,acral_melanoma,sharp_demarcation,Sharp demarcation,not ticked,present,Right border stops abruptly against pale normal skin with jagged projections.
+DERM_585887,acral_melanoma,irregular_globules,Irregular dots / globules,not ticked,uncertain,"Small brown dots scattered at left and lower periphery, unevenly distributed"
+DERM_585887,acral_melanoma,no_pigment_network,No pigment network,not ticked,uncertain,Mostly structureless; faint network-like brown mesh at the lower and right periphery is equivocal
+DERM_585887,acral_melanoma,parallel_ridge,Parallel ridge pattern,present,uncertain,"Faint linear brown banding at lower right periphery may represent ridge pigmentation, but acral ridge/furrow orientation is not clearly discernible"
+DERM_585887,acral_melanoma,sharp_demarcation,Sharp demarcation,not ticked,uncertain,"Right and upper borders appear relatively abrupt, while left edge fades with irregular brown extensions"
+DERM_716669,acral_melanoma,blue_white_veil,Blue-white veil,present,uncertain,Central and periphery-of-crust areas show a whitish-gray haze over dark pigment; a definite blue component is not clear.
+DERM_716669,acral_melanoma,irregular_globules,Irregular dots / globules,not ticked,uncertain,"Lower left, near the central erosion, shows dark dot-like clods of varying size, though they may simply be pigmented ridge segments."
+DERM_716669,acral_melanoma,sharp_demarcation,Sharp demarcation,not ticked,uncertain,"Right edge: the dark blotch ends fairly abruptly against tan skin, but elsewhere the pigment fades gradually."
+DERM_716669,acral_melanoma,ulceration,Ulceration / hemorrhagic crust,not ticked,present,"Central oval white-yellow area with crust, scale and a faint pink focus, consistent with erosion/ulceration."
+DERM_172873,actinic_keratosis,asymmetric_multicomponent,Asymmetric multicomponent pattern,present,uncertain,"Brown pseudonetwork-like patches in upper left and upper center, pink erythema in the center, and white scale elsewhere, distributed unevenly."
+DERM_172873,actinic_keratosis,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown patches (upper left), pink-red erythema (center), and white-yellow scale throughout."
+DERM_172873,actinic_keratosis,no_pigment_network,No pigment network,present,uncertain,"Upper left brown reticular-like area appears to be a pseudonetwork around follicles (typical of facial AK) rather than a true pigment network, but this is hard to confirm."
+DERM_172873,actinic_keratosis,strawberry_pattern,Strawberry pattern,not ticked,uncertain,"Central pinkish-red area with whitish-yellow follicular structures, but erythema is patchy rather than a uniform red pseudonetwork background."
+DERM_172873,actinic_keratosis,white_circles,White circles,present,uncertain,Whitish rounded structures around follicle-like openings in the central and lower areas; obscured by scale.
+DERM_173011,actinic_keratosis,keratin_scale,Surface scale / keratin,not ticked,uncertain,Small yellowish-tan granular patch at right of center may represent superficial keratin; no thick scale clearly seen
+DERM_173011,actinic_keratosis,no_pigment_network,No pigment network,not ticked,present,No true pigment network; faint light-brown reticular areas are a pseudonetwork interrupted by follicular openings
+DERM_173011,actinic_keratosis,white_circles,White circles,present,uncertain,"Some follicular openings in the central red area appear surrounded by pale whitish halos, but rings are not well defined"
+DERM_597480,actinic_keratosis,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"The upper right is red with follicles, while the lower half shows brown perifollicular pigmentation. Distribution is uneven, but there are few distinct structure types."
+DERM_597480,actinic_keratosis,keratin_scale,Surface scale / keratin,not ticked,uncertain,Only a few tiny white specks and a faint whitish surface sheen are scattered across the field. There is no definite keratin mass.
+DERM_597480,actinic_keratosis,multiple_colors,Multiple colors (≥3),not ticked,present,"Pink-red in the upper right, light brown across the lower half, darker brown perifollicular pigment at the lower center and left, and pale white-yellow follicular areas."
+DERM_597480,actinic_keratosis,no_pigment_network,No pigment network,not ticked,uncertain,"There is no true pigment network. In the lower half, brown pigment surrounds the follicular openings, creating a pseudonetwork that could be mistaken for a network."
+DERM_597480,actinic_keratosis,white_circles,White circles,present,uncertain,"Pale rings or halos seem to surround some follicular openings in the central and upper areas, but they are poorly defined."
+DERM_616010,actinic_keratosis,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"Pigment is unevenly distributed. There is a dark brown to gray pseudonetwork in the upper center, blotchy light brown areas lower left, and paler pink zones elsewhere."
+DERM_616010,actinic_keratosis,keratin_scale,Surface scale / keratin,not ticked,uncertain,"Faint whitish-yellow, slightly opaque areas in the upper right that may be fine scale; no clear keratin mass."
+DERM_616010,actinic_keratosis,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown, dark brown, blue-gray (upper center around follicles) and pinkish-red background."
+DERM_616010,actinic_keratosis,no_pigment_network,No pigment network,not ticked,uncertain,"No true pigment network is seen. The upper center shows a facial pseudonetwork, with brown pigment interrupted by follicular openings, which could be mistaken for a network."
+DERM_616010,actinic_keratosis,strawberry_pattern,Strawberry pattern,present,uncertain,"Pinkish-red background in the lower and right areas with numerous pale follicular openings, but the brown pigmentation dominates and there are no clear keratin plugs."
+DERM_616010,actinic_keratosis,white_circles,White circles,present,uncertain,Many whitish follicular openings throughout the pigmented upper-central area; most look like white dots or holes rather than distinct rings.
+DERM_830142,actinic_keratosis,keratin_scale,Surface scale / keratin,not ticked,present,"Brownish-yellow keratotic plugs and small scale crusts in the center and upper center (e.g., near the top-center ring and the central cluster); faint whitish scale is also seen at the upper left."
+DERM_830142,actinic_keratosis,multiple_colors,Multiple colors (≥3),not ticked,present,"Red-pink background, whitish follicular halos, and light-to-dark brown keratotic plugs, mainly in the central area."
+DERM_830142,actinic_keratosis,no_pigment_network,No pigment network,not ticked,present,No pigment network is seen anywhere; there is only erythema with follicular openings and keratin plugs.
+DERM_830142,actinic_keratosis,white_circles,White circles,present,uncertain,"Some follicles in the central area appear surrounded by faint pale rings, but these are not clearly defined white circles."
+DERM_178493,angiokeratoma,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"Irregular shape with dark lacunae, violaceous areas and whitish veil unevenly distributed across the lesion."
+DERM_178493,angiokeratoma,multiple_colors,Multiple colors (≥3),not ticked,present,"Black, blue-violet/blue-gray, red (perilesional erythema and red-purple areas), and whitish areas."
+DERM_178493,angiokeratoma,no_pigment_network,No pigment network,not ticked,present,No pigment network visible anywhere; the lesion consists of lacunae and a violaceous background.
+DERM_178493,angiokeratoma,red_lacunae,Red / red-blue lacunae,not ticked,present,"Smaller violaceous/red-blue round areas within the purple background, especially in the lower portion."
+DERM_178493,angiokeratoma,sharp_demarcation,Sharp demarcation,not ticked,present,Lesion border stops abruptly against surrounding pale skin around most of the perimeter.
+DERM_178493,angiokeratoma,ulceration,Ulceration / hemorrhagic crust,not ticked,uncertain,Small reddish-brown spot in the upper center could represent a tiny hemorrhagic crust.
+DERM_440726,angiokeratoma,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"Central lacunae with whitish veil inside a broad, uneven red-brown/orange peripheral halo; the halo is wider on the left and the structure distribution is somewhat uneven."
+DERM_440726,angiokeratoma,multiple_colors,Multiple colors (≥3),not ticked,present,"Black/dark purple lacunae, whitish-blue veil, red-pink and light brown/orange periphery."
+DERM_440726,angiokeratoma,no_pigment_network,No pigment network,not ticked,present,No pigment network is seen anywhere; the periphery shows only diffuse reddish-brown erythema.
+DERM_440726,angiokeratoma,red_lacunae,Red / red-blue lacunae,not ticked,uncertain,"Central cluster: a few lacunae have a violaceous/red-blue hue, but most appear dark purple-black."
+DERM_501297,angiokeratoma,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"Black lacunae cluster centrally and to the right, while the whitish veil and red lacunae sit at the left and upper periphery; the arrangement is uneven but is essentially one lacunar pattern."
+DERM_501297,angiokeratoma,multiple_colors,Multiple colors (≥3),not ticked,present,"Black, dark red/violaceous and whitish-gray within the lesion, with a red-pink rim."
+DERM_501297,angiokeratoma,no_pigment_network,No pigment network,not ticked,present,No pigment network seen anywhere in the lesion; only lacunae and veil are visible.
+DERM_501297,angiokeratoma,red_lacunae,Red / red-blue lacunae,not ticked,present,"Upper and left margins: a few round red-violaceous lacunae, mostly at the upper edge and the left edge."
+DERM_501297,angiokeratoma,sharp_demarcation,Sharp demarcation,not ticked,present,"Lesion border is well defined against the surrounding skin, outlined by the immersion fluid meniscus."
+DERM_685838,angiokeratoma,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Black predominates, with white patches and a possible dark red or blue tint; a third color cannot be confirmed."
+DERM_685838,angiokeratoma,no_pigment_network,No pigment network,not ticked,present,No pigment network is seen anywhere; the lesion consists only of dark lacunar lobules.
+DERM_685838,angiokeratoma,red_lacunae,Red / red-blue lacunae,not ticked,uncertain,"Possible faint dark reddish tint at the lower periphery, but no distinct red or red-blue lacunae are seen."
+DERM_685838,angiokeratoma,sharp_demarcation,Sharp demarcation,not ticked,present,The lobulated border ends abruptly against the surrounding pale normal skin all around.
+DERM_685838,angiokeratoma,whitish_veil,Whitish veil,not ticked,present,"Scattered whitish hazy patches overlying the dark lacunae, especially centrally and in the lower left part of the lesion."
+DERM_918783,angiokeratoma,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"Lacunae are unevenly distributed in an irregular linear cluster with red, dark and pink-erythema components, but these are all vascular structures."
+DERM_918783,angiokeratoma,multiple_colors,Multiple colors (≥3),not ticked,present,"Black/dark purple, red, blue-violet and whitish areas are visible."
+DERM_918783,angiokeratoma,no_pigment_network,No pigment network,not ticked,present,No pigment network is seen anywhere; the lesion is composed of lacunae on an erythematous background.
+DERM_918783,angiokeratoma,red_lacunae,Red / red-blue lacunae,not ticked,present,"Smaller bright red round lacunae scattered in the upper and central areas, around the dark lacunae."
+DERM_918783,angiokeratoma,sharp_demarcation,Sharp demarcation,not ticked,present,"Individual lacunae have sharp, well-defined borders against the surrounding skin."
+DERM_918783,angiokeratoma,whitish_veil,Whitish veil,present,uncertain,"Faint whitish-bluish hazy sheen over some central lacunae, possibly from hyperkeratosis or the immersion fluid."
+DERM_255498,banal_acral_nevus,lattice_pattern,Lattice-like pattern,present,uncertain,"Across the center, brown lines intersect around pale cobblestone-like areas, forming a mesh that could represent a lattice-like arrangement. The ladder configuration is not distinct."
+DERM_255498,banal_acral_nevus,parallel_furrow,Parallel furrow pattern,not ticked,uncertain,"Central and lower lesion shows darker brown linear pigment between lighter clods, roughly oriented diagonally. These lines may follow acral furrows, but they are not clearly parallel."
+DERM_340834,banal_acral_nevus,parallel_furrow,Parallel furrow pattern,not ticked,present,"Center-lower lesion: dark brown linear pigment runs along parallel skin furrows, oriented roughly diagonally."
+DERM_340834,banal_acral_nevus,sharp_demarcation,Sharp demarcation,not ticked,uncertain,"The pigment lines end fairly abruptly against the surrounding pink skin, but the lesion is linear rather than a solid area, so the border is irregular."
+DERM_421015,banal_acral_nevus,fibrillar_pattern,Fibrillar pattern,not ticked,uncertain,"Some lines, especially at the upper and lower left of the lesion, look fine, filamentous and slanted, which could suggest a fibrillar component."
+DERM_421015,banal_acral_nevus,no_pigment_network,No pigment network,not ticked,present,"No reticular pigment network is visible anywhere; the pigment is arranged only as parallel lines on acral skin, as expected for an acral melanocytic lesion rather than a non-melanocytic one."
+DERM_597965,banal_acral_nevus,fibrillar_pattern,Fibrillar pattern,not ticked,uncertain,"Some of the linear pigment segments are slightly slanted and short, but they look more like furrow lines than fine fibrils."
+DERM_597965,banal_acral_nevus,symmetric_single_pattern,"Symmetric, single pattern",not ticked,present,A single parallel linear pattern in light-to-medium brown is evenly distributed throughout the lesion.
+DERM_656643,banal_acral_nevus,lattice_pattern,Lattice-like pattern,not ticked,uncertain,"Center of lesion: a short horizontal brownish bridge connects the vertical lines, possibly suggesting crossing lines, but they are not consistent enough to form a ladder."
+DERM_656643,banal_acral_nevus,symmetric_single_pattern,"Symmetric, single pattern",not ticked,present,"Light-to-medium brown parallel lines are distributed fairly evenly across the small lesion, with one dominant parallel linear pattern."
+DERM_749345,banal_acral_nevus,fibrillar_pattern,Fibrillar pattern,present,absent,
+DERM_749345,banal_acral_nevus,no_pigment_network,No pigment network,not ticked,uncertain,Pigment is arranged mostly as brown globules/clods with possible faint reticular network-like areas centrally; a definite network is hard to confirm.
+DERM_843871,banal_acral_nevus,fibrillar_pattern,Fibrillar pattern,present,absent,
+DERM_843871,banal_acral_nevus,no_pigment_network,No pigment network,not ticked,uncertain,No clear reticular network; the center shows a reticulated or dotted arrangement of dark brown dots that could represent a faint network.
+DERM_843871,banal_acral_nevus,parallel_furrow,Parallel furrow pattern,not ticked,uncertain,"Central lesion shows faint, roughly linear arrangements of brown dots/lines that may follow the furrows, but the dermatoglyphics are poorly visible and the dots are mostly irregular in arrangement."
+DERM_843871,banal_acral_nevus,symmetric_single_pattern,"Symmetric, single pattern",not ticked,present,"Oval light-brown lesion with central darker brown dots/globules distributed fairly evenly; one dominant pattern overall, with a fairly symmetric shape."
+DERM_167989,banal_congenital_nevus,hypertrichosis,Hypertrichosis,not ticked,present,"Many terminal hairs crossing the lesion throughout, denser than on the surrounding skin"
+DERM_167989,banal_congenital_nevus,no_pigment_network,No pigment network,not ticked,uncertain,No definite pigment network clearly seen; only faint reticular hints
+DERM_167989,banal_congenital_nevus,sharp_demarcation,Sharp demarcation,not ticked,present,Lower left border stops fairly abruptly against pale normal skin
+DERM_167989,banal_congenital_nevus,structureless_brown,Structureless brown area,not ticked,present,"Large homogeneous light brown areas, especially lower and peripheral parts of the lesion, plus darker blotchy brown patches in upper portion"
+DERM_167989,banal_congenital_nevus,symmetric_single_pattern,"Symmetric, single pattern",not ticked,uncertain,Lesion only partially imaged; overall globular/structureless pattern fairly uniform but darker blotches in upper area are uneven
+DERM_167989,banal_congenital_nevus,typical_network,Typical pigment network,not ticked,uncertain,"Faint reticular arrangement suggested in places with pale holes, but no clear thin regular network lines"
+DERM_312773,banal_congenital_nevus,cobblestone_pattern,Cobblestone pattern,not ticked,uncertain,"Upper center dark area shows closely packed, somewhat angulated dark brown globules resembling paving stones"
+DERM_312773,banal_congenital_nevus,structureless_brown,Structureless brown area,not ticked,present,"Large areas of the light-to-medium brown background, especially lower and left, appear homogeneous without clear network"
+DERM_312773,banal_congenital_nevus,typical_network,Typical pigment network,not ticked,uncertain,"Faint reticular brown lines in parts of the periphery, partly obscured by hair"
+DERM_338465,banal_congenital_nevus,no_pigment_network,No pigment network,not ticked,uncertain,"A faint network may be present at the right periphery, but much of the lesion is structureless and hair-obscured, so its presence is not certain."
+DERM_338465,banal_congenital_nevus,regular_globules,Regular dots / globules,not ticked,uncertain,"Right peripheral zone shows small brown dot-like/globular structures between pale follicular openings, but they blend into a reticular pattern and are not clearly discrete globules."
+DERM_338465,banal_congenital_nevus,symmetric_single_pattern,"Symmetric, single pattern",not ticked,uncertain,"Only part of the lesion is in view. The visible area shows fairly uniform brown pigmentation, but overall symmetry cannot be assessed."
+DERM_338465,banal_congenital_nevus,typical_network,Typical pigment network,not ticked,uncertain,Right half toward the border shows a faint brown reticular pattern with lighter holes that fades toward normal skin. It is partly obscured by hair and follicular pallor.
+DERM_590954,banal_congenital_nevus,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown periphery, dark brown to blackish center, pinkish-red left edge"
+DERM_590954,banal_congenital_nevus,perifollicular_hypopigmentation,Perifollicular hypopigmentation,not ticked,present,Pale whitish halos around follicular openings in the central lesion
+DERM_590954,banal_congenital_nevus,regular_globules,Regular dots / globules,not ticked,uncertain,"Some small brown dots/globules scattered in central and right portions, partly obscured by hairs"
+DERM_590954,banal_congenital_nevus,sharp_demarcation,Sharp demarcation,not ticked,uncertain,"Lower and right borders fairly well defined, but left edge fades into pink erythematous skin"
+DERM_590954,banal_congenital_nevus,structureless_brown,Structureless brown area,not ticked,present,Homogeneous brown areas in the right and peripheral portions of the lesion without clear structures
+DERM_590954,banal_congenital_nevus,typical_network,Typical pigment network,not ticked,uncertain,"Faint reticular brown lines possibly visible in the upper and right portions, obscured by dense hairs"
+DERM_651612,banal_congenital_nevus,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"Globular periphery, structureless center and keratotic papillomatous lower-right area give a multicomponent look, though it is fairly organized in a benign congenital pattern"
+DERM_651612,banal_congenital_nevus,cobblestone_pattern,Cobblestone pattern,present,uncertain,"Lower right central area shows clustered, angulated, keratotic papillomatous structures that may resemble paving stones, but they are partly obscured by scale and hair"
+DERM_651612,banal_congenital_nevus,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown at the periphery, dark brown to near-black centrally, and whitish-yellow keratotic areas in the lower right"
+DERM_651612,banal_congenital_nevus,no_pigment_network,No pigment network,not ticked,uncertain,"A true network is not clearly seen; the periphery is mostly dots and globules, with only a possible faint reticular pattern"
+DERM_651612,banal_congenital_nevus,perifollicular_hypopigmentation,Perifollicular hypopigmentation,present,uncertain,"Some small pale spots around follicular openings within the dark brown center, not clearly defined"
+DERM_651612,banal_congenital_nevus,symmetric_single_pattern,"Symmetric, single pattern",present,absent,
+DERM_651612,banal_congenital_nevus,typical_network,Typical pigment network,not ticked,uncertain,"Faint reticular arrangement of brown dots at the left periphery, but no clear regular network lines"
+DERM_951344,banal_congenital_nevus,perifollicular_hypopigmentation,Perifollicular hypopigmentation,not ticked,uncertain,"Several small pale islands within the pigmented area (upper center, right) may correspond to perifollicular lighter zones, but follicles are not clearly seen."
+DERM_951344,banal_congenital_nevus,structureless_brown,Structureless brown area,not ticked,uncertain,"Central and right areas show diffuse homogeneous medium-brown background between the globules, without clear network."
+DERM_951344,banal_congenital_nevus,typical_network,Typical pigment network,not ticked,present,"Thin brown reticular lines with regular holes along the left and lower periphery, fading gradually into surrounding skin."
+DERM_125446,banal_nevus,no_pigment_network,No pigment network,not ticked,present,No reticular network visible; the lesion consists of globules on a structureless brown background.
+DERM_125446,banal_nevus,peripheral_globules,Peripheral rim of globules,present,absent,
+DERM_125446,banal_nevus,symmetric_single_pattern,"Symmetric, single pattern",not ticked,present,Roughly round lesion with evenly distributed brown globules over a light brown background; one dominant globular pattern.
+DERM_238104,banal_nevus,no_pigment_network,No pigment network,not ticked,uncertain,"No clear network is visible, likely because of blur and the out-of-focus image rather than a true lack of network."
+DERM_238104,banal_nevus,typical_network,Typical pigment network,present,uncertain,"Possible faint reticular lines in the central dark area, but the image is blurry and no clear network holes are resolvable."
+DERM_478849,banal_nevus,no_pigment_network,No pigment network,not ticked,uncertain,Network not clearly discernible; lesion dominated by dots and structureless brown areas
+DERM_478849,banal_nevus,structureless_brown,Structureless brown area,not ticked,present,"Diffuse homogeneous light-to-reddish brown background across much of the lesion, especially lower half"
+DERM_478849,banal_nevus,typical_network,Typical pigment network,not ticked,uncertain,"Faint reticular brown lines possibly visible in central/upper areas, but largely obscured by dots and diffuse pigmentation"
+DERM_657222,banal_nevus,no_pigment_network,No pigment network,not ticked,present,No pigment network is discernible; the lesion appears structureless brown with a few dots
+DERM_657222,banal_nevus,regular_globules,Regular dots / globules,present,uncertain,Faint darker brown dot-like areas within the center and lower left part of the lesion; partly obscured by overlying hairs
+DERM_657222,banal_nevus,sharp_demarcation,Sharp demarcation,not ticked,uncertain,"Upper right border appears fairly well defined, while the lower left edge fades gradually into surrounding skin"
+DERM_733540,banal_nevus,no_pigment_network,No pigment network,not ticked,uncertain,"Network not clearly seen; only possible faint reticulation at periphery, center structureless"
+DERM_733540,banal_nevus,structureless_brown,Structureless brown area,not ticked,present,Central darker reddish-brown homogeneous area without discernible structures
+DERM_733540,banal_nevus,typical_network,Typical pigment network,present,uncertain,"Faint delicate reticular brown pattern possibly visible at the lighter periphery, especially left and lower edges, fading gradually"
+DERM_184319,bcc,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"Pink-white structureless center, dark blotches, globules and peripheral brown lobules distributed unevenly"
+DERM_184319,bcc,leaf_like_areas,Leaf-like areas,not ticked,uncertain,"Left and upper edges show brown bulbous lobular extensions that could represent leaf-like areas, but they are not clearly defined"
+DERM_184319,bcc,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown, dark brown, black, blue-gray, pink-red and white areas"
+DERM_184319,bcc,no_pigment_network,No pigment network,not ticked,present,No reticular pigment network seen; pigment is arranged as blotches and globules on a pinkish background
+DERM_184319,bcc,sharp_demarcation,Sharp demarcation,not ticked,uncertain,"Left border is fairly well defined, but the right border fades gradually into surrounding skin"
+DERM_184319,bcc,shiny_white_structures,Shiny white lines / structures,not ticked,uncertain,"Scattered white streaks across the lesion appear to be scale, hair and glare from a contact interface rather than true shiny white lines"
+DERM_184319,bcc,ulceration,Ulceration / hemorrhagic crust,not ticked,uncertain,Small dark crusted focus at lower left with a white ring could represent a small erosion or crust
+DERM_383985,bcc,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"Vessels, white areas and scale/crust are distributed somewhat unevenly, but no pigment structures"
+DERM_383985,bcc,no_pigment_network,No pigment network,not ticked,present,No pigment network anywhere; the lesion is pink-white and non-pigmented
+DERM_383985,bcc,sharp_demarcation,Sharp demarcation,not ticked,present,Oval pink lesion with a fairly well-defined border against the surrounding skin
+DERM_383985,bcc,shiny_white_structures,Shiny white lines / structures,not ticked,present,Shiny white structureless areas and streaks in the center of the pink lesion
+DERM_383985,bcc,short_fine_telangiectasias,Short fine telangiectasias,not ticked,present,Short thin red vessels scattered along the upper and right periphery
+DERM_383985,bcc,ulceration,Ulceration / hemorrhagic crust,present,uncertain,"Yellowish-white scaly/crusted area at left-center, possibly a superficial erosion with serous crust; no clear blood crust"
+DERM_459245,bcc,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"Vessels, white structureless areas and scale are unevenly distributed, but the field is a close-up without full lesion borders"
+DERM_459245,bcc,blue_gray_ovoid_nests,Blue-gray ovoid nests / globules,present,absent,
+DERM_459245,bcc,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Mainly red, pink-white and light brown-tan; faint grayish-brown tones in the right upper area"
+DERM_459245,bcc,sharp_demarcation,Sharp demarcation,not ticked,uncertain,Lesion borders are not visible in this magnified field
+DERM_459245,bcc,shiny_white_structures,Shiny white lines / structures,not ticked,uncertain,"Pinkish-white structureless areas between the vessels, left and center; no definite orthogonal shiny lines, and the image may be non-polarized"
+DERM_459245,bcc,ulceration,Ulceration / hemorrhagic crust,not ticked,uncertain,"Right center: whitish-yellow flaky scale/crust area that may represent superficial erosion, but no definite blood crust"
+DERM_519866,bcc,arborizing_vessels,Arborizing vessels,present,uncertain,"Scattered red linear vessels around the central crust, some with slight branching (left and upper center), but not clearly in-focus treelike arborizing vessels."
+DERM_519866,bcc,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"Irregular central crust, hemorrhage, white areas and scattered vessels distributed unevenly."
+DERM_519866,bcc,blue_gray_ovoid_nests,Blue-gray ovoid nests / globules,present,absent,
+DERM_519866,bcc,multiple_colors,Multiple colors (≥3),not ticked,present,"Pink-red background, white areas, yellow-brown crust, dark red-black hemorrhage."
+DERM_519866,bcc,no_pigment_network,No pigment network,not ticked,present,No pigment network seen anywhere; pink-white background with vessels and crust only.
+DERM_519866,bcc,shiny_white_structures,Shiny white lines / structures,present,uncertain,"Whitish structureless areas in the pink background, especially lower center and around the crust; polarization status unclear."
+DERM_519866,bcc,short_fine_telangiectasias,Short fine telangiectasias,not ticked,present,"Multiple short thin red vessels scattered over the pink background, especially left and upper areas around the crust."
+DERM_710986,bcc,arborizing_vessels,Arborizing vessels,present,uncertain,"Lower right red skin shows reticulated/branching red vessels, but they appear as a background vascular pattern rather than sharply focused tree-like vessels within the lesion"
+DERM_710986,bcc,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"Irregular pigmented area with blotches, clods, peripheral projections and pale/gray areas distributed unevenly"
+DERM_710986,bcc,blue_gray_ovoid_nests,Blue-gray ovoid nests / globules,present,uncertain,"Dark gray-brown blotchy clods in left and lower left of the lesion, possibly representing blue-gray nests"
+DERM_710986,bcc,leaf_like_areas,Leaf-like areas,not ticked,uncertain,Upper and right edges of pigmented area show brown-gray bulbous/finger-like projections that could represent leaf-like areas
+DERM_710986,bcc,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown, dark brown, near-black, gray and red areas"
+DERM_710986,bcc,no_pigment_network,No pigment network,not ticked,present,"Pigment appears as blotches, clods and peripheral projections without a reticular network"
+DERM_710986,bcc,sharp_demarcation,Sharp demarcation,not ticked,uncertain,"Upper and right borders are fairly abrupt, while lower left edge fades into surrounding skin"
+DERM_710986,bcc,shiny_white_structures,Shiny white lines / structures,present,absent,
+DERM_710986,bcc,short_fine_telangiectasias,Short fine telangiectasias,not ticked,uncertain,Fine short red vessels visible in the reddish skin to the right and below the pigmented area
+DERM_710986,bcc,ulceration,Ulceration / hemorrhagic crust,not ticked,uncertain,Small dark red-black dots in the upper central lesion could be tiny crusts/erosions
+DERM_780863,bcc,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"White structureless area, branching vessels, crusts, and gray pigment are distributed unevenly across the lesion."
+DERM_780863,bcc,blue_gray_ovoid_nests,Blue-gray ovoid nests / globules,present,uncertain,"Upper left of the lesion and near the lower center: faint grayish-blue blotchy areas, poorly defined."
+DERM_780863,bcc,multiple_colors,Multiple colors (≥3),not ticked,present,"White, red, orange-brown crust, and gray-blue are all present."
+DERM_780863,bcc,no_pigment_network,No pigment network,not ticked,present,No pigment network visible anywhere in the lesion.
+DERM_780863,bcc,sharp_demarcation,Sharp demarcation,not ticked,present,"Upper and right borders: a rolled, pearly edge ends abruptly against the surrounding normal orange skin."
+DERM_780863,bcc,shiny_white_structures,Shiny white lines / structures,present,uncertain,"Center: diffuse bright white structureless areas, possibly polarized shiny white; true orthogonal lines are not clearly seen."
+DERM_780863,bcc,short_fine_telangiectasias,Short fine telangiectasias,not ticked,uncertain,Lower and left periphery: some short thin red vessels alongside the larger branching ones.
+DERM_153270,blue_nevus,symmetric_single_pattern,"Symmetric, single pattern",present,uncertain,"Overall roughly oval structureless lesion, but the upper left part is more brownish while the lower right is blue-gray, so the color distribution is slightly uneven."
+DERM_596024,blue_nevus,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"Structureless blue-white area on left, darker blue dots within it, and an eccentric dark brown-black clustered nodule-like area on the right side, distributed unevenly."
+DERM_596024,blue_nevus,multiple_colors,Multiple colors (≥3),not ticked,present,"Blue-gray, whitish, dark brown and black, with some light brown/reddish tones in the right focal area."
+DERM_596024,blue_nevus,sharp_demarcation,Sharp demarcation,not ticked,uncertain,"Left and lower borders are fairly well defined against yellowish skin, but upper and right edges blend into a pale halo and are obscured by hairs."
+DERM_596024,blue_nevus,symmetric_single_pattern,"Symmetric, single pattern",present,absent,
+DERM_800161,blue_nevus,sharp_demarcation,Sharp demarcation,present,absent,"Blue pigmentation fades gradually into a whitish-pink halo and surrounding skin, especially at the lower and right edges"
+DERM_828167,blue_nevus,multiple_colors,Multiple colors (≥3),not ticked,present,"Blue-gray background, whitish-blue areas at the periphery, reddish linear vessels, and brown dots and blotches in the lower left center."
+DERM_828167,blue_nevus,no_pigment_network,No pigment network,not ticked,present,No reticular pigment network is visible anywhere. The lesion is structureless blue with scattered vessels and a few brown dots.
+DERM_828167,blue_nevus,sharp_demarcation,Sharp demarcation,present,uncertain,The left and lower borders are fairly well defined against the surrounding skin. The upper and right edges are obscured by hair and fade gradually.
+DERM_828167,blue_nevus,symmetric_single_pattern,"Symmetric, single pattern",present,uncertain,"Mostly a single homogeneous blue pattern with a roughly round outline, but small brown dots and patches cluster in the lower left center, and hair obscures the upper right, so symmetry cannot be confirmed."
+DERM_385398,dermatofibroma,central_white_patch,Central white scar-like patch,present,uncertain,"Center of the lesion is slightly paler pink-white than the tan-pink rim, but it is obscured by white scale and hairs; no distinct scar-like patch."
+DERM_385398,dermatofibroma,no_pigment_network,No pigment network,not ticked,uncertain,No clear network is seen across most of the lesion. A faint peripheral reticulation cannot be excluded because of hair and scale.
+DERM_385398,dermatofibroma,typical_network,Typical pigment network,present,uncertain,"Possible very faint, delicate light-brown reticulation in the peripheral rim (left and lower edges), not clearly resolved."
+DERM_641276,dermatofibroma,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Light brown at the periphery, reddish-brown in the center and white central patches. Whether the red-brown counts as a separate red color is debatable."
+DERM_641276,dermatofibroma,no_pigment_network,No pigment network,not ticked,uncertain,"No clear pigment network is visible, but the blurry peripheral brown halo could hide a faint delicate network."
+DERM_641276,dermatofibroma,shiny_white_structures,Shiny white lines / structures,not ticked,uncertain,"The central white areas appear bright, but the image looks like non-polarized dermoscopy, and no clear orthogonal chrysalis lines are seen."
+DERM_641276,dermatofibroma,symmetric_single_pattern,"Symmetric, single pattern",not ticked,uncertain,"Roughly oval lesion with a central white/red-brown zone and diffuse peripheral brown pigment. The layout is fairly symmetric, but there are two components rather than one dominant pattern."
+DERM_641276,dermatofibroma,typical_network,Typical pigment network,present,uncertain,"The periphery shows a faint light-brown pigmentation that may contain a delicate network, but no distinct lines or holes are resolvable."
+DERM_643353,dermatofibroma,central_white_patch,Central white scar-like patch,present,uncertain,"Upper-central area shows irregular whitish branching streaks/patches within the pink-brown lesion, suggestive of an early scar-like area but not a well-formed central white patch"
+DERM_643353,dermatofibroma,no_pigment_network,No pigment network,not ticked,uncertain,"Mostly structureless pinkish-brown lesion; only a faint possible reticular pattern centrally, so absence of network cannot be stated confidently"
+DERM_643353,dermatofibroma,shiny_white_structures,Shiny white lines / structures,not ticked,uncertain,Whitish branching lines in upper center; image appears largely non-polarized so shiny quality cannot be confirmed
+DERM_643353,dermatofibroma,typical_network,Typical pigment network,present,uncertain,"Faint delicate light-brown reticular pattern in the central-lower lesion; poorly defined, could be a subtle peripheral network"
+DERM_928687,dermatofibroma,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"White center, red-pink and light brown periphery; only about three colors, subtle."
+DERM_928687,dermatofibroma,no_pigment_network,No pigment network,not ticked,uncertain,"No distinct network visible; the periphery shows only a faint, ill-defined light brown hue, possibly a delicate network that cannot be resolved."
+DERM_928687,dermatofibroma,shiny_white_structures,Shiny white lines / structures,not ticked,uncertain,"Central white area has short bright white streak-like lines radiating outward, possibly shiny white structures, but polarization is unclear."
+DERM_928687,dermatofibroma,symmetric_single_pattern,"Symmetric, single pattern",not ticked,present,Roughly symmetric lesion: central white patch surrounded by a uniform pinkish-brown halo.
+DERM_928687,dermatofibroma,typical_network,Typical pigment network,present,absent,
+DERM_964707,dermatofibroma,central_white_patch,Central white scar-like patch,present,uncertain,"Small pale whitish-pink area slightly off-center (right-center) within the brown lesion, partly obscured by a hair; may represent a faint central scar-like zone."
+DERM_964707,dermatofibroma,no_pigment_network,No pigment network,not ticked,uncertain,"Mostly structureless brown pigmentation; no definite network is seen, but a faint peripheral network cannot be excluded."
+DERM_964707,dermatofibroma,symmetric_single_pattern,"Symmetric, single pattern",not ticked,present,Roughly round lesion with an evenly distributed brown-pink homogeneous pattern and peripheral fading.
+DERM_964707,dermatofibroma,typical_network,Typical pigment network,present,uncertain,"Light brown periphery fades gradually into the surrounding skin; a faint delicate network may be present at the edges, but it is not clearly resolved."
+DERM_134644,dysplastic_acral_nevus,fibrillar_pattern,Fibrillar pattern,present,absent,
+DERM_134644,dysplastic_acral_nevus,sharp_demarcation,Sharp demarcation,not ticked,uncertain,The right and upper border ends fairly abruptly. The left and lower-left border fades gradually into the surrounding skin.
+DERM_134644,dysplastic_acral_nevus,symmetric_single_pattern,"Symmetric, single pattern",not ticked,uncertain,"Oval lesion with a largely reticular, network-like pattern throughout. However, dark dots and blotches are unevenly distributed and darker toward the upper and right rim."
+DERM_315007,dysplastic_acral_nevus,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"Lattice lines on the left, a structureless pink-brown central/right area and dots clustered at the lower part give some unevenness. These may not amount to a true multicomponent pattern."
+DERM_315007,dysplastic_acral_nevus,lattice_pattern,Lattice-like pattern,not ticked,present,"Upper left and left half: brown lines run along the furrows and are crossed by perpendicular lines, forming a ladder/grid-like lattice."
+DERM_315007,dysplastic_acral_nevus,parallel_furrow,Parallel furrow pattern,present,uncertain,"Upper left and left portion: some pigmented lines follow one skin-marking direction, but they are part of a crossing grid rather than a pure parallel furrow pattern."
+DERM_315007,dysplastic_acral_nevus,symmetric_single_pattern,"Symmetric, single pattern",not ticked,uncertain,"The lattice dominates the left half, but the center and right are a more structureless pinkish-brown and the dots cluster inferiorly, so the distribution is not clearly even."
+DERM_473868,dysplastic_acral_nevus,central_hyperpigmentation,Central hyperpigmentation,present,absent,
+DERM_473868,dysplastic_acral_nevus,irregular_globules,Irregular dots / globules,present,uncertain,"A few small dark dots appear along the upper and right periphery where network lines end. They are unevenly distributed, but it is hard to separate them from network line junctions."
+DERM_473868,dysplastic_acral_nevus,lattice_pattern,Lattice-like pattern,present,absent,
+DERM_473868,dysplastic_acral_nevus,sharp_demarcation,Sharp demarcation,not ticked,uncertain,"Network lines end fairly abruptly at the left and upper edges. Elsewhere there is a faint light-brown halo that fades into the surrounding skin, especially inferiorly and on the right."
+DERM_473868,dysplastic_acral_nevus,symmetric_single_pattern,"Symmetric, single pattern",not ticked,uncertain,"A single reticular network pattern dominates the whole lesion. However, the outline is irregular and stellate, and the network is thicker and darker centrally and to the left, so symmetry is questionable."
+DERM_663140,dysplastic_acral_nevus,central_hyperpigmentation,Central hyperpigmentation,not ticked,uncertain,"The center to center-right of the lesion is slightly darker brown and less structured, but it is subtle."
+DERM_663140,dysplastic_acral_nevus,fibrillar_pattern,Fibrillar pattern,present,absent,
+DERM_663140,dysplastic_acral_nevus,irregular_globules,Irregular dots / globules,present,absent,
+DERM_663140,dysplastic_acral_nevus,lattice_pattern,Lattice-like pattern,not ticked,present,"Throughout the lesion, the parallel furrow lines are joined by short perpendicular crossing lines, giving a ladder-like or lattice appearance."
+DERM_663140,dysplastic_acral_nevus,parallel_furrow,Parallel furrow pattern,not ticked,present,Roughly horizontal brown lines run in parallel along the skin furrows across the whole lesion.
+DERM_663140,dysplastic_acral_nevus,symmetric_single_pattern,"Symmetric, single pattern",not ticked,present,"A lattice-like pattern dominates and is evenly distributed, with fairly uniform brown color and a roughly oval outline."
+DERM_894390,dysplastic_acral_nevus,fibrillar_pattern,Fibrillar pattern,present,absent,
+DERM_894390,dysplastic_acral_nevus,irregular_globules,Irregular dots / globules,not ticked,uncertain,"A few small dark brown dots are scattered around the dark center (upper left-center), unevenly spaced, but they are poorly resolved."
+DERM_894390,dysplastic_acral_nevus,multiple_colors,Multiple colors (≥3),not ticked,uncertain,Light brown periphery and dark brown to black center are visible. Small whitish flecks within the dark area may be scale rather than a true lesion color.
+DERM_894390,dysplastic_acral_nevus,no_pigment_network,No pigment network,not ticked,uncertain,"The lesion is largely structureless, with a dark center and diffuse light brown periphery. No definite network is seen, though image resolution limits a confident call."
+DERM_894390,dysplastic_acral_nevus,parallel_furrow,Parallel furrow pattern,not ticked,uncertain,"Faint linear brownish streaks may follow skin markings at the lighter periphery of the lesion, but no clear furrow-aligned pigment lines are resolved."
+DERM_894390,dysplastic_acral_nevus,symmetric_single_pattern,"Symmetric, single pattern",not ticked,uncertain,"The overall shape is elongated and roughly oval with a dark center and lighter rim, but pigment extends unevenly toward the lower right."
+DERM_185855,dysplastic_congenital_nevus,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"Shows a reticular periphery and a structureless center with some dots, but the distribution is fairly concentric, so it is not clearly asymmetric"
+DERM_185855,dysplastic_congenital_nevus,central_hyperpigmentation,Central hyperpigmentation,not ticked,uncertain,"Central-upper area is darker and more homogeneous than the reticulated periphery, but the lesion is cropped so true centering cannot be judged"
+DERM_185855,dysplastic_congenital_nevus,hypertrichosis,Hypertrichosis,not ticked,present,"Several fine dark hairs cross the lesion, especially in the center and right side, with one hair extending to the lower right"
+DERM_185855,dysplastic_congenital_nevus,irregular_globules,Irregular dots / globules,not ticked,uncertain,"A few scattered dark dots in the central and upper right area, of variable size"
+DERM_244584,dysplastic_congenital_nevus,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"Mixed globular/clod, reticular and structureless areas distributed unevenly with irregular blotchy outline"
+DERM_244584,dysplastic_congenital_nevus,atypical_network,Atypical pigment network,present,uncertain,"Patchy, thick-meshed brown reticular areas at the left and lower periphery with uneven holes"
+DERM_244584,dysplastic_congenital_nevus,cobblestone_pattern,Cobblestone pattern,present,absent,
+DERM_244584,dysplastic_congenital_nevus,hypertrichosis,Hypertrichosis,not ticked,present,Numerous dark terminal hairs crossing the entire lesion
+DERM_244584,dysplastic_congenital_nevus,multiple_colors,Multiple colors (≥3),not ticked,uncertain,Light brown and dark brown predominate; faint blue-gray tinge in some central dark clods
+DERM_244584,dysplastic_congenital_nevus,perifollicular_hypopigmentation,Perifollicular hypopigmentation,present,uncertain,Small paler spots within the pigmented areas possibly around follicles in the center
+DERM_244584,dysplastic_congenital_nevus,regular_globules,Regular dots / globules,present,absent,
+DERM_244584,dysplastic_congenital_nevus,structureless_brown,Structureless brown area,not ticked,present,"Light brown structureless areas between darker clods, especially centrally and at the periphery"
+DERM_361105,dysplastic_congenital_nevus,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"Network, dots/globules, and structureless areas are unevenly distributed, but the image is blurred and the lesion extends beyond the field."
+DERM_361105,dysplastic_congenital_nevus,hypertrichosis,Hypertrichosis,not ticked,uncertain,A few thin hairs at the left edge; no clear terminal hairs within the lesion.
+DERM_361105,dysplastic_congenital_nevus,multiple_colors,Multiple colors (≥3),not ticked,uncertain,Light brown and dark brown with whitish pale areas in the center-right; the white may be pressure or glare.
+DERM_361105,dysplastic_congenital_nevus,perifollicular_hypopigmentation,Perifollicular hypopigmentation,present,uncertain,Pale round spots within the network in the center-right may represent follicular openings with lighter halos.
+DERM_361105,dysplastic_congenital_nevus,structureless_brown,Structureless brown area,not ticked,uncertain,"Some homogeneous light brown zones in the right and upper portions, but they blend with reticular areas."
+DERM_472378,dysplastic_congenital_nevus,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"Dark brown structureless zones, a blue-gray/whitish central veil-like area and patchy darker clods are distributed unevenly."
+DERM_472378,dysplastic_congenital_nevus,atypical_network,Atypical pigment network,present,uncertain,"Faint, uneven darker lines at the upper and right parts of the lesion may be an irregular network, but the image is too blurred to confirm."
+DERM_472378,dysplastic_congenital_nevus,hypertrichosis,Hypertrichosis,not ticked,present,"Several dark terminal hairs emerge within the lesion, especially at the upper and right portions."
+DERM_472378,dysplastic_congenital_nevus,irregular_globules,Irregular dots / globules,not ticked,uncertain,"Possible dark brown clods of varying size in the upper portion of the lesion, poorly resolved."
+DERM_472378,dysplastic_congenital_nevus,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown periphery, dark brown to near-black blotches, blue-gray and whitish central area."
+DERM_472378,dysplastic_congenital_nevus,no_pigment_network,No pigment network,not ticked,uncertain,No clear network is discernible in this blurred image; the lesion appears mostly structureless.
+DERM_472378,dysplastic_congenital_nevus,sharp_demarcation,Sharp demarcation,not ticked,present,"The lesion border stops fairly abruptly against the surrounding skin along most of the perimeter, especially on the left and lower sides."
+DERM_472378,dysplastic_congenital_nevus,structureless_brown,Structureless brown area,not ticked,present,"Large homogeneous dark brown areas without visible network, especially in the lower and left parts of the lesion."
+DERM_671935,dysplastic_congenital_nevus,atypical_network,Atypical pigment network,present,uncertain,"Periphery, especially left and lower edges, shows patchy, somewhat thick network-like pigment fading irregularly"
+DERM_671935,dysplastic_congenital_nevus,irregular_globules,Irregular dots / globules,not ticked,uncertain,Some dark dots at the periphery (left and lower edges) vary in size and are unevenly distributed
+DERM_671935,dysplastic_congenital_nevus,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Light brown periphery, dark brown to near-black center, and faint bluish-gray tint centrally"
+DERM_671935,dysplastic_congenital_nevus,perifollicular_hypopigmentation,Perifollicular hypopigmentation,not ticked,present,Small pale whitish halos around follicular openings scattered through the dark center
+DERM_671935,dysplastic_congenital_nevus,regular_globules,Regular dots / globules,not ticked,uncertain,"Interior shows many small dark dots/globules of fairly similar size across the dark brown center, though partly obscured by hair"
+DERM_671935,dysplastic_congenital_nevus,structureless_brown,Structureless brown area,not ticked,present,"Large dark brown, largely homogeneous areas filling the lesion center"
+DERM_671935,dysplastic_congenital_nevus,symmetric_single_pattern,"Symmetric, single pattern",not ticked,uncertain,"Overall roughly square, fairly symmetric lesion with dark center and lighter rim, but periphery is somewhat irregular"
+DERM_194460,dysplastic_nevus,asymmetric_multicomponent,Asymmetric multicomponent pattern,present,absent,
+DERM_194460,dysplastic_nevus,central_hyperpigmentation,Central hyperpigmentation,not ticked,uncertain,"The central and upper-central area appears somewhat darker brown than the periphery, but the darkening is patchy rather than a clearly centered structureless zone."
+DERM_194460,dysplastic_nevus,irregular_globules,Irregular dots / globules,not ticked,uncertain,"Scattered dark brown dots and clods of varying size appear within the network, mainly at the right and upper edges."
+DERM_194460,dysplastic_nevus,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Light brown and dark brown predominate. A reddish-pink hue is seen around the periphery, which may be erythema or pressure related."
+DERM_194460,dysplastic_nevus,structureless_brown,Structureless brown area,not ticked,uncertain,There are small patchy structureless darker brown zones in the central portion between network areas.
+DERM_410963,dysplastic_nevus,asymmetric_multicomponent,Asymmetric multicomponent pattern,present,uncertain,"Network, central structureless area and dots unevenly distributed; pigment heavier on left and upper side"
+DERM_410963,dysplastic_nevus,irregular_globules,Irregular dots / globules,not ticked,uncertain,"A few dark dots/clods within the thick network in the left and lower portions, variably sized"
+DERM_476824,dysplastic_nevus,asymmetric_multicomponent,Asymmetric multicomponent pattern,present,uncertain,"The bilobed lesion has an irregular outline, with a darker network area in the upper part and lighter, more structureless areas in the lower part"
+DERM_476824,dysplastic_nevus,central_hyperpigmentation,Central hyperpigmentation,present,uncertain,"Darker brown zone in the upper-central part of the lesion, though it is off-center within an asymmetric lesion"
+DERM_476824,dysplastic_nevus,irregular_globules,Irregular dots / globules,not ticked,uncertain,"A few small dark dots are scattered within the darker upper area, unevenly distributed"
+DERM_476824,dysplastic_nevus,structureless_brown,Structureless brown area,not ticked,uncertain,"Lower lobe shows lighter, blotchy brown areas with a poorly defined network"
+DERM_678597,dysplastic_nevus,asymmetric_multicomponent,Asymmetric multicomponent pattern,present,uncertain,"Combination of structureless areas, irregular dots/globules and a whitish scaly area at the upper left, distributed somewhat unevenly"
+DERM_678597,dysplastic_nevus,atypical_network,Atypical pigment network,present,uncertain,"Faint, uneven reticular lines visible at the lower and right periphery, partly obscured by the dense pigmentation"
+DERM_678597,dysplastic_nevus,central_hyperpigmentation,Central hyperpigmentation,not ticked,present,"Darker, roughly structureless dark brown zone in the center and lower-central portion of the lesion"
+DERM_678597,dysplastic_nevus,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown periphery, dark brown center, black dots, and a whitish area at the upper left"
+DERM_678597,dysplastic_nevus,sharp_demarcation,Sharp demarcation,not ticked,uncertain,Border is fairly well defined on the left and upper sides but fades more gradually at the lower and right edges
+DERM_678597,dysplastic_nevus,structureless_brown,Structureless brown area,not ticked,present,"Homogeneous brown structureless areas across much of the lesion body, especially centrally and on the left"
+DERM_981404,dysplastic_nevus,asymmetric_multicomponent,Asymmetric multicomponent pattern,present,uncertain,"Network at periphery and structureless center with irregular, asymmetric outline; structures limited to roughly two components"
+DERM_981404,dysplastic_nevus,irregular_globules,Irregular dots / globules,not ticked,uncertain,A few small dark dots near the central dark area; not clearly distinct globules
+DERM_981404,dysplastic_nevus,multiple_colors,Multiple colors (≥3),present,uncertain,"Light brown periphery, dark brown center, and a tiny near-black central focus"
+DERM_981404,dysplastic_nevus,structureless_brown,Structureless brown area,not ticked,present,Central zone of homogeneous darker brown pigmentation without visible network
+DERM_177759,intradermal_nevus,cobblestone_pattern,Cobblestone pattern,present,absent,
+DERM_177759,intradermal_nevus,comma_vessels,Comma vessels,present,uncertain,"Small red curved vascular structures at left and lower edges of the lesion; could be comma vessels but appear partly as blotchy red areas, possibly from compression/hemorrhage."
+DERM_177759,intradermal_nevus,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Light brown/tan, some darker brown streaks centrally, and red areas at the periphery; arguably three colors but darker brown is subtle."
+DERM_177759,intradermal_nevus,regular_globules,Regular dots / globules,present,absent,
+DERM_177759,intradermal_nevus,sharp_demarcation,Sharp demarcation,not ticked,present,"Lesion border is well defined and stops abruptly against surrounding pale skin, especially along the left and upper edges."
+DERM_177759,intradermal_nevus,structureless_brown,Structureless brown area,not ticked,present,Most of the lesion is a homogeneous yellowish-light brown structureless area.
+DERM_177759,intradermal_nevus,symmetric_single_pattern,"Symmetric, single pattern",not ticked,present,"Round, fairly symmetric lesion with a dominant homogeneous light brown pattern."
+DERM_230988,intradermal_nevus,cobblestone_pattern,Cobblestone pattern,present,absent,
+DERM_230988,intradermal_nevus,comma_vessels,Comma vessels,present,uncertain,"Central lesion shows red linear/curved vessels, some short and comma-like, but similar arborizing red vessels are also seen throughout the surrounding scalp skin, so they may be background vasculature."
+DERM_230988,intradermal_nevus,regular_globules,Regular dots / globules,present,absent,
+DERM_230988,intradermal_nevus,symmetric_single_pattern,"Symmetric, single pattern",not ticked,present,Roughly round lesion with evenly distributed structureless light brown pigment as the single dominant pattern.
+DERM_511685,intradermal_nevus,cobblestone_pattern,Cobblestone pattern,present,uncertain,"Subtle lobulated, clod-like texture in the pink-tan papule, especially left and center, but not clearly angulated globules"
+DERM_511685,intradermal_nevus,comma_vessels,Comma vessels,present,uncertain,"Faint short reddish linear vessels possibly visible in the central and upper portion of the pink lesion, though poorly resolved"
+DERM_511685,intradermal_nevus,regular_globules,Regular dots / globules,present,absent,
+DERM_511685,intradermal_nevus,sharp_demarcation,Sharp demarcation,not ticked,present,"Dome-shaped papule with a well-defined rounded border against the surrounding normal skin, especially along the left and lower edges"
+DERM_525761,intradermal_nevus,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"Brown structureless upper part, whitish-yellow keratotic lower center, and scaly areas unevenly distributed"
+DERM_525761,intradermal_nevus,cobblestone_pattern,Cobblestone pattern,present,absent,
+DERM_525761,intradermal_nevus,comma_vessels,Comma vessels,present,uncertain,Short curved red vessels seen in surrounding skin near lower and left edges of lesion; not clearly within lesion
+DERM_525761,intradermal_nevus,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown, dark brown, white/whitish-yellow, and pink-red within and around lesion"
+DERM_525761,intradermal_nevus,no_pigment_network,No pigment network,not ticked,present,No pigment network visible anywhere in the lesion; surface shows whitish scale/keratin and structureless areas
+DERM_525761,intradermal_nevus,regular_globules,Regular dots / globules,present,absent,
+DERM_525761,intradermal_nevus,sharp_demarcation,Sharp demarcation,not ticked,present,Round lesion with well-defined border abruptly against pink surrounding skin
+DERM_525761,intradermal_nevus,structureless_brown,Structureless brown area,not ticked,present,Upper and left portion of lesion shows light-to-dark brown structureless areas
+DERM_525761,intradermal_nevus,symmetric_single_pattern,"Symmetric, single pattern",present,absent,
+DERM_545437,intradermal_nevus,comma_vessels,Comma vessels,not ticked,uncertain,"Few small reddish curved linear structures in center and lower center of lesion, possibly short vessels"
+DERM_545437,intradermal_nevus,sharp_demarcation,Sharp demarcation,present,uncertain,"Upper and left border fairly well defined with brownish rim, but lower right margin fades gradually into surrounding skin"
+DERM_545437,intradermal_nevus,structureless_brown,Structureless brown area,not ticked,present,"Lesion is largely homogeneous pinkish-light brown without network or globules, slightly darker brown rim at upper and left edge"
+DERM_545437,intradermal_nevus,symmetric_single_pattern,"Symmetric, single pattern",not ticked,present,Round lesion with evenly distributed pink-tan structureless pattern
+DERM_662922,intradermal_nevus,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown at the periphery, dark brown centrally and blue-gray/violaceous tones in the upper left"
+DERM_662922,intradermal_nevus,no_pigment_network,No pigment network,present,uncertain,No clear reticular network; a faint mottled pattern in the upper part could represent a subtle network
+DERM_662922,intradermal_nevus,regular_globules,Regular dots / globules,present,uncertain,"Faint, ill-defined brown dot-like structures in the central and lower lesion; poorly resolved"
+DERM_662922,intradermal_nevus,structureless_brown,Structureless brown area,not ticked,present,Central and lower lesion shows homogeneous light-to-medium brown structureless areas
+DERM_662922,intradermal_nevus,symmetric_single_pattern,"Symmetric, single pattern",not ticked,uncertain,"Mostly structureless brown, but darker violaceous-gray pigment is concentrated in the upper left, making the color distribution somewhat uneven"
+DERM_674996,intradermal_nevus,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,Eccentric dark central blotch with peripheral curvilinear brown structures and dots on a pink background gives a somewhat multicomponent appearance
+DERM_674996,intradermal_nevus,comma_vessels,Comma vessels,present,uncertain,"Faint short reddish curved linear structures possibly seen in the pinkish dome periphery, but not clearly resolved"
+DERM_674996,intradermal_nevus,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown, dark brown, and pink-red background colors visible within the dome"
+DERM_674996,intradermal_nevus,regular_globules,Regular dots / globules,present,uncertain,"Scattered small brown dots and clods around the periphery of the dome, but irregular in size and distribution"
+DERM_674996,intradermal_nevus,sharp_demarcation,Sharp demarcation,not ticked,present,"Round dome-shaped lesion with well-defined edge against surrounding skin, especially the lower and right border"
+DERM_674996,intradermal_nevus,structureless_brown,Structureless brown area,not ticked,present,"Central dark brown homogeneous blotch-like area without network or globules, surrounded by lighter pinkish-tan structureless zones"
+DERM_674996,intradermal_nevus,symmetric_single_pattern,"Symmetric, single pattern",present,absent,
+DERM_807140,intradermal_nevus,comma_vessels,Comma vessels,present,absent,
+DERM_807140,intradermal_nevus,regular_globules,Regular dots / globules,present,absent,
+DERM_807140,intradermal_nevus,sharp_demarcation,Sharp demarcation,not ticked,uncertain,"The papule has a faint whitish rim along its lower and left edge, but elsewhere it blends into the surrounding pink skin."
+DERM_807140,intradermal_nevus,structureless_brown,Structureless brown area,not ticked,uncertain,Small skin-colored to pale yellow-tan papule in the lower center shows a faint light brown structureless tint centrally; pigmentation is minimal.
+DERM_333477,kaposi,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"Multinodular lesion with violaceous areas, white lines/scale, red hemorrhagic areas and crust unevenly distributed"
+DERM_333477,kaposi,multiple_colors,Multiple colors (≥3),not ticked,present,"Purple/blue-gray, red, white, and brown (crust) colors present"
+DERM_333477,kaposi,no_pigment_network,No pigment network,not ticked,present,No pigment network seen anywhere; lesion composed of violaceous structureless areas and white lines
+DERM_333477,kaposi,rainbow_pattern,Rainbow pattern,present,uncertain,"Bluish-purple iridescent/glossy sheen over right nodule surface may represent rainbow-like coloration, but polarization status unclear"
+DERM_333477,kaposi,sharp_demarcation,Sharp demarcation,not ticked,present,Left nodule edge stops abruptly against surrounding pink skin
+DERM_374835,kaposi,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"Red structureless areas, peripheral white scale and yellow crust are unevenly distributed, but there are few distinct structure types."
+DERM_374835,kaposi,keratin_scale,Surface scale / keratin,not ticked,present,"White collarette-like scale curving along the upper and left margin of the nodule, with yellowish crust at the top center."
+DERM_374835,kaposi,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Red and white dominate, with yellowish crust; the dark fibers on the right appear to be debris or hair rather than true pigment."
+DERM_374835,kaposi,no_pigment_network,No pigment network,not ticked,present,No pigment network is visible anywhere in the lesion.
+DERM_374835,kaposi,sharp_demarcation,Sharp demarcation,not ticked,uncertain,"The nodule edge is outlined by a scale collarette on the left and upper side, but the redness fades into the surrounding erythematous skin elsewhere."
+DERM_755315,kaposi,keratin_scale,Surface scale / keratin,present,uncertain,"Faint whitish linear scaly streak along left side of image, may be surface scale or artifact"
+DERM_755315,kaposi,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Purple-red, bluish-violet and whitish areas present; borderline for three colors"
+DERM_755315,kaposi,no_pigment_network,No pigment network,not ticked,present,No pigment network visible anywhere; only structureless violaceous areas
+DERM_755315,kaposi,rainbow_pattern,Rainbow pattern,present,absent,
+DERM_863474,kaposi,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,Central red-purple area with irregular white patches and a peripheral yellow scale collarette; distribution is somewhat uneven but only a few components.
+DERM_863474,kaposi,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Red-purple, white, and yellowish-light brown collarette; brown component is equivocal."
+DERM_863474,kaposi,no_pigment_network,No pigment network,not ticked,present,"No pigment network visible anywhere; lesion is composed of red-purple structureless area, white areas and scale."
+DERM_863474,kaposi,rainbow_pattern,Rainbow pattern,present,absent,
+DERM_863474,kaposi,sharp_demarcation,Sharp demarcation,not ticked,present,"Lesion is well circumscribed, with the scale collarette ending abruptly against surrounding skin."
+DERM_985574,kaposi,keratin_scale,Surface scale / keratin,present,uncertain,A small whitish-yellow fleck near the lower right of the lesion could be scale or debris. There is no broad scale.
+DERM_985574,kaposi,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Red-purple, white and faint bluish-violet areas are visible. Whether the bluish tint counts as blue-gray is equivocal."
+DERM_985574,kaposi,no_pigment_network,No pigment network,not ticked,present,No pigment network is seen anywhere in the lesion.
+DERM_985574,kaposi,rainbow_pattern,Rainbow pattern,present,uncertain,"Faint bluish-violet and pinkish sheen in the central and upper areas could represent iridescence, but no clear multicolored rainbow is visible."
+DERM_310503,lentigo_maligna,annular_granular,Annular-granular pattern,not ticked,uncertain,"Some follicles in the center and upper right appear surrounded by darker granular pigment, but distinct gray dots in rings are not clearly resolved."
+DERM_310503,lentigo_maligna,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"Pigmentation is unevenly distributed, with dark blotchy areas in the center and lower left and lighter zones at the upper right and lower center. The individual structures are fairly similar, though."
+DERM_310503,lentigo_maligna,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Light brown, dark brown and near-black areas are visible; there is no clear blue-gray, red or white. The reddish cast is likely due to imaging."
+DERM_310503,lentigo_maligna,no_pigment_network,No pigment network,not ticked,uncertain,No typical reticular network is seen; the pattern is a pseudonetwork around follicles. Its classification here is unclear.
+DERM_310503,lentigo_maligna,obliterated_follicles,Obliterated follicular openings,present,uncertain,"In the darkest central and lower-left patches, some follicular openings seem effaced by confluent pigment."
+DERM_310503,lentigo_maligna,pseudonetwork,Pseudonetwork,not ticked,present,"Diffuse brown pigmentation across the whole field is interrupted by numerous round, pale follicular openings."
+DERM_310503,lentigo_maligna,rhomboidal_structures,Rhomboidal structures,present,uncertain,"Central and lower-center dark brown areas show angulated pigment around follicles, possibly forming early polygonal shapes."
+DERM_310503,lentigo_maligna,sharp_demarcation,Sharp demarcation,not ticked,uncertain,"The image is a close-up within the lesion, so the border is not visible. Pigment fades gradually toward the paler upper right."
+DERM_440234,lentigo_maligna,annular_granular,Annular-granular pattern,not ticked,uncertain,"Around the central and left follicles: fine gray-brown dots, possibly arranged around openings"
+DERM_440234,lentigo_maligna,asymmetric_follicular_openings,Asymmetric pigmented follicular openings,not ticked,present,"Upper center and left: dark brown pigment hugging follicular openings on one side, forming crescent-shaped rims"
+DERM_440234,lentigo_maligna,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"Pseudonetwork, rhomboids, dark blotches and a central regression area are distributed unevenly"
+DERM_440234,lentigo_maligna,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown, dark brown/black, gray and white-pink are seen across the lesion"
+DERM_440234,lentigo_maligna,obliterated_follicles,Obliterated follicular openings,not ticked,uncertain,Upper center around the dark black-brown blotches: some follicles appear filled in by pigment
+DERM_440234,lentigo_maligna,pseudonetwork,Pseudonetwork,not ticked,present,Throughout the lesion: diffuse light brown pigment interrupted by numerous round whitish follicular openings
+DERM_440234,lentigo_maligna,rhomboidal_structures,Rhomboidal structures,not ticked,present,Upper center and center-right: dark angulated lines connecting follicles into polygonal shapes
+DERM_565357,lentigo_maligna,asymmetric_follicular_openings,Asymmetric pigmented follicular openings,present,uncertain,"Central lesion shows some lighter round openings with uneven surrounding brown pigment, but follicles are hard to resolve at this magnification"
+DERM_565357,lentigo_maligna,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"Irregular, asymmetric lesion with darker blotch-like center, lighter brown left/lower periphery and jagged projections at the lower edge"
+DERM_565357,lentigo_maligna,multiple_colors,Multiple colors (≥3),not ticked,uncertain,Light brown and dark brown clearly; possible faint gray areas centrally; background erythema is in surrounding skin
+DERM_565357,lentigo_maligna,obliterated_follicles,Obliterated follicular openings,not ticked,uncertain,Darkest central-right zone appears homogeneously brown with few visible follicular openings
+DERM_565357,lentigo_maligna,peppering,Peppering (granularity),not ticked,uncertain,A few faint grayish granules within the dark central area; not clearly blue-gray
+DERM_565357,lentigo_maligna,polymorphous_vessels,Polymorphous vessels,present,absent,
+DERM_565357,lentigo_maligna,pseudonetwork,Pseudonetwork,not ticked,present,"Brown diffuse pigment in the central and left lesion is interrupted by small pale round dots, giving a pseudonetwork appearance"
+DERM_565357,lentigo_maligna,rhomboidal_structures,Rhomboidal structures,not ticked,uncertain,"Dark brown central area has some angulated darker pigment around small pale holes, but no clear polygons"
+DERM_565357,lentigo_maligna,sharp_demarcation,Sharp demarcation,not ticked,uncertain,"Upper and right borders end fairly abruptly with notched outline, while left and lower-left margins fade into light brown"
+DERM_814959,lentigo_maligna,annular_granular,Annular-granular pattern,present,uncertain,"Fine brown-gray granules at the periphery (upper left, lower right), not clearly arranged in rings around follicles"
+DERM_814959,lentigo_maligna,asymmetric_follicular_openings,Asymmetric pigmented follicular openings,present,uncertain,"Peripheral light-brown areas (upper and lower right) show pigment clustered irregularly around small pale openings, but hair and image resolution limit confident assessment"
+DERM_814959,lentigo_maligna,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"Central black blotch, peripheral granular dots, and light brown diffuse pigmentation distributed asymmetrically"
+DERM_814959,lentigo_maligna,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown periphery, dark brown and black center, gray-white areas within the center"
+DERM_814959,lentigo_maligna,pseudonetwork,Pseudonetwork,not ticked,uncertain,"Peripheral diffuse brown pigment interrupted by pale round spots in the upper right and lower right, but these are not clearly follicular"
+DERM_814959,lentigo_maligna,regression_structures,Regression structures,present,uncertain,"Whitish-gray areas within the central dark blotch, partly obscured by white hairs; scar-like regression not certain"
+DERM_814959,lentigo_maligna,rhomboidal_structures,Rhomboidal structures,present,absent,
+DERM_892466,lentigo_maligna,annular_granular,Annular-granular pattern,not ticked,uncertain,"Gray granular pigment around some openings near the lower center bluish-gray zone, not clearly ring-shaped"
+DERM_892466,lentigo_maligna,asymmetric_follicular_openings,Asymmetric pigmented follicular openings,present,uncertain,"Left-central dark brown area shows some follicular openings with eccentric pigment rims, but hair and blur limit assessment"
+DERM_892466,lentigo_maligna,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"Irregular lesion with pseudonetwork brown areas, black homogeneous blotch upper right, blue-gray regression/peppering centrally, distributed unevenly"
+DERM_892466,lentigo_maligna,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown, dark brown, black, blue-gray and whitish areas"
+DERM_892466,lentigo_maligna,peppering,Peppering (granularity),not ticked,present,Blue-gray fine granularity in the central and lower-central areas between the dark lobes
+DERM_892466,lentigo_maligna,pseudonetwork,Pseudonetwork,not ticked,present,Left and upper central brown areas show diffuse pigment interrupted by small round skin-colored follicular openings
+DERM_892466,lentigo_maligna,rhomboidal_structures,Rhomboidal structures,not ticked,uncertain,Possible angulated dark lines around follicles in the central dark brown area; image resolution limits confidence
+DERM_892466,lentigo_maligna,sharp_demarcation,Sharp demarcation,not ticked,present,"Lower left and left lobular borders end fairly abruptly against surrounding pink skin, though geographic and irregular"
+DERM_915744,lentigo_maligna,annular_granular,Annular-granular pattern,present,uncertain,"Central area: fine gray-brown dots seem to partly ring some follicular openings, but they are not clearly resolved."
+DERM_915744,lentigo_maligna,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"Darker, blotchy obliterated area at upper left versus reticular-rhomboidal areas centrally and lighter zones on the right; structures are unevenly distributed."
+DERM_915744,lentigo_maligna,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown, dark brown, near-black (upper left), gray tones and pinkish-white areas."
+DERM_915744,lentigo_maligna,peppering,Peppering (granularity),not ticked,uncertain,Central area: possible fine gray granules within the brown areas.
+DERM_915744,lentigo_maligna,pseudonetwork,Pseudonetwork,not ticked,present,"Throughout the lesion: diffuse brown pigment is interrupted by numerous round, pale follicular openings."
+DERM_915744,lentigo_maligna,regression_structures,Regression structures,not ticked,uncertain,"Some paler whitish-pink areas lie within the lesion center, though they may simply be the follicular background."
+DERM_274760,lichenoid_keratosis,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"Mixed areas of reddish-pink erythema, brown blotchy pigment and fine granular dots distributed unevenly across the field"
+DERM_274760,lichenoid_keratosis,dotted_vessels,Dotted vessels,present,uncertain,"Pinkish-red background on the left and center with possible tiny red dots, not clearly resolved"
+DERM_274760,lichenoid_keratosis,moth_eaten_border,Moth-eaten border,present,absent,
+DERM_274760,lichenoid_keratosis,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown, darker red-brown centrally, pink-red erythema on the left, and whitish areas"
+DERM_274760,lichenoid_keratosis,no_pigment_network,No pigment network,not ticked,uncertain,Mostly structureless and blotchy pigmentation; faint reticular-like brown lines at the edges cannot be fully excluded
+DERM_274760,lichenoid_keratosis,peppering,Peppering (granularity),present,uncertain,"Faint fine gray-brown granular dots scattered in the central and right portions, not clearly blue-gray"
+DERM_291844,lichenoid_keratosis,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"Pigment is uneven: diffuse brown pigmentation in the upper and center areas, gray granules in the center, and white scaly areas at the lower right."
+DERM_291844,lichenoid_keratosis,moth_eaten_border,Moth-eaten border,present,absent,
+DERM_291844,lichenoid_keratosis,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown, dark brown, blue-gray granules and white scale/regression areas."
+DERM_291844,lichenoid_keratosis,no_pigment_network,No pigment network,not ticked,uncertain,Mostly structureless diffuse brown pigment; possible faint reticular remnants in the upper central brown zone.
+DERM_291844,lichenoid_keratosis,peppering,Peppering (granularity),not ticked,present,"Center and lower center: clustered fine blue-gray granules and dots within the brown area, consistent with melanophages."
+DERM_291844,lichenoid_keratosis,pseudonetwork,Pseudonetwork,not ticked,uncertain,"Diffuse brown pigment broken by scattered lighter round spots, possibly follicular openings; the body site is unknown."
+DERM_445377,lichenoid_keratosis,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"Irregular distribution: diffuse brown pigmentation upper left versus dispersed granular dots lower right, though the structures are limited"
+DERM_445377,lichenoid_keratosis,moth_eaten_border,Moth-eaten border,present,absent,
+DERM_445377,lichenoid_keratosis,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Light brown, darker brown and possibly blue-gray granules; violet hue in central areas"
+DERM_445377,lichenoid_keratosis,no_pigment_network,No pigment network,not ticked,present,No discernible pigment network; only diffuse pigmentation and granular dots
+DERM_617610,lichenoid_keratosis,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"Granular peppering, a darker brown-gray blotchy area at center-right and whitish regression-like zones are distributed unevenly, but the overall pattern is dominated by granularity."
+DERM_617610,lichenoid_keratosis,moth_eaten_border,Moth-eaten border,present,absent,
+DERM_617610,lichenoid_keratosis,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown, dark brown/gray-black granules, blue-gray, pinkish-red background and whitish areas are all seen within the lesion."
+DERM_617610,lichenoid_keratosis,no_pigment_network,No pigment network,not ticked,present,No reticular pigment network is visible; pigment is arranged as dots and granules only.
+DERM_660619,lichenoid_keratosis,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"Darker reddish-brown center with a granular, reticular-like light brown periphery and pinkish areas, distributed unevenly."
+DERM_660619,lichenoid_keratosis,moth_eaten_border,Moth-eaten border,present,absent,
+DERM_660619,lichenoid_keratosis,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Light brown, darker reddish-brown in the upper center, and pinkish-red areas at the upper right and lower right; whether these count as three distinct colors is borderline."
+DERM_660619,lichenoid_keratosis,no_pigment_network,No pigment network,not ticked,uncertain,"Brown, reticular-like granular pigment pattern centrally; unclear whether this is a true pigment network or a pseudonetwork."
+DERM_660619,lichenoid_keratosis,peppering,Peppering (granularity),present,uncertain,Central area shows fine granular brownish-gray dots within the darker brown zone; blue-gray hue is not definite.
+DERM_660619,lichenoid_keratosis,pseudonetwork,Pseudonetwork,not ticked,uncertain,"Diffuse light brown pigment interrupted by small round pale openings in the central and lower areas, which may correspond to follicular openings."
+DERM_971492,lichenoid_keratosis,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"Granular dots, reticular brownish areas and structureless light brown zones are distributed unevenly; the lower left has a faded structureless area"
+DERM_971492,lichenoid_keratosis,moth_eaten_border,Moth-eaten border,present,uncertain,"Irregular, scalloped indentations along the left and lower edges where the pigment fades into lighter brown areas"
+DERM_971492,lichenoid_keratosis,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Light brown, dark brown and reddish-brown are visible; gray tones within the granular areas are equivocal"
+DERM_971492,lichenoid_keratosis,no_pigment_network,No pigment network,not ticked,uncertain,There are reticular brownish structures in the center that could be a remnant network or a pseudo-reticular arrangement of granules
+DERM_246034,melanoma,irregular_blotch,Irregular blotch,not ticked,present,"Large dark blue-black structureless area occupying the center and upper left, irregular in shape"
+DERM_246034,melanoma,irregular_globules,Irregular dots / globules,not ticked,present,"Black dots and globules of varying size clustered centrally and right of center, plus brown globules at the periphery"
+DERM_246034,melanoma,irregular_streaks,Irregular streaks / pseudopods,present,uncertain,Some bulbous brown projections along the upper and lower right edge could represent pseudopods
+DERM_246034,melanoma,peppering,Peppering (granularity),not ticked,uncertain,Fine gray-blue dots in the central bluish area may represent peppering
+DERM_246034,melanoma,regression_structures,Regression structures,present,uncertain,Whitish-blue areas with fine gray granules on the right-central portion may represent regression
+DERM_246034,melanoma,sharp_demarcation,Sharp demarcation,not ticked,present,Border ends fairly abruptly against the surrounding skin along most of the periphery
+DERM_273587,melanoma,asymmetric_multicomponent,Asymmetric multicomponent pattern,present,uncertain,Dark central blotch eccentric toward lower center with lighter brown periphery more prominent at upper left; structures somewhat unevenly distributed
+DERM_273587,melanoma,atypical_network,Atypical pigment network,present,uncertain,"Brownish reticular remnants at upper and left periphery, irregular and fading; poorly resolved"
+DERM_273587,melanoma,irregular_blotch,Irregular blotch,not ticked,present,"Large dark brown-black structureless area occupying the center and lower part, irregular in outline and off-center"
+DERM_273587,melanoma,irregular_globules,Irregular dots / globules,present,uncertain,"Few dark brown dots/clods at the left and lower-left periphery, unevenly distributed"
+DERM_273587,melanoma,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown periphery, dark brown and near-black center, faint grayish areas within the center"
+DERM_273587,melanoma,no_pigment_network,No pigment network,not ticked,uncertain,Mostly structureless; only faint network-like remnants at periphery
+DERM_273587,melanoma,peripheral_brown_structureless,Peripheral brown structureless area,not ticked,present,"Light-to-medium brown featureless rim, broader at upper left and left periphery"
+DERM_273587,melanoma,regression_structures,Regression structures,not ticked,uncertain,Small lighter whitish-gray foci within the dark center (upper central area)
+DERM_273587,melanoma,sharp_demarcation,Sharp demarcation,not ticked,uncertain,Border fairly well defined on right and lower edges but fades gradually at upper left
+DERM_293522,melanoma,irregular_blotch,Irregular blotch,not ticked,present,"Dark red-brown structureless areas, irregular in shape, off-center in the left and lower parts of the lesion"
+DERM_293522,melanoma,irregular_streaks,Irregular streaks / pseudopods,present,absent,
+DERM_293522,melanoma,no_pigment_network,No pigment network,not ticked,present,No recognizable pigment network anywhere; the lesion is structureless and veiled
+DERM_293522,melanoma,peppering,Peppering (granularity),not ticked,uncertain,Possible fine gray dots within the central whitish area
+DERM_293522,melanoma,polymorphous_vessels,Polymorphous vessels,not ticked,uncertain,Diffuse red background; individual vessel morphology not clearly resolved
+DERM_293522,melanoma,regression_structures,Regression structures,not ticked,uncertain,White scar-like areas in the center and lower center could represent regression; they overlap with the veil
+DERM_293522,melanoma,sharp_demarcation,Sharp demarcation,not ticked,uncertain,"The dark rim is relatively distinct in places on the left, but it fades into a pink-red periphery elsewhere"
+DERM_846485,melanoma,blue_white_veil,Blue-white veil,present,uncertain,"Blue-gray hazy area in center near scale crust, possibly veil-like"
+DERM_846485,melanoma,irregular_blotch,Irregular blotch,not ticked,uncertain,"Darker brown confluent areas centrally, but not clearly a structureless blotch"
+DERM_846485,melanoma,peppering,Peppering (granularity),not ticked,present,Fine blue-gray granules in central area around the blue-gray zone
+DERM_846485,melanoma,polymorphous_vessels,Polymorphous vessels,not ticked,uncertain,"Red dots/areas in upper right and left edge, vessel types not clearly distinguishable"
+DERM_846485,melanoma,regression_structures,Regression structures,not ticked,present,"Pinkish-white scar-like areas between pigmented islands, especially upper left and center, with gray granularity"
+DERM_846485,melanoma,sharp_demarcation,Sharp demarcation,not ticked,uncertain,Lesion borders extend beyond field of view; cannot assess
+DERM_846485,melanoma,shiny_white_structures,Shiny white lines / structures,not ticked,uncertain,Whitish areas present but image appearance not clearly polarized; no definite chrysalis lines
+DERM_936608,melanoma,atypical_network,Atypical pigment network,not ticked,uncertain,"Possible thick dark network fragments at the lower and right periphery, largely obscured by dark pigment"
+DERM_936608,melanoma,blue_white_veil,Blue-white veil,present,uncertain,"Blue-gray hazy pigment in the center and lower-central lesion, without definite white ground-glass overlay"
+DERM_936608,melanoma,irregular_blotch,Irregular blotch,not ticked,present,"Large black structureless areas, eccentric, especially upper and lower-central portions"
+DERM_936608,melanoma,irregular_globules,Irregular dots / globules,present,uncertain,"Some dark dots at the lower periphery, not clearly defined"
+DERM_936608,melanoma,peppering,Peppering (granularity),not ticked,uncertain,"Possible fine gray granules in central/lower areas, obscured by dense pigment"
+DERM_936608,melanoma,peripheral_brown_structureless,Peripheral brown structureless area,not ticked,uncertain,Reddish-brown structureless rim along right and lower-right periphery
+DERM_936608,melanoma,regression_structures,Regression structures,not ticked,uncertain,Central pinkish-whitish lighter area in upper center could represent regression
+DERM_936608,melanoma,sharp_demarcation,Sharp demarcation,not ticked,present,"Border ends fairly abruptly against pale surrounding skin, especially lower and right edges"
+DERM_983211,melanoma,irregular_globules,Irregular dots / globules,present,uncertain,"A few scattered dark dots near the lower and central areas, unevenly distributed."
+DERM_983211,melanoma,irregular_streaks,Irregular streaks / pseudopods,not ticked,uncertain,Some branched linear projections at the left and upper periphery may represent irregular streaks.
+DERM_983211,melanoma,peripheral_brown_structureless,Peripheral brown structureless area,not ticked,uncertain,"Light brown, faint structureless zones at parts of the periphery (upper and right)."
+DERM_983211,melanoma,regression_structures,Regression structures,not ticked,uncertain,"Pale whitish structureless areas within the lesion (upper center, left) may represent regression."
+DERM_446335,pyogenic_granuloma,multiple_colors,Multiple colors (≥3),not ticked,present,"Red-purple background, white scale/rim, yellow-brown to dark brown crust centrally"
+DERM_446335,pyogenic_granuloma,no_pigment_network,No pigment network,not ticked,present,No pigment network seen anywhere; only structureless red-purple area and central crust
+DERM_446335,pyogenic_granuloma,white_collarette,White collarette,not ticked,uncertain,"Whitish flaky material at the rim of the central erosion, upper and left edges, may represent a scale collarette"
+DERM_519848,pyogenic_granuloma,no_pigment_network,No pigment network,not ticked,present,No pigment network anywhere; lesion is red structureless with white lines.
+DERM_519848,pyogenic_granuloma,sharp_demarcation,Sharp demarcation,not ticked,present,Well-defined oval border that stops abruptly against surrounding normal skin.
+DERM_519848,pyogenic_granuloma,symmetric_single_pattern,"Symmetric, single pattern",not ticked,present,"Oval lesion with evenly distributed red-purple color, crossed by white lines; one dominant structureless pattern."
+DERM_519848,pyogenic_granuloma,white_collarette,White collarette,present,uncertain,"Faint pale rim around the lesion edge, especially upper right; could be a subtle collarette or reflection of the surrounding skin."
+DERM_875449,pyogenic_granuloma,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Red, white and yellow-orange crust; no definite brown, black or blue-gray pigment"
+DERM_875449,pyogenic_granuloma,no_pigment_network,No pigment network,not ticked,present,"No pigment network anywhere; only red structureless areas, a white rim and hairs"
+DERM_875449,pyogenic_granuloma,sharp_demarcation,Sharp demarcation,not ticked,present,Red area ends abruptly at the white-yellow collarette along the right and lower border
+DERM_875449,pyogenic_granuloma,ulceration,Ulceration / hemorrhagic crust,not ticked,uncertain,"Lower center: yellow-orange crust-like material along the rim, possibly serous/hemorrhagic crust"
+DERM_100736,recurrent_nevus,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"The lesion combines streaks and angulated pigment blotches on the left and center, dots in the lower right, diffuse reddish-brown structureless pigmentation on the right, and white scar areas. These are distributed asymmetrically."
+DERM_100736,recurrent_nevus,central_white_patch,Central white scar-like patch,present,uncertain,"The background between the pigmented clusters is whitish-pink and structureless, consistent with scar. It is diffuse rather than a well-defined central patch."
+DERM_100736,recurrent_nevus,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown, dark reddish-brown, white (scar) and pink-red are all visible."
+DERM_110622,recurrent_nevus,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"Blotchy purplish-brown areas, irregular dots and linear pigment are distributed unevenly across the lesion."
+DERM_110622,recurrent_nevus,central_white_patch,Central white scar-like patch,present,uncertain,"Pale whitish-pink background around the pigmented streaks could reflect fibrosis, but there is no clearly defined central white structureless patch."
+DERM_110622,recurrent_nevus,irregular_streaks,Irregular streaks / pseudopods,present,uncertain,Linear pigmented extensions radiate unevenly toward the upper center and right; these may be scar-related lines rather than true streaks.
+DERM_110622,recurrent_nevus,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown, dark brown, reddish-purple and whitish areas are all visible."
+DERM_110622,recurrent_nevus,no_pigment_network,No pigment network,not ticked,present,"No discernible pigment network is seen; pigment is blotchy, linear and dotted only."
+DERM_181085,recurrent_nevus,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"The lesion is asymmetric, combining a dark brown structureless center, faint reticular areas at the lower center, linear pigment extensions to the right, and pale scar-like areas."
+DERM_181085,recurrent_nevus,central_white_patch,Central white scar-like patch,present,uncertain,"A faint pale whitish structureless zone sits around and left of the central pigment and could represent fibrosis, but it is subtle."
+DERM_181085,recurrent_nevus,irregular_globules,Irregular dots / globules,not ticked,uncertain,Possible small dark brown dots near the upper-left central pigmented area; poorly defined.
+DERM_181085,recurrent_nevus,irregular_streaks,Irregular streaks / pseudopods,present,uncertain,"Irregular linear brown extensions run toward the right and lower parts of the lesion, but they could be pigment in the scar contour rather than true streaks."
+DERM_181085,recurrent_nevus,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Light brown, dark brown and whitish areas are visible; the white is faint."
+DERM_489065,recurrent_nevus,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"Patchy network-like areas, structureless brown zones, streak-like lines and pale scar areas are distributed unevenly across the lesion."
+DERM_489065,recurrent_nevus,central_white_patch,Central white scar-like patch,present,uncertain,"Pale whitish structureless zones between the pigmented patches (center and lower center) may reflect scar fibrosis, but they are not a well-defined central white patch."
+DERM_489065,recurrent_nevus,irregular_globules,Irregular dots / globules,present,uncertain,Some brown dots and clods of varying size are unevenly distributed in the central and right pigmented areas.
+DERM_489065,recurrent_nevus,irregular_streaks,Irregular streaks / pseudopods,not ticked,uncertain,Linear brown streak-like structures at the lower left-center are possibly scar-related lines rather than true peripheral pseudopods.
+DERM_489065,recurrent_nevus,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Light brown, dark reddish-brown and whitish scar areas are seen, but the white is subtle."
+DERM_568651,recurrent_nevus,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"Pigment is unevenly distributed as scattered patches, dots and faint network fragments. It is difficult to confirm three distinct structures."
+DERM_568651,recurrent_nevus,irregular_globules,Irregular dots / globules,present,uncertain,Small brown dots and clods in the lower center vary in size and are unevenly distributed. Image blur limits a confident call.
+DERM_568651,recurrent_nevus,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Light brown, darker brown and white scar areas are visible. Dark brown is only focal in the lower patch."
+DERM_568651,recurrent_nevus,no_pigment_network,No pigment network,not ticked,uncertain,"Possible faint reticular fragments within the lower pigmented patch, obscured by poor focus."
+DERM_156861,scc,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"Irregular arrangement of hemorrhagic crust, keratin, white structureless areas and vessels distributed unevenly."
+DERM_156861,scc,dotted_vessels,Dotted vessels,present,uncertain,Possible tiny red dots within the reddish areas around the crust; difficult to separate from hemorrhage.
+DERM_156861,scc,glomerular_vessels,Glomerular vessels,not ticked,uncertain,Upper right rim of the lesion shows small red coiled/looped vessel-like structures that may be glomerular.
+DERM_156861,scc,hairpin_vessels,Hairpin vessels,not ticked,uncertain,Looped red vessels at the upper and right periphery could represent hairpin vessels with whitish halos.
+DERM_156861,scc,multiple_colors,Multiple colors (≥3),not ticked,present,"Red, dark red-black, orange-yellow and white are all present."
+DERM_156861,scc,no_pigment_network,No pigment network,not ticked,present,No pigment network is seen anywhere in the lesion.
+DERM_156861,scc,polymorphous_vessels,Polymorphous vessels,present,uncertain,"Linear and looped/coiled vessels appear at the upper rim, but the vessel types cannot be confidently distinguished."
+DERM_156861,scc,sharp_demarcation,Sharp demarcation,not ticked,uncertain,"The crusted center is well defined, but the surrounding pink-white rim fades gradually into the adjacent skin."
+DERM_156861,scc,white_circles,White circles,present,absent,
+DERM_403107,scc,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"Uneven mix of yellow-white scale, brown streaky pigmentation and a pink-red background distributed irregularly"
+DERM_403107,scc,dotted_vessels,Dotted vessels,not ticked,uncertain,Faint red dots possibly within the pink background below the scale; not clearly resolved
+DERM_403107,scc,keratin_scale,Surface scale / keratin,not ticked,present,"White-yellow flaky scale across the upper and central lesion, with a thick yellowish keratin crust along the top"
+DERM_403107,scc,multiple_colors,Multiple colors (≥3),not ticked,present,"White/yellow, light brown, dark brown and red/pink"
+DERM_403107,scc,no_pigment_network,No pigment network,not ticked,present,No pigment network is seen; the pigment is streaky or structureless brown
+DERM_403107,scc,sharp_demarcation,Sharp demarcation,not ticked,uncertain,"The lower edge of the brown area ends fairly abruptly against the pink skin, but the overall lesion border is not clearly defined"
+DERM_403107,scc,ulceration,Ulceration / hemorrhagic crust,not ticked,uncertain,Brownish-red streaky areas in the center beneath the scale could be hemorrhagic crust
+DERM_554338,scc,dotted_vessels,Dotted vessels,present,uncertain,"Possible tiny red dots within the pink peripheral rim, not clearly resolved"
+DERM_554338,scc,glomerular_vessels,Glomerular vessels,present,absent,
+DERM_554338,scc,hairpin_vessels,Hairpin vessels,present,uncertain,"Radially oriented looped-appearing vessels at the periphery, especially lower left, possibly hairpin-like"
+DERM_554338,scc,multiple_colors,Multiple colors (≥3),not ticked,present,"White-yellow center, red-pink periphery, light and dark brown central dots/lines"
+DERM_554338,scc,no_pigment_network,No pigment network,not ticked,present,No pigment network anywhere; only scattered brown dots/lines centrally
+DERM_554338,scc,polymorphous_vessels,Polymorphous vessels,not ticked,uncertain,"Linear-irregular branching vessels at left and lower periphery, possibly combined with dotted/looped vessels in the red rim"
+DERM_554338,scc,sharp_demarcation,Sharp demarcation,not ticked,present,Red rim ends fairly abruptly against surrounding skin around most of the perimeter
+DERM_554338,scc,ulceration,Ulceration / hemorrhagic crust,not ticked,uncertain,Small brown-dark specks in the center may represent tiny hemorrhagic crust or pigment
+DERM_554338,scc,white_circles,White circles,present,absent,
+DERM_656453,scc,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"Uneven mix of hemorrhagic crust, yellow-orange crust, white scale and vessels distributed asymmetrically"
+DERM_656453,scc,dotted_vessels,Dotted vessels,not ticked,uncertain,Scattered tiny red dots near the lesion margin at the upper and right edges
+DERM_656453,scc,glomerular_vessels,Glomerular vessels,present,uncertain,"Small red coiled-appearing dots within the crusted lesion near its upper and right edges, partly obscured by blood crust"
+DERM_656453,scc,hairpin_vessels,Hairpin vessels,present,absent,
+DERM_656453,scc,multiple_colors,Multiple colors (≥3),not ticked,present,"Red, dark red-brown, orange-yellow and white present"
+DERM_656453,scc,no_pigment_network,No pigment network,not ticked,present,No pigment network visible anywhere in the lesion
+DERM_656453,scc,polymorphous_vessels,Polymorphous vessels,not ticked,uncertain,Possible dotted/glomerular vessels in the lesion; linear branching vessels are seen mainly in the surrounding skin
+DERM_656453,scc,sharp_demarcation,Sharp demarcation,not ticked,uncertain,"The crust edge is fairly abrupt, but the white scaly rim fades gradually into the surrounding erythematous skin"
+DERM_656453,scc,white_circles,White circles,present,absent,
+DERM_675949,scc,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,present,"Uneven combination of a red erythematous area, a white structureless zone on the left, and orange crust at the bottom."
+DERM_675949,scc,keratin_scale,Surface scale / keratin,not ticked,present,White-yellow keratin/scale at the lower and lower-right rim of the central red area and in the left-hand white zone.
+DERM_675949,scc,multiple_colors,Multiple colors (≥3),not ticked,present,"Red, white, orange-yellow and dark brown-black dots."
+DERM_675949,scc,no_pigment_network,No pigment network,not ticked,present,No pigment network is seen anywhere in the lesion.
+DERM_675949,scc,polymorphous_vessels,Polymorphous vessels,present,absent,
+DERM_675949,scc,sharp_demarcation,Sharp demarcation,not ticked,uncertain,"The central red area has a fairly well-defined edge, but the overall lesion fades into the surrounding pink skin."
+DERM_675949,scc,white_circles,White circles,present,absent,
+DERM_821662,scc,dotted_vessels,Dotted vessels,not ticked,uncertain,"Possible tiny red dots scattered over the erythematous center, poorly resolved"
+DERM_821662,scc,glomerular_vessels,Glomerular vessels,not ticked,uncertain,Faint clustered red dots/coiled-appearing vessels within the pink-red background in central area; resolution limits confident identification
+DERM_821662,scc,keratin_scale,Surface scale / keratin,not ticked,present,"Whitish scale outlines/flakes in upper and central portions, with a small whitish keratin flake centrally"
+DERM_821662,scc,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Red/pink, white scale and small dark red-brown dots at right; only borderline three colors"
+DERM_821662,scc,no_pigment_network,No pigment network,not ticked,present,No pigment network anywhere; pink-red structureless background with scale
+DERM_821662,scc,ulceration,Ulceration / hemorrhagic crust,not ticked,uncertain,"Small dark red-brown speckled spot at right mid-edge, possibly tiny hemorrhagic crust"
+DERM_821662,scc,white_structureless,White structureless areas,present,uncertain,"Pale whitish-pink structureless patches in upper center, possibly scale-related"
+DERM_858673,scc,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"Dotted vessels, keratin and white areas are distributed unevenly, but the image shows only part of the lesion."
+DERM_858673,scc,dotted_vessels,Dotted vessels,not ticked,present,Numerous small red dots evenly scattered across the pink background through the center of the lesion.
+DERM_858673,scc,glomerular_vessels,Glomerular vessels,not ticked,uncertain,"Some of the red dots in the central pink area look slightly clustered and coiled, but magnification is too low to confirm a glomerular morphology."
+DERM_858673,scc,keratin_scale,Surface scale / keratin,not ticked,present,White-yellow keratin and scale at the upper left corner of the image.
+DERM_858673,scc,multiple_colors,Multiple colors (≥3),not ticked,present,"Pink-red background, white areas, and yellow-brown keratin at the upper left."
+DERM_858673,scc,no_pigment_network,No pigment network,not ticked,present,No pigment network is visible anywhere; the lesion consists of a pink background with dotted vessels.
+DERM_858673,scc,polymorphous_vessels,Polymorphous vessels,not ticked,uncertain,Faint linear whitish-red lines in the lower left may be vessels or skin creases. Dotted vessels predominate.
+DERM_858673,scc,sharp_demarcation,Sharp demarcation,not ticked,uncertain,Only part of the lesion is visible; the right edge fades gradually into whitish skin.
+DERM_858673,scc,white_circles,White circles,present,absent,
+DERM_927805,scc,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"Irregular shape with crust, scale and red areas distributed unevenly"
+DERM_927805,scc,dotted_vessels,Dotted vessels,present,uncertain,"Faint red dots within the orange-red area, not clearly resolved"
+DERM_927805,scc,glomerular_vessels,Glomerular vessels,present,uncertain,"Possible tiny coiled red points within the orange-red center, but obscured by scale and glare"
+DERM_927805,scc,multiple_colors,Multiple colors (≥3),not ticked,present,"Orange/light brown, red, white (scale) and darker brown foci at edges"
+DERM_927805,scc,no_pigment_network,No pigment network,not ticked,present,No pigment network visible anywhere in the lesion
+DERM_927805,scc,sharp_demarcation,Sharp demarcation,not ticked,present,"Orange lesion border stops fairly abruptly against the surrounding pink skin, especially the left and upper margins"
+DERM_927805,scc,white_circles,White circles,present,absent,
+DERM_927805,scc,white_structureless,White structureless areas,present,uncertain,"Small whitish-yellow opaque areas in the upper central lesion, possibly keratin"
+DERM_168887,seb_keratosis,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"Darker brown upper portion with lighter lower portion, scattered dark plugs and white cysts unevenly distributed"
+DERM_168887,seb_keratosis,milia_like_cysts,Milia-like cysts,not ticked,present,"Two whitish-yellow cloudy round structures, one in the upper center and one at the left part of the lesion"
+DERM_168887,seb_keratosis,moth_eaten_border,Moth-eaten border,not ticked,uncertain,Slight concave notches along the lower and right edges
+DERM_168887,seb_keratosis,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown, dark brown, near-black dots and white areas within the lesion"
+DERM_168887,seb_keratosis,no_pigment_network,No pigment network,not ticked,present,No reticular pigment network seen; lesion shows structureless brown with dots and cysts
+DERM_207436,seb_keratosis,comedo_like_openings,Comedo-like openings,not ticked,uncertain,"Throughout the lesion, numerous small round darker brown dots and pits on a light brown background may represent tiny keratin-plugged openings."
+DERM_207436,seb_keratosis,fingerprint_pattern,Fingerprint pattern,present,absent,
+DERM_207436,seb_keratosis,no_pigment_network,No pigment network,not ticked,uncertain,"There is a fine reticular arrangement of brown dots around pale holes, which could mimic a network; it is not clearly a true pigment network."
+DERM_207436,seb_keratosis,pseudonetwork,Pseudonetwork,present,uncertain,"Light brown pigment is interrupted by many small round pale holes, giving a sieve-like reticulated look across the lesion. The site does not appear to be facial."
+DERM_207436,seb_keratosis,symmetric_single_pattern,"Symmetric, single pattern",not ticked,present,"Small, roughly round lesion with an even light-to-medium brown background and a uniform fine dotted/reticular pattern throughout."
+DERM_395689,seb_keratosis,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"Darker brown plugs concentrated centrally and toward the lower left, with lighter tan periphery; distribution is somewhat uneven, but structures are typical keratotic"
+DERM_395689,seb_keratosis,milia_like_cysts,Milia-like cysts,not ticked,uncertain,A few small whitish-yellow dots scattered within the central and lower lesion; not clearly distinct round cysts
+DERM_395689,seb_keratosis,moth_eaten_border,Moth-eaten border,not ticked,uncertain,"Lobulated, scalloped contour along the upper left and left edge"
+DERM_395689,seb_keratosis,multiple_colors,Multiple colors (≥3),not ticked,present,"Light brown/tan periphery, dark brown central plugs, whitish furrows, and a pinkish-red hue at the upper portion"
+DERM_395689,seb_keratosis,no_pigment_network,No pigment network,not ticked,present,No reticular pigment network; pigment is arranged as plugs and globule-like islands separated by furrows
+DERM_783702,seb_keratosis,comedo_like_openings,Comedo-like openings,present,uncertain,Some round pale-to-brownish openings within the lesion could be keratin plugs; they are hard to distinguish from bubbles.
+DERM_783702,seb_keratosis,fissures_ridges,Fissures and ridges,not ticked,uncertain,"Brown curved lines between the round pale structures give a vaguely furrowed look, but there is no clear cerebriform pattern."
+DERM_783702,seb_keratosis,milia_like_cysts,Milia-like cysts,not ticked,uncertain,"Numerous round whitish/pale circular structures throughout the brown lesion (upper left); they could be milia-like cysts, but similar clear circles in the surrounding skin suggest air bubbles."
+DERM_783702,seb_keratosis,moth_eaten_border,Moth-eaten border,present,absent,
+DERM_783702,seb_keratosis,no_pigment_network,No pigment network,not ticked,uncertain,"Brown lines surrounding the round pale structures create a reticular, network-like appearance; it is unclear whether a true pigment network is present."
+DERM_783702,seb_keratosis,symmetric_single_pattern,"Symmetric, single pattern",not ticked,present,Small oval lesion with fairly even brown color and uniformly distributed round pale structures.
+DERM_832325,seb_keratosis,fingerprint_pattern,Fingerprint pattern,not ticked,uncertain,Left portion shows faint fine parallel curved lines that could represent a fingerprint-like pattern.
+DERM_832325,seb_keratosis,fissures_ridges,Fissures and ridges,present,uncertain,"Centre of the lesion shows faint whitish linear furrows separating light-brown polygonal areas, possibly superficial fissures, though this may be accentuated skin markings."
+DERM_832325,seb_keratosis,moth_eaten_border,Moth-eaten border,not ticked,present,"Upper edge shows a concave notch between two lobes, and the left and lower margins are scalloped."
+DERM_832325,seb_keratosis,no_pigment_network,No pigment network,not ticked,uncertain,"Whitish lines crossing the lesion form a reticular-looking pattern, but these appear to be skin furrows rather than a true pigment network."
+DERM_832325,seb_keratosis,symmetric_single_pattern,"Symmetric, single pattern",not ticked,uncertain,"Uniform light-brown color with a fairly homogeneous structure throughout, but the outline is lobulated and asymmetric."
+DERM_869817,seb_keratosis,fissures_ridges,Fissures and ridges,present,absent,
+DERM_869817,seb_keratosis,moth_eaten_border,Moth-eaten border,not ticked,uncertain,"Left and upper-left edge shows some irregular, slightly scalloped indentations."
+DERM_869817,seb_keratosis,no_pigment_network,No pigment network,not ticked,uncertain,Brown reticular lines resemble a network but are more consistent with fingerprint-like lines; a true pigment network is not clearly identifiable.
+DERM_869817,seb_keratosis,sharp_demarcation,Sharp demarcation,not ticked,present,"Lesion edge stops fairly abruptly against surrounding skin, especially along the right and lower borders."
+DERM_869817,seb_keratosis,symmetric_single_pattern,"Symmetric, single pattern",not ticked,present,Oval lesion with uniform light-to-mid brown color and a single fine reticular/fingerprint-like line pattern evenly distributed.
+DERM_217371,solar_lentigo,fingerprint_pattern,Fingerprint pattern,present,absent,
+DERM_217371,solar_lentigo,moth_eaten_border,Moth-eaten border,present,absent,
+DERM_217371,solar_lentigo,no_pigment_network,No pigment network,not ticked,uncertain,Mostly structureless pigmentation; only a faint possible reticular pattern near the upper center
+DERM_217371,solar_lentigo,structureless_brown,Structureless brown area,not ticked,present,Upper center: ill-defined homogeneous light-brown area with no network or globules
+DERM_217371,solar_lentigo,symmetric_single_pattern,"Symmetric, single pattern",not ticked,uncertain,"Single faint light-brown structureless area, but the lesion is poorly delimited and irregular in shape"
+DERM_217371,solar_lentigo,typical_network,Typical pigment network,not ticked,uncertain,"Faint, delicate reticular brownish pattern around the upper center pigmented area, poorly defined"
+DERM_355349,solar_lentigo,fingerprint_pattern,Fingerprint pattern,present,uncertain,Faint fine curved parallel brownish lines possibly visible in the upper central part of the lesion
+DERM_355349,solar_lentigo,no_pigment_network,No pigment network,not ticked,uncertain,"Mostly structureless brown, though faint reticular lines at the periphery make complete absence of a network uncertain"
+DERM_355349,solar_lentigo,structureless_brown,Structureless brown area,not ticked,present,Central and upper portion shows homogeneous light-to-medium brown pigmentation without distinct structures
+DERM_355349,solar_lentigo,typical_network,Typical pigment network,not ticked,uncertain,Fine reticular brown lines at the right and lower periphery may represent a delicate network
+DERM_478129,solar_lentigo,moth_eaten_border,Moth-eaten border,present,absent,
+DERM_478129,solar_lentigo,no_pigment_network,No pigment network,not ticked,uncertain,"No well-formed pigment network is seen; there are only fragmented dot-like and line-like pigment structures, so the presence of a network is equivocal."
+DERM_478129,solar_lentigo,pseudonetwork,Pseudonetwork,present,absent,
+DERM_478129,solar_lentigo,structureless_brown,Structureless brown area,not ticked,uncertain,"Diffuse light brown-reddish background across the field, but it is overlaid by fine speckles and is not truly homogeneous."
+DERM_478129,solar_lentigo,symmetric_single_pattern,"Symmetric, single pattern",not ticked,present,The whole field shows a uniform pattern of fine dark brown speckles and fragmented lines on a light brown background. The pattern is evenly distributed and slightly denser in the center.
+DERM_478129,solar_lentigo,typical_network,Typical pigment network,not ticked,uncertain,"Central and left areas show fine, fragmented dark brown dots and short lines that partly join into a delicate reticular arrangement around small skin furrows; not a clearly continuous network."
+DERM_488799,solar_lentigo,fingerprint_pattern,Fingerprint pattern,present,uncertain,"Central lesion shows fine, delicate reticulated/curvilinear light brown lines that could partly represent a fingerprint-like pattern, but they look more reticular than parallel."
+DERM_488799,solar_lentigo,structureless_brown,Structureless brown area,not ticked,uncertain,"Some areas, mainly the right part of the lesion, appear more homogeneous light brown, but fine lines are seen over most of it."
+DERM_488799,solar_lentigo,symmetric_single_pattern,"Symmetric, single pattern",not ticked,present,Uniform light-brown color and evenly distributed fine reticular structure across the rectangular patch.
+DERM_488799,solar_lentigo,typical_network,Typical pigment network,not ticked,present,"Delicate, thin light brown reticular lines with fairly regular small holes throughout the lesion."
+DERM_498646,solar_lentigo,fingerprint_pattern,Fingerprint pattern,present,uncertain,"Central brown area shows fine, delicate interconnected brown lines that could represent a fingerprint-like pattern, though they look more reticular."
+DERM_498646,solar_lentigo,sharp_demarcation,Sharp demarcation,present,uncertain,"Some border segments end fairly abruptly against pink skin, while others fade gradually."
+DERM_498646,solar_lentigo,structureless_brown,Structureless brown area,not ticked,uncertain,"Small central zones of more homogeneous light brown pigment, though most of the lesion shows fine lines."
+DERM_498646,solar_lentigo,symmetric_single_pattern,"Symmetric, single pattern",not ticked,present,Lesion is dominated by a single fine reticular light-brown pattern with even color distribution.
+DERM_498646,solar_lentigo,typical_network,Typical pigment network,not ticked,present,"Thin, delicate light-brown reticular lines with small regular holes throughout the central lesion."
+DERM_569659,solar_lentigo,fingerprint_pattern,Fingerprint pattern,present,absent,
+DERM_569659,solar_lentigo,moth_eaten_border,Moth-eaten border,present,uncertain,"Central darker brown patch has irregular, scalloped indentations along its edges, especially upper and right sides"
+DERM_569659,solar_lentigo,sharp_demarcation,Sharp demarcation,present,uncertain,"Central darker brown patch is relatively well delimited from the surrounding lighter skin in places, but fades elsewhere"
+DERM_569659,solar_lentigo,symmetric_single_pattern,"Symmetric, single pattern",not ticked,uncertain,"Lesion outline is irregular, but its colour and structure are fairly uniform"
+DERM_569659,solar_lentigo,typical_network,Typical pigment network,not ticked,present,"Fine, regular light-brown reticular network throughout the background skin and the lesion"
+DERM_761841,solar_lentigo,fingerprint_pattern,Fingerprint pattern,present,absent,
+DERM_761841,solar_lentigo,moth_eaten_border,Moth-eaten border,present,uncertain,"Central patch edges show some irregular concave indentations, especially upper and right borders"
+DERM_761841,solar_lentigo,sharp_demarcation,Sharp demarcation,present,uncertain,Central patch stops fairly abruptly against surrounding skin on its lower left; upper right patch fades more gradually
+DERM_761841,solar_lentigo,structureless_brown,Structureless brown area,not ticked,present,Upper right patch shows diffuse homogeneous darker brown pigmentation centrally
+DERM_761841,solar_lentigo,symmetric_single_pattern,"Symmetric, single pattern",not ticked,uncertain,"Each patch is relatively uniform light-to-mid brown with a reticular pattern, though the shapes are irregular"
+DERM_761841,solar_lentigo,typical_network,Typical pigment network,not ticked,present,"Central patch and upper right patch show fine brown reticular lines with fairly regular holes, accentuated along skin markings"
+DERM_789684,solar_lentigo,fingerprint_pattern,Fingerprint pattern,present,uncertain,"Fine curvilinear, worm-like brown lines in the light brown areas across the upper and middle field may represent a fingerprint-like pattern, but they are not clearly parallel."
+DERM_789684,solar_lentigo,no_pigment_network,No pigment network,not ticked,uncertain,"No regular pigment network is seen. The reticulated, curvy brown lines are more consistent with lentigo structures than with a true melanocytic network."
+DERM_789684,solar_lentigo,pseudonetwork,Pseudonetwork,not ticked,uncertain,"Small round white openings within the light brown pigment, e.g. in the left-center dark spot, could be follicular openings. The body site is unknown."
+DERM_789684,solar_lentigo,sharp_demarcation,Sharp demarcation,present,uncertain,Some patch edges (lower right) end fairly abruptly. Elsewhere the pigment fades into the surrounding skin.
+DERM_789684,solar_lentigo,structureless_brown,Structureless brown area,not ticked,present,Homogeneous darker brown structureless area at the left-center dark spot. Similar homogeneous brown areas at the lower right and upper right.
+DERM_915911,solar_lentigo,multiple_colors,Multiple colors (≥3),not ticked,uncertain,Pink-red background with light brown and dark brown dots; possible faint blue-gray hue in the central right area.
+DERM_915911,solar_lentigo,no_pigment_network,No pigment network,not ticked,uncertain,"Central area shows a fine dark brown dotted/speckled pattern with only fragmentary reticular arrangement; no clear network is identifiable, possibly limited by image blur."
+DERM_915911,solar_lentigo,pseudonetwork,Pseudonetwork,present,absent,
+DERM_915911,solar_lentigo,structureless_brown,Structureless brown area,not ticked,uncertain,"Diffuse reddish-brown background across the image without clear network; may represent structureless pigmentation, but the lesion is not well delineated from the surrounding skin."
+DERM_915911,solar_lentigo,symmetric_single_pattern,"Symmetric, single pattern",not ticked,uncertain,"Fairly uniform speckled brown dots over a diffuse pink-brown background in the center; the lesion borders are not fully seen, so overall symmetry cannot be judged."
+DERM_194546,spitz_reed,central_hyperpigmentation,Central hyperpigmentation,not ticked,uncertain,"Whole lesion is diffusely dark brown-black. The center is only marginally darker than the periphery, so no distinct central hyperpigmented area separates out."
+DERM_194546,spitz_reed,negative_network,Negative network,not ticked,uncertain,"Fine whitish-gray reticular/serpiginous lines across the dark body, especially in the left and upper portions, partly outline darker areas. These may be negative network or white shiny lines/surface reflections."
+DERM_194546,spitz_reed,no_pigment_network,No pigment network,not ticked,uncertain,"Dense black pigment obscures any typical brown pigment network. Only whitish reticular lines are seen, which makes a confident call difficult."
+DERM_194546,spitz_reed,regular_globules,Regular dots / globules,present,absent,
+DERM_194546,spitz_reed,sharp_demarcation,Sharp demarcation,not ticked,present,"Pigmentation ends abruptly against the surrounding pale skin around the whole perimeter, with no gradual fading."
+DERM_210227,spitz_reed,dotted_vessels,Dotted vessels,not ticked,uncertain,The red-purple dots and clods throughout the lesion could be dilated or glomerular vessels seen end-on. They are larger than typical dotted vessels.
+DERM_210227,spitz_reed,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Mainly red and dark red-purple, with pale whitish lines between the clods. It is unclear whether this counts as three distinct colors."
+DERM_210227,spitz_reed,negative_network,Negative network,not ticked,uncertain,"Thin pale lines run between the red clods across the lesion, giving a mesh-like appearance. They are not clearly serpiginous lines around brown areas."
+DERM_210227,spitz_reed,no_pigment_network,No pigment network,not ticked,present,No brown reticular pigment network is visible anywhere; the lesion consists of red-purple clods only.
+DERM_210227,spitz_reed,regular_globules,Regular dots / globules,present,uncertain,"The lesion is filled with fairly uniform, densely packed red-purple round clods/globules. They are red rather than brown, so they may be vascular rather than pigmented globules."
+DERM_210227,spitz_reed,sharp_demarcation,Sharp demarcation,not ticked,present,"The lesion ends abruptly at a well-defined round border against normal skin, with a faint whitish rim."
+DERM_210227,spitz_reed,starburst_pattern,Starburst pattern,present,absent,
+DERM_210227,spitz_reed,symmetric_single_pattern,"Symmetric, single pattern",not ticked,present,"Round, small lesion with one globular/clod pattern of red-purple structures distributed evenly throughout."
+DERM_294294,spitz_reed,central_hyperpigmentation,Central hyperpigmentation,not ticked,present,"Central area is very dark brown-black and structureless, occupying most of the lesion"
+DERM_294294,spitz_reed,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Mainly dark brown and black; slight lighter brown at edges, no clear blue-gray or white"
+DERM_294294,spitz_reed,no_pigment_network,No pigment network,not ticked,present,No reticular network visible; lesion is structureless dark center with peripheral streaks
+DERM_294294,spitz_reed,regular_globules,Regular dots / globules,present,uncertain,"Small dark dots at peripheral tips, e.g. lower edge; possibly globular projections"
+DERM_294294,spitz_reed,sharp_demarcation,Sharp demarcation,not ticked,present,Border stops abruptly against surrounding pale skin with pseudopods at periphery
+DERM_557126,spitz_reed,central_hyperpigmentation,Central hyperpigmentation,not ticked,uncertain,"The center appears near-black and structureless, with a slightly lighter dark-brown rim at the periphery. However, the whole lesion is very dark, so a distinct central zone is hard to separate."
+DERM_557126,spitz_reed,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Black and dark brown are clearly present. A thin lighter brown rim at the edges may represent a third color, but this is not clearly separable."
+DERM_557126,spitz_reed,no_pigment_network,No pigment network,not ticked,present,The lesion appears diffusely dark and structureless; no reticular network is discernible anywhere in it at this resolution.
+DERM_557126,spitz_reed,sharp_demarcation,Sharp demarcation,not ticked,present,"The border ends abruptly against the surrounding pale skin around the whole perimeter, without gradual fading."
+DERM_557126,spitz_reed,starburst_pattern,Starburst pattern,present,uncertain,"Periphery of the small dark oval lesion shows slightly irregular, scalloped edges, especially on the upper and left sides, which could be subtle pseudopods. No clearly evenly spaced radial streaks around the whole perimeter are resolved at this resolution."
+DERM_876128,spitz_reed,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Mainly dark brown and black, with lighter brown at the periphery; a faint bluish tint in the center is possible but not clear."
+DERM_876128,spitz_reed,no_pigment_network,No pigment network,not ticked,uncertain,"No clear pigment network is visible; the center is structureless and the periphery shows streaks, although subtle network at the edges cannot be fully excluded."
+DERM_876128,spitz_reed,regular_globules,Regular dots / globules,present,absent,
+DERM_876128,spitz_reed,sharp_demarcation,Sharp demarcation,not ticked,present,The peripheral streaks end abruptly against the surrounding normal skin all around the lesion.
+DERM_274993,vascular_lesion,sharp_demarcation,Sharp demarcation,present,absent,
+DERM_274993,vascular_lesion,symmetric_single_pattern,"Symmetric, single pattern",not ticked,uncertain,"Center: a small, roughly symmetric vascular radiating structure, but it is subtle and poorly defined."
+DERM_298076,vascular_lesion,sharp_demarcation,Sharp demarcation,not ticked,uncertain,Lesion fills the whole frame; no border with normal skin is visible
+DERM_298076,vascular_lesion,symmetric_single_pattern,"Symmetric, single pattern",not ticked,present,Red lacunae evenly distributed across the entire field as a single uniform pattern
+DERM_330275,vascular_lesion,asymmetric_multicomponent,Asymmetric multicomponent pattern,not ticked,uncertain,"Scattered small red dots dominate the center and left, while larger violaceous clusters sit at the lower left, giving an uneven distribution, but there are few distinct structure types."
+DERM_330275,vascular_lesion,multiple_colors,Multiple colors (≥3),not ticked,uncertain,"Red dots, violaceous/blue-purple lacunae at the lower left, and a whitish-pink background; brown is minimal, so three or more of the listed colors is borderline."
+DERM_330275,vascular_lesion,pale_lacunae,Pale / yellowish lacunae,not ticked,uncertain,"Some faint pale/whitish translucent round areas in the central field could represent pale lacunae, but they are not well defined."
+DERM_330275,vascular_lesion,sharp_demarcation,Sharp demarcation,present,uncertain,"Individual red and violaceous lacunae are well circumscribed, but the overall lesion has no clear border and the red dots fade gradually into the surrounding skin."
+DERM_446833,vascular_lesion,symmetric_single_pattern,"Symmetric, single pattern",not ticked,present,The oval lesion shows a single lacunar pattern with red lacunae fairly evenly distributed over a pink-white background.
+DERM_825373,vascular_lesion,symmetric_single_pattern,"Symmetric, single pattern",not ticked,present,"There is one dominant lacunar red pattern, distributed fairly evenly, though the outline is somewhat irregular."

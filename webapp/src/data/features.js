@@ -4,10 +4,11 @@
 // Dermoscopy Society terminology consensus (Kittler et al., JAAD 2016); the
 // `description` gives the descriptive meaning a learner should see.
 //
+// Every image is tagged with the features present; drawing is optional.
 // `annotate`:
-//   region — drawn on the image as a shape (a dot, line or area you can point to)
-//   global — a whole-lesion property (symmetry, number of colors); shown as a
-//            tag in the reveal rather than drawn
+//   region — something you can point to, so an image may also carry a highlight
+//            (one ellipse or point on a clear example)
+//   global — a whole-lesion property (symmetry, number of colors); tag only
 // `polarizedOnly`: only visible with polarized dermoscopy, so may be absent from
 // non-polarized images even when the lesion has it.
 //
