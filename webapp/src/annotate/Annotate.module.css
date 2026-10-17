@@ -134,6 +134,7 @@
 .drawingOn { border-color: #1f2937; background: #1f2937; color: #ffffff; }
 
 .swatch { flex: none; width: 10px; height: 10px; border-radius: 50%; }
+.tagUnsure { padding: 0 6px; border-radius: 999px; background: #fef3c7; color: #92400e; font-size: 0.7rem; font-weight: 400; }
 .tag { padding: 0 6px; border-radius: 999px; background: #eef2ff; color: #3730a3; font-size: 0.7rem; font-weight: 400; }
 
 .search { width: 100%; margin: 4px 0; padding: 5px 8px; border: 1px solid #d1d5db; border-radius: 6px; font: inherit; }

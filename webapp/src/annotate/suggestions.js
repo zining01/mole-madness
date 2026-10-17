@@ -39,9 +39,6 @@ export const NO_NETWORK = 'no_pigment_network';
 export const NETWORK_FEATURES = ['typical_network', 'atypical_network'];
 export const networkConflict = (present) => present.has(NO_NETWORK) && NETWORK_FEATURES.some((f) => present.has(f));
 
-// Calls the merge leaves to you: you tend to read these differently from the model.
-export const HOLD_FROM_MERGE = ['multiple_colors'];
-
 /**
  * The model's notes to store on a record: `evidence` for present features the
  * model also called present (shown in the app), `lowConfidence` for every call
@@ -75,31 +72,31 @@ export const notesForSave = (record, present, suggestion) => {
 
 /**
  * Pre-ticks for an image no one has reviewed yet, from two identical runs: a
- * feature is ticked only if both runs call it present (the first run's note is
- * kept). Anything one run calls present or either run is unsure about becomes
- * low confidence and is hidden. Returns null unless both runs are available.
- * "Multiple colors" is left for you, as in the merge.
+ * feature is ticked unless either run calls it absent (present or unsure in both
+ * counts). Ticks where a run was unsure are listed in `borderline`. A feature
+ * one run calls present and the other absent is discarded and kept out of the
+ * "add" suggestions. Returns null unless both runs are available.
  */
 export const twoRunPrefill = (first, second) => {
   if (!first || !second) return null;
   const present = [];
   const evidence = {};
-  const lowConfidence = {};
+  const borderline = [];
   const hiddenSuggestions = [];
   for (const [f, a] of scopedCalls(first)) {
     const b = second.features[f];
-    if (!b || HOLD_FROM_MERGE.includes(f)) continue;
-    const presentCount = (a.status === 'present') + (b.status === 'present');
-    if (presentCount === 2) {
-      present.push(f);
-      if (a.evidence) evidence[f] = a.evidence;
-    } else if (presentCount === 1 || a.status === 'uncertain' || b.status === 'uncertain') {
-      const pick = a.status !== 'absent' ? a : b;
-      lowConfidence[f] = pick.evidence;
-      if (presentCount === 1) hiddenSuggestions.push(f);
+    if (!b) continue;
+    if (a.status === 'absent' || b.status === 'absent') {
+      if (a.status === 'present' || b.status === 'present') hiddenSuggestions.push(f);
+      continue;
     }
+    present.push(f);
+    const surer = a.status === 'present' ? a : b.status === 'present' ? b : a;
+    if (surer.evidence) evidence[f] = surer.evidence;
+    if (a.status !== 'present' || b.status !== 'present') borderline.push(f);
   }
   // Two runs agreeing on a contradiction is still a contradiction: leave it to you.
+  const lowConfidence = {};
   if (networkConflict(new Set(present))) {
     for (const f of [NO_NETWORK, ...NETWORK_FEATURES]) {
       if (present.includes(f)) {
@@ -114,8 +111,9 @@ export const twoRunPrefill = (first, second) => {
     present: present.sort(),
     evidence,
     lowConfidence,
+    borderline: borderline.filter((f) => present.includes(f)).sort(),
     hiddenSuggestions: hiddenSuggestions.sort(),
-    prefilled: { model: first.served_by ?? first.model, rule: 'both of two runs' },
+    prefilled: { model: first.served_by ?? first.model, rule: 'not absent in either of two runs' },
   };
 };
 
@@ -124,13 +122,13 @@ export const twoRunPrefill = (first, second) => {
  * applyRemovals) absent → untick. Removals are off by default because the model
  * misses small structures it can't resolve (white circles, cobblestone...), so
  * its "absent" often means "couldn't see". Left alone either way: features you've
- * reviewed, HOLD_FROM_MERGE, unticking anything you highlighted, and any change
+ * reviewed, unticking anything you highlighted, and any change
  * that would leave "no pigment network" alongside a network. Whatever isn't
  * applied stays open on the review page.
  */
 export const mergeClaude = (record, suggestion, { applyRemovals = false } = {}) => {
   const present = new Set(record.present);
-  const skip = new Set([...(record.reviewedSuggestions ?? []), ...HOLD_FROM_MERGE]);
+  const skip = new Set(record.reviewedSuggestions ?? []);
   const highlighted = new Set(record.highlights.map((h) => h.feature));
   const added = [];
   const removed = [];

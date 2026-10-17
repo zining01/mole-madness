@@ -38,12 +38,24 @@
       "perifollicular_hypopigmentation": {
         "status": "present",
         "evidence": "Pale whitish-grey halos surround multiple hair follicle openings across the dark central lesion."
+      },
+      "milia_like_cysts": {
+        "status": "absent",
+        "evidence": "The small whitish-grey spots scattered across the lesion are centered on emerging terminal hairs. They are perifollicular hypopigmentation or follicular openings, not discrete round white-yellow keratin cysts."
       }
     },
     "usage": {
-      "input_tokens": 2423,
-      "output_tokens": 409
-    }
+      "input_tokens": 3527,
+      "output_tokens": 636
+    },
+    "added": [
+      {
+        "features": [
+          "milia_like_cysts"
+        ],
+        "created": "2026-10-17T07:58:02+00:00"
+      }
+    ]
   },
   "DERM_105034": {
     "model": "claude-opus-5-5",
@@ -178,12 +190,29 @@
       "symmetric_single_pattern": {
         "status": "present",
         "evidence": "The lesion is round and fairly symmetric, with a homogeneous blue-black center and a regular brown rim evenly distributed around it."
+      },
+      "shiny_white_structures": {
+        "status": "uncertain",
+        "evidence": "Fine whitish lines criss-cross the central blue-black area, with a faint whitish reticular pattern centrally. Many of them are long, straight and cross the lesion border, so they look more like hairs or surface artifacts. It is also unclear whether the image is polarized."
+      },
+      "peripheral_globules": {
+        "status": "uncertain",
+        "evidence": "A brown rim surrounds the dark blue-black center, granular-looking along the upper and left edges. However, it looks more like a diffuse, fuzzy brown halo than a ring of discrete round globules."
       }
     },
     "usage": {
-      "input_tokens": 2032,
-      "output_tokens": 640
-    }
+      "input_tokens": 3338,
+      "output_tokens": 1071
+    },
+    "added": [
+      {
+        "features": [
+          "shiny_white_structures",
+          "peripheral_globules"
+        ],
+        "created": "2026-10-17T07:58:10+00:00"
+      }
+    ]
   },
   "DERM_138211": {
     "model": "claude-opus-5-5",
@@ -296,12 +325,29 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No reticular network is seen anywhere in the lesion; the pattern is structureless brown with a few dots."
+      },
+      "symmetric_single_pattern": {
+        "status": "present",
+        "evidence": "Oval lesion in upper center with fairly uniform brown coloration and a homogeneous/globular-like pattern distributed evenly; slightly lighter at the left periphery but overall one dominant pattern."
+      },
+      "sharp_demarcation": {
+        "status": "present",
+        "evidence": "Lesion border, especially lower and right edges, ends abruptly against surrounding skin-colored background with a well-defined outline."
       }
     },
     "usage": {
-      "input_tokens": 1817,
-      "output_tokens": 238
-    }
+      "input_tokens": 3104,
+      "output_tokens": 398
+    },
+    "added": [
+      {
+        "features": [
+          "symmetric_single_pattern",
+          "sharp_demarcation"
+        ],
+        "created": "2026-10-17T07:57:44+00:00"
+      }
+    ]
   },
   "DERM_147952": {
     "model": "claude-opus-5-5",
@@ -342,12 +388,24 @@
       "perifollicular_hypopigmentation": {
         "status": "uncertain",
         "evidence": "Small pale whitish spots scattered within the lighter brown left portion, possibly around follicular openings"
+      },
+      "milia_like_cysts": {
+        "status": "uncertain",
+        "evidence": "Left and central portions show multiple small whitish-gray dots between the brown network and globules. They could be milia-like cysts, but they look more like perifollicular hypopigmentation or follicular openings. They lack the bright, sharply defined white-yellow appearance of true keratin cysts."
       }
     },
     "usage": {
-      "input_tokens": 2423,
-      "output_tokens": 395
-    }
+      "input_tokens": 3527,
+      "output_tokens": 633
+    },
+    "added": [
+      {
+        "features": [
+          "milia_like_cysts"
+        ],
+        "created": "2026-10-17T07:58:02+00:00"
+      }
+    ]
   },
   "DERM_152420": {
     "model": "claude-opus-5-5",
@@ -540,12 +598,24 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No pigment network is seen anywhere in the lesion. It consists of homogeneous red-violaceous areas with white scale."
+      },
+      "dark_lacunae": {
+        "status": "uncertain",
+        "evidence": "Right and upper-right part of the lesion shows a dark purple-violaceous to bluish area that may be thrombosed vascular spaces, but no discrete, well-demarcated round dark lacunae can be made out; the center is a more homogeneous red-purple partly covered by white scale."
       }
     },
     "usage": {
-      "input_tokens": 1863,
-      "output_tokens": 255
-    }
+      "input_tokens": 2956,
+      "output_tokens": 508
+    },
+    "added": [
+      {
+        "features": [
+          "dark_lacunae"
+        ],
+        "created": "2026-10-17T07:58:33+00:00"
+      }
+    ]
   },
   "DERM_195067": {
     "model": "claude-opus-5-5",
@@ -688,12 +758,34 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No pigment network seen anywhere; pink-white background with vessels"
+      },
+      "multiple_small_erosions": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "concentric_structures": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "in_focus_dots": {
+        "status": "uncertain",
+        "evidence": "Upper left near center, a few faint small gray dots within a hazy gray-brown area; too indistinct to call confidently."
       }
     },
     "usage": {
-      "input_tokens": 2459,
-      "output_tokens": 361
-    }
+      "input_tokens": 3942,
+      "output_tokens": 476
+    },
+    "added": [
+      {
+        "features": [
+          "multiple_small_erosions",
+          "concentric_structures",
+          "in_focus_dots"
+        ],
+        "created": "2026-10-17T07:58:40+00:00"
+      }
+    ]
   },
   "DERM_204563": {
     "model": "claude-opus-5-5",
@@ -754,12 +846,29 @@
       "polymorphous_vessels": {
         "status": "absent",
         "evidence": ""
+      },
+      "dotted_vessels": {
+        "status": "uncertain",
+        "evidence": "Faint tiny red dots possibly scattered in the pink background around and below the dark nodule, but poorly resolved."
+      },
+      "milky_red_areas": {
+        "status": "uncertain",
+        "evidence": "Diffuse fuzzy pinkish-red background surrounding the dark nodule, especially in the central and lower areas, may represent milky-red areas. The pink tone also fits sun-damaged skin, so the call is not confident."
       }
     },
     "usage": {
-      "input_tokens": 3344,
-      "output_tokens": 528
-    }
+      "input_tokens": 4620,
+      "output_tokens": 694
+    },
+    "added": [
+      {
+        "features": [
+          "dotted_vessels",
+          "milky_red_areas"
+        ],
+        "created": "2026-10-17T07:58:14+00:00"
+      }
+    ]
   },
   "DERM_207485": {
     "model": "claude-opus-5-5",
@@ -904,12 +1013,29 @@
       "polymorphous_vessels": {
         "status": "absent",
         "evidence": ""
+      },
+      "dotted_vessels": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "milky_red_areas": {
+        "status": "uncertain",
+        "evidence": "Central and lower-central part of the lesion shows a faint pinkish-tan hue within the lighter brown areas, possibly a subtle milky-red tint, though no clear out-of-focus vessels are seen."
       }
     },
     "usage": {
-      "input_tokens": 3454,
-      "output_tokens": 560
-    }
+      "input_tokens": 4840,
+      "output_tokens": 680
+    },
+    "added": [
+      {
+        "features": [
+          "dotted_vessels",
+          "milky_red_areas"
+        ],
+        "created": "2026-10-17T07:58:10+00:00"
+      }
+    ]
   },
   "DERM_217071": {
     "model": "claude-opus-5-5",
@@ -1008,12 +1134,29 @@
       "polymorphous_vessels": {
         "status": "absent",
         "evidence": ""
+      },
+      "dotted_vessels": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "milky_red_areas": {
+        "status": "uncertain",
+        "evidence": "Faint pinkish-milky hue in the background skin around the lower and right parts of the lesion; dense overlying hairs obscure detail, so true milky-red areas cannot be confirmed."
       }
     },
     "usage": {
-      "input_tokens": 3476,
-      "output_tokens": 566
-    }
+      "input_tokens": 4884,
+      "output_tokens": 680
+    },
+    "added": [
+      {
+        "features": [
+          "dotted_vessels",
+          "milky_red_areas"
+        ],
+        "created": "2026-10-17T07:58:14+00:00"
+      }
+    ]
   },
   "DERM_223746": {
     "model": "claude-opus-5-5",
@@ -1152,12 +1295,24 @@
       "perifollicular_hypopigmentation": {
         "status": "uncertain",
         "evidence": "Upper flat portion shows dark dots that may be follicular, with possible faint lighter areas around them, but no definite pale halos."
+      },
+      "milia_like_cysts": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 2423,
-      "output_tokens": 468
-    }
+      "input_tokens": 3527,
+      "output_tokens": 496
+    },
+    "added": [
+      {
+        "features": [
+          "milia_like_cysts"
+        ],
+        "created": "2026-10-17T07:57:59+00:00"
+      }
+    ]
   },
   "DERM_235761": {
     "model": "claude-opus-5-5",
@@ -1220,12 +1375,34 @@
       "white_circles": {
         "status": "uncertain",
         "evidence": "Some follicular openings in the center and upper middle appear rimmed by pale whitish halos, but there are no well-defined white rings."
+      },
+      "asymmetric_follicular_openings": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "annular_granular": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "peppering": {
+        "status": "uncertain",
+        "evidence": "Lower left and right periphery show faint fine brownish-gray granular dots within the pinkish background. They are too subtle to call confidently."
       }
     },
     "usage": {
-      "input_tokens": 1610,
-      "output_tokens": 440
-    }
+      "input_tokens": 3069,
+      "output_tokens": 558
+    },
+    "added": [
+      {
+        "features": [
+          "asymmetric_follicular_openings",
+          "annular_granular",
+          "peppering"
+        ],
+        "created": "2026-10-17T07:58:56+00:00"
+      }
+    ]
   },
   "DERM_243522": {
     "model": "claude-opus-5-5",
@@ -1292,12 +1469,29 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No reticular pigment network seen anywhere; lesion shows globular/structureless pattern"
+      },
+      "symmetric_single_pattern": {
+        "status": "uncertain",
+        "evidence": "Roughly oval, elevated lesion with a fairly uniform globular/cobblestone-like pattern throughout, but darker brown pigment is concentrated centrally and to the right, giving mild asymmetry of color."
+      },
+      "sharp_demarcation": {
+        "status": "present",
+        "evidence": "Lesion border ends abruptly against surrounding pale skin around the entire circumference, especially well-defined along the left and lower edges."
       }
     },
     "usage": {
-      "input_tokens": 1817,
-      "output_tokens": 311
-    }
+      "input_tokens": 3104,
+      "output_tokens": 480
+    },
+    "added": [
+      {
+        "features": [
+          "symmetric_single_pattern",
+          "sharp_demarcation"
+        ],
+        "created": "2026-10-17T07:57:43+00:00"
+      }
+    ]
   },
   "DERM_250614": {
     "model": "claude-opus-5-5",
@@ -1334,12 +1528,24 @@
       "perifollicular_hypopigmentation": {
         "status": "uncertain",
         "evidence": "Some small pale spots within pigmented areas in the central lesion could correspond to perifollicular halos, but not clearly linked to follicles."
+      },
+      "milia_like_cysts": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 2224,
-      "output_tokens": 440
-    }
+      "input_tokens": 3322,
+      "output_tokens": 468
+    },
+    "added": [
+      {
+        "features": [
+          "milia_like_cysts"
+        ],
+        "created": "2026-10-17T07:57:51+00:00"
+      }
+    ]
   },
   "DERM_257323": {
     "model": "claude-opus-5-5",
@@ -1490,12 +1696,34 @@
       "white_circles": {
         "status": "uncertain",
         "evidence": "Central and lower areas: follicular openings appear as whitish round areas with halos. Distinct white rings are not clearly resolved."
+      },
+      "asymmetric_follicular_openings": {
+        "status": "present",
+        "evidence": "Central and left-central area: whitish round follicular openings are rimmed by brown pigment that is thicker on one side, giving uneven, eccentric perifollicular pigmentation."
+      },
+      "annular_granular": {
+        "status": "uncertain",
+        "evidence": "Central dark zone: some follicles show a faint grayish-brown granular rim, but discrete gray dots in rings are not clearly resolved."
+      },
+      "peppering": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 1610,
-      "output_tokens": 508
-    }
+      "input_tokens": 3069,
+      "output_tokens": 829
+    },
+    "added": [
+      {
+        "features": [
+          "asymmetric_follicular_openings",
+          "annular_granular",
+          "peppering"
+        ],
+        "created": "2026-10-17T07:58:52+00:00"
+      }
+    ]
   },
   "DERM_267232": {
     "model": "claude-opus-5-5",
@@ -1532,12 +1760,24 @@
       "perifollicular_hypopigmentation": {
         "status": "present",
         "evidence": "Numerous small whitish-pale dots and halos at follicular openings scattered across the dark brown center."
+      },
+      "milia_like_cysts": {
+        "status": "uncertain",
+        "evidence": "Numerous small whitish-yellow dots are scattered across the dark brown center, with a few larger whitish round spots near the upper central edge. They may be milia-like cysts, but they more likely represent follicular openings or perifollicular keratin, so the call is not confident."
       }
     },
     "usage": {
-      "input_tokens": 2225,
-      "output_tokens": 756
-    }
+      "input_tokens": 3324,
+      "output_tokens": 1057
+    },
+    "added": [
+      {
+        "features": [
+          "milia_like_cysts"
+        ],
+        "created": "2026-10-17T07:57:54+00:00"
+      }
+    ]
   },
   "DERM_268660": {
     "model": "claude-opus-5-5",
@@ -1724,12 +1964,24 @@
       "keratin_scale": {
         "status": "uncertain",
         "evidence": "Small whitish patches in the center of the violaceous area could be scale or reflection, but they are not clearly keratin"
+      },
+      "white_collarette": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 1455,
-      "output_tokens": 153
-    }
+      "input_tokens": 2532,
+      "output_tokens": 178
+    },
+    "added": [
+      {
+        "features": [
+          "white_collarette"
+        ],
+        "created": "2026-10-17T07:58:59+00:00"
+      }
+    ]
   },
   "DERM_319792": {
     "model": "claude-opus-5-5",
@@ -1770,12 +2022,24 @@
       "perifollicular_hypopigmentation": {
         "status": "uncertain",
         "evidence": "Small pale spots within the dark center may represent follicular openings with lighter halos, but they cannot be clearly distinguished from the whitish hair and scale fragments."
+      },
+      "milia_like_cysts": {
+        "status": "uncertain",
+        "evidence": "Central lesion shows scattered whitish-tan specks and fibrillar structures, but these look more like hairs/scale than discrete round white-yellow cysts; cannot confirm milia-like cysts."
       }
     },
     "usage": {
-      "input_tokens": 2423,
-      "output_tokens": 690
-    }
+      "input_tokens": 3527,
+      "output_tokens": 786
+    },
+    "added": [
+      {
+        "features": [
+          "milia_like_cysts"
+        ],
+        "created": "2026-10-17T07:58:05+00:00"
+      }
+    ]
   },
   "DERM_324836": {
     "model": "claude-opus-5-5",
@@ -1918,12 +2182,29 @@
       "polymorphous_vessels": {
         "status": "absent",
         "evidence": ""
+      },
+      "circle_within_circle": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "angulated_lines": {
+        "status": "uncertain",
+        "evidence": "Right side dark brown-grey pigmented area shows granular pigment with possible faint angular segments, but blur, glare and fluid bubbles prevent a confident call"
       }
     },
     "usage": {
-      "input_tokens": 2406,
-      "output_tokens": 587
-    }
+      "input_tokens": 3704,
+      "output_tokens": 692
+    },
+    "added": [
+      {
+        "features": [
+          "circle_within_circle",
+          "angulated_lines"
+        ],
+        "created": "2026-10-17T07:58:22+00:00"
+      }
+    ]
   },
   "DERM_334767": {
     "model": "claude-opus-5-5",
@@ -2196,12 +2477,34 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "Pigment consists only of scattered brown dots and small clusters on a pink background; no reticular network seen."
+      },
+      "multiple_small_erosions": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "concentric_structures": {
+        "status": "uncertain",
+        "evidence": "Lower centre and right parts of the lesion: a few small brown clods that may have slightly darker centres; too indistinct to call confidently."
+      },
+      "in_focus_dots": {
+        "status": "present",
+        "evidence": "Centre and lower parts of the lesion: multiple small, sharply focused brown to grey-brown dots scattered in clusters over the pinkish background."
       }
     },
     "usage": {
-      "input_tokens": 2459,
-      "output_tokens": 363
-    }
+      "input_tokens": 3942,
+      "output_tokens": 531
+    },
+    "added": [
+      {
+        "features": [
+          "multiple_small_erosions",
+          "concentric_structures",
+          "in_focus_dots"
+        ],
+        "created": "2026-10-17T07:58:48+00:00"
+      }
+    ]
   },
   "DERM_374710": {
     "model": "claude-opus-5-5",
@@ -2298,12 +2601,24 @@
       "perifollicular_hypopigmentation": {
         "status": "present",
         "evidence": "Pale whitish halos surround follicular openings at mid left (around the hair follicles) and right side."
+      },
+      "milia_like_cysts": {
+        "status": "absent",
+        "evidence": "The round whitish areas (center-left and right) are poorly defined perifollicular halos around hair follicles, not discrete bright white-yellow cysts. No clear milia-like cysts are seen."
       }
     },
     "usage": {
-      "input_tokens": 2224,
-      "output_tokens": 347
-    }
+      "input_tokens": 3322,
+      "output_tokens": 638
+    },
+    "added": [
+      {
+        "features": [
+          "milia_like_cysts"
+        ],
+        "created": "2026-10-17T07:57:59+00:00"
+      }
+    ]
   },
   "DERM_390407": {
     "model": "claude-opus-5-5",
@@ -2364,12 +2679,29 @@
       "polymorphous_vessels": {
         "status": "absent",
         "evidence": ""
+      },
+      "dotted_vessels": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "milky_red_areas": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 3432,
-      "output_tokens": 582
-    }
+      "input_tokens": 4796,
+      "output_tokens": 632
+    },
+    "added": [
+      {
+        "features": [
+          "dotted_vessels",
+          "milky_red_areas"
+        ],
+        "created": "2026-10-17T07:58:12+00:00"
+      }
+    ]
   },
   "DERM_396192": {
     "model": "claude-opus-5-5",
@@ -2430,12 +2762,29 @@
       "polymorphous_vessels": {
         "status": "absent",
         "evidence": ""
+      },
+      "dotted_vessels": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "milky_red_areas": {
+        "status": "uncertain",
+        "evidence": "Left periphery of the lesion shows a diffuse pinkish-red, slightly hazy hue blending into brown pigmentation; it could represent milky-red areas, but it is not clearly distinguishable from background erythema in this non-polarized image with fluid bubbles."
       }
     },
     "usage": {
-      "input_tokens": 3344,
-      "output_tokens": 652
-    }
+      "input_tokens": 4620,
+      "output_tokens": 792
+    },
+    "added": [
+      {
+        "features": [
+          "dotted_vessels",
+          "milky_red_areas"
+        ],
+        "created": "2026-10-17T07:58:16+00:00"
+      }
+    ]
   },
   "DERM_397426": {
     "model": "claude-opus-5-5",
@@ -2476,12 +2825,29 @@
       "polymorphous_vessels": {
         "status": "absent",
         "evidence": ""
+      },
+      "circle_within_circle": {
+        "status": "uncertain",
+        "evidence": "Central dark area shows many round structures with lighter rims and darker centres, some appearing ring-like. These may be follicular openings with circle-within-circle pigmentation, but many look like air bubbles in the immersion fluid, so a confident call is not possible."
+      },
+      "angulated_lines": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 2401,
-      "output_tokens": 442
-    }
+      "input_tokens": 3694,
+      "output_tokens": 751
+    },
+    "added": [
+      {
+        "features": [
+          "circle_within_circle",
+          "angulated_lines"
+        ],
+        "created": "2026-10-17T07:58:27+00:00"
+      }
+    ]
   },
   "DERM_398126": {
     "model": "claude-opus-5-5",
@@ -2594,12 +2960,34 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No pigment network seen anywhere; only a few faint brown dots and patches near the center"
+      },
+      "multiple_small_erosions": {
+        "status": "uncertain",
+        "evidence": "A few tiny reddish-orange spots near the right edge and centre could be small erosions, but there are no clear scattered crusts."
+      },
+      "concentric_structures": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "in_focus_dots": {
+        "status": "uncertain",
+        "evidence": "A few fine dark gray-brown dots in the upper left to central area; these could be in-focus blue-gray dots but are not distinct."
       }
     },
     "usage": {
-      "input_tokens": 2459,
-      "output_tokens": 346
-    }
+      "input_tokens": 3942,
+      "output_tokens": 508
+    },
+    "added": [
+      {
+        "features": [
+          "multiple_small_erosions",
+          "concentric_structures",
+          "in_focus_dots"
+        ],
+        "created": "2026-10-17T07:58:39+00:00"
+      }
+    ]
   },
   "DERM_411236": {
     "model": "claude-opus-5-5",
@@ -2640,12 +3028,29 @@
       "polymorphous_vessels": {
         "status": "absent",
         "evidence": ""
+      },
+      "circle_within_circle": {
+        "status": "uncertain",
+        "evidence": "Central and upper right areas show follicular openings surrounded by darker brown pigmented rings; a distinct inner second circle is not clearly resolved."
+      },
+      "angulated_lines": {
+        "status": "uncertain",
+        "evidence": "Lower central and right portions show brownish line segments that seem to meet at angles around follicles, suggestive of an early zig-zag pattern, but they are blurred and not well defined."
       }
     },
     "usage": {
-      "input_tokens": 2357,
-      "output_tokens": 431
-    }
+      "input_tokens": 3606,
+      "output_tokens": 589
+    },
+    "added": [
+      {
+        "features": [
+          "circle_within_circle",
+          "angulated_lines"
+        ],
+        "created": "2026-10-17T07:58:21+00:00"
+      }
+    ]
   },
   "DERM_416646": {
     "model": "claude-opus-5-5",
@@ -2742,12 +3147,24 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No pigment network seen anywhere in the lesion; it consists only of red lacunae."
+      },
+      "dark_lacunae": {
+        "status": "present",
+        "evidence": "Lacunae in the lower and left parts of the lesion are dark red to maroon, well demarcated and separated by pale septa. No clearly black, thrombosed lacunae are seen."
       }
     },
     "usage": {
-      "input_tokens": 1864,
-      "output_tokens": 275
-    }
+      "input_tokens": 2958,
+      "output_tokens": 511
+    },
+    "added": [
+      {
+        "features": [
+          "dark_lacunae"
+        ],
+        "created": "2026-10-17T07:58:34+00:00"
+      }
+    ]
   },
   "DERM_431899": {
     "model": "claude-opus-5-5",
@@ -2802,12 +3219,29 @@
       "no_pigment_network": {
         "status": "uncertain",
         "evidence": "Brown areas surrounding pale round holes in the center and periphery may represent a faint network or simply follicular openings and skin texture, so the absence of network cannot be confirmed."
+      },
+      "symmetric_single_pattern": {
+        "status": "uncertain",
+        "evidence": "Lesion on the left shows a fairly uniform brown reticular-globular pattern, but pigment is darker centrally and lower-left and the outline is somewhat irregular, so symmetry is debatable."
+      },
+      "sharp_demarcation": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 1732,
-      "output_tokens": 527
-    }
+      "input_tokens": 2934,
+      "output_tokens": 649
+    },
+    "added": [
+      {
+        "features": [
+          "symmetric_single_pattern",
+          "sharp_demarcation"
+        ],
+        "created": "2026-10-17T07:57:46+00:00"
+      }
+    ]
   },
   "DERM_440146": {
     "model": "claude-opus-5-5",
@@ -2848,12 +3282,29 @@
       "polymorphous_vessels": {
         "status": "absent",
         "evidence": ""
+      },
+      "circle_within_circle": {
+        "status": "uncertain",
+        "evidence": "Upper and central brown area: numerous whitish follicular openings ringed by brown pigment form a pseudonetwork. A few may show an inner darker ring, but this is not clearly resolved."
+      },
+      "angulated_lines": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 2445,
-      "output_tokens": 416
-    }
+      "input_tokens": 3782,
+      "output_tokens": 679
+    },
+    "added": [
+      {
+        "features": [
+          "circle_within_circle",
+          "angulated_lines"
+        ],
+        "created": "2026-10-17T07:58:18+00:00"
+      }
+    ]
   },
   "DERM_441652": {
     "model": "claude-opus-5-5",
@@ -2894,12 +3345,24 @@
       "perifollicular_hypopigmentation": {
         "status": "uncertain",
         "evidence": "Small pale spots within the brown areas in the left half may represent follicular openings with lighter halos."
+      },
+      "milia_like_cysts": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 2423,
-      "output_tokens": 448
-    }
+      "input_tokens": 3527,
+      "output_tokens": 476
+    },
+    "added": [
+      {
+        "features": [
+          "milia_like_cysts"
+        ],
+        "created": "2026-10-17T07:58:04+00:00"
+      }
+    ]
   },
   "DERM_446976": {
     "model": "claude-opus-5-5",
@@ -2928,12 +3391,29 @@
       "no_pigment_network": {
         "status": "uncertain",
         "evidence": "The lesion is mainly globular and clod-like, but the lower left and peripheral edges show a fragmented, somewhat reticular pattern that could be a faint network."
+      },
+      "symmetric_single_pattern": {
+        "status": "uncertain",
+        "evidence": "Central lesion shows a fairly uniform dark-brown mottled, clod-like pattern. The outline is irregular, though, with a lower-left extension and scattered dots, so symmetry is questionable."
+      },
+      "sharp_demarcation": {
+        "status": "uncertain",
+        "evidence": "The upper-right and right borders end fairly abruptly against the surrounding skin. The left and lower-left border breaks up into small dots and fades more gradually."
       }
     },
     "usage": {
-      "input_tokens": 1820,
-      "output_tokens": 533
-    }
+      "input_tokens": 3110,
+      "output_tokens": 978
+    },
+    "added": [
+      {
+        "features": [
+          "symmetric_single_pattern",
+          "sharp_demarcation"
+        ],
+        "created": "2026-10-17T07:57:46+00:00"
+      }
+    ]
   },
   "DERM_449610": {
     "model": "claude-opus-5-5",
@@ -3000,12 +3480,29 @@
       "polymorphous_vessels": {
         "status": "absent",
         "evidence": ""
+      },
+      "circle_within_circle": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "angulated_lines": {
+        "status": "uncertain",
+        "evidence": "Right mid-portion of the dark area (near the right edge, around the level of the curved hair tip): a dark, angular, star-like pigment structure. It may represent zig-zag angulated line segments around follicles, but the structure is poorly defined."
       }
     },
     "usage": {
-      "input_tokens": 2401,
-      "output_tokens": 436
-    }
+      "input_tokens": 3694,
+      "output_tokens": 855
+    },
+    "added": [
+      {
+        "features": [
+          "circle_within_circle",
+          "angulated_lines"
+        ],
+        "created": "2026-10-17T07:58:28+00:00"
+      }
+    ]
   },
   "DERM_455895": {
     "model": "claude-opus-5-5",
@@ -3100,12 +3597,29 @@
       "polymorphous_vessels": {
         "status": "uncertain",
         "evidence": "Faint reddish areas lower left possibly vascular, vessel types not discernible."
+      },
+      "dotted_vessels": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "milky_red_areas": {
+        "status": "uncertain",
+        "evidence": "Lower left portion of the lesion shows a hazy pinkish-violaceous to reddish blush between the network holes; it may represent milky-red areas, but it is partly masked by bluish-white veil and bubbles in the contact fluid."
       }
     },
     "usage": {
-      "input_tokens": 3344,
-      "output_tokens": 625
-    }
+      "input_tokens": 4620,
+      "output_tokens": 754
+    },
+    "added": [
+      {
+        "features": [
+          "dotted_vessels",
+          "milky_red_areas"
+        ],
+        "created": "2026-10-17T07:58:08+00:00"
+      }
+    ]
   },
   "DERM_459342": {
     "model": "claude-opus-5-5",
@@ -3146,12 +3660,29 @@
       "polymorphous_vessels": {
         "status": "absent",
         "evidence": ""
+      },
+      "circle_within_circle": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "angulated_lines": {
+        "status": "uncertain",
+        "evidence": "Right-side dark patch shows dark grey-brown linear pigment segments that may meet at angles in a zig-zag pattern, but they are blurred among granules and not clearly resolved."
       }
     },
     "usage": {
-      "input_tokens": 2401,
-      "output_tokens": 474
-    }
+      "input_tokens": 3694,
+      "output_tokens": 585
+    },
+    "added": [
+      {
+        "features": [
+          "circle_within_circle",
+          "angulated_lines"
+        ],
+        "created": "2026-10-17T07:58:18+00:00"
+      }
+    ]
   },
   "DERM_461301": {
     "model": "claude-opus-5-5",
@@ -3180,12 +3711,24 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No brown pigment network is visible in the lesion or around it. The lesion consists only of red-violaceous lacunae on a pinkish background."
+      },
+      "dark_lacunae": {
+        "status": "uncertain",
+        "evidence": "Centre of the lesion: a cluster of small, round, well-demarcated red-purple lacunae, most distinct along the left edge and the lower edge. Some look deep red to violaceous, but none look clearly black or thrombosed, so it is unclear whether they count as dark lacunae rather than ordinary red lacunae."
       }
     },
     "usage": {
-      "input_tokens": 2106,
-      "output_tokens": 708
-    }
+      "input_tokens": 3442,
+      "output_tokens": 1114
+    },
+    "added": [
+      {
+        "features": [
+          "dark_lacunae"
+        ],
+        "created": "2026-10-17T07:58:30+00:00"
+      }
+    ]
   },
   "DERM_465125": {
     "model": "claude-opus-5-5",
@@ -3246,12 +3789,29 @@
       "polymorphous_vessels": {
         "status": "absent",
         "evidence": ""
+      },
+      "dotted_vessels": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "milky_red_areas": {
+        "status": "uncertain",
+        "evidence": "Central and right portions show diffuse hazy pinkish-red, structureless areas that may represent milky-red areas, though they blend with background erythema and are partly obscured by scale."
       }
     },
     "usage": {
-      "input_tokens": 3344,
-      "output_tokens": 590
-    }
+      "input_tokens": 4620,
+      "output_tokens": 699
+    },
+    "added": [
+      {
+        "features": [
+          "dotted_vessels",
+          "milky_red_areas"
+        ],
+        "created": "2026-10-17T07:58:15+00:00"
+      }
+    ]
   },
   "DERM_466215": {
     "model": "claude-opus-5-5",
@@ -3306,12 +3866,24 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No pigment network is visible anywhere. The lesion consists only of red lacunae and whitish septa/structureless areas."
+      },
+      "dark_lacunae": {
+        "status": "uncertain",
+        "evidence": "Lacunae are mostly bright red to red. A few small, somewhat darker red round dots and lacunae sit along the upper and right/lower periphery, but none are clearly dark red-black or thrombosed."
       }
     },
     "usage": {
-      "input_tokens": 1863,
-      "output_tokens": 241
-    }
+      "input_tokens": 2956,
+      "output_tokens": 467
+    },
+    "added": [
+      {
+        "features": [
+          "dark_lacunae"
+        ],
+        "created": "2026-10-17T07:58:32+00:00"
+      }
+    ]
   },
   "DERM_478300": {
     "model": "claude-opus-5-5",
@@ -3348,12 +3920,24 @@
       "perifollicular_hypopigmentation": {
         "status": "absent",
         "evidence": ""
+      },
+      "milia_like_cysts": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 2225,
-      "output_tokens": 568
-    }
+      "input_tokens": 3324,
+      "output_tokens": 596
+    },
+    "added": [
+      {
+        "features": [
+          "milia_like_cysts"
+        ],
+        "created": "2026-10-17T07:57:51+00:00"
+      }
+    ]
   },
   "DERM_479060": {
     "model": "claude-opus-5-5",
@@ -3466,12 +4050,34 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No pigment network within the lesion; the faint brownish reticulation at the periphery belongs to the surrounding skin"
+      },
+      "multiple_small_erosions": {
+        "status": "uncertain",
+        "evidence": "Centrally there is a tiny red spot (right of centre) plus two small irregular brown-red spots (left of centre and lower centre). These could be tiny crusts or erosions, but they look more like pigment blotches and are too few to call confidently."
+      },
+      "concentric_structures": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "in_focus_dots": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 2371,
-      "output_tokens": 398
-    }
+      "input_tokens": 3766,
+      "output_tokens": 732
+    },
+    "added": [
+      {
+        "features": [
+          "multiple_small_erosions",
+          "concentric_structures",
+          "in_focus_dots"
+        ],
+        "created": "2026-10-17T07:58:46+00:00"
+      }
+    ]
   },
   "DERM_490042": {
     "model": "claude-opus-5-5",
@@ -3558,12 +4164,29 @@
       "polymorphous_vessels": {
         "status": "absent",
         "evidence": ""
+      },
+      "circle_within_circle": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "angulated_lines": {
+        "status": "uncertain",
+        "evidence": "Center-right near the dark blotch: fine brown granular/linear pigment segments that may form partial angled lines, but low contrast and hair obscure confident identification"
       }
     },
     "usage": {
-      "input_tokens": 2401,
-      "output_tokens": 463
-    }
+      "input_tokens": 3694,
+      "output_tokens": 566
+    },
+    "added": [
+      {
+        "features": [
+          "circle_within_circle",
+          "angulated_lines"
+        ],
+        "created": "2026-10-17T07:58:20+00:00"
+      }
+    ]
   },
   "DERM_509552": {
     "model": "claude-opus-5-5",
@@ -3588,12 +4211,34 @@
       "white_circles": {
         "status": "uncertain",
         "evidence": "Follicular openings in the right and lower areas show whitish rims. These suggest white circles, but they look more like halos than distinct rings."
+      },
+      "asymmetric_follicular_openings": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "annular_granular": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "peppering": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 1610,
-      "output_tokens": 357
-    }
+      "input_tokens": 3069,
+      "output_tokens": 429
+    },
+    "added": [
+      {
+        "features": [
+          "asymmetric_follicular_openings",
+          "annular_granular",
+          "peppering"
+        ],
+        "created": "2026-10-17T07:58:56+00:00"
+      }
+    ]
   },
   "DERM_516116": {
     "model": "claude-opus-5-5",
@@ -3714,12 +4359,34 @@
       "white_circles": {
         "status": "uncertain",
         "evidence": "A few whitish ring-like spots around possible follicular openings in the pink central area, obscured by overlying scale."
+      },
+      "asymmetric_follicular_openings": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "annular_granular": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "peppering": {
+        "status": "uncertain",
+        "evidence": "Center of the lesion: a small dark brown-gray blotch with possible fine gray granules at its lower edge. These may be melanophage dots, but blur prevents a confident call."
       }
     },
     "usage": {
-      "input_tokens": 1764,
-      "output_tokens": 383
-    }
+      "input_tokens": 3377,
+      "output_tokens": 707
+    },
+    "added": [
+      {
+        "features": [
+          "asymmetric_follicular_openings",
+          "annular_granular",
+          "peppering"
+        ],
+        "created": "2026-10-17T07:58:53+00:00"
+      }
+    ]
   },
   "DERM_520425": {
     "model": "claude-opus-5-5",
@@ -3752,12 +4419,29 @@
       "symmetric_single_pattern": {
         "status": "present",
         "evidence": "Round, fairly symmetric lesion with a dark homogeneous center and an evenly distributed peripheral globule rim, giving one dominant pattern."
+      },
+      "shiny_white_structures": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "peripheral_globules": {
+        "status": "present",
+        "evidence": "A ring of round brown globules runs around the entire edge of the lesion and is most distinct along the left, lower and upper rims, encircling a dark homogeneous center."
       }
     },
     "usage": {
-      "input_tokens": 2032,
-      "output_tokens": 326
-    }
+      "input_tokens": 3338,
+      "output_tokens": 429
+    },
+    "added": [
+      {
+        "features": [
+          "shiny_white_structures",
+          "peripheral_globules"
+        ],
+        "created": "2026-10-17T07:58:05+00:00"
+      }
+    ]
   },
   "DERM_522027": {
     "model": "claude-opus-5-5",
@@ -4014,12 +4698,24 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No pigment network seen anywhere within the lesion; it consists only of red lacunae on a pinkish background."
+      },
+      "dark_lacunae": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 1775,
-      "output_tokens": 264
-    }
+      "input_tokens": 2780,
+      "output_tokens": 343
+    },
+    "added": [
+      {
+        "features": [
+          "dark_lacunae"
+        ],
+        "created": "2026-10-17T07:58:34+00:00"
+      }
+    ]
   },
   "DERM_549887": {
     "model": "claude-opus-5-5",
@@ -4048,12 +4744,29 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No reticular pigment network is visible anywhere; the brown area at left-center is structureless."
+      },
+      "symmetric_single_pattern": {
+        "status": "present",
+        "evidence": "Small light-brown lesion left-center shows homogeneous structureless light brown pigmentation, fairly evenly distributed with a single dominant pattern"
+      },
+      "sharp_demarcation": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 1820,
-      "output_tokens": 195
-    }
+      "input_tokens": 3110,
+      "output_tokens": 298
+    },
+    "added": [
+      {
+        "features": [
+          "symmetric_single_pattern",
+          "sharp_demarcation"
+        ],
+        "created": "2026-10-17T07:57:42+00:00"
+      }
+    ]
   },
   "DERM_551834": {
     "model": "claude-opus-5-5",
@@ -4154,12 +4867,34 @@
       "white_circles": {
         "status": "uncertain",
         "evidence": "Some follicular openings in the central brown area and left side appear to have whitish rims, but distinct white circles cannot be confirmed."
+      },
+      "asymmetric_follicular_openings": {
+        "status": "uncertain",
+        "evidence": "Central brown area: light brown pigment surrounds some whitish follicular openings, in places seemingly more on one side. Overlying scale and blur prevent a confident call."
+      },
+      "annular_granular": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "peppering": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 1654,
-      "output_tokens": 248
-    }
+      "input_tokens": 3157,
+      "output_tokens": 514
+    },
+    "added": [
+      {
+        "features": [
+          "asymmetric_follicular_openings",
+          "annular_granular",
+          "peppering"
+        ],
+        "created": "2026-10-17T07:58:57+00:00"
+      }
+    ]
   },
   "DERM_563022": {
     "model": "claude-opus-5-5",
@@ -4218,12 +4953,34 @@
       "white_circles": {
         "status": "uncertain",
         "evidence": "Some follicular openings in the right and lower right pink areas appear surrounded by faint whitish halos, but distinct white rings are not clearly defined."
+      },
+      "asymmetric_follicular_openings": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "annular_granular": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "peppering": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 1610,
-      "output_tokens": 441
-    }
+      "input_tokens": 3069,
+      "output_tokens": 513
+    },
+    "added": [
+      {
+        "features": [
+          "asymmetric_follicular_openings",
+          "annular_granular",
+          "peppering"
+        ],
+        "created": "2026-10-17T07:58:55+00:00"
+      }
+    ]
   },
   "DERM_575860": {
     "model": "claude-opus-5-5",
@@ -4264,12 +5021,34 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "Pink-white lesion with no pigment network visible anywhere"
+      },
+      "multiple_small_erosions": {
+        "status": "uncertain",
+        "evidence": "Lower center shows a single dark red-brown crusted/ulcerated area; a few tiny red spots scattered elsewhere could represent small erosions but are not clearly distinct."
+      },
+      "concentric_structures": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "in_focus_dots": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 2459,
-      "output_tokens": 371
-    }
+      "input_tokens": 3942,
+      "output_tokens": 505
+    },
+    "added": [
+      {
+        "features": [
+          "multiple_small_erosions",
+          "concentric_structures",
+          "in_focus_dots"
+        ],
+        "created": "2026-10-17T07:58:45+00:00"
+      }
+    ]
   },
   "DERM_578030": {
     "model": "claude-opus-5-5",
@@ -4298,12 +5077,29 @@
       "no_pigment_network": {
         "status": "uncertain",
         "evidence": "Lesion appears mostly structureless, but the mottled brown pigment could represent a faint, poorly defined reticular network at the periphery; the low resolution prevents a confident call"
+      },
+      "symmetric_single_pattern": {
+        "status": "present",
+        "evidence": "Small light-brown lesion left of center with fairly uniform tan-brown color and a homogeneous/faint reticular pattern distributed evenly; slightly darker center but overall one dominant pattern"
+      },
+      "sharp_demarcation": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 1817,
-      "output_tokens": 408
-    }
+      "input_tokens": 3104,
+      "output_tokens": 526
+    },
+    "added": [
+      {
+        "features": [
+          "symmetric_single_pattern",
+          "sharp_demarcation"
+        ],
+        "created": "2026-10-17T07:57:49+00:00"
+      }
+    ]
   },
   "DERM_578478": {
     "model": "claude-opus-5-5",
@@ -4328,12 +5124,34 @@
       "white_circles": {
         "status": "uncertain",
         "evidence": "Within the brown pigmented patch in the upper center, pale round follicular openings are surrounded by pigment. Distinct white rings around the follicles are not clearly seen."
+      },
+      "asymmetric_follicular_openings": {
+        "status": "uncertain",
+        "evidence": "Upper center-right pigmented patch: whitish follicular openings are rimmed by brown pigment. In places the rim looks thicker on one side, but this is not clearly defined."
+      },
+      "annular_granular": {
+        "status": "uncertain",
+        "evidence": "Upper center-right patch: fine dark granules cluster around some follicular openings. They appear mostly brown rather than distinctly gray, so the ring pattern is not convincing."
+      },
+      "peppering": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 1610,
-      "output_tokens": 515
-    }
+      "input_tokens": 3069,
+      "output_tokens": 962
+    },
+    "added": [
+      {
+        "features": [
+          "asymmetric_follicular_openings",
+          "annular_granular",
+          "peppering"
+        ],
+        "created": "2026-10-17T07:58:53+00:00"
+      }
+    ]
   },
   "DERM_579838": {
     "model": "claude-opus-5-5",
@@ -4408,12 +5226,34 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No pigment network anywhere in the lesion. Pigment is arranged as structureless blotches and ovoid masses."
+      },
+      "multiple_small_erosions": {
+        "status": "uncertain",
+        "evidence": "Upper edge near top center: a few tiny red-brown crust-like spots; not clearly multiple erosions over the lesion."
+      },
+      "concentric_structures": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "in_focus_dots": {
+        "status": "uncertain",
+        "evidence": "Lower center near the dark blotch: a few small blue-gray dot-like specks, but not sharply defined."
       }
     },
     "usage": {
-      "input_tokens": 2459,
-      "output_tokens": 460
-    }
+      "input_tokens": 3942,
+      "output_tokens": 614
+    },
+    "added": [
+      {
+        "features": [
+          "multiple_small_erosions",
+          "concentric_structures",
+          "in_focus_dots"
+        ],
+        "created": "2026-10-17T07:58:42+00:00"
+      }
+    ]
   },
   "DERM_586580": {
     "model": "claude-opus-5-5",
@@ -4522,12 +5362,29 @@
       "polymorphous_vessels": {
         "status": "absent",
         "evidence": ""
+      },
+      "circle_within_circle": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "angulated_lines": {
+        "status": "uncertain",
+        "evidence": "Lower center and left-center: faint brown-gray linear segments around follicular areas that may meet at angles, but image blur and hairs/debris prevent confident identification."
       }
     },
     "usage": {
-      "input_tokens": 2406,
-      "output_tokens": 384
-    }
+      "input_tokens": 3704,
+      "output_tokens": 488
+    },
+    "added": [
+      {
+        "features": [
+          "circle_within_circle",
+          "angulated_lines"
+        ],
+        "created": "2026-10-17T07:58:20+00:00"
+      }
+    ]
   },
   "DERM_604030": {
     "model": "claude-opus-5-5",
@@ -4612,12 +5469,34 @@
       "white_circles": {
         "status": "absent",
         "evidence": ""
+      },
+      "asymmetric_follicular_openings": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "annular_granular": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "peppering": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 1522,
-      "output_tokens": 402
-    }
+      "input_tokens": 2893,
+      "output_tokens": 474
+    },
+    "added": [
+      {
+        "features": [
+          "asymmetric_follicular_openings",
+          "annular_granular",
+          "peppering"
+        ],
+        "created": "2026-10-17T07:58:52+00:00"
+      }
+    ]
   },
   "DERM_618509": {
     "model": "claude-opus-5-5",
@@ -4646,12 +5525,24 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "Entire field is pink-white with red lacunae and hairs; no pigment network visible anywhere."
+      },
+      "dark_lacunae": {
+        "status": "uncertain",
+        "evidence": "Center of the image shows a small cluster of well-defined red clods/lacunae, a few of them deeper red to maroon. Similar brighter red lacunae sit at the left edge. None are clearly black or thrombosed, so dark lacunae cannot be confirmed."
       }
     },
     "usage": {
-      "input_tokens": 1864,
-      "output_tokens": 263
-    }
+      "input_tokens": 2958,
+      "output_tokens": 496
+    },
+    "added": [
+      {
+        "features": [
+          "dark_lacunae"
+        ],
+        "created": "2026-10-17T07:58:33+00:00"
+      }
+    ]
   },
   "DERM_618985": {
     "model": "claude-opus-5-5",
@@ -4680,12 +5571,24 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No pigment network anywhere; the lesion consists only of lacunae and white scale-like areas on a yellowish background."
+      },
+      "dark_lacunae": {
+        "status": "present",
+        "evidence": "Multiple well-demarcated dark red to purple-black round/oval lacunae clustered in the central and lower portion of the lesion (e.g., lower center near bottom edge, center right), consistent with thrombosed/hemorrhagic lacunae; additional dark red ones at upper center."
       }
     },
     "usage": {
-      "input_tokens": 1820,
-      "output_tokens": 332
-    }
+      "input_tokens": 2870,
+      "output_tokens": 452
+    },
+    "added": [
+      {
+        "features": [
+          "dark_lacunae"
+        ],
+        "created": "2026-10-17T07:58:36+00:00"
+      }
+    ]
   },
   "DERM_621760": {
     "model": "claude-opus-5-5",
@@ -4722,12 +5625,24 @@
       "perifollicular_hypopigmentation": {
         "status": "uncertain",
         "evidence": "Some follicular openings within the central brown area appear slightly paler than the surrounding pigment, but this is not well defined."
+      },
+      "milia_like_cysts": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 2489,
-      "output_tokens": 418
-    }
+      "input_tokens": 3852,
+      "output_tokens": 446
+    },
+    "added": [
+      {
+        "features": [
+          "milia_like_cysts"
+        ],
+        "created": "2026-10-17T07:57:56+00:00"
+      }
+    ]
   },
   "DERM_625058": {
     "model": "claude-opus-5-5",
@@ -4940,12 +5855,29 @@
       "polymorphous_vessels": {
         "status": "uncertain",
         "evidence": "Red milky area upper right with possible linear-irregular and dotted vessels, not clearly resolved"
+      },
+      "dotted_vessels": {
+        "status": "uncertain",
+        "evidence": "Upper right red portion shows some fine red dots/specks within the pink-red background, but they are blurred and could be glare or polymorphous vessel fragments rather than true dotted vessels."
+      },
+      "milky_red_areas": {
+        "status": "present",
+        "evidence": "Upper right part of the lesion shows a large fuzzy pinkish-red to raspberry-colored area with a milky veil and out-of-focus vessels, consistent with milky-red areas."
       }
     },
     "usage": {
-      "input_tokens": 3344,
-      "output_tokens": 593
-    }
+      "input_tokens": 4620,
+      "output_tokens": 766
+    },
+    "added": [
+      {
+        "features": [
+          "dotted_vessels",
+          "milky_red_areas"
+        ],
+        "created": "2026-10-17T07:58:11+00:00"
+      }
+    ]
   },
   "DERM_655740": {
     "model": "claude-opus-5-5",
@@ -5012,12 +5944,24 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No pigment network is seen anywhere; the lesion consists of red lacunae on a pinkish background."
+      },
+      "dark_lacunae": {
+        "status": "present",
+        "evidence": "Lower left of lesion: a large dark red-black, well-demarcated lacuna (likely thrombosed); additional smaller dark red-purple lacunae scattered across the lower center and right of the lesion."
       }
     },
     "usage": {
-      "input_tokens": 1864,
-      "output_tokens": 255
-    }
+      "input_tokens": 2958,
+      "output_tokens": 348
+    },
+    "added": [
+      {
+        "features": [
+          "dark_lacunae"
+        ],
+        "created": "2026-10-17T07:58:38+00:00"
+      }
+    ]
   },
   "DERM_663484": {
     "model": "claude-opus-5-5",
@@ -5198,12 +6142,24 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "The whole field shows pinkish skin with scattered red dots and hairs; no pigment network is visible anywhere."
+      },
+      "dark_lacunae": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 1864,
-      "output_tokens": 214
-    }
+      "input_tokens": 2958,
+      "output_tokens": 241
+    },
+    "added": [
+      {
+        "features": [
+          "dark_lacunae"
+        ],
+        "created": "2026-10-17T07:58:29+00:00"
+      }
+    ]
   },
   "DERM_681064": {
     "model": "claude-opus-5-5",
@@ -5244,12 +6200,29 @@
       "polymorphous_vessels": {
         "status": "uncertain",
         "evidence": "Red areas at the left and lower right look mainly like hemorrhage or crust. No clearly distinguishable vessel morphologies are seen."
+      },
+      "circle_within_circle": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "angulated_lines": {
+        "status": "uncertain",
+        "evidence": "Image is blurred with heavy glare, blood and bubbles; faint dark brown angular streaks in the upper right brownish area may be angulated lines, but they cannot be confirmed."
       }
     },
     "usage": {
-      "input_tokens": 2406,
-      "output_tokens": 559
-    }
+      "input_tokens": 3704,
+      "output_tokens": 670
+    },
+    "added": [
+      {
+        "features": [
+          "circle_within_circle",
+          "angulated_lines"
+        ],
+        "created": "2026-10-17T07:58:17+00:00"
+      }
+    ]
   },
   "DERM_682843": {
     "model": "claude-opus-5-5",
@@ -5278,12 +6251,24 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No pigment network seen within the red lesion or its halo; the surrounding skin shows only normal background."
+      },
+      "dark_lacunae": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 1775,
-      "output_tokens": 305
-    }
+      "input_tokens": 2780,
+      "output_tokens": 431
+    },
+    "added": [
+      {
+        "features": [
+          "dark_lacunae"
+        ],
+        "created": "2026-10-17T07:58:36+00:00"
+      }
+    ]
   },
   "DERM_685306": {
     "model": "claude-opus-5-5",
@@ -5354,12 +6339,24 @@
       "perifollicular_hypopigmentation": {
         "status": "uncertain",
         "evidence": "Pale areas between pigmented patches possibly around follicles, but not clearly centered on hair openings"
+      },
+      "milia_like_cysts": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 2225,
-      "output_tokens": 355
-    }
+      "input_tokens": 3324,
+      "output_tokens": 383
+    },
+    "added": [
+      {
+        "features": [
+          "milia_like_cysts"
+        ],
+        "created": "2026-10-17T07:57:49+00:00"
+      }
+    ]
   },
   "DERM_698573": {
     "model": "claude-opus-5-5",
@@ -5420,12 +6417,29 @@
       "polymorphous_vessels": {
         "status": "absent",
         "evidence": ""
+      },
+      "dotted_vessels": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "milky_red_areas": {
+        "status": "uncertain",
+        "evidence": "Central pinkish, featureless zone with a faint milky-pink hue. It more likely represents regression or scar-like whitish-pink change than true milky-red areas, and no out-of-focus vessels are seen."
       }
     },
     "usage": {
-      "input_tokens": 3344,
-      "output_tokens": 582
-    }
+      "input_tokens": 4620,
+      "output_tokens": 702
+    },
+    "added": [
+      {
+        "features": [
+          "dotted_vessels",
+          "milky_red_areas"
+        ],
+        "created": "2026-10-17T07:58:08+00:00"
+      }
+    ]
   },
   "DERM_702838": {
     "model": "claude-opus-5-5",
@@ -5466,12 +6480,34 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No pigment network anywhere; the lesion is pink-white with vessels and blue-gray globules only"
+      },
+      "multiple_small_erosions": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "concentric_structures": {
+        "status": "uncertain",
+        "evidence": "Center-right and center-lower: small blue-gray clods, some with darker central points, possibly concentric globule-like structures"
+      },
+      "in_focus_dots": {
+        "status": "present",
+        "evidence": "Center and center-right: small, sharply defined blue-gray dots clustered within the two bluish areas"
       }
     },
     "usage": {
-      "input_tokens": 2459,
-      "output_tokens": 371
-    }
+      "input_tokens": 3942,
+      "output_tokens": 518
+    },
+    "added": [
+      {
+        "features": [
+          "multiple_small_erosions",
+          "concentric_structures",
+          "in_focus_dots"
+        ],
+        "created": "2026-10-17T07:58:43+00:00"
+      }
+    ]
   },
   "DERM_704194": {
     "model": "claude-opus-5-5",
@@ -5622,12 +6658,34 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "The central pigmented papule shows structureless brown-gray pigmentation with no reticular network anywhere."
+      },
+      "multiple_small_erosions": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "concentric_structures": {
+        "status": "uncertain",
+        "evidence": "Central upper lesion: the brown nodule has a darker brown-gray centre with a lighter rim. This could represent a concentric globule-like structure, but the image is blurred, so a confident call is not possible."
+      },
+      "in_focus_dots": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 2569,
-      "output_tokens": 333
-    }
+      "input_tokens": 4162,
+      "output_tokens": 475
+    },
+    "added": [
+      {
+        "features": [
+          "multiple_small_erosions",
+          "concentric_structures",
+          "in_focus_dots"
+        ],
+        "created": "2026-10-17T07:58:43+00:00"
+      }
+    ]
   },
   "DERM_716511": {
     "model": "claude-opus-5-5",
@@ -5664,12 +6722,24 @@
       "perifollicular_hypopigmentation": {
         "status": "uncertain",
         "evidence": "Small pale/yellowish spots in the central lesion may represent follicular openings with lighter halos"
+      },
+      "milia_like_cysts": {
+        "status": "uncertain",
+        "evidence": "Center of the lesion shows scattered tiny whitish-yellow specks within the tan-brown area. They look more like flaky scale or keratin than well-defined round milia-like cysts, so a confident call is not possible."
       }
     },
     "usage": {
-      "input_tokens": 2136,
-      "output_tokens": 402
-    }
+      "input_tokens": 3146,
+      "output_tokens": 613
+    },
+    "added": [
+      {
+        "features": [
+          "milia_like_cysts"
+        ],
+        "created": "2026-10-17T07:57:49+00:00"
+      }
+    ]
   },
   "DERM_719284": {
     "model": "claude-opus-5-5",
@@ -5698,12 +6768,29 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No reticular pigment network is visible anywhere in the papular lesion; pigment is structureless or dotted only."
+      },
+      "symmetric_single_pattern": {
+        "status": "uncertain",
+        "evidence": "Round, dome-shaped lesion with a fairly symmetric outline, but pigment is uneven: brown blotches concentrated in the lower left and right portions and a whitish-pink center with scattered dots."
+      },
+      "sharp_demarcation": {
+        "status": "present",
+        "evidence": "Dome-shaped lesion with a well-defined rounded border that stops abruptly against the surrounding pink skin around its entire circumference."
       }
     },
     "usage": {
-      "input_tokens": 1817,
-      "output_tokens": 305
-    }
+      "input_tokens": 3104,
+      "output_tokens": 472
+    },
+    "added": [
+      {
+        "features": [
+          "symmetric_single_pattern",
+          "sharp_demarcation"
+        ],
+        "created": "2026-10-17T07:57:47+00:00"
+      }
+    ]
   },
   "DERM_729256": {
     "model": "claude-opus-5-5",
@@ -5874,12 +6961,24 @@
       "perifollicular_hypopigmentation": {
         "status": "uncertain",
         "evidence": "Small pale round spots scattered within the dark area could be perifollicular halos, but they may instead be air bubbles or milia-like structures."
+      },
+      "milia_like_cysts": {
+        "status": "uncertain",
+        "evidence": "Several small round whitish dots are scattered over the central and right parts of the dark lesion. Many have bright rims and look like air bubbles from the immersion fluid rather than true keratin cysts, so milia-like cysts cannot be confidently confirmed."
       }
     },
     "usage": {
-      "input_tokens": 2423,
-      "output_tokens": 463
-    }
+      "input_tokens": 3527,
+      "output_tokens": 709
+    },
+    "added": [
+      {
+        "features": [
+          "milia_like_cysts"
+        ],
+        "created": "2026-10-17T07:58:02+00:00"
+      }
+    ]
   },
   "DERM_749640": {
     "model": "claude-opus-5-5",
@@ -6114,12 +7213,24 @@
       "perifollicular_hypopigmentation": {
         "status": "uncertain",
         "evidence": "Possible pale spots around follicular openings in the peripheral brown area, not clearly defined"
+      },
+      "milia_like_cysts": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 2224,
-      "output_tokens": 366
-    }
+      "input_tokens": 3322,
+      "output_tokens": 394
+    },
+    "added": [
+      {
+        "features": [
+          "milia_like_cysts"
+        ],
+        "created": "2026-10-17T07:57:53+00:00"
+      }
+    ]
   },
   "DERM_765987": {
     "model": "claude-opus-5-5",
@@ -6148,12 +7259,24 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No reticular pigment network anywhere; lesion composed of red lacunar areas only"
+      },
+      "dark_lacunae": {
+        "status": "present",
+        "evidence": "Lower and lower-left portion of the lesion shows dark red to purplish-black rounded/lobular areas, consistent with darker (possibly thrombosed) lacunae, contrasting with the brighter red lacunae above"
       }
     },
     "usage": {
-      "input_tokens": 1776,
-      "output_tokens": 266
-    }
+      "input_tokens": 2782,
+      "output_tokens": 424
+    },
+    "added": [
+      {
+        "features": [
+          "dark_lacunae"
+        ],
+        "created": "2026-10-17T07:58:37+00:00"
+      }
+    ]
   },
   "DERM_766040": {
     "model": "claude-opus-5-5",
@@ -6320,12 +7443,24 @@
       "perifollicular_hypopigmentation": {
         "status": "uncertain",
         "evidence": "Possible small pale areas around follicular openings in the center and right (whitish specks), but they are not clearly halo-like."
+      },
+      "milia_like_cysts": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 2335,
-      "output_tokens": 414
-    }
+      "input_tokens": 3351,
+      "output_tokens": 442
+    },
+    "added": [
+      {
+        "features": [
+          "milia_like_cysts"
+        ],
+        "created": "2026-10-17T07:57:57+00:00"
+      }
+    ]
   },
   "DERM_785441": {
     "model": "claude-opus-5-5",
@@ -6506,12 +7641,29 @@
       "polymorphous_vessels": {
         "status": "absent",
         "evidence": ""
+      },
+      "circle_within_circle": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "angulated_lines": {
+        "status": "uncertain",
+        "evidence": "Lower left and left periphery show fine brown granular to linear pigment segments that may meet at angles, but they are not clearly resolved as zig-zag lines at this resolution."
       }
     },
     "usage": {
-      "input_tokens": 2401,
-      "output_tokens": 592
-    }
+      "input_tokens": 3694,
+      "output_tokens": 879
+    },
+    "added": [
+      {
+        "features": [
+          "circle_within_circle",
+          "angulated_lines"
+        ],
+        "created": "2026-10-17T07:58:25+00:00"
+      }
+    ]
   },
   "DERM_806026": {
     "model": "claude-opus-5-5",
@@ -6548,12 +7700,24 @@
       "perifollicular_hypopigmentation": {
         "status": "present",
         "evidence": "Multiple small round pale/whitish spots evenly distributed across the brown background, consistent with hypopigmented halos around follicular openings"
+      },
+      "milia_like_cysts": {
+        "status": "uncertain",
+        "evidence": "Numerous faint, ill-defined pale whitish round spots are scattered across the field, especially the upper half. They lack the bright, sharply demarcated white-yellow look of true milia-like cysts and more likely represent follicular openings or perifollicular hypopigmentation."
       }
     },
     "usage": {
-      "input_tokens": 2225,
-      "output_tokens": 370
-    }
+      "input_tokens": 3324,
+      "output_tokens": 751
+    },
+    "added": [
+      {
+        "features": [
+          "milia_like_cysts"
+        ],
+        "created": "2026-10-17T07:58:00+00:00"
+      }
+    ]
   },
   "DERM_807995": {
     "model": "claude-opus-5-5",
@@ -6688,12 +7852,29 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No reticular network is visible anywhere in the lesion; the pigment is entirely structureless brown."
+      },
+      "symmetric_single_pattern": {
+        "status": "present",
+        "evidence": "Central oval tan-brown lesion with fairly uniform structureless brown pigmentation, slightly darker centrally, evenly distributed with one dominant homogeneous pattern"
+      },
+      "sharp_demarcation": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 1729,
-      "output_tokens": 247
-    }
+      "input_tokens": 2928,
+      "output_tokens": 359
+    },
+    "added": [
+      {
+        "features": [
+          "symmetric_single_pattern",
+          "sharp_demarcation"
+        ],
+        "created": "2026-10-17T07:57:46+00:00"
+      }
+    ]
   },
   "DERM_826662": {
     "model": "claude-opus-5-5",
@@ -6844,12 +8025,34 @@
       "white_circles": {
         "status": "uncertain",
         "evidence": "Upper left: some follicular openings appear to have faint whitish rims, but no distinct white rings can be confirmed."
+      },
+      "asymmetric_follicular_openings": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "annular_granular": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "peppering": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 1698,
-      "output_tokens": 423
-    }
+      "input_tokens": 3245,
+      "output_tokens": 495
+    },
+    "added": [
+      {
+        "features": [
+          "asymmetric_follicular_openings",
+          "annular_granular",
+          "peppering"
+        ],
+        "created": "2026-10-17T07:58:58+00:00"
+      }
+    ]
   },
   "DERM_849047": {
     "model": "claude-opus-5-5",
@@ -6916,12 +8119,34 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No pigment network anywhere; the background is pink-white with vessels."
+      },
+      "multiple_small_erosions": {
+        "status": "uncertain",
+        "evidence": "Center of image: a few small dark red-brown spots around the central darker area could be tiny erosions or crusts, but they are not clearly defined."
+      },
+      "concentric_structures": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "in_focus_dots": {
+        "status": "uncertain",
+        "evidence": "Center, near the brownish area: a few tiny dark dots are visible, but it is unclear whether they are blue-gray in-focus dots."
       }
     },
     "usage": {
-      "input_tokens": 2459,
-      "output_tokens": 412
-    }
+      "input_tokens": 3942,
+      "output_tokens": 580
+    },
+    "added": [
+      {
+        "features": [
+          "multiple_small_erosions",
+          "concentric_structures",
+          "in_focus_dots"
+        ],
+        "created": "2026-10-17T07:58:40+00:00"
+      }
+    ]
   },
   "DERM_851497": {
     "model": "claude-opus-5-5",
@@ -6996,12 +8221,24 @@
       "perifollicular_hypopigmentation": {
         "status": "present",
         "evidence": "Numerous small whitish-pale round spots are scattered throughout the brown lesion, consistent with hypopigmented halos around follicular openings."
+      },
+      "milia_like_cysts": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 2225,
-      "output_tokens": 658
-    }
+      "input_tokens": 3324,
+      "output_tokens": 866
+    },
+    "added": [
+      {
+        "features": [
+          "milia_like_cysts"
+        ],
+        "created": "2026-10-17T07:57:54+00:00"
+      }
+    ]
   },
   "DERM_853181": {
     "model": "claude-opus-5-5",
@@ -7098,12 +8335,29 @@
       "polymorphous_vessels": {
         "status": "absent",
         "evidence": ""
+      },
+      "circle_within_circle": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "angulated_lines": {
+        "status": "uncertain",
+        "evidence": "Left brown portion of the lesion shows fragmented, irregular brown line segments and dots that may form partial angular/zig-zag patterns, but definition is limited by image resolution and air bubbles."
       }
     },
     "usage": {
-      "input_tokens": 2406,
-      "output_tokens": 751
-    }
+      "input_tokens": 3704,
+      "output_tokens": 866
+    },
+    "added": [
+      {
+        "features": [
+          "circle_within_circle",
+          "angulated_lines"
+        ],
+        "created": "2026-10-17T07:58:20+00:00"
+      }
+    ]
   },
   "DERM_863153": {
     "model": "claude-opus-5-5",
@@ -7202,12 +8456,29 @@
       "polymorphous_vessels": {
         "status": "absent",
         "evidence": ""
+      },
+      "dotted_vessels": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "milky_red_areas": {
+        "status": "uncertain",
+        "evidence": "Central lesion shows a faint pinkish-violaceous hue blending with the light brown pigment; possible milky-red tinge, but no definite strawberry-milk area and no out-of-focus vessels are seen."
       }
     },
     "usage": {
-      "input_tokens": 3344,
-      "output_tokens": 534
-    }
+      "input_tokens": 4620,
+      "output_tokens": 655
+    },
+    "added": [
+      {
+        "features": [
+          "dotted_vessels",
+          "milky_red_areas"
+        ],
+        "created": "2026-10-17T07:58:11+00:00"
+      }
+    ]
   },
   "DERM_865417": {
     "model": "claude-opus-5-5",
@@ -7232,12 +8503,34 @@
       "white_circles": {
         "status": "uncertain",
         "evidence": "Some follicular openings in the center and right have pale whitish halos, but distinct, well-defined white rings are not clearly seen."
+      },
+      "asymmetric_follicular_openings": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "annular_granular": {
+        "status": "uncertain",
+        "evidence": "Center and left-center: faint light brown-gray granularity near some follicular openings within the tan area. It does not clearly form gray dot rings."
+      },
+      "peppering": {
+        "status": "uncertain",
+        "evidence": "Central tan-brown area: subtle fine granular light brown-gray dots. Low contrast and blur prevent a confident call."
       }
     },
     "usage": {
-      "input_tokens": 1720,
-      "output_tokens": 526
-    }
+      "input_tokens": 3289,
+      "output_tokens": 688
+    },
+    "added": [
+      {
+        "features": [
+          "asymmetric_follicular_openings",
+          "annular_granular",
+          "peppering"
+        ],
+        "created": "2026-10-17T07:58:59+00:00"
+      }
+    ]
   },
   "DERM_866721": {
     "model": "claude-opus-5-5",
@@ -7404,12 +8697,29 @@
       "polymorphous_vessels": {
         "status": "absent",
         "evidence": ""
+      },
+      "dotted_vessels": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "milky_red_areas": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 3256,
-      "output_tokens": 623
-    }
+      "input_tokens": 4444,
+      "output_tokens": 673
+    },
+    "added": [
+      {
+        "features": [
+          "dotted_vessels",
+          "milky_red_areas"
+        ],
+        "created": "2026-10-17T07:58:13+00:00"
+      }
+    ]
   },
   "DERM_876105": {
     "model": "claude-opus-5-5",
@@ -7450,12 +8760,24 @@
       "perifollicular_hypopigmentation": {
         "status": "uncertain",
         "evidence": "A few subtle lighter spots around follicular openings within the brown background, not clearly defined"
+      },
+      "milia_like_cysts": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 2335,
-      "output_tokens": 428
-    }
+      "input_tokens": 3351,
+      "output_tokens": 456
+    },
+    "added": [
+      {
+        "features": [
+          "milia_like_cysts"
+        ],
+        "created": "2026-10-17T07:58:02+00:00"
+      }
+    ]
   },
   "DERM_884517": {
     "model": "claude-opus-5-5",
@@ -7496,12 +8818,29 @@
       "polymorphous_vessels": {
         "status": "absent",
         "evidence": ""
+      },
+      "circle_within_circle": {
+        "status": "uncertain",
+        "evidence": "Central and lower-left areas show follicular openings surrounded by pigmented rings, some with possible inner darker dots, but a clear double-circle pattern is not confidently seen."
+      },
+      "angulated_lines": {
+        "status": "uncertain",
+        "evidence": "Lower left and lower center show brown-gray pigmented line segments around follicles that may form zig-zag angular patterns. They are blurry and poorly defined."
       }
     },
     "usage": {
-      "input_tokens": 2401,
-      "output_tokens": 409
-    }
+      "input_tokens": 3694,
+      "output_tokens": 570
+    },
+    "added": [
+      {
+        "features": [
+          "circle_within_circle",
+          "angulated_lines"
+        ],
+        "created": "2026-10-17T07:58:24+00:00"
+      }
+    ]
   },
   "DERM_894016": {
     "model": "claude-opus-5-5",
@@ -7614,12 +8953,24 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No pigment network seen within the lesion; it consists of homogeneous red-purple color with red dots/lacunae."
+      },
+      "dark_lacunae": {
+        "status": "uncertain",
+        "evidence": "Central reddish-purple lesion is mostly homogeneous; a few small darker red-purple dots and clods along its periphery, especially the lower and left edges, may represent dark lacunae. No clearly black or thrombosed lacunae are seen."
       }
     },
     "usage": {
-      "input_tokens": 1907,
-      "output_tokens": 249
-    }
+      "input_tokens": 3044,
+      "output_tokens": 490
+    },
+    "added": [
+      {
+        "features": [
+          "dark_lacunae"
+        ],
+        "created": "2026-10-17T07:58:38+00:00"
+      }
+    ]
   },
   "DERM_903398": {
     "model": "claude-opus-5-5",
@@ -7698,12 +9049,34 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No reticular pigment network anywhere; the pigment is arranged as peripheral leaf-like and radial projections around a pink structureless center."
+      },
+      "multiple_small_erosions": {
+        "status": "uncertain",
+        "evidence": "Lower right and right edge show clustered tiny red-brown dot-like spots that could be small erosions/crusts, but they may instead be vascular dots"
+      },
+      "concentric_structures": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "in_focus_dots": {
+        "status": "uncertain",
+        "evidence": "A few small gray-blue dots near the lower left periphery, not clearly sharp"
       }
     },
     "usage": {
-      "input_tokens": 2459,
-      "output_tokens": 715
-    }
+      "input_tokens": 3942,
+      "output_tokens": 869
+    },
+    "added": [
+      {
+        "features": [
+          "multiple_small_erosions",
+          "concentric_structures",
+          "in_focus_dots"
+        ],
+        "created": "2026-10-17T07:58:44+00:00"
+      }
+    ]
   },
   "DERM_914876": {
     "model": "claude-opus-5-5",
@@ -7740,12 +9113,24 @@
       "perifollicular_hypopigmentation": {
         "status": "absent",
         "evidence": ""
+      },
+      "milia_like_cysts": {
+        "status": "uncertain",
+        "evidence": "Within the brown lesion at the lower left eyelid margin, a few tiny pale whitish round dots are seen toward its right and lower portion. They are hard to tell apart from the air bubbles scattered across the image, so true milia-like cysts cannot be confirmed."
       }
     },
     "usage": {
-      "input_tokens": 2224,
-      "output_tokens": 660
-    }
+      "input_tokens": 3322,
+      "output_tokens": 967
+    },
+    "added": [
+      {
+        "features": [
+          "milia_like_cysts"
+        ],
+        "created": "2026-10-17T07:57:54+00:00"
+      }
+    ]
   },
   "DERM_916737": {
     "model": "claude-opus-5-5",
@@ -7782,12 +9167,24 @@
       "perifollicular_hypopigmentation": {
         "status": "present",
         "evidence": "Multiple pale whitish halos around follicular openings scattered throughout the dark central area and periphery."
+      },
+      "milia_like_cysts": {
+        "status": "uncertain",
+        "evidence": "Several tiny bright white dots are scattered over the dark central area and near the right side. They could be small milia-like cysts, but they look more like follicular openings, scale or light reflections. No clear round white-yellow cysts are seen."
       }
     },
     "usage": {
-      "input_tokens": 2488,
-      "output_tokens": 397
-    }
+      "input_tokens": 3850,
+      "output_tokens": 673
+    },
+    "added": [
+      {
+        "features": [
+          "milia_like_cysts"
+        ],
+        "created": "2026-10-17T07:57:58+00:00"
+      }
+    ]
   },
   "DERM_922029": {
     "model": "claude-opus-5-5",
@@ -7974,12 +9371,29 @@
       "polymorphous_vessels": {
         "status": "absent",
         "evidence": ""
+      },
+      "dotted_vessels": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "milky_red_areas": {
+        "status": "uncertain",
+        "evidence": "Lesion has a diffuse reddish-brown hue throughout with a central bluish-white area; some pinkish-red, slightly hazy zones blend with the pigment, but no distinct milky-red areas with out-of-focus vessels are clearly identified."
       }
     },
     "usage": {
-      "input_tokens": 3344,
-      "output_tokens": 565
-    }
+      "input_tokens": 4620,
+      "output_tokens": 700
+    },
+    "added": [
+      {
+        "features": [
+          "dotted_vessels",
+          "milky_red_areas"
+        ],
+        "created": "2026-10-17T07:58:13+00:00"
+      }
+    ]
   },
   "DERM_936083": {
     "model": "claude-opus-5-5",
@@ -8170,12 +9584,24 @@
       "no_pigment_network": {
         "status": "uncertain",
         "evidence": "Mostly pinkish-red background with no clear network, though there is faint brownish reticular tan pigmentation at the upper right and lower periphery that could be a faint network."
+      },
+      "dark_lacunae": {
+        "status": "uncertain",
+        "evidence": "Scattered small dark red-purple dots and globules over the central and upper lesion, e.g. right of center and upper middle. They are tiny and dot-like rather than well-defined lacunae, and none look black or clearly thrombosed."
       }
     },
     "usage": {
-      "input_tokens": 1863,
-      "output_tokens": 223
-    }
+      "input_tokens": 2956,
+      "output_tokens": 496
+    },
+    "added": [
+      {
+        "features": [
+          "dark_lacunae"
+        ],
+        "created": "2026-10-17T07:58:29+00:00"
+      }
+    ]
   },
   "DERM_953621": {
     "model": "claude-opus-5-5",
@@ -8226,12 +9652,34 @@
       "white_circles": {
         "status": "absent",
         "evidence": ""
+      },
+      "asymmetric_follicular_openings": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "annular_granular": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "peppering": {
+        "status": "absent",
+        "evidence": ""
       }
     },
     "usage": {
-      "input_tokens": 1610,
-      "output_tokens": 487
-    }
+      "input_tokens": 3069,
+      "output_tokens": 559
+    },
+    "added": [
+      {
+        "features": [
+          "asymmetric_follicular_openings",
+          "annular_granular",
+          "peppering"
+        ],
+        "created": "2026-10-17T07:58:51+00:00"
+      }
+    ]
   },
   "DERM_958632": {
     "model": "claude-opus-5-5",
@@ -8260,12 +9708,29 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "Neither brown macule shows a reticular network; pigment appears blotchy or structureless throughout."
+      },
+      "symmetric_single_pattern": {
+        "status": "uncertain",
+        "evidence": "Main light-brown lesion at lower center-left looks roughly round with fairly homogeneous tan color, but the image is blurry and multiple small spots (lower center-right, upper left) make overall assessment unclear"
+      },
+      "sharp_demarcation": {
+        "status": "uncertain",
+        "evidence": "Lower center-left brown spot has a moderately distinct edge in places, but the image is out of focus, so it is unclear whether the border stops abruptly or fades gradually"
       }
     },
     "usage": {
-      "input_tokens": 1732,
-      "output_tokens": 238
-    }
+      "input_tokens": 2934,
+      "output_tokens": 420
+    },
+    "added": [
+      {
+        "features": [
+          "symmetric_single_pattern",
+          "sharp_demarcation"
+        ],
+        "created": "2026-10-17T07:57:49+00:00"
+      }
+    ]
   },
   "DERM_968107": {
     "model": "claude-opus-5-5",
@@ -8306,12 +9771,34 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "Upper right pigmented patch: shows only a structureless light-brown background with scattered globules. No reticular pigment network is seen."
+      },
+      "multiple_small_erosions": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "concentric_structures": {
+        "status": "uncertain",
+        "evidence": "Upper right, within the faint light-brown patch: a few small dark brown globule-like blotches, some with possibly darker centres. They are not clearly blue-gray, so they do not convincingly meet the definition."
+      },
+      "in_focus_dots": {
+        "status": "uncertain",
+        "evidence": "Upper right lesion area: scattered small, sharply defined dark dots and globules. Their colour reads as dark brown rather than blue-gray, so the call is uncertain."
       }
     },
     "usage": {
-      "input_tokens": 2459,
-      "output_tokens": 354
-    }
+      "input_tokens": 3942,
+      "output_tokens": 555
+    },
+    "added": [
+      {
+        "features": [
+          "multiple_small_erosions",
+          "concentric_structures",
+          "in_focus_dots"
+        ],
+        "created": "2026-10-17T07:58:46+00:00"
+      }
+    ]
   },
   "DERM_972385": {
     "model": "claude-opus-5-5",
@@ -8336,12 +9823,34 @@
       "white_circles": {
         "status": "uncertain",
         "evidence": "Several small whitish round spots around follicles are scattered across the left and lower areas. Image blur prevents confirming that they are true rings."
+      },
+      "asymmetric_follicular_openings": {
+        "status": "uncertain",
+        "evidence": "Center and upper center: brownish pigment around some follicular openings appears unevenly distributed, but image blur prevents confident assessment."
+      },
+      "annular_granular": {
+        "status": "uncertain",
+        "evidence": "Lower right and right edge: grayish-brown dots possibly clustered around follicles, but the ring arrangement is not clearly resolved."
+      },
+      "peppering": {
+        "status": "uncertain",
+        "evidence": "Right side and lower center: scattered fine gray-brown granules within the pigmented areas, possibly melanophages; the blur limits confirmation."
       }
     },
     "usage": {
-      "input_tokens": 1610,
-      "output_tokens": 234
-    }
+      "input_tokens": 3069,
+      "output_tokens": 447
+    },
+    "added": [
+      {
+        "features": [
+          "asymmetric_follicular_openings",
+          "annular_granular",
+          "peppering"
+        ],
+        "created": "2026-10-17T07:58:56+00:00"
+      }
+    ]
   },
   "DERM_977508": {
     "model": "claude-opus-5-5",
@@ -8396,12 +9905,24 @@
       "keratin_scale": {
         "status": "uncertain",
         "evidence": "Central white patches may be scale or white structureless areas; slight surface shine/flaking at upper right of lesion"
+      },
+      "white_collarette": {
+        "status": "uncertain",
+        "evidence": "Faint whitish, slightly scaly-looking material along the upper and upper-right rim of the violaceous nodule. It does not form a clear continuous white rim; most of the white in the lesion is central structureless area rather than a peripheral collarette."
       }
     },
     "usage": {
-      "input_tokens": 1411,
-      "output_tokens": 147
-    }
+      "input_tokens": 2444,
+      "output_tokens": 472
+    },
+    "added": [
+      {
+        "features": [
+          "white_collarette"
+        ],
+        "created": "2026-10-17T07:59:01+00:00"
+      }
+    ]
   },
   "DERM_986178": {
     "model": "claude-opus-5-5",
@@ -8480,12 +10001,29 @@
       "symmetric_single_pattern": {
         "status": "uncertain",
         "evidence": "The lesion is fairly symmetric in color distribution, with a dark center and a peripheral projection rim. However, the outline is somewhat irregular and rectangular, and the rim projections are uneven, making overall symmetry debatable."
+      },
+      "shiny_white_structures": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "peripheral_globules": {
+        "status": "uncertain",
+        "evidence": "Lower and left edges show small brown dots/globule-like projections at the periphery, but these are irregular and partly streak-like rather than a clear uniform rim of globules."
       }
     },
     "usage": {
-      "input_tokens": 2186,
-      "output_tokens": 613
-    }
+      "input_tokens": 3646,
+      "output_tokens": 720
+    },
+    "added": [
+      {
+        "features": [
+          "shiny_white_structures",
+          "peripheral_globules"
+        ],
+        "created": "2026-10-17T07:58:06+00:00"
+      }
+    ]
   },
   "DERM_990717": {
     "model": "claude-opus-5-5",
@@ -8548,12 +10086,34 @@
       "white_circles": {
         "status": "uncertain",
         "evidence": "Some follicular openings in the upper and central areas seem to have whitish rims, but distinct white rings cannot be confirmed at this resolution."
+      },
+      "asymmetric_follicular_openings": {
+        "status": "uncertain",
+        "evidence": "Central brown patch shows some follicular openings with uneven brown pigment around them, but definition is limited by blur and hair."
+      },
+      "annular_granular": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "peppering": {
+        "status": "uncertain",
+        "evidence": "Central brown area has a few faint darker gray-brown dots, possibly fine granularity; image is too blurry to confirm."
       }
     },
     "usage": {
-      "input_tokens": 1610,
-      "output_tokens": 392
-    }
+      "input_tokens": 3069,
+      "output_tokens": 547
+    },
+    "added": [
+      {
+        "features": [
+          "asymmetric_follicular_openings",
+          "annular_granular",
+          "peppering"
+        ],
+        "created": "2026-10-17T07:58:49+00:00"
+      }
+    ]
   },
   "DERM_992868": {
     "model": "claude-opus-5-5",
@@ -8620,12 +10180,34 @@
       "no_pigment_network": {
         "status": "present",
         "evidence": "No pigment network seen anywhere; pink-red background with vessels and scattered blue-gray dots only"
+      },
+      "multiple_small_erosions": {
+        "status": "uncertain",
+        "evidence": "Possible small reddish-orange crust-like spots in the central area near hair crossings; not clearly distinguishable from vessels."
+      },
+      "concentric_structures": {
+        "status": "absent",
+        "evidence": ""
+      },
+      "in_focus_dots": {
+        "status": "uncertain",
+        "evidence": "A few small blue-gray dots/specks in the upper center and center (around hair bases), likely partly follicular openings."
       }
     },
     "usage": {
-      "input_tokens": 2459,
-      "output_tokens": 405
-    }
+      "input_tokens": 3942,
+      "output_tokens": 561
+    },
+    "added": [
+      {
+        "features": [
+          "multiple_small_erosions",
+          "concentric_structures",
+          "in_focus_dots"
+        ],
+        "created": "2026-10-17T07:58:47+00:00"
+      }
+    ]
   },
   "DERM_996682": {
     "model": "claude-opus-5-5",

@@ -94,6 +94,18 @@ export const features = {
     annotate: "region",
     description: "Radial lines or bulbous projections at only part of the periphery.",
   },
+  angulated_lines: {
+    name: "Angulated lines",
+    category: "Lines",
+    annotate: "region",
+    description: "Straight pigmented line segments meeting at angles (zig-zag) that don't fully close into polygons.",
+  },
+  white_rail_lines: {
+    name: "White rail lines",
+    category: "Lines",
+    annotate: "region",
+    description: "White lines crossing a red structureless area, from fibrous septa.",
+  },
 
   // --- Dots and globules ---
   regular_globules: {
@@ -272,6 +284,12 @@ export const features = {
     annotate: "region",
     description: "Follicular openings filled in by pigment.",
   },
+  circle_within_circle: {
+    name: "Circle within a circle",
+    category: "Facial",
+    annotate: "region",
+    description: "A follicular opening ringed by a pigmented circle with a second, smaller circle inside it.",
+  },
 
   // --- Hair and follicles ---
   hypertrichosis: {
@@ -343,6 +361,12 @@ export const features = {
     annotate: "region",
     description: "Red-black or orange areas where the epidermis is lost or covered in blood crust.",
   },
+  multiple_small_erosions: {
+    name: "Multiple small erosions",
+    category: "Keratin & surface",
+    annotate: "region",
+    description: "Several tiny brown-red to orange crusts or erosions scattered over the lesion, typical of superficial BCC.",
+  },
 
   // --- BCC structures ---
   blue_gray_ovoid_nests: {
@@ -362,6 +386,18 @@ export const features = {
     category: "BCC structures",
     annotate: "region",
     description: "Radial projections meeting at a darker central hub.",
+  },
+  concentric_structures: {
+    name: "Concentric structures",
+    category: "BCC structures",
+    annotate: "region",
+    description: "Irregular blue-gray to brown globule-like structures with a darker centre.",
+  },
+  in_focus_dots: {
+    name: "In-focus dots",
+    category: "BCC structures",
+    annotate: "region",
+    description: "Small, sharply in-focus blue-gray dots scattered over the lesion.",
   },
 
   // --- Vessels ---
@@ -413,6 +449,12 @@ export const features = {
     annotate: "region",
     description: "A central red point with fine vessels radiating out like spokes.",
   },
+  milky_red_areas: {
+    name: "Milky-red areas",
+    category: "Vessels",
+    annotate: "region",
+    description: "Fuzzy pinkish-red ('strawberry milk') areas, often with out-of-focus vessels.",
+  },
   red_lacunae: {
     name: "Red / red-blue lacunae",
     category: "Vessels",
@@ -446,7 +488,7 @@ const nevus = {
 
 const congenitalNevus = {
   key: ["regular_globules", "cobblestone_pattern", "structureless_brown"],
-  supportive: ["typical_network", "symmetric_single_pattern", "hypertrichosis", "perifollicular_hypopigmentation"],
+  supportive: ["typical_network", "symmetric_single_pattern", "hypertrichosis", "perifollicular_hypopigmentation", "milia_like_cysts"],
 };
 
 const acralNevus = {
@@ -465,13 +507,13 @@ export const diagnosisFeatures = {
   },
   intradermal_nevus: {
     key: ["comma_vessels", "structureless_brown", "regular_globules"],
-    supportive: ["cobblestone_pattern", "no_pigment_network"],
+    supportive: ["cobblestone_pattern", "no_pigment_network", "symmetric_single_pattern", "sharp_demarcation"],
   },
   congenital_nevus: congenitalNevus,
   banal_congenital_nevus: congenitalNevus,
   dysplastic_congenital_nevus: {
     key: ["regular_globules", "structureless_brown", "atypical_network", "central_hyperpigmentation"],
-    supportive: ["cobblestone_pattern", "irregular_globules", "hypertrichosis", "perifollicular_hypopigmentation"],
+    supportive: ["cobblestone_pattern", "irregular_globules", "hypertrichosis", "perifollicular_hypopigmentation", "milia_like_cysts"],
     // Dysplastic vs banal is a histologic call; this is the congenital pattern
     // plus the dysplastic local features.
   },
@@ -489,7 +531,7 @@ export const diagnosisFeatures = {
   },
   spitz_reed: {
     key: ["starburst_pattern", "central_hyperpigmentation", "regular_globules"],
-    supportive: ["dotted_vessels", "negative_network", "symmetric_single_pattern"],
+    supportive: ["dotted_vessels", "negative_network", "symmetric_single_pattern", "shiny_white_structures", "peripheral_globules"],
   },
   recurrent_nevus: {
     key: ["pigment_within_scar", "central_white_patch"],
@@ -519,11 +561,13 @@ export const diagnosisFeatures = {
       "peripheral_brown_structureless",
       "peppering",
       "polymorphous_vessels",
+      "dotted_vessels",
+      "milky_red_areas",
     ],
   },
   lentigo_maligna: {
     key: ["asymmetric_follicular_openings", "annular_granular", "rhomboidal_structures", "obliterated_follicles"],
-    supportive: ["pseudonetwork", "peppering", "regression_structures", "polymorphous_vessels"],
+    supportive: ["pseudonetwork", "peppering", "regression_structures", "polymorphous_vessels", "circle_within_circle", "angulated_lines"],
     // The supportive regression and vessel features lean toward LMM (invasion).
   },
   acral_melanoma: {
@@ -539,7 +583,7 @@ export const diagnosisFeatures = {
   },
   lichenoid_keratosis: {
     key: ["peppering"],
-    supportive: ["fingerprint_pattern", "moth_eaten_border", "pseudonetwork", "dotted_vessels"],
+    supportive: ["fingerprint_pattern", "moth_eaten_border", "pseudonetwork", "dotted_vessels", "regression_structures"],
     // Diffuse or localized granular peppering, with remnants of the solar
     // lentigo / SK it arose from.
   },
@@ -550,12 +594,12 @@ export const diagnosisFeatures = {
   },
   vascular_lesion: {
     key: ["red_lacunae", "pale_lacunae", "radiating_vessels"],
-    supportive: ["sharp_demarcation", "no_pigment_network"],
+    supportive: ["sharp_demarcation", "no_pigment_network", "dark_lacunae"],
     // red_lacunae → hemangioma; pale_lacunae → lymphangioma; radiating_vessels → spider angioma.
   },
   pyogenic_granuloma: {
     key: ["red_structureless", "white_collarette"],
-    supportive: ["ulceration", "polymorphous_vessels"],
+    supportive: ["ulceration", "polymorphous_vessels", "white_rail_lines"],
   },
   angiokeratoma: {
     key: ["dark_lacunae", "whitish_veil"],
@@ -572,11 +616,12 @@ export const diagnosisFeatures = {
       "shiny_white_structures",
       "ulceration",
     ],
-    supportive: ["short_fine_telangiectasias", "no_pigment_network"],
+    supportive: ["short_fine_telangiectasias", "no_pigment_network", "multiple_small_erosions", "concentric_structures", "in_focus_dots"],
   },
   actinic_keratosis: {
     key: ["strawberry_pattern", "keratin_scale"],
-    supportive: ["rosettes", "white_circles"],
+    supportive: ["rosettes", "white_circles", "asymmetric_follicular_openings", "annular_granular", "peppering"],
+    // The pigmented-AK features are the classic lentigo maligna mimic.
   },
   scc: {
     key: ["glomerular_vessels", "keratin_scale", "white_circles", "white_structureless"],
@@ -586,6 +631,6 @@ export const diagnosisFeatures = {
   },
   kaposi: {
     key: ["red_structureless", "rainbow_pattern"],
-    supportive: ["keratin_scale"],
+    supportive: ["keratin_scale", "white_collarette"],
   },
 };

@@ -15,6 +15,7 @@ import styles from './Annotate.module.css';
 //   evidence / lowConfidence — the model's notes (see notesForSave), kept in step on save
 //   hiddenSuggestions — low-confidence model calls kept out of the "add" suggestions
 //   prefilled — set when the image started from the model's two-run pre-ticks
+//   borderline — pre-ticked features where one of the runs was unsure
 const isRegion = (f) => features[f].annotate === 'region';
 const ALL_FEATURES = Object.keys(features);
 const MIN_RADIUS = 0.01; // drags smaller than this are treated as accidental clicks
@@ -179,6 +180,7 @@ export function AnnotationEditor({ image, dxId, existing, suggestion, second, on
         ...(existing?.merged && { merged: existing.merged }),
         ...(base?.prefilled && { prefilled: base.prefilled }),
         hiddenSuggestions: [...hidden].sort(),
+        ...(base?.borderline && { borderline: base.borderline.filter((f) => present.has(f)) }),
         ...notes,
         code: image.code,
         patient_id: image.patient_id,
@@ -260,6 +262,9 @@ export function AnnotationEditor({ image, dxId, existing, suggestion, second, on
           <input type="checkbox" checked={on} onChange={() => togglePresent(f)} />
           <span className={on ? styles.featureOn : ''}>{features[f].name}</span>
           {features[f].polarizedOnly && <span className={styles.tag}>polarized</span>}
+          {on && base?.borderline?.includes(f) && (
+            <span className={styles.tagUnsure} title="Pre-ticked although one of Claude's runs was unsure">unsure</span>
+          )}
         </label>
         {on && (
           <button type="button" className={`${styles.iconBtn} ${atlas.has(f) ? styles.atlasOn : ''}`}
@@ -351,8 +356,9 @@ export function AnnotationEditor({ image, dxId, existing, suggestion, second, on
           </p>
           {prefill && (
             <p className={styles.prefill}>
-              Pre-ticked by Claude: the {prefill.present.length} features both of its runs saw. Check the image
-              quality, adjust the ticks, then accept.
+              Pre-ticked by Claude: {prefill.present.length} features neither of its runs called absent
+              {prefill.borderline.length > 0 && ` (${prefill.borderline.length} where a run was unsure)`}. Check the
+              image quality, adjust the ticks, then accept.
             </p>
           )}
           {existing && (

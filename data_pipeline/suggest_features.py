@@ -12,6 +12,7 @@ features only where listed there) and answers present / absent / uncertain with 
     python suggest_features.py --variant with_dx --hires      # full-resolution originals instead of 600-px web images
     python suggest_features.py --variant with_dx --ids-file suggestions/batch.json                  # first run
     python suggest_features.py --variant with_dx --ids-file suggestions/batch.json --run-name r2    # identical repeat
+    python suggest_features.py --variant with_dx --missing-only   # after the feature lists change: ask only the new ones
 
 Needs ANTHROPIC_API_KEY in the environment. By default it runs on every accepted
 image in webapp/src/data/annotations.json. Results go to
@@ -189,6 +190,8 @@ def main():
     ap.add_argument("--limit", type=int, help="stop after this many new images")
     ap.add_argument("--per-dx", type=int, help="only the first N accepted images of each diagnosis (stable order)")
     ap.add_argument("--hires", action="store_true", help="send full-resolution originals (resized to Claude's maximum)")
+    ap.add_argument("--missing-only", action="store_true",
+                    help="ask only about list features an image has no answer for yet, merging into its results")
     ap.add_argument("--dry-run", action="store_true", help="print the prompt for the first image and exit")
     args = ap.parse_args()
 
@@ -215,7 +218,14 @@ def main():
     out_path = OUTPUT_DIR / f"{args.variant}.{args.model}{suffix}.json"
     price_in, price_out = PRICES.get(args.model, PRICES[DEFAULT_MODEL])
     results = json.loads(out_path.read_text()) if out_path.exists() else {}
-    todo = [i for i in ids if results.get(i, {}).get("model") != args.model]
+    def missing(img_id):
+        dx = vocab["codeToDx"][metadata[img_id]["code"]]
+        return [f for f in candidate_features(vocab, dx) if f not in results[img_id]["features"]]
+
+    if args.missing_only:
+        todo = [i for i in ids if i in results and missing(i)]
+    else:
+        todo = [i for i in ids if results.get(i, {}).get("model") != args.model]
     already = len(ids) - len(todo)
     if args.limit:
         todo = todo[: args.limit]
@@ -224,7 +234,7 @@ def main():
     def job(img_id):
         rec = metadata[img_id]
         dx = vocab["codeToDx"][rec["code"]]
-        cands = candidate_features(vocab, dx)
+        cands = missing(img_id) if args.missing_only else candidate_features(vocab, dx)
         prompt = build_prompt(vocab, cands, vocab["diagnoses"][dx]["name"], rec["diagnosis"], args.variant)
         return dx, cands, prompt
 
@@ -259,16 +269,24 @@ def main():
             done += 1
             tokens_in += usage.input_tokens
             tokens_out += usage.output_tokens
-            results[img_id] = {
-                "model": args.model,
-                "served_by": served_by,
-                "variant": args.variant,
-                "dx": dx,
-                "image": "original, resized to Claude's maximum" if args.hires else "600-px web image",
-                "created": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                "features": {f: {"status": answers[f]["status"], "evidence": answers[f]["evidence"].strip()} for f in cands},
-                "usage": {"input_tokens": usage.input_tokens, "output_tokens": usage.output_tokens},
-            }
+            new_answers = {f: {"status": answers[f]["status"], "evidence": answers[f]["evidence"].strip()} for f in cands}
+            if args.missing_only:
+                rec = results[img_id]
+                rec["features"].update(new_answers)
+                rec["usage"] = {k: rec.get("usage", {}).get(k, 0) + getattr(usage, k) for k in ("input_tokens", "output_tokens")}
+                rec.setdefault("added", []).append(
+                    {"features": cands, "created": datetime.now(timezone.utc).isoformat(timespec="seconds")})
+            else:
+                results[img_id] = {
+                    "model": args.model,
+                    "served_by": served_by,
+                    "variant": args.variant,
+                    "dx": dx,
+                    "image": "original, resized to Claude's maximum" if args.hires else "600-px web image",
+                    "created": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                    "features": new_answers,
+                    "usage": {"input_tokens": usage.input_tokens, "output_tokens": usage.output_tokens},
+                }
             cost = tokens_in / 1e6 * price_in + tokens_out / 1e6 * price_out
             note = "" if served_by == args.model else f" (served by fallback {served_by})"
             print(f"[{done}/{len(todo)}] {img_id} {dx}: "
