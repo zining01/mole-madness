@@ -30,6 +30,11 @@ body {
   min-height: 100vh;
 }
 
+/* Full width, so pages can centre their own content column. */
+#root {
+  width: 100%;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;

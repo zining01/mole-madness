@@ -11,8 +11,8 @@
 }
 
 .content {
-  /* Match this to your Header and Card max-width (e.g., 550px) */
-  max-width: 550px; 
+  /* Match this to your Header and Card max-width */
+  max-width: 680px; 
   margin: 0 auto;
   box-sizing: border-box;
 }

@@ -30,6 +30,7 @@ export const quizDiagnoses = {
     malignancy: "Benign",
     // jd 5275 (700), jb 1223 (292), cb 722 (325), cd 498 (224) → 7718 (869)
     codes: ["jb", "jd", "cb", "cd"],
+    subtypes: { jb: "Junctional nevus", jd: "Dysplastic junctional nevus", cb: "Compound nevus", cd: "Dysplastic compound nevus" },
     differentials: ["melanoma", "solar_lentigo", "intradermal_nevus", "congenital_nevus", "seb_keratosis"],
     advancedSplit: ["dysplastic_nevus", "banal_nevus"],
   },
@@ -39,6 +40,7 @@ export const quizDiagnoses = {
     malignancy: "Benign",
     // jb 1223 (292), cb 722 (325) → 1945 (490)
     codes: ["jb", "cb"],
+    subtypes: { jb: "Junctional nevus", cb: "Compound nevus" },
     differentials: ["dysplastic_nevus", "melanoma", "intradermal_nevus", "congenital_nevus", "solar_lentigo"],
     advancedOnly: true,
   },
@@ -48,6 +50,7 @@ export const quizDiagnoses = {
     malignancy: "Benign",
     // jd 5275 (700), cd 498 (224) → 5773 (758)
     codes: ["jd", "cd"],
+    subtypes: { jd: "Dysplastic junctional nevus", cd: "Dysplastic compound nevus" },
     differentials: ["melanoma", "banal_nevus", "seb_keratosis", "congenital_nevus", "spitz_reed"],
     advancedOnly: true,
   },
@@ -68,6 +71,7 @@ export const quizDiagnoses = {
     malignancy: "Benign",
     // ccb 418 (107), cjb 143 (33), ccd 32 (13) → 593 (139)
     codes: ["ccb", "cjb", "ccd"],
+    subtypes: { ccb: "Congenital compound nevus", cjb: "Congenital junctional nevus", ccd: "Dysplastic congenital nevus" },
     differentials: ["nevus", "intradermal_nevus", "melanoma", "blue_nevus"],
     advancedSplit: ["dysplastic_congenital_nevus", "banal_congenital_nevus"],
   },
@@ -77,6 +81,7 @@ export const quizDiagnoses = {
     malignancy: "Benign",
     // ccb 418 (107), cjb 143 (33) → 561 (126)
     codes: ["ccb", "cjb"],
+    subtypes: { ccb: "Congenital compound nevus", cjb: "Congenital junctional nevus" },
     differentials: ["dysplastic_congenital_nevus", "nevus", "intradermal_nevus", "blue_nevus"],
     advancedOnly: true,
   },
@@ -95,15 +100,17 @@ export const quizDiagnoses = {
     malignancy: "Benign",
     // ajb 426 (200), ajd 288 (139), acb 37 (21), acd 9 (5) → 760 (330)
     codes: ["ajb", "ajd", "acb", "acd"],
+    subtypes: { ajb: "Acral junctional nevus", ajd: "Dysplastic acral junctional nevus", acb: "Acral compound nevus", acd: "Dysplastic acral compound nevus" },
     differentials: ["acral_melanoma", "nevus", "blue_nevus"],
     advancedSplit: ["dysplastic_acral_nevus", "banal_acral_nevus"],
   },
   banal_acral_nevus: {
-    name: "Banal acral nevus",
+    name: "Benign acral nevus",
     superclass: "Melanocytic",
     malignancy: "Benign",
     // ajb 426 (200), acb 37 (21) → 463 (212)
     codes: ["ajb", "acb"],
+    subtypes: { ajb: "Acral junctional nevus", acb: "Acral compound nevus" },
     differentials: ["dysplastic_acral_nevus", "acral_melanoma", "blue_nevus"],
     advancedOnly: true,
   },
@@ -113,6 +120,7 @@ export const quizDiagnoses = {
     malignancy: "Benign",
     // ajd 288 (139), acd 9 (5) → 297 (144)
     codes: ["ajd", "acd"],
+    subtypes: { ajd: "Dysplastic acral junctional nevus", acd: "Dysplastic acral compound nevus" },
     differentials: ["acral_melanoma", "banal_acral_nevus", "blue_nevus"],
     advancedOnly: true,
   },

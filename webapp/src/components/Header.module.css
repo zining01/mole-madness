@@ -9,7 +9,7 @@
 }
 
 .content {
-  max-width: 550px;       /* Matches your GameScreen card width */
+  max-width: 680px;       /* Matches the quiz card width */
   margin: 0 auto;        /* Centers the container */
   padding: 15px 20px;    /* Adds internal breathing room */
   display: flex;
