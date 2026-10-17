@@ -139,6 +139,12 @@
 .pearl { margin-top: 8px; padding: 12px; border-radius: 12px; background: #f9fafb; font-size: 0.9rem; }
 .pearl img { display: block; max-width: 100%; margin: 10px auto 0; border-radius: 8px; }
 
+.report { padding: 12px; border-radius: 12px; background: #f9fafb; }
+.report label { display: block; margin-bottom: 6px; font-size: 0.88rem; font-weight: 600; }
+.report textarea { width: 100%; padding: 8px 10px; border: 1px solid #d1d5db; border-radius: 8px; font: inherit; resize: vertical; }
+.reportActions { display: flex; align-items: center; gap: 12px; margin-top: 8px; }
+.reportPreview { margin: 8px 0 0; padding: 8px 10px; border-radius: 8px; background: #ffffff; border: 1px solid #e5e7eb; color: #4b5563; font-size: 0.75rem; white-space: pre-wrap; user-select: all; }
+
 /* --- Summary --- */
 .score { display: flex; align-items: baseline; gap: 12px; font-size: 2.2rem; font-weight: 800; margin: 8px 0 0 !important; }
 .score span { color: #6b7280; font-size: 1.1rem; font-weight: 600; }

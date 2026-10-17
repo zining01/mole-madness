@@ -25,6 +25,11 @@
   line-height: 1.4;
 }
 
+.disclaimer {
+  font-weight: 600;
+  color: #374151 !important;
+}
+
 .citations {
   font-style: italic;
   font-size: 0.65rem; /* 0.4rem is dangerously small/unreadable on mobile */

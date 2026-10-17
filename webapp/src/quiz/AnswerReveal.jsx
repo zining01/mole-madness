@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { features } from '../data/features.js';
 import { featureColor } from '../utils/featureColors.js';
 import { answerKeyFeatures, answerOf, answers, featureBreakdown, pearlFor, subtypeLabel } from './quiz.js';
+import { ReportProblem } from './ReportProblem.jsx';
 import styles from './Quiz.module.css';
 
 // What the learner sees after answering: the diagnosis, the features in this
@@ -97,6 +98,10 @@ export function AnswerReveal({ c, mode, chosen, onFocus }) {
           )}
         </section>
       )}
+
+      <section>
+        <ReportProblem key={c.id} c={c} mode={mode} />
+      </section>
     </div>
   );
 }

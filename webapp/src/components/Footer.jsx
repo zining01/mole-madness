@@ -6,6 +6,7 @@ export function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.content}>
+        <p className={styles.disclaimer}>For education only, not for clinical diagnosis.</p>
         <p className={styles.citations}>
             Yilmaz, A., Yasar, S. P., Gencoglan, G. & Temelkuran, B. DERM12345: A Large, Multisource Dermatoscopic Skin Lesion Dataset with 40 Subclasses. Harvard Dataverse https://doi.org/10.7910/DVN/DAXZ7P (2024). 
         </p>
