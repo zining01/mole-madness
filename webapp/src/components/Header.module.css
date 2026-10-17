@@ -9,7 +9,7 @@
 }
 
 .content {
-  max-width: 550px;       /* Matches your GameScreen card width */
+  max-width: 680px;       /* Matches the quiz card width */
   margin: 0 auto;        /* Centers the container */
   padding: 15px 20px;    /* Adds internal breathing room */
   display: flex;
@@ -67,6 +67,17 @@
   margin: 0;
   color: #111827;
   letter-spacing: -0.02em;
+}
+
+.beta {
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #3730a3;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .tagline {

@@ -4,7 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "export-cases": "node scripts/export_quiz_cases.mjs",
+    "predev": "npm run export-cases",
     "dev": "vite",
+    "prebuild": "npm run export-cases",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"

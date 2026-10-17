@@ -81,6 +81,7 @@ def merge_csv_to_json():
 
                 image_store[img_id] = {
                     "id": img_id,
+                    "patient_id": row['patient_id'],
                     "src": f"images/{img_id}.webp",
                     "diagnosis": name,
                     "code": dx_code,
