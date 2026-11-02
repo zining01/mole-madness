@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { CaseImage } from './CaseImage.jsx';
 import { AnswerReveal } from './AnswerReveal.jsx';
 import { answerOf, answers as answerChoices } from './quiz.js';
+import { useQuizVisible } from './visibility.js';
 import styles from './Quiz.module.css';
 
 // End of a session: score, accuracy per diagnosis, the most common mix-ups, and
@@ -9,6 +10,7 @@ import styles from './Quiz.module.css';
 export function QuizSummary({ session, answers, mode, onAgain, onNewQuiz }) {
   const [reviewing, setReviewing] = useState(null); // index into `missed`
   const [focus, setFocus] = useState(null);
+  const visible = useQuizVisible();
   const names = answerChoices(mode);
   const results = session.map((item, i) => ({ item, truth: answerOf(item.case, mode), chosen: answers[i] }));
   const correct = results.filter((r) => r.truth === r.chosen).length;
@@ -27,7 +29,7 @@ export function QuizSummary({ session, answers, mode, onAgain, onNewQuiz }) {
   }
 
   useEffect(() => {
-    if (reviewing === null) return;
+    if (reviewing === null || !visible) return;
     const onKey = (e) => {
       if (e.key === 'ArrowRight') setReviewing((i) => Math.min(missed.length - 1, i + 1));
       else if (e.key === 'ArrowLeft') setReviewing((i) => Math.max(0, i - 1));
@@ -35,7 +37,7 @@ export function QuizSummary({ session, answers, mode, onAgain, onNewQuiz }) {
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [reviewing, missed.length]);
+  }, [reviewing, missed.length, visible]);
 
   if (reviewing !== null) {
     const r = missed[reviewing];

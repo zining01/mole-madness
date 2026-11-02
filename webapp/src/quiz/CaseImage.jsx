@@ -3,11 +3,12 @@ import { AnnotationShapes } from '../components/AnnotationShapes.jsx';
 import styles from './Quiz.module.css';
 
 // The lesion at its own aspect ratio (never cropped), optionally with the
-// annotator's highlights drawn over it. `focus` is a feature id to emphasise.
-export function CaseImage({ c, showHighlights = false, focus = null }) {
+// annotator's highlights drawn over it. `focus` is a feature id to emphasise;
+// `only` limits the highlights to one feature (the glossary).
+export function CaseImage({ c, showHighlights = false, focus = null, only = null }) {
   const [src, setSrc] = useState(c.image || c.src);
   const [size, setSize] = useState(null);
-  const shapes = showHighlights ? c.highlights : [];
+  const shapes = showHighlights ? c.highlights.filter((h) => !only || h.feature === only) : [];
   const emphasis = focus ? shapes.findIndex((h) => h.feature === focus) : -1;
 
   return (

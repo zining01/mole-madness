@@ -1,0 +1,39 @@
+.dialog {
+  width: min(460px, calc(100vw - 32px));
+  padding: 24px;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+  color: #111827;
+}
+.dialog::backdrop { background: rgba(17, 24, 39, 0.45); }
+.dialog h2 { margin: 0 0 8px; font-size: 1.25rem; }
+.dialog p { margin: 0 0 12px; color: #4b5563; line-height: 1.45; }
+
+.choices { display: grid; gap: 10px; margin-top: 16px; }
+.choice {
+  display: grid;
+  gap: 4px;
+  padding: 14px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  background: #ffffff;
+  color: #111827;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.choice:hover { border-color: #374151; }
+.choice span { color: #6b7280; font-size: 0.85rem; line-height: 1.4; }
+
+.guestLink {
+  margin-top: 16px;
+  padding: 0;
+  border: none;
+  background: none;
+  color: #4b5563;
+  font: inherit;
+  font-size: 0.85rem;
+  text-decoration: underline;
+  cursor: pointer;
+}

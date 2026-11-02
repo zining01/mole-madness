@@ -162,3 +162,17 @@
   .card { padding: 16px; border-radius: 16px; }
   .options { grid-template-columns: 1fr; }
 }
+.report > .linkButton { margin-top: 8px; }
+.signIn { margin-top: 8px; }
+.signIn .reportActions { flex-wrap: wrap; }
+.textInput { flex: 1 1 180px; min-width: 0; padding: 5px 10px; border: 1px solid #d1d5db; border-radius: 8px; font: inherit; font-size: 0.9rem; }
+.reportError { margin: 8px 0 0; color: #b91c1c; font-size: 0.85rem; }
+.preset:disabled { opacity: 0.5; cursor: default; }
+.reviewNotice { padding: 10px 12px; border-radius: 10px; background: #eef2ff; color: #3730a3; font-size: 0.85rem; }
+.reviewPanel { margin-top: 16px; padding: 14px; border: 1px solid #c7d2fe; border-radius: 12px; background: #f8faff; }
+.reviewPanel h3 { margin-top: 0; }
+.reviewPanel textarea { width: 100%; padding: 8px 10px; border: 1px solid #d1d5db; border-radius: 8px; font: inherit; resize: vertical; }
+.reviewPanel .reportActions { flex-wrap: wrap; }
+.moreFeatures { margin: 4px 0 10px; }
+.moreFeatures summary { margin-bottom: 6px; color: #374151; font-size: 0.88rem; font-weight: 600; cursor: pointer; }
+.commentLabel { display: block; margin: 8px 0 6px; font-size: 0.88rem; font-weight: 600; }

@@ -19,6 +19,7 @@
 
 .logoGroup {
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   gap: 12px;
 }
@@ -67,6 +68,7 @@
   margin: 0;
   color: #111827;
   letter-spacing: -0.02em;
+  white-space: nowrap;
 }
 
 .beta {
@@ -90,4 +92,14 @@
 
 @media (max-width: 600px) {
   .tagline { display: none; }
+}
+.right { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; min-width: 0; max-width: 100%; }
+.account { display: flex; max-width: 100%; align-items: baseline; gap: 4px; min-width: 0; color: #6b7280; font-size: 0.8rem; white-space: nowrap; }
+.account button { padding: 0; border: none; background: none; color: #374151; font: inherit; text-decoration: underline; cursor: pointer; }
+.email { flex-shrink: 1; min-width: 0; overflow: hidden; max-width: 220px; text-overflow: ellipsis; }
+@media (max-width: 600px) {
+  /* The account line drops below the title when they don't fit side by side. */
+  .content { flex-wrap: wrap; row-gap: 4px; }
+  .right { margin-left: auto; }
+  .email { max-width: 180px; }
 }

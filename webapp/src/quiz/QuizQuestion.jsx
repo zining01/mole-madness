@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useQuizVisible } from './visibility.js';
 import { CaseImage } from './CaseImage.jsx';
 import { AnswerReveal } from './AnswerReveal.jsx';
 import { answerOf, answers } from './quiz.js';
@@ -9,16 +10,18 @@ import styles from './Quiz.module.css';
 export function QuizQuestion({ item, mode, number, total, score, chosen, onAnswer, onNext }) {
   const [focus, setFocus] = useState(null);
   const [showHighlights, setShowHighlights] = useState(true);
+  const visible = useQuizVisible();
   const c = item.case;
   const answer = answerOf(c, mode);
   const answered = chosen != null;
 
   useEffect(() => {
     const onKey = (e) => {
-      if (e.target.closest?.('input, textarea, select')) return;
+      if (!visible || e.target.closest?.('input, textarea, select, dialog')) return;
       const n = Number(e.key);
       if (!answered && n >= 1 && n <= item.options.length) onAnswer(item.options[n - 1]);
       else if (answered && (e.key === 'Enter' || e.key === ' ')) {
+        if (e.target.closest?.('button, summary, a')) return; // the focused control handles it
         e.preventDefault();
         onNext();
       }
