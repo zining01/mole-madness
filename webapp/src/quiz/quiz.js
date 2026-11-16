@@ -189,7 +189,8 @@ export const featureBreakdown = (c, mode) => {
     .filter((f) => features[f])
     .map((f) => ({ id: f, role: role(f), note: c.evidence[f] ?? null }))
     .sort((a, b) => (rank[a.role] ?? 2) - (rank[b.role] ?? 2));
-  const missingKey = key.filter((f) => !c.present.includes(f));
+  // A partial record was only assessed for the features it lists.
+  const missingKey = c.partial ? [] : key.filter((f) => !c.present.includes(f));
   return { dxName: dxByMode[mode][dx].name, seen, missingKey };
 };
 

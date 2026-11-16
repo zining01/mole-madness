@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { features } from '../data/features.js';
+import { SHOW_HIGHLIGHTS } from '../data/display.js';
 import { featureColor } from '../utils/featureColors.js';
 import { answerKeyFeatures, answerOf, answers, featureBreakdown, pearlFor, subtypeLabel } from './quiz.js';
 import { CaseComment } from './CaseComment.jsx';
@@ -16,7 +17,7 @@ export function AnswerReveal({ c, mode, chosen, onFocus }) {
   const correct = chosen === answer;
   const subtype = subtypeLabel(c, mode);
   const { dxName, seen, missingKey } = featureBreakdown(c, mode);
-  const highlighted = new Set(c.highlights.map((h) => h.feature));
+  const highlighted = new Set(SHOW_HIGHLIGHTS ? c.highlights.map((h) => h.feature) : []);
   const pearl = pearlFor(c);
   const chosenKey = chosen && !correct ? answerKeyFeatures(chosen, mode) : [];
 
@@ -37,9 +38,9 @@ export function AnswerReveal({ c, mode, chosen, onFocus }) {
           <ul className={styles.featureList}>
             {seen.map(({ id, role, note }) => (
               <li key={id} onMouseEnter={() => onFocus?.(id)} onMouseLeave={() => onFocus?.(null)}>
-                <span className={styles.swatch} style={{ background: featureColor(id) }} />
+                <span className={styles.swatch} style={{ background: SHOW_HIGHLIGHTS ? featureColor(id) : '#9ca3af' }} />
                 <div>
-                  <strong>{features[id].name}</strong>
+                  <a href={`#learn/${id}`} className={styles.featureLink}><strong>{features[id].name}</strong></a>
                   {role && <span className={styles[`role_${role}`]}>{role}</span>}
                   {highlighted.has(id) && <span className={styles.marked}>marked on image</span>}
                   <p>{note ?? features[id].description}</p>

@@ -14,6 +14,7 @@ const SUGGESTION_RUNS = {
   web: process.env.SUGGESTIONS_FILE ?? `${SUGGESTIONS_DIR}with_dx.claude-opus-5-5.json`,
   hires: `${SUGGESTIONS_DIR}with_dx.claude-opus-5-5.hires.json`,
   second: `${SUGGESTIONS_DIR}with_dx.claude-opus-5-5.r2.json`, // identical repeat of web, for the two-run rule
+  hunt: `${SUGGESTIONS_DIR}hunt_results.json`, // narrow screen for features short of examples (screen_features.py)
 }
 // Full-resolution originals, for looking at what the full-resolution run saw.
 const ORIGINALS_DIR = fileURLToPath(new URL('../data_pipeline/ham10000_data/', import.meta.url))
@@ -52,7 +53,7 @@ const readBody = (req) =>
   })
 
 // Dev-only endpoints for the /annotate tool:
-//   GET    /__suggestions[/hires|/second] → model second opinions (read-only)
+//   GET    /__suggestions[/hires|/second|/hunt] → model second opinions (read-only)
 //   GET    /__original/:id      → full-resolution original image
 //   GET    /__annotations       → whole file
 //   PUT    /__annotations/:id   → set one image's record

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { SHOW_HIGHLIGHTS } from '../data/display.js';
 import { useQuizVisible } from './visibility.js';
 import { CaseImage } from './CaseImage.jsx';
 import { AnswerReveal } from './AnswerReveal.jsx';
@@ -45,8 +46,8 @@ export function QuizQuestion({ item, mode, number, total, score, chosen, onAnswe
       </div>
       <div className={styles.progressBar}><span style={{ width: `${(100 * (number - (answered ? 0 : 1))) / total}%` }} /></div>
 
-      <CaseImage key={c.id} c={c} showHighlights={answered && showHighlights} focus={focus} />
-      {answered && c.highlights.length > 0 && (
+      <CaseImage key={c.id} c={c} showHighlights={SHOW_HIGHLIGHTS && answered && showHighlights} focus={focus} />
+      {SHOW_HIGHLIGHTS && answered && c.highlights.length > 0 && (
         <label className={styles.toggle}>
           <input type="checkbox" checked={showHighlights} onChange={(e) => setShowHighlights(e.target.checked)} />
           Show marked examples

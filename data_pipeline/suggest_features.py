@@ -85,8 +85,7 @@ def build_prompt(vocab, candidates, dx_name, source_label, variant):
         "",
         "Judge only what is visible in this particular image. Many lesions show only some of the features "
         "typical for their diagnosis; do not mark a feature present just because it is typical.",
-        "Features marked (polarized only) are only seen with polarized dermoscopy; if the image looks "
-        "non-polarized, do not guess them present.",
+        "The image was taken with polarized dermoscopy, so features marked (polarized only) can be assessed.",
         '"no_pigment_network" means no pigment network of any kind, so it cannot be present together with '
         '"typical_network" or "atypical_network".',
         'For "present" or "uncertain", give brief evidence: where in the image (e.g. "upper left edge") and '

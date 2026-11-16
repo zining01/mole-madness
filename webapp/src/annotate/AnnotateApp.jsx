@@ -3,10 +3,12 @@ import data from '../metadata_cloud.json';
 import { AnnotationEditor } from './AnnotationEditor.jsx';
 import { AtlasView } from './AtlasView.jsx';
 import { ReviewView } from './ReviewView.jsx';
+import { HuntView } from './HuntView.jsx';
 import { CandidateGrid } from './CandidateGrid.jsx';
 import { buildIndex, dxById, dxOfCode, quotas, acceptedByCode, plural } from './queue.js';
 import { loadAnnotations, loadSuggestions, saveAnnotation, deleteAnnotation } from './store.js';
 import { toReviewCount } from './suggestions.js';
+import { quickAccept, thinFeatures } from './hunt.js';
 import styles from './Annotate.module.css';
 
 const index = buildIndex(data);
@@ -46,14 +48,16 @@ export function AnnotateApp() {
   const [suggestions, setSuggestions] = useState({});
   const [hiresSuggestions, setHiresSuggestions] = useState({});
   const [secondSuggestions, setSecondSuggestions] = useState({});
+  const [huntScreen, setHuntScreen] = useState({});
   const [error, setError] = useState(null);
   const [target, setTarget] = useState(() => Number(readPref('annotate.target', 5)));
   const [dxId, setDxId] = useState(() => {
     const saved = readPref('annotate.dx', null);
     return dxById[saved] ? saved : Object.keys(dxById)[0];
   });
-  const [view, setView] = useState('dx'); // 'dx' (candidate grid), 'atlas' or 'review'
+  const [view, setView] = useState('dx'); // 'dx' (candidate grid), 'atlas', 'review' or 'hunt'
   const [reviewId, setReviewId] = useState(null);
+  const [huntAt, setHuntAt] = useState(null); // { feature, index } of the lead being viewed
   const [openId, setOpenId] = useState(null);
 
   useEffect(() => {
@@ -61,6 +65,7 @@ export function AnnotateApp() {
     loadSuggestions().then(setSuggestions, () => setSuggestions({}));
     loadSuggestions('hires').then(setHiresSuggestions, () => setHiresSuggestions({}));
     loadSuggestions('second').then(setSecondSuggestions, () => setSecondSuggestions({}));
+    loadSuggestions('hunt').then(setHuntScreen, () => setHuntScreen({}));
   }, []);
 
   const chooseTarget = (t) => {
@@ -87,6 +92,33 @@ export function AnnotateApp() {
     } catch (err) {
       window.alert(`Save failed: ${err.message}`);
     }
+  };
+
+  // From the feature hunt: accept one feature of an image without opening the
+  // editor. Returns a function that puts things back as they were.
+  const handleQuickAccept = async (id, feature, lead) => {
+    const before = annotations[id] ?? null;
+    const record = quickAccept(data[id], feature, lead, before);
+    try {
+      await saveAnnotation(id, record);
+    } catch (err) {
+      window.alert(`Save failed: ${err.message}`);
+      return null;
+    }
+    setAnnotations((prev) => ({ ...prev, [id]: record }));
+    return async () => {
+      try {
+        if (before) await saveAnnotation(id, before);
+        else await deleteAnnotation(id);
+      } catch (err) {
+        window.alert(`Undo failed: ${err.message}`);
+        return;
+      }
+      setAnnotations((prev) => {
+        const { [id]: _, ...rest } = prev;
+        return before ? { ...rest, [id]: before } : rest;
+      });
+    };
   };
 
   const handleReturnToQueue = async () => {
@@ -145,6 +177,11 @@ export function AnnotateApp() {
           <span>Feature atlas</span>
           <span className={styles.meta}>{plural(atlasFeatures, 'feature')}</span>
         </button>
+        <button type="button" className={`${styles.dxItem} ${view === 'hunt' ? styles.dxItemOn : ''}`}
+          onClick={() => { setView('hunt'); setHuntAt(null); }}>
+          <span>Feature hunt</span>
+          <span className={styles.meta}>{plural(thinFeatures(annotations).length, 'feature')} short of examples</span>
+        </button>
         <ul className={styles.dxList}>
           {Object.entries(dxById).map(([id, dx], i) => {
             const group = `${dx.superclass} · ${dx.malignancy}`;
@@ -177,6 +214,9 @@ export function AnnotateApp() {
           <ReviewView data={data} annotations={annotations} runs={{ web: suggestions, hires: hiresSuggestions }}
             currentId={reviewId}
             setCurrentId={setReviewId} onRecordChange={handleRecordChange} onOpen={setOpenId} />
+        ) : view === 'hunt' ? (
+          <HuntView data={data} annotations={annotations} screen={huntScreen} suggestions={suggestions}
+            second={secondSuggestions} at={huntAt} setAt={setHuntAt} onOpen={setOpenId} onQuickAccept={handleQuickAccept} />
         ) : view === 'atlas' ? (
           <AtlasView annotations={annotations} onOpen={setOpenId} />
         ) : (

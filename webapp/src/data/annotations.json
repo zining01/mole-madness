@@ -34,6 +34,112 @@
       "multiple_colors"
     ]
   },
+  "DERM_108219": {
+    "code": "bcc",
+    "patient_id": "PID_399795",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "arborizing_vessels",
+      "blue_gray_ovoid_nests",
+      "concentric_structures",
+      "in_focus_dots",
+      "leaf_like_areas",
+      "multiple_small_erosions",
+      "no_pigment_network",
+      "short_fine_telangiectasias",
+      "ulceration"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "arborizing_vessels": "Multiple sharply focused bright red branching tree-like vessels across the lesion, especially right side and center (e.g., right mid, center-right).",
+      "blue_gray_ovoid_nests": "Dark blue-gray/brown ovoid nests at center-right (~350,175), lower center (~245,290) and upper left (~130,30).",
+      "ulceration": "Red hemorrhagic crusted areas at upper center (~230,60) and lower center (~305,225).",
+      "short_fine_telangiectasias": "Fine short thin vessels in background, especially left and lower right areas.",
+      "no_pigment_network": "No pigment network visible anywhere; pigment appears as nests, globules and blotches.",
+      "concentric_structures": "Globule-like brown-gray structures with darker center at center-right (~370,180) and lower center (~245,290)."
+    },
+    "lowConfidence": {
+      "leaf_like_areas": "Brown-gray bulbous pigmented areas in upper left/upper center could resemble leaf-like structures but are not clearly at the periphery.",
+      "shiny_white_structures": "Whitish structureless areas in center and upper center; no clear orthogonal shiny lines.",
+      "multiple_small_erosions": "Some small red crusts in upper center and center, but they are fewer and larger than typical multiple small erosions.",
+      "in_focus_dots": "Some fine brown-gray dots around the lower center pigmented area (~240,280), not clearly blue-gray."
+    },
+    "updated": "2026-11-16T00:57:09.829Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "arborizing_vessels",
+        "no_pigment_network",
+        "ulceration"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_109215": {
+    "code": "bcc",
+    "patient_id": "PID_942379",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "no_pigment_network",
+      "short_fine_telangiectasias",
+      "ulceration"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "ulceration": "Small red-dark crust at lower left of lesion; dark red-black crust at top right edge",
+      "short_fine_telangiectasias": "Fine short thin red vessels scattered over the pink lesion, especially center and right",
+      "no_pigment_network": "Pink translucent lesion with no pigment network anywhere"
+    },
+    "lowConfidence": {
+      "arborizing_vessels": "Center and right of lesion: thin red branching-appearing vessel segments, but not sharply focused, large-caliber tree-like vessels",
+      "shiny_white_structures": "Central lesion: whitish shiny glare areas and pale translucent zones, possibly reflection rather than true shiny white structures",
+      "multiple_small_erosions": "A few small red-brown crusted spots at lower left and upper right; not clearly multiple scattered erosions"
+    },
+    "updated": "2026-11-16T00:57:09.831Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "no_pigment_network",
+        "ulceration"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_109623": {
+    "code": "bcc",
+    "patient_id": "PID_311645",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "blue_gray_ovoid_nests",
+      "no_pigment_network"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "blue_gray_ovoid_nests": "Central small lesion composed of a well-defined blue-gray ovoid area/nest with darker blue-gray globular parts",
+      "no_pigment_network": "No pigment network visible anywhere in the central blue-gray lesion"
+    },
+    "lowConfidence": {
+      "shiny_white_structures": "Faint whitish shiny area within the center of the blue-gray lesion, possibly a white blotch",
+      "in_focus_dots": "A few possible small blue-gray dots at the periphery of the central lesion, not sharply resolved"
+    },
+    "updated": "2026-11-16T00:57:09.831Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "no_pigment_network"
+      ],
+      "removed": []
+    }
+  },
   "DERM_110622": {
     "code": "rd",
     "patient_id": "PID_890149",
@@ -98,6 +204,74 @@
       "removed": []
     }
   },
+  "DERM_129032": {
+    "code": "bcc",
+    "patient_id": "PID_468522",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "multiple_small_erosions",
+      "no_pigment_network",
+      "shiny_white_structures",
+      "ulceration"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "shiny_white_structures": "Shiny white structureless blotches and streaks are visible on the right side and across the lower half of the lesion.",
+      "ulceration": "Several dark red-black hemorrhagic crusts lie in the center and lower center; a larger orange area devoid of epidermis is seen centrally.",
+      "no_pigment_network": "No pigment network is seen anywhere in the lesion.",
+      "multiple_small_erosions": "Multiple small red-brown crusts and erosions are scattered in a line across the lower center and in the upper center."
+    },
+    "lowConfidence": {
+      "blue_gray_ovoid_nests": "Lower left corner shows a diffuse blue-gray pigmented area that may be ovoid nests, but its edges are poorly defined.",
+      "short_fine_telangiectasias": "Faint short red linear vessels may be present in the upper center pinkish area, but they are blurred."
+    },
+    "updated": "2026-11-16T00:57:09.831Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "no_pigment_network",
+        "shiny_white_structures",
+        "ulceration"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_129840": {
+    "hiddenSuggestions": [],
+    "evidence": {
+      "central_hyperpigmentation": "Lesion is almost entirely dark brown-black and structureless, darkest centrally, with a slightly lighter brown rim.",
+      "symmetric_single_pattern": "Roughly round, symmetric lesion with a uniform dark brown-black structureless pattern throughout."
+    },
+    "lowConfidence": {
+      "starburst_pattern": "Small dark lesion with irregular, slightly projecting edges at the periphery (especially left and lower right edges), suggesting short pseudopod-like projections, but not clearly evenly spaced radial streaks around the whole perimeter.",
+      "regular_globules": "Possible small brown dots/globules at the lesion edge (lower and right borders), but too small to call confidently.",
+      "peripheral_globules": "The border shows a slightly scalloped, beaded edge with small brown dot-like projections that could represent a peripheral rim of globules. Resolution is insufficient to confirm this."
+    },
+    "code": "srjd",
+    "patient_id": "PID_135792",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "central_hyperpigmentation",
+      "starburst_pattern",
+      "symmetric_single_pattern"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "reviewedSuggestions": [],
+    "note": "",
+    "updated": "2026-11-16T00:57:09.831Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "central_hyperpigmentation"
+      ],
+      "removed": []
+    }
+  },
   "DERM_134644": {
     "code": "acd",
     "patient_id": "PID_936501",
@@ -123,6 +297,96 @@
     "reviewedSuggestions": [
       "fibrillar_pattern"
     ]
+  },
+  "DERM_135726": {
+    "code": "acb",
+    "patient_id": "PID_210257",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "lattice_pattern",
+      "symmetric_single_pattern"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "lattice_pattern": "Throughout the lesion, thin brown lines run along the skin markings and are joined by crossing lines. Together they form a ladder- or mesh-like grid of polygonal compartments with lighter centers.",
+      "symmetric_single_pattern": "The oval lesion has one dominant pattern of brown crossing lines spread fairly evenly from the upper to the lower portion. Colors are uniform light brown and tan, with no other structures."
+    },
+    "lowConfidence": {},
+    "updated": "2026-11-16T00:57:09.831Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "symmetric_single_pattern"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_137049": {
+    "code": "bcc",
+    "patient_id": "PID_635436",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "leaf_like_areas",
+      "no_pigment_network"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "no_pigment_network": "The lesion shows structureless brown to grey-brown pigmentation with no reticular network."
+    },
+    "lowConfidence": {
+      "leaf_like_areas": "Right and lower-right edge shows brown bulbous lobular extensions that may represent leaf-like areas.",
+      "shiny_white_structures": "Faint whitish structureless areas within the centre of the lesion. These are not clearly shiny lines.",
+      "short_fine_telangiectasias": "Upper central pinkish-red area may contain faint fine vessels, but focus is too poor to confirm.",
+      "in_focus_dots": "Possible faint small grey dots in the lower brown part of the lesion. The blur prevents a confident call."
+    },
+    "updated": "2026-11-16T00:57:09.831Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "no_pigment_network"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_138427": {
+    "code": "bcc",
+    "patient_id": "PID_134866",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "blue_gray_ovoid_nests",
+      "in_focus_dots",
+      "no_pigment_network",
+      "short_fine_telangiectasias"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "blue_gray_ovoid_nests": "Center: a well-defined blue-violet to blue-gray ovoid blotch/nest without a network.",
+      "short_fine_telangiectasias": "Short, thin, minimally branching red vessels scattered around the central blue area and on the left half of the field.",
+      "no_pigment_network": "No pigment network is seen in the central blue-gray lesion or its surroundings."
+    },
+    "lowConfidence": {
+      "arborizing_vessels": "Left and lower-center areas show red branching vessels, but they are diffuse over background skin and not sharply arborizing over the lesion itself.",
+      "in_focus_dots": "A few small darker blue dots within the central blue-gray area, not clearly distinct."
+    },
+    "updated": "2026-11-16T00:57:09.831Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "blue_gray_ovoid_nests",
+        "no_pigment_network",
+        "short_fine_telangiectasias"
+      ],
+      "removed": []
+    }
   },
   "DERM_153270": {
     "code": "bdb",
@@ -190,6 +454,119 @@
     "removedOffList": [
       "multiple_colors"
     ]
+  },
+  "DERM_156987": {
+    "code": "anm",
+    "patient_id": "PID_467142",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "asymmetric_multicomponent",
+      "irregular_diffuse_pigmentation",
+      "multiple_colors",
+      "polymorphous_vessels"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "irregular_diffuse_pigmentation": "Left and lower-left portion shows structureless light orange-brown pigment of uneven intensity with no ridge or furrow organization.",
+      "asymmetric_multicomponent": "Uneven mix across the lesion: a red structureless nodule on the right, brownish structureless areas on the left, and white scale/structureless white zones, arranged asymmetrically.",
+      "multiple_colors": "Red (right nodule), light brown/orange (left), and white (scale and structureless areas throughout)."
+    },
+    "lowConfidence": {
+      "ulceration": "Right central red area with darker red clods may be superficial erosion or hemorrhage; surrounding white scale and crust-like material.",
+      "polymorphous_vessels": "Right red nodule contains dotted and short irregular red structures, but these may be hemorrhage rather than distinct vessel types.",
+      "irregular_globules": "Right red area shows irregular red dots/clods of varying size, most likely vascular or hemorrhagic rather than pigmented globules."
+    },
+    "updated": "2026-11-16T00:57:09.831Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "asymmetric_multicomponent",
+        "irregular_diffuse_pigmentation",
+        "multiple_colors"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_160599": {
+    "code": "bcc",
+    "patient_id": "PID_473383",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "in_focus_dots",
+      "multiple_small_erosions",
+      "no_pigment_network",
+      "shiny_white_structures",
+      "short_fine_telangiectasias",
+      "ulceration"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "shiny_white_structures": "Whitish structureless/shiny areas throughout the lesion background, especially left and upper portions",
+      "ulceration": "Central and upper-right dark red-black hemorrhagic crusts (central cluster and upper-right blob)",
+      "short_fine_telangiectasias": "Short thin red vessels scattered in upper and left part of lesion on whitish background",
+      "no_pigment_network": "No pigment network seen anywhere in the lesion",
+      "multiple_small_erosions": "Multiple small red-brown crusts/erosions scattered across left and central lesion"
+    },
+    "lowConfidence": {
+      "arborizing_vessels": "Upper and left portions of lesion show some fine red linear vessels with slight branching, but not clearly sharp tree-like arborization"
+    },
+    "updated": "2026-11-16T00:57:09.831Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "no_pigment_network",
+        "shiny_white_structures",
+        "short_fine_telangiectasias",
+        "ulceration"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_167732": {
+    "code": "mel",
+    "patient_id": "PID_662630",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "asymmetric_multicomponent",
+      "blue_white_veil",
+      "irregular_blotch",
+      "milky_red_areas",
+      "multiple_colors"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "asymmetric_multicomponent": "Lesion shows uneven distribution of dark blue-black area upper right, white scaly/scar-like zones upper center, and pink-red structureless areas elsewhere.",
+      "multiple_colors": "Black/blue-gray (upper right), white (upper center), red-pink (diffuse), and brown tones present.",
+      "irregular_blotch": "Dark blue-black structureless area off-center at upper right obscuring underlying structures.",
+      "blue_white_veil": "Upper right: confluent blue-gray pigment with overlying whitish haze adjacent to scale.",
+      "milky_red_areas": "Large fuzzy pinkish-red structureless areas occupying left and lower portions of the lesion."
+    },
+    "lowConfidence": {
+      "irregular_globules": "Small dark red-purple dot in lower center and scattered dark foci, not clearly globules.",
+      "regression_structures": "White scar-like areas in upper center, though partly obscured by scale/crust.",
+      "shiny_white_structures": "Whitish areas in upper center may include shiny white structures, but largely appear to be scale.",
+      "peppering": "Possible fine gray granules near the dark area upper right and left-center gray zone."
+    },
+    "updated": "2026-11-16T00:57:09.831Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "asymmetric_multicomponent",
+        "blue_white_veil",
+        "irregular_blotch",
+        "multiple_colors"
+      ],
+      "removed": []
+    }
   },
   "DERM_167989": {
     "code": "cjb",
@@ -401,6 +778,41 @@
       "removed": []
     }
   },
+  "DERM_178140": {
+    "code": "mel",
+    "patient_id": "PID_783347",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "multiple_colors",
+      "peripheral_brown_structureless",
+      "regression_structures"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "multiple_colors": "Light brown periphery, darker reddish-brown areas, blue-gray center-left and whitish areas centrally",
+      "regression_structures": "Central whitish-gray scar-like area with loss of pigment and bluish-gray hue",
+      "peripheral_brown_structureless": "Light tan-brown featureless zone along the lower and right periphery"
+    },
+    "lowConfidence": {
+      "asymmetric_multicomponent": "Lesion shows central bluish-gray/whitish area, darker brown left-center zone and lighter brown periphery, distributed somewhat unevenly",
+      "irregular_blotch": "Darker brown structureless area in left-center portion of the lesion, off-center",
+      "blue_white_veil": "Center-left bluish-gray hazy area with whitish overlay, faint",
+      "shiny_white_structures": "Small bright white short lines/spots in the center and right-center of lesion",
+      "peppering": "Faint gray granular appearance within central regression area"
+    },
+    "updated": "2026-11-16T00:57:09.831Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "multiple_colors",
+        "regression_structures"
+      ],
+      "removed": []
+    }
+  },
   "DERM_178493": {
     "code": "angk",
     "patient_id": "PID_734520",
@@ -569,6 +981,72 @@
       "hypertrichosis"
     ]
   },
+  "DERM_189004": {
+    "code": "mel",
+    "patient_id": "PID_923442",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "asymmetric_multicomponent",
+      "irregular_blotch",
+      "multiple_colors",
+      "peripheral_brown_structureless"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "asymmetric_multicomponent": "Irregularly shaped lesion with darker structureless upper-central zone, lighter brown lower portion and lobulated borders, structures unevenly distributed",
+      "multiple_colors": "Light brown, dark brown and blackish-brown areas, plus subtle grayish/whitish areas centrally",
+      "irregular_blotch": "Off-center dark brown to black structureless area in the upper-central portion",
+      "peripheral_brown_structureless": "Light brown featureless zone along the lower and right periphery"
+    },
+    "lowConfidence": {
+      "atypical_network": "Faint irregular reticular remnants in the left and lower portions, poorly defined",
+      "irregular_streaks": "Lobulated, bulbous projections at the upper edge and left border could represent pseudopods",
+      "irregular_globules": "Possible dark brown clods at the upper and left periphery, irregularly distributed",
+      "regression_structures": "Small whitish/grayish hypopigmented area in the center of the lesion",
+      "shiny_white_structures": "Few small whitish specks in the central lesion, not clearly orthogonal lines"
+    },
+    "updated": "2026-11-16T00:57:09.831Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "asymmetric_multicomponent",
+        "irregular_blotch",
+        "multiple_colors"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_192431": {
+    "code": "sk",
+    "patient_id": "PID_439874",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "comedo_like_openings",
+      "sharp_demarcation"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "comedo_like_openings": "Several dark brown irregular round-oval plugs scattered across the center of the lesion, consistent with keratin-filled openings",
+      "sharp_demarcation": "Oval brown lesion with a crisp, abrupt border against the surrounding pink skin all around"
+    },
+    "lowConfidence": {
+      "milia_like_cysts": "Central area shows a pale whitish-yellow blurred zone that may represent a milia-like cyst, but no discrete round white dots are clearly seen"
+    },
+    "updated": "2026-11-16T00:57:09.831Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "sharp_demarcation"
+      ],
+      "removed": []
+    }
+  },
   "DERM_194460": {
     "code": "cd",
     "patient_id": "PID_185620",
@@ -636,6 +1114,129 @@
       ]
     }
   },
+  "DERM_195696": {
+    "code": "scc",
+    "patient_id": "PID_695996",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "keratin_scale",
+      "polymorphous_vessels",
+      "ulceration",
+      "white_structureless"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "keratin_scale": "White flaky scale across the central and lower areas around the dark crust, and white-yellow keratin at the upper left edge.",
+      "white_structureless": "Opaque whitish structureless patches at the upper left and center left, consistent with keratin.",
+      "ulceration": "Round black-red hemorrhagic crust in the center, plus small red-brown crusts in the lower left and below center."
+    },
+    "lowConfidence": {
+      "glomerular_vessels": "Pink-red background in upper and right areas shows some clustered reddish structures that may be coiled vessels, but they are not clearly resolved.",
+      "dotted_vessels": "Possible tiny red dots in the pink upper central area, but not clearly distinguishable from diffuse erythema.",
+      "polymorphous_vessels": "Linear-irregular red vessels in the upper and right areas, possibly together with dotted ones; the mixed vessel pattern cannot be confirmed."
+    },
+    "updated": "2026-11-16T00:57:09.831Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "keratin_scale",
+        "ulceration",
+        "white_structureless"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_199152": {
+    "code": "sk",
+    "patient_id": "PID_414473",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "comedo_like_openings",
+      "sharp_demarcation"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "comedo_like_openings": "Multiple scattered dark brown to blue-black round plugs throughout the lesion, e.g. upper center and lower left, consistent with comedo-like openings.",
+      "sharp_demarcation": "The oval grey-brown lesion ends abruptly against surrounding pink skin along its entire border."
+    },
+    "lowConfidence": {
+      "moth_eaten_border": "A slight irregular indentation is possible at the upper left edge, but the border is otherwise smooth and oval."
+    },
+    "updated": "2026-11-16T00:57:09.831Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "sharp_demarcation"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_200791": {
+    "code": "sk",
+    "patient_id": "PID_935371",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "fissures_ridges"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "fissures_ridges": "Throughout the lesion, a convoluted brain-like pattern of light ridges separated by dark brown furrows gives a reticulated, cerebriform appearance."
+    },
+    "lowConfidence": {
+      "comedo_like_openings": "Scattered dark brown round dots/plugs in the periphery, especially the upper and right portions, might be keratin-filled openings.",
+      "sharp_demarcation": "The upper border appears fairly abrupt, but the lower and left edges fade gradually into an orange-brown halo.",
+      "moth_eaten_border": "Upper left contour shows a concave indentation between a top lobule and the main body."
+    },
+    "updated": "2026-11-16T00:57:09.831Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [],
+      "removed": []
+    }
+  },
+  "DERM_202309": {
+    "code": "bcc",
+    "patient_id": "PID_741944",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "in_focus_dots",
+      "no_pigment_network",
+      "short_fine_telangiectasias"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "short_fine_telangiectasias": "Multiple short thin red vessels scattered throughout, especially in the center and right, on a pink background",
+      "no_pigment_network": "No pigment network visible anywhere; pink-white background with vessels only"
+    },
+    "lowConfidence": {
+      "arborizing_vessels": "Red branching vessels across the right half and center, some tree-like ramifications, but somewhat blurred rather than sharply in focus",
+      "blue_gray_ovoid_nests": "Faint gray-brown blotches at the left center and near the central scale, poorly defined",
+      "shiny_white_structures": "Whitish structureless areas at the center and left; image appears non-polarized, so true shiny white structures cannot be confirmed",
+      "ulceration": "Central area with white scale/crust and an adjacent shiny eroded-looking zone in the lower center; no clear hemorrhagic crust",
+      "in_focus_dots": "Possible small grayish dots near the faint gray-brown areas in the upper left and center left; they are not clearly sharp blue-gray dots."
+    },
+    "updated": "2026-11-16T00:57:09.831Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "no_pigment_network",
+        "short_fine_telangiectasias"
+      ],
+      "removed": []
+    }
+  },
   "DERM_207436": {
     "code": "sk",
     "patient_id": "PID_159464",
@@ -672,6 +1273,69 @@
       "revertedOffList": [
         "symmetric_single_pattern"
       ]
+    }
+  },
+  "DERM_207485": {
+    "code": "scc",
+    "patient_id": "PID_280021",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "glomerular_vessels",
+      "keratin_scale",
+      "polymorphous_vessels",
+      "ulceration",
+      "white_structureless"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "keratin_scale": "Upper center and around the rim of the dark crust: whitish-yellow scaly keratin with shiny flakes",
+      "white_structureless": "Upper center and band adjacent to right of the crust: opaque whitish structureless areas",
+      "ulceration": "Left and center: large dark red-black hemorrhagic crust occupying much of the image"
+    },
+    "lowConfidence": {
+      "glomerular_vessels": "Right half: clustered tortuous red vascular structures in reticular-like arrangement that may represent glomerular/coiled vessels, though appearance is blurred",
+      "dotted_vessels": "Right side pink area: small red dot-like vascular points within the reticular red pattern",
+      "polymorphous_vessels": "Right side: mix of dot-like and short tortuous/linear red vessels possibly representing more than one vessel type"
+    },
+    "updated": "2026-11-16T00:57:09.831Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "keratin_scale",
+        "ulceration",
+        "white_structureless"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_209832": {
+    "code": "ajd",
+    "patient_id": "PID_536595",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "fibrillar_pattern",
+      "parallel_furrow"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "parallel_furrow": "Center of lesion: several roughly parallel, slightly slanted brown lines with jagged edges running along the skin markings."
+    },
+    "lowConfidence": {
+      "fibrillar_pattern": "The center lines are slanted with frayed, filament-like edges, which may suggest a fibrillar component, though they look more like furrow lines."
+    },
+    "updated": "2026-11-16T00:57:09.831Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "parallel_furrow"
+      ],
+      "removed": []
     }
   },
   "DERM_210227": {
@@ -762,6 +1426,47 @@
       "removed": []
     }
   },
+  "DERM_231083": {
+    "code": "bcc",
+    "patient_id": "PID_786786",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "blue_gray_ovoid_nests",
+      "concentric_structures",
+      "in_focus_dots",
+      "leaf_like_areas",
+      "no_pigment_network",
+      "ulceration"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "blue_gray_ovoid_nests": "large blue-gray ovoid nests centrally and clustered blue-gray globules at left portion of lesion",
+      "leaf_like_areas": "bulbous gray-blue lobular extensions along left lower margin forming leaf-like pattern",
+      "ulceration": "dark red-black hemorrhagic crust at lower center of lesion",
+      "no_pigment_network": "no pigment network visible; pigment arranged as blue-gray nests and globules",
+      "in_focus_dots": "small blue-gray dots scattered near central and lower central lesion"
+    },
+    "lowConfidence": {
+      "arborizing_vessels": "faint reddish linear vessels possibly in upper right pinkish background, not sharply branching",
+      "shiny_white_structures": "whitish structureless areas upper center and right, possibly shiny white blotches",
+      "short_fine_telangiectasias": "possible fine short vessels in pink background at right periphery",
+      "concentric_structures": "some globules at left cluster appear to have darker centers"
+    },
+    "updated": "2026-11-16T00:57:09.831Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "blue_gray_ovoid_nests",
+        "in_focus_dots",
+        "no_pigment_network",
+        "ulceration"
+      ],
+      "removed": []
+    }
+  },
   "DERM_238104": {
     "code": "jb",
     "patient_id": "PID_817737",
@@ -803,6 +1508,47 @@
     "merged": {
       "model": "claude-opus-5-5",
       "added": [],
+      "removed": []
+    }
+  },
+  "DERM_238211": {
+    "hiddenSuggestions": [],
+    "evidence": {
+      "asymmetric_multicomponent": "Darker reticular/globular upper-central zone with a lighter brown structureless lower and peripheral zone; structures are unevenly distributed and the outline is irregular.",
+      "multiple_colors": "Light brown, dark brown and black-brown throughout, with some blue-gray foci centrally and whitish areas.",
+      "atypical_network": "Upper central and left: thick, dark, uneven network lines with irregular holes that end abruptly at the edge.",
+      "irregular_globules": "Center and upper portion: dark brown to black dots and globules that vary in size and are unevenly distributed.",
+      "peripheral_brown_structureless": "Lower and right periphery: light tan-brown featureless zone."
+    },
+    "lowConfidence": {
+      "irregular_streaks": "Left and upper-right edges: possible short, irregular projections at the periphery.",
+      "irregular_blotch": "Upper-central area: dark brown confluent zones, but these are not clearly structureless.",
+      "regression_structures": "Center: whitish depigmented spots with faint gray dots within the dark area.",
+      "peppering": "Center: fine blue-gray granules are possibly present."
+    },
+    "code": "mel",
+    "patient_id": "PID_742902",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "asymmetric_multicomponent",
+      "atypical_network",
+      "irregular_globules",
+      "multiple_colors",
+      "negative_network",
+      "peripheral_brown_structureless"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "reviewedSuggestions": [],
+    "note": "",
+    "updated": "2026-11-16T00:57:09.831Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "irregular_globules",
+        "peripheral_brown_structureless"
+      ],
       "removed": []
     }
   },
@@ -887,6 +1633,69 @@
       ]
     }
   },
+  "DERM_249861": {
+    "code": "cd",
+    "patient_id": "PID_601455",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "central_hyperpigmentation",
+      "irregular_globules",
+      "peripheral_globules"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "central_hyperpigmentation": "Darker, more confluent brown zone in the center/upper center of the lesion compared with lighter periphery",
+      "irregular_globules": "Numerous brown globules of varying size and shade across the lesion, densest and darker centrally, more scattered and uneven at lower and left edges"
+    },
+    "lowConfidence": {
+      "atypical_network": "Central and upper areas show darker, thickened reticular/cobblestone-like pigment with uneven holes; mostly globular rather than true network",
+      "peripheral_globules": "Brown globules at the lower and left periphery, but they do not form a complete regular rim and blend into the globular pattern throughout",
+      "structureless_brown": "Small areas of lighter homogeneous brown in the center-right between globules, poorly defined"
+    },
+    "updated": "2026-11-16T00:57:09.832Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "central_hyperpigmentation",
+        "irregular_globules"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_252202": {
+    "code": "acb",
+    "patient_id": "PID_556437",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "fibrillar_pattern",
+      "parallel_furrow",
+      "symmetric_single_pattern"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "parallel_furrow": "Across the central lesion, thin brown lines run roughly horizontally and slightly obliquely, in parallel along the skin markings. This is consistent with pigment following the furrows.",
+      "symmetric_single_pattern": "The lesion is a small oval with an even distribution of brown parallel lines throughout. A single dominant parallel pattern is seen with uniform light-to-mid brown color."
+    },
+    "lowConfidence": {
+      "lattice_pattern": "In the central and upper parts, a few short perpendicular strokes appear to connect adjacent parallel lines. They do not clearly form a ladder-like lattice.",
+      "fibrillar_pattern": "In the mid and lower parts, the lines have a feathery look with short slanted filaments at their edges. Most pigment, however, is arranged in continuous parallel lines rather than true fine fibrils."
+    },
+    "updated": "2026-11-16T00:57:09.832Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "parallel_furrow",
+        "symmetric_single_pattern"
+      ],
+      "removed": []
+    }
+  },
   "DERM_255498": {
     "code": "acb",
     "patient_id": "PID_705848",
@@ -907,6 +1716,36 @@
       "parallel_furrow": "Central and lower lesion shows darker brown linear pigment between lighter clods, roughly oriented diagonally. These lines may follow acral furrows, but they are not clearly parallel.",
       "lattice_pattern": "Across the center, brown lines intersect around pale cobblestone-like areas, forming a mesh that could represent a lattice-like arrangement. The ladder configuration is not distinct."
     },
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [],
+      "removed": []
+    }
+  },
+  "DERM_261715": {
+    "hiddenSuggestions": [],
+    "evidence": {},
+    "lowConfidence": {
+      "asymmetric_follicular_openings": "Lower left lesion: irregular gray-brown blotch with uneven pigment at edges that may surround follicles asymmetrically; obscured by overlying hairs.",
+      "annular_granular": "Faint gray granular pigment at the periphery of the lower left lesion; ring arrangement around follicles not clearly seen.",
+      "obliterated_follicles": "Central dark gray-blue blotch in the lower left lesion appears homogeneous with no visible follicular openings, possibly filled in by pigment.",
+      "peppering": "Lower left lesion edges show fine gray-blue granularity blending into the surrounding skin; low resolution prevents a confident call.",
+      "angulated_lines": "Irregular angular extensions at the margins of the lower left gray lesion may represent angulated lines; dense hair obscures detail."
+    },
+    "code": "lm",
+    "patient_id": "PID_717762",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "angulated_lines",
+      "obliterated_follicles",
+      "rhomboidal_structures"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "reviewedSuggestions": [],
+    "note": "",
+    "updated": "2026-11-16T00:57:09.832Z",
     "merged": {
       "model": "claude-opus-5-5",
       "added": [],
@@ -936,6 +1775,36 @@
     "merged": {
       "model": "claude-opus-5-5",
       "added": [],
+      "removed": []
+    }
+  },
+  "DERM_263067": {
+    "code": "ak",
+    "patient_id": "PID_233835",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "strawberry_pattern",
+      "white_circles"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "strawberry_pattern": "Across the central and lower lesion, a red-pink to reddish-brown erythematous background forms a pseudonetwork around numerous whitish follicular openings.",
+      "white_circles": "Multiple round whitish rings and halos around follicular openings, most visible in the central pigmented area and the left-center region."
+    },
+    "lowConfidence": {
+      "keratin_scale": "Small white-yellow flake-like keratin focus near the center (just right of midline, upper-middle). Otherwise no obvious diffuse scale.",
+      "asymmetric_follicular_openings": "Central brown area: some whitish follicular openings appear rimmed by brown pigment that is thicker on one side, but the rimming is not clearly eccentric.",
+      "peppering": "Central darker zone: faint grayish-brown granular stippling is possible, but distinct blue-gray dots cannot be resolved."
+    },
+    "updated": "2026-11-16T00:57:09.832Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "white_circles"
+      ],
       "removed": []
     }
   },
@@ -971,6 +1840,41 @@
         "no_pigment_network"
       ]
     }
+  },
+  "DERM_268660": {
+    "prefilled": {
+      "model": "claude-opus-5-5",
+      "rule": "not absent in either of two runs"
+    },
+    "hiddenSuggestions": [],
+    "borderline": [
+      "symmetric_single_pattern",
+      "typical_network"
+    ],
+    "evidence": {
+      "peripheral_globules": "Small brown dots/globules clustered along the lesion edge, notably at the upper, right and lower borders",
+      "regular_globules": "Numerous small round brown dots/globules of similar size distributed across the lesion, especially toward the periphery",
+      "structureless_brown": "Central and upper-left areas show homogeneous darker brown structureless pigmentation",
+      "symmetric_single_pattern": "Roughly oval brown lesion with fairly even colors, but darker eccentric areas in upper left and center-right make symmetry only approximate",
+      "typical_network": "Faint reticular brown lines possibly visible within the central lesion, partly obscured by overlying hairs"
+    },
+    "lowConfidence": {},
+    "code": "jb",
+    "patient_id": "PID_663522",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "peripheral_globules",
+      "regular_globules",
+      "structureless_brown",
+      "symmetric_single_pattern",
+      "typical_network"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "reviewedSuggestions": [],
+    "note": "",
+    "updated": "2026-11-16T00:30:39.543Z"
   },
   "DERM_271204": {
     "prefilled": {
@@ -1516,6 +2420,39 @@
       "typical_network"
     ]
   },
+  "DERM_339825": {
+    "code": "lm",
+    "patient_id": "PID_545178",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "annular_granular",
+      "peppering",
+      "pseudonetwork"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "pseudonetwork": "Across the whole lesion, diffuse brown pigmentation is interrupted by numerous round whitish follicular openings.",
+      "peppering": "Central and upper central lesion shows fine blue-gray dots and granules scattered between the follicles."
+    },
+    "lowConfidence": {
+      "asymmetric_follicular_openings": "Some follicular openings in the central and upper lesion show uneven, eccentric brown-gray pigment around them, but this is hard to separate from the diffuse pseudonetwork.",
+      "annular_granular": "Central-upper area has bluish-gray granular pigment near some follicles; it is not clearly arranged in rings.",
+      "obliterated_follicles": "In the darker central-upper zone some follicular openings look partly filled in by pigment, but this is not definite.",
+      "regression_structures": "There are lighter whitish-pink areas with gray granules in the center, possibly early regression."
+    },
+    "updated": "2026-11-16T00:57:09.832Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "peppering",
+        "pseudonetwork"
+      ],
+      "removed": []
+    }
+  },
   "DERM_340834": {
     "code": "ajb",
     "patient_id": "PID_817737",
@@ -1540,6 +2477,33 @@
       "model": "claude-opus-5-5",
       "added": [
         "parallel_furrow"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_352211": {
+    "code": "ha",
+    "patient_id": "PID_268214",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "no_pigment_network",
+      "pale_lacunae"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "no_pigment_network": "Entire field shows red-pink and whitish structureless areas with dotted vessels; no pigment network anywhere"
+    },
+    "lowConfidence": {
+      "red_lacunae": "Diffuse pink-red background with whitish areas; vague red zones separated by pale septa in center but no clearly sharply demarcated round lacunae; mostly fine dotted vessels"
+    },
+    "updated": "2026-11-16T00:57:09.832Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "no_pigment_network"
       ],
       "removed": []
     }
@@ -1602,6 +2566,44 @@
     "merged": {
       "model": "claude-opus-5-5",
       "added": [],
+      "removed": []
+    }
+  },
+  "DERM_366591": {
+    "code": "scc",
+    "patient_id": "PID_669135",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "dotted_vessels",
+      "glomerular_vessels",
+      "keratin_scale",
+      "polymorphous_vessels",
+      "white_structureless"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "keratin_scale": "White-yellow keratin/scale surface in the central lesion, with a whitish glistening crust-like appearance",
+      "white_structureless": "Large opaque white structureless area occupying the center of the lesion",
+      "dotted_vessels": "Numerous tiny red dots scattered over the central and upper lesion",
+      "polymorphous_vessels": "Dotted vessels together with short linear-irregular and coiled red vessels in the central and upper lesion"
+    },
+    "lowConfidence": {
+      "glomerular_vessels": "Small clustered red coiled-appearing vessels in the upper central and left-central lesion; too small to confirm a glomerular morphology",
+      "white_circles": "Faint whitish rims around a few follicular openings within the central white area",
+      "ulceration": "Small red spots at the upper center and top could be tiny hemorrhagic crusts"
+    },
+    "updated": "2026-11-16T00:57:09.832Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "dotted_vessels",
+        "keratin_scale",
+        "polymorphous_vessels",
+        "white_structureless"
+      ],
       "removed": []
     }
   },
@@ -1697,6 +2699,38 @@
       "revertedOffList": [
         "no_pigment_network"
       ]
+    }
+  },
+  "DERM_383376": {
+    "code": "bd",
+    "patient_id": "PID_549486",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "dotted_vessels",
+      "glomerular_vessels",
+      "keratin_scale"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "keratin_scale": "White crisscrossing scale over the center and upper half, plus yellow keratin/crust masses on the right side.",
+      "dotted_vessels": "Numerous tiny red dots scattered over the central and lower pink-orange areas."
+    },
+    "lowConfidence": {
+      "glomerular_vessels": "Small red clustered vessel-like dots scattered across the central pink area could represent tiny glomerular vessels, but magnification is insufficient to confirm coiling.",
+      "white_structureless": "Pale whitish structureless zone along the lower part of the field, possibly perilesional skin or glare rather than a true lesional feature.",
+      "ulceration": "Yellow-orange crust-like areas at the right side may represent serous crust; no clear hemorrhagic crust or erosion seen."
+    },
+    "updated": "2026-11-16T00:57:09.832Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "dotted_vessels",
+        "keratin_scale"
+      ],
+      "removed": []
     }
   },
   "DERM_383985": {
@@ -1806,6 +2840,71 @@
       "removed": []
     }
   },
+  "DERM_386757": {
+    "code": "lm",
+    "patient_id": "PID_697194",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "annular_granular",
+      "pseudonetwork"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "pseudonetwork": "Throughout the lesion: diffuse light-to-dark brown pigment broken up by many round, pale, skin-colored follicular openings, giving a pseudonetwork appearance."
+    },
+    "lowConfidence": {
+      "asymmetric_follicular_openings": "Upper center of the lesion: a few follicular openings appear to have darker brown pigment more on one side, but it is not clearly defined.",
+      "annular_granular": "Upper center: some faint gray-brown dots near follicles, but no clear ring arrangement.",
+      "obliterated_follicles": "Upper center, darkest area: a few follicular openings look partly filled with brown pigment.",
+      "peppering": "Upper center: a few fine gray-blue dots within the darker brown area."
+    },
+    "updated": "2026-11-16T00:57:09.832Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "pseudonetwork"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_395407": {
+    "code": "bcc",
+    "patient_id": "PID_656834",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "blue_gray_ovoid_nests",
+      "in_focus_dots",
+      "no_pigment_network"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "blue_gray_ovoid_nests": "Small well-defined blue-gray ovoid globule at the left-centre of the lesion, with a smaller blue-gray globule just below centre.",
+      "no_pigment_network": "No reticular pigment network anywhere; pigment is arranged in blotches, globules and dots.",
+      "in_focus_dots": "Small, sharply focused dark brown to gray dots clustered in the lower right and upper centre of the lesion."
+    },
+    "lowConfidence": {
+      "leaf_like_areas": "Lower and right periphery shows brown bulbous pigmented areas that may represent leaf-like structures, but they are poorly defined.",
+      "spoke_wheel": "Right side: a dark brown central dot with a surrounding lighter brown area may suggest a spoke-wheel structure, but radial projections are not clear.",
+      "shiny_white_structures": "Faint whitish linear streaks in the central and upper-right lesion may be shiny white lines or hairs/reflections.",
+      "short_fine_telangiectasias": "Central pinkish erythema without clearly resolvable fine vessels.",
+      "concentric_structures": "Right-centre dark brown globule with a lighter rim could represent a concentric structure."
+    },
+    "updated": "2026-11-16T00:57:09.832Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "blue_gray_ovoid_nests",
+        "no_pigment_network"
+      ],
+      "removed": []
+    }
+  },
   "DERM_395689": {
     "code": "sk",
     "patient_id": "PID_844513",
@@ -1856,6 +2955,39 @@
       "multiple_colors"
     ]
   },
+  "DERM_397426": {
+    "code": "lm",
+    "patient_id": "PID_442861",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "circle_within_circle",
+      "pseudonetwork"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "pseudonetwork": "Throughout the lesion, diffuse dark brown pigment is interrupted by numerous round, light follicular openings, giving a pseudonetwork appearance."
+    },
+    "lowConfidence": {
+      "asymmetric_follicular_openings": "Some follicular openings in the central and lower-central lesion show eccentric darker pigment rims, but this is not clearly distinguishable from the diffuse pigment.",
+      "annular_granular": "Possible grayish granular pigment around some follicles in the central-left lesion; the reddish image tone limits a confident call.",
+      "rhomboidal_structures": "Dark brown pigment between closely packed follicles in the central-right area forms somewhat angulated meshes, but these are not clearly rhomboidal.",
+      "obliterated_follicles": "Small areas of confluent dark pigment in the lower-center and right lesion seem to lack visible follicular openings, possibly obliterated.",
+      "peppering": "Faint grayish granular areas in the central-left part of the lesion may represent peppering, but this is not clearly resolved.",
+      "regression_structures": "A whitish structureless patch in the upper center and pale areas at the lower edge may represent regression.",
+      "circle_within_circle": "Central and upper right of the lesion show numerous round structures with dark rims around lighter centres, some with an inner ring. These could be follicular circle-within-circle, but many look like air bubbles in the immersion fluid, so a confident call is not possible."
+    },
+    "updated": "2026-11-16T00:57:09.832Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "pseudonetwork"
+      ],
+      "removed": []
+    }
+  },
   "DERM_398126": {
     "prefilled": {
       "model": "claude-opus-5-5",
@@ -1881,6 +3013,40 @@
     "reviewedSuggestions": [],
     "note": "",
     "updated": "2026-10-17T07:42:39.886Z"
+  },
+  "DERM_400505": {
+    "code": "bcc",
+    "patient_id": "PID_568116",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "blue_gray_ovoid_nests",
+      "leaf_like_areas",
+      "no_pigment_network"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "blue_gray_ovoid_nests": "Dark blue-gray to black ovoid blotches at the lower center (around the bottom of the pink nodule) and at the upper center of the lesion",
+      "leaf_like_areas": "Left edge: light brown bulbous, fan-shaped radiating extensions resembling leaf-like/maple-leaf areas; similar brown projections at the upper right",
+      "no_pigment_network": "No pigment network seen anywhere; pigment appears only as blotches, nests and leaf-like structures"
+    },
+    "lowConfidence": {
+      "arborizing_vessels": "Center-left of lesion: dark branching linear structures over pink background, though they appear brownish rather than clearly red and only partly in focus",
+      "spoke_wheel": "Left periphery: brown fan-shaped radial projections that may converge on a slightly darker focus, but no clear central hub",
+      "short_fine_telangiectasias": "Faint short thin reddish-brown lines over the pink area left of center",
+      "in_focus_dots": "Upper center: a few small dark blue-gray dots near the larger blotches"
+    },
+    "updated": "2026-11-16T00:57:09.832Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "blue_gray_ovoid_nests",
+        "no_pigment_network"
+      ],
+      "removed": []
+    }
   },
   "DERM_403107": {
     "code": "bd",
@@ -1959,6 +3125,71 @@
     "merged": {
       "model": "claude-opus-5-5",
       "added": [],
+      "removed": []
+    }
+  },
+  "DERM_414531": {
+    "code": "sk",
+    "patient_id": "PID_751514",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "milia_like_cysts",
+      "moth_eaten_border",
+      "sharp_demarcation"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "sharp_demarcation": "The dark brown peripheral rim stops abruptly against the surrounding pink skin, especially along the lower and left edges.",
+      "moth_eaten_border": "The periphery has scalloped, concave indentations between brown lobules, most visible along the lower left and upper edges."
+    },
+    "lowConfidence": {
+      "milia_like_cysts": "A few faint whitish dots in the pale central area of the lesion may be small milia-like cysts, but they are not distinct."
+    },
+    "updated": "2026-11-16T00:57:09.832Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "moth_eaten_border",
+        "sharp_demarcation"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_417687": {
+    "code": "ccb",
+    "patient_id": "PID_355424",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "milia_like_cysts",
+      "perifollicular_hypopigmentation",
+      "structureless_brown",
+      "symmetric_single_pattern"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "structureless_brown": "Diffuse homogeneous light-to-medium brown pigmentation across most of the lesion, interrupted only by small pale dots",
+      "symmetric_single_pattern": "Uniform brown color with evenly distributed pale dots throughout the visible lesion, one dominant pattern",
+      "perifollicular_hypopigmentation": "Numerous small pale whitish dots evenly scattered over the brown background, consistent with follicular openings surrounded by lighter pigment"
+    },
+    "lowConfidence": {
+      "regular_globules": "Fine brown dots faintly visible within the brown background in the central area, not well-defined globules",
+      "typical_network": "Faint reticular brownish texture between the pale dots in places, but no clear thin-line network with regular holes",
+      "hypertrichosis": "A few fine whitish hairs at the right side of the lesion; not clearly thick terminal hairs"
+    },
+    "updated": "2026-11-16T00:57:09.832Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "perifollicular_hypopigmentation",
+        "structureless_brown",
+        "symmetric_single_pattern"
+      ],
       "removed": []
     }
   },
@@ -2089,6 +3320,44 @@
       "multiple_colors"
     ]
   },
+  "DERM_441561": {
+    "hiddenSuggestions": [],
+    "evidence": {
+      "asymmetric_follicular_openings": "Center and lower center: dark brown pigment sits eccentrically on one side of several pale round follicular openings.",
+      "pseudonetwork": "Throughout the lesion: diffuse light-to-mid brown pigment is interrupted by numerous round, pale follicular openings.",
+      "angulated_lines": "Upper center and center: dark brown straight line segments meet at angles in a zig-zag pattern between follicles without fully closing."
+    },
+    "lowConfidence": {
+      "annular_granular": "Lower center: some fine gray-brown dots cluster around follicular openings, but they do not clearly form complete rings.",
+      "rhomboidal_structures": "Upper center: dark pigmented lines partly surround follicles and suggest polygons, but most do not fully close.",
+      "obliterated_follicles": "Lower right edge: a homogeneous dark brown area where follicular openings are not discernible, possibly filled in by pigment.",
+      "peppering": "Lower center: some fine grayish dots among the dark pigment, which could represent melanophages."
+    },
+    "code": "lm",
+    "patient_id": "PID_981968",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "angulated_lines",
+      "annular_granular",
+      "asymmetric_follicular_openings",
+      "obliterated_follicles",
+      "pseudonetwork",
+      "rhomboidal_structures"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "reviewedSuggestions": [],
+    "note": "",
+    "updated": "2026-11-16T00:57:09.832Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "pseudonetwork"
+      ],
+      "removed": []
+    }
+  },
   "DERM_445377": {
     "code": "lk",
     "patient_id": "PID_714433",
@@ -2208,6 +3477,169 @@
       ]
     }
   },
+  "DERM_452865": {
+    "code": "la",
+    "patient_id": "PID_538449",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "no_pigment_network",
+      "pale_lacunae",
+      "red_lacunae"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "red_lacunae": "Upper center and center-left: numerous clustered, sharply outlined round-to-oval bright red lacunae.",
+      "pale_lacunae": "Center-right and lower center, below and right of the red clusters: whitish-yellow translucent lacunar areas ('frog spawn').",
+      "no_pigment_network": "No pigment network anywhere; the lesion consists only of red and pale lacunae on a pinkish-white background."
+    },
+    "lowConfidence": {
+      "sharp_demarcation": "The red lacunar clusters are well defined, but the lesion's outer border fades gradually into the pale surrounding skin, especially toward the bottom and right."
+    },
+    "updated": "2026-11-16T00:57:09.832Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "no_pigment_network",
+        "red_lacunae"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_454153": {
+    "code": "mel",
+    "patient_id": "PID_656166",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "asymmetric_multicomponent",
+      "atypical_network",
+      "multiple_colors",
+      "peripheral_brown_structureless",
+      "regression_structures"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "asymmetric_multicomponent": "Darker brown upper/central zone with patchy network, lighter pinkish-brown lower half with structureless and whitish areas; uneven distribution",
+      "multiple_colors": "Light brown, dark brown (near-black focus upper right of center), pinkish-red and whitish areas",
+      "atypical_network": "Irregular, patchy brown network with uneven holes in upper and left portions, fading irregularly into surrounding skin",
+      "regression_structures": "Whitish-pink scar-like areas within the central and lower lesion where pigment is lost",
+      "peripheral_brown_structureless": "Light brown featureless zone along the lower and left periphery"
+    },
+    "lowConfidence": {
+      "irregular_globules": "A few dark brown dots near the upper right center, unevenly distributed",
+      "irregular_blotch": "Darker brown structureless area off-center in the upper portion, irregular in shape",
+      "shiny_white_structures": "Faint whitish areas centrally, but no clear chrysalis lines",
+      "peppering": "Possible faint gray granularity in the central lighter areas",
+      "dotted_vessels": "Possible tiny red dots in the pinkish lower-central portion",
+      "milky_red_areas": "Pinkish-red hazy zone in the lower center of the lesion"
+    },
+    "updated": "2026-11-16T00:57:09.832Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "asymmetric_multicomponent",
+        "atypical_network",
+        "multiple_colors",
+        "regression_structures"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_457688": {
+    "prefilled": {
+      "model": "claude-opus-5-5",
+      "rule": "not absent in either of two runs"
+    },
+    "hiddenSuggestions": [],
+    "borderline": [
+      "atypical_network",
+      "irregular_blotch",
+      "irregular_globules",
+      "milky_red_areas",
+      "shiny_white_structures"
+    ],
+    "evidence": {
+      "asymmetric_multicomponent": "Lesion shows reticular/mesh areas, white structureless zone upper center, orange-brown area upper left, and purple-blue zones distributed unevenly",
+      "atypical_network": "Thick, uneven brown-purple lines with irregular holes across the left and central lesion",
+      "blue_white_veil": "Confluent blue-purple pigmentation with whitish haze over much of the lower and right portion of lesion",
+      "irregular_blotch": "Orange-brown structureless area upper left is off-center but not very dark",
+      "irregular_globules": "Some brownish roundish clods of varying size within the mesh in the lower center, possibly holes of network rather than globules",
+      "milky_red_areas": "Lower left portion of the lesion shows a hazy pinkish-violaceous to reddish background beneath the dark network; it may represent milky-red areas, but the bluish-purple tint and glare from the fluid interface prevent a confident call.",
+      "multiple_colors": "Light brown/orange, dark brown, blue-gray/purple, white, and reddish areas lower left",
+      "negative_network": "Light whitish serpiginous lines surrounding darker brown-purple holes across lower center, giving a mesh appearance",
+      "regression_structures": "White scar-like structureless zone in upper center of lesion",
+      "shiny_white_structures": "Whitish lines and areas visible; image appears to be contact immersion, polarization uncertain"
+    },
+    "lowConfidence": {},
+    "code": "mel",
+    "patient_id": "PID_586968",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "asymmetric_multicomponent",
+      "atypical_network",
+      "blue_white_veil",
+      "irregular_blotch",
+      "irregular_globules",
+      "milky_red_areas",
+      "multiple_colors",
+      "negative_network",
+      "regression_structures",
+      "shiny_white_structures"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "reviewedSuggestions": [],
+    "note": "",
+    "updated": "2026-11-16T00:31:28.777Z"
+  },
+  "DERM_458423": {
+    "hiddenSuggestions": [],
+    "evidence": {
+      "asymmetric_multicomponent": "Large irregular lesion with network areas, central blue-gray/whitish zone and dark brown peripheral clods distributed unevenly",
+      "multiple_colors": "Light brown, dark brown, blue-gray and whitish areas",
+      "atypical_network": "Lower right and periphery show thickened, irregular network lines with uneven holes, ending abruptly",
+      "regression_structures": "Central whitish-gray scar-like zone with blue-gray hue where pigment is lost"
+    },
+    "lowConfidence": {
+      "irregular_globules": "Scattered dark brown clods of varying size in lower and left portions",
+      "irregular_blotch": "Darker confluent brown areas at lower portion, partly obscuring structures",
+      "blue_white_veil": "Central blue-gray area with whitish haze; may represent regression rather than veil",
+      "peripheral_brown_structureless": "Upper and right periphery show light brown fairly featureless zones",
+      "peppering": "Possible fine blue-gray granularity in central regression area"
+    },
+    "code": "mel",
+    "patient_id": "PID_247619",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "asymmetric_multicomponent",
+      "atypical_network",
+      "multiple_colors",
+      "negative_network",
+      "regression_structures"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "reviewedSuggestions": [],
+    "note": "",
+    "updated": "2026-11-16T00:57:09.832Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "asymmetric_multicomponent",
+        "atypical_network",
+        "multiple_colors",
+        "regression_structures"
+      ],
+      "removed": []
+    }
+  },
   "DERM_459245": {
     "code": "bcc",
     "patient_id": "PID_547496",
@@ -2314,6 +3746,32 @@
     "lowConfidence": {
       "irregular_globules": "A few small dark dots appear along the upper and right periphery where network lines end. They are unevenly distributed, but it is hard to separate them from network line junctions."
     },
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [],
+      "removed": []
+    }
+  },
+  "DERM_476296": {
+    "code": "bcc",
+    "patient_id": "PID_142046",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "concentric_structures"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {},
+    "lowConfidence": {
+      "blue_gray_ovoid_nests": "Center: a single small, well-defined dark brown to blue-gray ovoid blotch. It could be an ovoid nest, but its colour is mostly brown-black.",
+      "ulceration": "Central dark brown-black blotch could be a small crust or erosion, but no clear red-black hemorrhagic crust is seen.",
+      "no_pigment_network": "No definite network within the central pale lesion. The surrounding skin shows faint brownish reticular lines that may be background pigmentation.",
+      "concentric_structures": "Center: the dark blotch has a lighter brown rim and a darker core, possibly a concentric structure.",
+      "in_focus_dots": "A few small gray-brown dots are scattered around the central blotch and in the pale area below it."
+    },
+    "updated": "2026-11-16T00:57:09.832Z",
     "merged": {
       "model": "claude-opus-5-5",
       "added": [],
@@ -2605,6 +4063,130 @@
       "comma_vessels": "Faint short reddish linear vessels possibly visible in the central and upper portion of the pink lesion, though poorly resolved",
       "cobblestone_pattern": "Subtle lobulated, clod-like texture in the pink-tan papule, especially left and center, but not clearly angulated globules"
     },
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [],
+      "removed": []
+    }
+  },
+  "DERM_515605": {
+    "code": "bcc",
+    "patient_id": "PID_898020",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "blue_gray_ovoid_nests",
+      "leaf_like_areas",
+      "no_pigment_network"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "blue_gray_ovoid_nests": "Upper right and lower central parts: blue-gray ovoid areas within the pigmented lobules.",
+      "leaf_like_areas": "Lesion periphery, especially lower and left lobules: brown bulbous lobulated extensions at the edge.",
+      "no_pigment_network": "No reticular pigment network anywhere; pigment is arranged in lobules and blotches."
+    },
+    "lowConfidence": {
+      "spoke_wheel": "Lower central lobule: radial brown projections around a darker gray center, possible spoke-wheel.",
+      "shiny_white_structures": "Central pinkish-white area between lobules: whitish structureless zone, but no definite shiny lines.",
+      "short_fine_telangiectasias": "Small red linear vessel near the left part of the upper right lobule; pinkish background on the left side.",
+      "multiple_small_erosions": "Lower left lobules: a few tiny dark brown spots that could be small crusts.",
+      "concentric_structures": "Lower lobules: brown globule-like structures with darker centers.",
+      "in_focus_dots": "Upper right lobule: some small blue-gray dots/granules within the gray area."
+    },
+    "updated": "2026-11-16T00:57:09.832Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "blue_gray_ovoid_nests",
+        "no_pigment_network"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_515676": {
+    "code": "sk",
+    "patient_id": "PID_949314",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "milia_like_cysts",
+      "sharp_demarcation"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "milia_like_cysts": "Several small round whitish-yellow dots scattered within the central and right portions of the brown lesion",
+      "sharp_demarcation": "The brown lesion ends abruptly against the surrounding pale skin along most of its border, especially the lower and right edges"
+    },
+    "lowConfidence": {
+      "moth_eaten_border": "Bilobed outline with a concave notch at the left and upper-left edge could represent a scalloped indentation"
+    },
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "sharp_demarcation"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_516116": {
+    "code": "scc",
+    "patient_id": "PID_782293",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "dotted_vessels",
+      "hairpin_vessels",
+      "keratin_scale",
+      "polymorphous_vessels",
+      "white_structureless"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "keratin_scale": "White-yellow keratin-like surface material across the center of the lesion, with yellowish scale admixed among the vessels",
+      "white_structureless": "Extensive opaque white to whitish-yellow structureless background over most of the lesion surface",
+      "dotted_vessels": "Scattered tiny red dots in the central and lower parts of the lesion",
+      "polymorphous_vessels": "Linear-irregular branching red vessels in the center and upper areas, together with dotted vessels and coiled vessel forms"
+    },
+    "lowConfidence": {
+      "glomerular_vessels": "Center and right portion of the lesion show some small clustered, coiled-appearing red vessels, but their morphology is not clearly glomerular",
+      "hairpin_vessels": "Some short looped red vessels in the center may be hairpin-shaped; not definitive",
+      "ulceration": "Small orange-red blotches in the central and left areas could be tiny hemorrhagic foci; no clear erosion is seen"
+    },
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "dotted_vessels",
+        "keratin_scale",
+        "white_structureless"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_516966": {
+    "code": "sk",
+    "patient_id": "PID_318017",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "milia_like_cysts"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {},
+    "lowConfidence": {
+      "milia_like_cysts": "Center-upper area shows several small whitish round structures among red dots, possibly milia-like cysts but could be scale",
+      "fingerprint_pattern": "Lower left and left light brown patches show faint fine reticular/parallel striations, possibly a fingerprint-like pattern of flat SK/solar lentigo"
+    },
+    "updated": "2026-11-16T00:57:09.833Z",
     "merged": {
       "model": "claude-opus-5-5",
       "added": [],
@@ -2921,6 +4503,39 @@
       ]
     }
   },
+  "DERM_564497": {
+    "code": "mel",
+    "patient_id": "PID_636322",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "asymmetric_multicomponent",
+      "irregular_blotch",
+      "peripheral_brown_structureless"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "asymmetric_multicomponent": "Lesion is asymmetric in shape and structure: darker central/lower blotchy area, network-like zones superiorly, and structureless light brown periphery distributed unevenly",
+      "irregular_blotch": "Off-center dark brown structureless area in the lower central part of the lesion with irregular outline",
+      "peripheral_brown_structureless": "Light brown featureless zones at the right and lower periphery of the lesion"
+    },
+    "lowConfidence": {
+      "multiple_colors": "Light brown and dark brown clearly present; possible faint grayish tones in the lower center, but no definite third color",
+      "atypical_network": "Faint, uneven brown reticular pattern in the upper and left portions with irregular meshes; partly obscured by hair",
+      "irregular_globules": "A few darker brown dots in the upper left and central areas, unevenly distributed"
+    },
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "asymmetric_multicomponent",
+        "irregular_blotch"
+      ],
+      "removed": []
+    }
+  },
   "DERM_565357": {
     "code": "lm",
     "patient_id": "PID_669792",
@@ -2952,6 +4567,39 @@
       "revertedOffList": [
         "asymmetric_multicomponent"
       ]
+    }
+  },
+  "DERM_565768": {
+    "code": "jd",
+    "patient_id": "PID_980670",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "central_hyperpigmentation",
+      "irregular_globules",
+      "peripheral_globules",
+      "structureless_brown"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "central_hyperpigmentation": "Darker brown, roughly central band running from upper center to lower center, contrasting with the lighter tan periphery.",
+      "irregular_globules": "Numerous dark brown dots and small globules of varying size, scattered unevenly, especially along the upper, left and right peripheral zones.",
+      "structureless_brown": "Light tan-brown homogeneous areas at the periphery, especially at the left and lower edges, without network or globules."
+    },
+    "lowConfidence": {
+      "atypical_network": "Central and upper portions show a faint, patchy, darker reticular pattern with uneven thickened segments, but the network is poorly defined and largely obscured by dots."
+    },
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "central_hyperpigmentation",
+        "irregular_globules",
+        "structureless_brown"
+      ],
+      "removed": []
     }
   },
   "DERM_568651": {
@@ -3012,6 +4660,75 @@
       "removed": []
     }
   },
+  "DERM_581601": {
+    "code": "ha",
+    "patient_id": "PID_346430",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "dark_lacunae",
+      "no_pigment_network",
+      "pale_lacunae",
+      "red_lacunae",
+      "sharp_demarcation"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "red_lacunae": "Throughout the lesion center and left side: multiple well-circumscribed round-to-oval red and red-purple globular areas",
+      "sharp_demarcation": "The oval lesion ends abruptly against the surrounding pale skin along its entire circumference",
+      "no_pigment_network": "No reticular pigment network anywhere; the lesion consists of red and purple lacunae on a pink-red background",
+      "dark_lacunae": "Central and left-center areas: dark red to blackish-purple lacunae consistent with thrombosis"
+    },
+    "lowConfidence": {
+      "pale_lacunae": "Upper and peripheral portions show translucent pale pinkish-yellow areas that may represent pale lacunae; a small yellow-orange spot is visible centrally"
+    },
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "dark_lacunae",
+        "no_pigment_network",
+        "red_lacunae",
+        "sharp_demarcation"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_583011": {
+    "code": "ccb",
+    "patient_id": "PID_538121",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "cobblestone_pattern",
+      "hypertrichosis",
+      "structureless_brown"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "cobblestone_pattern": "Throughout the field: large, closely packed, rounded-to-angulated papillomatous lobules resembling paving stones",
+      "structureless_brown": "Lower left and right areas show homogeneous brown zones without discernible network",
+      "hypertrichosis": "Multiple thin and thicker terminal hairs cross the lesion, especially upper right and lower right"
+    },
+    "lowConfidence": {
+      "regular_globules": "Some smaller brown dots/globules scattered within the lobules, centrally and lower left, though their size and distribution are not clearly uniform",
+      "symmetric_single_pattern": "The cobblestone/globular pattern dominates the field, but the lesion border is not visible and pigmentation varies between lobules",
+      "perifollicular_hypopigmentation": "Some pale areas around hair exit points between lobules, but they cannot be clearly told apart from the furrows"
+    },
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "hypertrichosis",
+        "structureless_brown"
+      ],
+      "removed": []
+    }
+  },
   "DERM_585887": {
     "code": "alm",
     "patient_id": "PID_718373",
@@ -3041,6 +4758,50 @@
     "merged": {
       "model": "claude-opus-5-5",
       "added": [],
+      "removed": []
+    }
+  },
+  "DERM_587640": {
+    "hiddenSuggestions": [],
+    "evidence": {
+      "asymmetric_multicomponent": "Asymmetric lesion with network at periphery, dark blotches centrally/left, bluish-gray area upper center, unevenly distributed",
+      "multiple_colors": "Light brown, dark brown, near-black blotches, blue-gray area upper center, whitish areas",
+      "atypical_network": "Thick, irregular network with uneven holes at upper left, right and lower edges, ending abruptly",
+      "irregular_blotch": "Off-center dark brown-black structureless areas upper center and lower left"
+    },
+    "lowConfidence": {
+      "irregular_streaks": "Bulbous projections at right and lower right periphery could represent pseudopods",
+      "irregular_globules": "Some dark dots/globules at right and lower edges of varying size",
+      "blue_white_veil": "Small blue-gray area with whitish haze in upper center",
+      "regression_structures": "Whitish-gray areas near upper center and central zones could be regression",
+      "shiny_white_structures": "Small whitish spots in upper center, possibly shiny white structures",
+      "peppering": "Possible fine gray granules near blue-gray area upper center"
+    },
+    "code": "mel",
+    "patient_id": "PID_661664",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "asymmetric_multicomponent",
+      "atypical_network",
+      "irregular_blotch",
+      "multiple_colors",
+      "negative_network",
+      "shiny_white_structures"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "reviewedSuggestions": [],
+    "note": "",
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "asymmetric_multicomponent",
+        "atypical_network",
+        "irregular_blotch",
+        "multiple_colors"
+      ],
       "removed": []
     }
   },
@@ -3090,6 +4851,82 @@
     "removedOffList": [
       "multiple_colors"
     ]
+  },
+  "DERM_591894": {
+    "hiddenSuggestions": [],
+    "evidence": {
+      "asymmetric_multicomponent": "Lesion fills most of frame with uneven distribution: dark brown peripheral bands/clods at lower center and left, pale whitish-pink central zone, light brown structureless areas elsewhere",
+      "multiple_colors": "Light brown, dark reddish-brown, white/pale pink areas centrally; possible faint gray",
+      "regression_structures": "Central pale whitish to pinkish scar-like areas with loss of pigment in center of lesion",
+      "peripheral_brown_structureless": "Light-to-medium brown featureless zones along left and right periphery"
+    },
+    "lowConfidence": {
+      "atypical_network": "Faint irregular reticular remnants in upper left and center, poorly defined, with blurred thickened lines",
+      "irregular_globules": "Few small brown dots of varying size in upper left and central area",
+      "irregular_blotch": "Darker reddish-brown structureless areas at lower center lobe and right edge, asymmetric",
+      "shiny_white_structures": "Possible faint white lines in central pale area, but mostly hairs crossing",
+      "peppering": "Possible faint gray granularity within central pale area",
+      "milky_red_areas": "Faint pinkish hue in central area, without clear vessels"
+    },
+    "code": "mel",
+    "patient_id": "PID_525761",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "asymmetric_multicomponent",
+      "multiple_colors",
+      "negative_network",
+      "peripheral_brown_structureless",
+      "regression_structures"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "reviewedSuggestions": [],
+    "note": "",
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "asymmetric_multicomponent",
+        "multiple_colors",
+        "peripheral_brown_structureless",
+        "regression_structures"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_595630": {
+    "code": "ccb",
+    "patient_id": "PID_229511",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "cobblestone_pattern",
+      "regular_globules",
+      "structureless_brown"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "regular_globules": "Central lesion shows multiple round-to-oval brown globules of fairly similar size and color, clustered across the center and upper parts.",
+      "cobblestone_pattern": "Center of the main lesion: large, closely packed, angulated dark brown globules separated by pale whitish lines, giving a paving-stone appearance.",
+      "structureless_brown": "Lower and peripheral parts of the lesion, and the separate lesion at the lower left, show light-to-medium brown areas without a clear network or globules."
+    },
+    "lowConfidence": {
+      "typical_network": "Lower periphery shows a faint, patchy reticular brown pattern that may be a regular network fading at the edge, but it is not clearly defined.",
+      "hypertrichosis": "A few fine dark hairs cross the lesion, but they are not clearly thicker or darker than the surrounding hairs.",
+      "perifollicular_hypopigmentation": "Possible small pale spots around follicular openings in the lighter brown lower periphery; not clearly defined."
+    },
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "regular_globules",
+        "structureless_brown"
+      ],
+      "removed": []
+    }
   },
   "DERM_596024": {
     "code": "bdb",
@@ -3189,6 +5026,37 @@
       "model": "claude-opus-5-5",
       "added": [
         "symmetric_single_pattern"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_607437": {
+    "code": "alm",
+    "patient_id": "PID_876513",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "irregular_diffuse_pigmentation",
+      "multiple_colors",
+      "parallel_ridge"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "irregular_diffuse_pigmentation": "Structureless light-to-dark brown pigment of varying intensity across the upper and central lesion, with darker blotches upper center and center-right, without a consistent pattern",
+      "multiple_colors": "Light brown, dark brown, and white/pinkish-white areas (lower right white-yellow zone and scaly white areas) are visible"
+    },
+    "lowConfidence": {
+      "parallel_ridge": "Left and central areas show brown linear bands running diagonally along skin markings that may follow ridges, but white scale and blur prevent confirming ridge vs furrow location",
+      "asymmetric_multicomponent": "Combination of linear bands, structureless blotches and pale areas distributed unevenly, but individual structures are poorly resolved due to blur"
+    },
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "irregular_diffuse_pigmentation",
+        "multiple_colors"
       ],
       "removed": []
     }
@@ -3403,6 +5271,50 @@
       "multiple_colors"
     ]
   },
+  "DERM_653048": {
+    "code": "mel",
+    "patient_id": "PID_261293",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "asymmetric_multicomponent",
+      "blue_white_veil",
+      "irregular_blotch",
+      "milky_red_areas",
+      "multiple_colors",
+      "shiny_white_structures"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "asymmetric_multicomponent": "Nodular lesion with red vascular area on upper right, blue-gray/white veil and dark brown-black structureless areas on left and lower half, distributed unevenly.",
+      "multiple_colors": "Red, pink, blue-gray, white, dark brown and black all visible.",
+      "irregular_blotch": "Off-center dark brown-black structureless areas in left and lower portions of the lesion.",
+      "blue_white_veil": "Confluent blue-gray pigment with whitish ground-glass haze across center and left half.",
+      "shiny_white_structures": "Bright white linear streaks and blotches across center and left, consistent with polarized shiny white lines (partly mixed with surface reflection/scale).",
+      "milky_red_areas": "Upper right part of the nodule: a hazy, homogeneous pinkish-red (strawberry milk) area with out-of-focus vessels."
+    },
+    "lowConfidence": {
+      "irregular_globules": "Scattered dark brown-black dots/clods of varying size in left and lower central portion.",
+      "regression_structures": "Whitish scar-like areas in center with some blue-gray granularity, partly obscured by veil and surface scale.",
+      "peppering": "Fine blue-gray granules possibly in central bluish-white zone.",
+      "polymorphous_vessels": "Red milky area in upper right with linear/irregular vessels and possible dotted vessels; types difficult to distinguish clearly.",
+      "dotted_vessels": "Upper right red zone shows some fine red speckles that could be dotted vessels, but they are blurred and hard to tell apart from the linear/irregular vessels."
+    },
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "asymmetric_multicomponent",
+        "blue_white_veil",
+        "irregular_blotch",
+        "multiple_colors",
+        "shiny_white_structures"
+      ],
+      "removed": []
+    }
+  },
   "DERM_656453": {
     "code": "scc",
     "patient_id": "PID_652787",
@@ -3528,6 +5440,32 @@
       "removed": []
     }
   },
+  "DERM_661919": {
+    "code": "sa",
+    "patient_id": "PID_491274",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "no_pigment_network",
+      "radiating_vessels"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "radiating_vessels": "Center of image: a central red punctum/blush with fine, tortuous red vessels extending outward in multiple directions like spokes.",
+      "no_pigment_network": "Pink background throughout with only red vessels; no brown pigment network anywhere."
+    },
+    "lowConfidence": {},
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "no_pigment_network"
+      ],
+      "removed": []
+    }
+  },
   "DERM_662922": {
     "code": "mcb",
     "patient_id": "PID_560784",
@@ -3598,6 +5536,177 @@
     "borderline": [
       "parallel_furrow"
     ]
+  },
+  "DERM_663484": {
+    "code": "ajd",
+    "patient_id": "PID_443426",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "fibrillar_pattern"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "fibrillar_pattern": "Throughout the oval brown lesion there are fine, densely packed, slanted parallel filaments, most visible at the lower left and upper edges, with a feathery fringed border."
+    },
+    "lowConfidence": {
+      "parallel_furrow": "Some faint linear brown streaks in the lesion run roughly along the diagonal skin markings. However, the lines are fine and slanted rather than clearly furrow-aligned.",
+      "irregular_globules": "A few darker brown dots appear at the lower left periphery. They may be ends of the filaments rather than true irregular globules.",
+      "central_hyperpigmentation": "The central to upper-right part of the lesion is a somewhat darker, more homogeneous brown than the periphery, but it is not distinctly demarcated."
+    },
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [],
+      "removed": []
+    }
+  },
+  "DERM_663664": {
+    "code": "scc",
+    "patient_id": "PID_500843",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "hairpin_vessels",
+      "keratin_scale",
+      "polymorphous_vessels",
+      "ulceration",
+      "white_structureless"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "keratin_scale": "White-yellow keratin mass at the upper center (left of the crust) and diffuse whitish scaly surface across the lesion",
+      "white_structureless": "Opaque white-yellow structureless areas throughout the lower and left lesion and at the top center",
+      "polymorphous_vessels": "Linear-irregular branching vessels in the center combined with looped/coiled vessels near the crust in the upper right",
+      "ulceration": "Large red-black hemorrhagic crust/ulcerated area at the upper center to upper right"
+    },
+    "lowConfidence": {
+      "glomerular_vessels": "Some coiled-appearing vessel segments in the central and right portion, but most vessels look linear-irregular rather than clearly glomerular",
+      "dotted_vessels": "A few small red dots possibly visible within the pink background in the lower half, not clearly distinct",
+      "hairpin_vessels": "Some looped vessels near the crust edge in the upper center/right may represent hairpin loops"
+    },
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "keratin_scale",
+        "polymorphous_vessels",
+        "ulceration",
+        "white_structureless"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_663785": {
+    "prefilled": {
+      "model": "claude-opus-5-5",
+      "rule": "not absent in either of two runs"
+    },
+    "hiddenSuggestions": [],
+    "borderline": [
+      "symmetric_single_pattern",
+      "typical_network"
+    ],
+    "evidence": {
+      "structureless_brown": "Central portion of the lesion shows homogeneous dark brown pigmentation without discernible structures.",
+      "symmetric_single_pattern": "Small dark brown lesion in upper center-right has a somewhat irregular, lobulated outline with darker center; colors are fairly uniform brown but shape is not fully symmetric.",
+      "typical_network": "Faint reticular brown lines may be seen at the periphery of the lesion, fading into surrounding skin, but resolution limits confident identification."
+    },
+    "lowConfidence": {},
+    "code": "jb",
+    "patient_id": "PID_671231",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "structureless_brown",
+      "symmetric_single_pattern",
+      "typical_network"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "reviewedSuggestions": [],
+    "note": "",
+    "updated": "2026-11-16T00:30:13.276Z"
+  },
+  "DERM_670506": {
+    "code": "bcc",
+    "patient_id": "PID_588813",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "arborizing_vessels",
+      "concentric_structures",
+      "in_focus_dots",
+      "no_pigment_network",
+      "short_fine_telangiectasias"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "arborizing_vessels": "Left half and lower left: sharply focused red vessels branching in tree-like pattern over pink background; also a thicker branching vessel in the center.",
+      "short_fine_telangiectasias": "Left and lower areas: numerous short, thin, minimally branching red vessels interspersed with the arborizing ones.",
+      "no_pigment_network": "No pigment network visible anywhere; pigment appears as scattered blotches and globules only.",
+      "in_focus_dots": "Center-right and upper right: small, sharply focused dark gray dots scattered around the larger pigment clusters."
+    },
+    "lowConfidence": {
+      "blue_gray_ovoid_nests": "Center and upper right: dark gray-black blotchy and globular pigment clusters; ovoid nest morphology not clearly defined.",
+      "shiny_white_structures": "Right-center: whitish structureless areas, possibly shiny white blotches, but not clearly crisp white lines.",
+      "concentric_structures": "Center: a dark gray-brown globular cluster with darker focal areas may represent concentric structures."
+    },
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "arborizing_vessels",
+        "in_focus_dots",
+        "no_pigment_network",
+        "short_fine_telangiectasias"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_670831": {
+    "code": "bcc",
+    "patient_id": "PID_594240",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "arborizing_vessels",
+      "multiple_small_erosions",
+      "no_pigment_network",
+      "shiny_white_structures",
+      "short_fine_telangiectasias",
+      "ulceration"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "arborizing_vessels": "Upper right: red branching vessels with tree-like ramification; finer branching vessels scattered across the upper half",
+      "shiny_white_structures": "Lower left and centre: bright white blotches and structureless shiny white areas",
+      "ulceration": "Centre: small dark red-brown crusted areas at upper centre and centre right, consistent with small ulceration or hemorrhagic crust",
+      "short_fine_telangiectasias": "Scattered short thin red vessels across the pink background, especially in the upper half",
+      "no_pigment_network": "No pigment network visible anywhere; the lesion is pink-red and structureless",
+      "multiple_small_erosions": "Several small brown-red crusts or erosions in the centre and upper centre"
+    },
+    "lowConfidence": {},
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "arborizing_vessels",
+        "no_pigment_network",
+        "shiny_white_structures",
+        "short_fine_telangiectasias",
+        "ulceration"
+      ],
+      "removed": []
+    }
   },
   "DERM_671935": {
     "code": "ccd",
@@ -3707,6 +5816,85 @@
     "removedOffList": [
       "multiple_colors"
     ]
+  },
+  "DERM_676868": {
+    "hiddenSuggestions": [],
+    "evidence": {
+      "symmetric_single_pattern": "Small round lesion in upper center with fairly even brown coloration, darker center fading to lighter periphery; one dominant reticular pattern",
+      "typical_network": "Fine brown reticular lines with regular holes throughout the lesion, thinning and fading at the periphery"
+    },
+    "lowConfidence": {
+      "regular_globules": "A few small brown dots possibly in the darker central area, but they are hard to distinguish from network knots at this magnification",
+      "structureless_brown": "Darker central zone appears somewhat homogeneous brown, possibly a small structureless area"
+    },
+    "code": "jb",
+    "patient_id": "PID_810884",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "structureless_brown",
+      "symmetric_single_pattern",
+      "typical_network"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "reviewedSuggestions": [],
+    "note": "",
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "typical_network"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_677529": {
+    "code": "mel",
+    "patient_id": "PID_265292",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "asymmetric_multicomponent",
+      "irregular_blotch",
+      "irregular_globules",
+      "milky_red_areas",
+      "multiple_colors",
+      "peripheral_brown_structureless",
+      "regression_structures"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "asymmetric_multicomponent": "Lesion shows dark brown/black blotchy areas on left, pink-red structureless zone upper center/right, and light brown granular areas lower right, distributed unevenly.",
+      "multiple_colors": "Light brown, dark brown, black/blue-gray, red-pink and whitish areas.",
+      "irregular_globules": "Small dark brown dots/globules unevenly scattered along the lower left edge.",
+      "irregular_blotch": "Off-center dark brown-black structureless areas at upper left and center-left.",
+      "regression_structures": "Whitish-pink scar-like areas in upper center with loss of pigment.",
+      "peripheral_brown_structureless": "Light brown featureless zone at lower right periphery.",
+      "milky_red_areas": "Fuzzy pinkish-red structureless area in upper center/right portion."
+    },
+    "lowConfidence": {
+      "atypical_network": "Faint irregular reticular remnants at lower left periphery and lower right, with uneven lines.",
+      "blue_white_veil": "Blue-gray hazy pigmentation at upper left dark area.",
+      "shiny_white_structures": "Some bright white short lines in upper center, but may be hair/debris artifacts.",
+      "peppering": "Fine gray granules within dark upper left area.",
+      "dotted_vessels": "Possible tiny red dots within pink area upper right."
+    },
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "asymmetric_multicomponent",
+        "irregular_blotch",
+        "irregular_globules",
+        "multiple_colors",
+        "peripheral_brown_structureless",
+        "regression_structures"
+      ],
+      "removed": []
+    }
   },
   "DERM_678597": {
     "code": "cd",
@@ -3835,6 +6023,69 @@
       "whitish_veil"
     ]
   },
+  "DERM_707475": {
+    "code": "la",
+    "patient_id": "PID_575282",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "dark_lacunae",
+      "no_pigment_network",
+      "pale_lacunae",
+      "red_lacunae"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "red_lacunae": "Small sharply demarcated red to red-violet oval dots/lacunae in the right-center cluster and lower left corner",
+      "pale_lacunae": "Translucent pale yellowish round lacunae ('frog spawn') in the upper right and center top, some containing red hemorrhagic dots",
+      "no_pigment_network": "No pigment network seen anywhere; background is diffuse pinkish-orange",
+      "dark_lacunae": "Lower center: dark red-black thrombosed lacuna with a violaceous halo"
+    },
+    "lowConfidence": {
+      "sharp_demarcation": "Lesion fills most of the field; individual lacunae are well circumscribed, but the overall border against normal skin is not visible"
+    },
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "dark_lacunae",
+        "no_pigment_network",
+        "red_lacunae"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_710530": {
+    "code": "bcc",
+    "patient_id": "PID_431879",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "concentric_structures",
+      "no_pigment_network"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "no_pigment_network": "Pigmented papule at upper center shows homogeneous brown-gray pigmentation without any reticular network."
+    },
+    "lowConfidence": {
+      "blue_gray_ovoid_nests": "Central dark brown-gray, ill-defined pigmented area within the papule; it may represent a large ovoid nest but its blue-gray character and borders are not distinct.",
+      "short_fine_telangiectasias": "Faint pinkish-red erythema around the papule; no discrete fine vessels can be resolved because of blur.",
+      "concentric_structures": "Central dark brown nodule shows a slightly darker centre with a lighter brown periphery, possibly a concentric structure; image blur prevents a confident call."
+    },
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "no_pigment_network"
+      ],
+      "removed": []
+    }
+  },
   "DERM_710986": {
     "code": "bcc",
     "patient_id": "PID_626212",
@@ -3922,6 +6173,65 @@
       "removed": []
     }
   },
+  "DERM_717296": {
+    "hiddenSuggestions": [],
+    "evidence": {
+      "symmetric_single_pattern": "Small oval brown lesion left of center with fairly even color distribution and a single homogeneous pattern; slightly darker in the center fading toward the edge.",
+      "structureless_brown": "Most of the lesion is a homogeneous medium-to-dark brown area without discernible structures, darkest in the center."
+    },
+    "lowConfidence": {
+      "typical_network": "Faint, subtle reticular hint at the lighter periphery, especially the lower and right edges; not clearly resolved at this magnification."
+    },
+    "code": "jb",
+    "patient_id": "PID_960186",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "structureless_brown",
+      "symmetric_single_pattern"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "reviewedSuggestions": [],
+    "note": "",
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [],
+      "removed": []
+    }
+  },
+  "DERM_722478": {
+    "hiddenSuggestions": [],
+    "evidence": {
+      "sharp_demarcation": "Lesion border stops fairly abruptly against the surrounding skin, especially along the upper and left edges",
+      "fingerprint_pattern": "Fine, parallel, slightly curved light-brown lines run obliquely across the lesion body, typical of flat seborrheic keratosis / solar lentigo"
+    },
+    "lowConfidence": {
+      "fissures_ridges": "Central lesion shows elongated light-brown ridges separated by paler furrows, a subtle possible early cerebriform arrangement",
+      "moth_eaten_border": "Upper and left edges show slightly irregular, scalloped indentations"
+    },
+    "code": "sk",
+    "patient_id": "PID_146597",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "fingerprint_pattern",
+      "sharp_demarcation"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "reviewedSuggestions": [],
+    "note": "",
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "sharp_demarcation"
+      ],
+      "removed": []
+    }
+  },
   "DERM_733540": {
     "code": "jb",
     "patient_id": "PID_154109",
@@ -3972,6 +6282,67 @@
     "reviewedSuggestions": [
       "fibrillar_pattern"
     ]
+  },
+  "DERM_749640": {
+    "prefilled": {
+      "model": "claude-opus-5-5",
+      "rule": "not absent in either of two runs"
+    },
+    "hiddenSuggestions": [],
+    "borderline": [
+      "structureless_brown"
+    ],
+    "evidence": {
+      "symmetric_single_pattern": "Oval light-brown lesion with evenly distributed color and a single reticular pattern; roughly symmetric in shape and color.",
+      "typical_network": "Central and upper portions show a faint, fine brown reticular network with small regular holes that fades gradually toward the periphery.",
+      "structureless_brown": "Lower central and peripheral areas show a more homogeneous light-brown zone where network is not clearly discernible."
+    },
+    "lowConfidence": {},
+    "code": "jb",
+    "patient_id": "PID_209576",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "structureless_brown",
+      "symmetric_single_pattern",
+      "typical_network"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "reviewedSuggestions": [],
+    "note": "",
+    "updated": "2026-11-16T00:30:32.026Z"
+  },
+  "DERM_749973": {
+    "prefilled": {
+      "model": "claude-opus-5-5",
+      "rule": "not absent in either of two runs"
+    },
+    "hiddenSuggestions": [],
+    "borderline": [
+      "symmetric_single_pattern",
+      "typical_network"
+    ],
+    "evidence": {
+      "structureless_brown": "Most of the central lesion is a homogeneous medium-to-dark brown area with no clearly discernible structures. The faint light-brown patch at the lower right is also structureless.",
+      "symmetric_single_pattern": "Small oval brown lesion in the center with fairly uniform brown color; outline is slightly irregular, with a faint lighter patch to the lower right, so overall symmetry is only approximate.",
+      "typical_network": "Possible faint reticular texture within the brown lesion centrally, but the image is too blurry and low-resolution to confirm a network."
+    },
+    "lowConfidence": {},
+    "code": "jb",
+    "patient_id": "PID_380165",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "structureless_brown",
+      "symmetric_single_pattern",
+      "typical_network"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "reviewedSuggestions": [],
+    "note": "",
+    "updated": "2026-11-16T00:30:36.143Z"
   },
   "DERM_755315": {
     "code": "ks",
@@ -4852,6 +7223,44 @@
       ]
     }
   },
+  "DERM_884517": {
+    "code": "lm",
+    "patient_id": "PID_614100",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "asymmetric_follicular_openings",
+      "circle_within_circle",
+      "peppering",
+      "pseudonetwork"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "asymmetric_follicular_openings": "Lower left and center-lower areas: brown-gray pigment eccentrically rimming several follicular openings, thicker on one side.",
+      "pseudonetwork": "Throughout the lesion, especially left and lower center: diffuse brown pigmentation interrupted by round skin-colored follicular openings.",
+      "peppering": "Lower center and left: fine blue-gray granular dots scattered within the pigmented areas."
+    },
+    "lowConfidence": {
+      "annular_granular": "Lower center: fine gray-brown dots appear to cluster around some follicular openings, but ring arrangement is not clearly resolved.",
+      "rhomboidal_structures": "Lower left: darker angulated pigment between follicles suggests early polygonal shapes, but not well defined.",
+      "obliterated_follicles": "Lower left dark patches: some follicles seem filled in by dense pigment, but image blur limits confidence.",
+      "regression_structures": "Upper center: a pale whitish-pink area with loss of pigment that may be regression, though it could reflect glare from the immersion fluid.",
+      "circle_within_circle": "Central and lower-central areas show follicular openings surrounded by grayish-brown pigment rings; a distinct inner second circle is not clearly resolved due to blur.",
+      "angulated_lines": "Lower left and lower central brown-gray pigmented areas contain some short linear segments that may meet at angles, suggestive of a zig-zag pattern, but image focus prevents a confident call."
+    },
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "asymmetric_follicular_openings",
+        "peppering",
+        "pseudonetwork"
+      ],
+      "removed": []
+    }
+  },
   "DERM_887991": {
     "code": "ccd",
     "patient_id": "PID_887804",
@@ -5257,6 +7666,71 @@
       "symmetric_single_pattern"
     ]
   },
+  "DERM_967547": {
+    "code": "scc",
+    "patient_id": "PID_817110",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "hairpin_vessels",
+      "keratin_scale",
+      "white_structureless"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "keratin_scale": "Yellow-orange scaly keratin patches in the upper right portion of the lesion.",
+      "white_structureless": "Diffuse opaque whitish-pink structureless areas across the center and upper lesion."
+    },
+    "lowConfidence": {
+      "glomerular_vessels": "Some small tortuous, coiled-appearing red vessels in the central and left pink areas; blurring prevents confident identification as glomerular.",
+      "dotted_vessels": "Possible tiny red dots scattered in the central pink area, partly obscured by bubbles and blur.",
+      "polymorphous_vessels": "Linear-irregular and possibly coiled/dotted vessels seen together in the central and left areas, but the vessel types are not clearly resolved.",
+      "ulceration": "Orange-brown areas in the upper right could represent serous or hemorrhagic crust; no clear red-black blood crust."
+    },
+    "updated": "2026-11-16T00:57:09.833Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "keratin_scale",
+        "white_structureless"
+      ],
+      "removed": []
+    }
+  },
+  "DERM_971213": {
+    "code": "la",
+    "patient_id": "PID_396273",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "no_pigment_network",
+      "pale_lacunae",
+      "red_lacunae"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "red_lacunae": "Small sharply demarcated red dots/lacunae in the lower left yellowish area and a bright red round spot in the upper right area.",
+      "pale_lacunae": "Pale yellowish translucent areas in the upper right and lower center/left of the image, some containing small red hemorrhagic dots (frog-spawn-like).",
+      "no_pigment_network": "No pigment network seen anywhere; background is pink with pale yellow areas only."
+    },
+    "lowConfidence": {
+      "sharp_demarcation": "The yellowish areas have fairly well-defined edges, but the visible outline lines appear to be from the fluid/contact interface rather than the lesion border.",
+      "dark_lacunae": "Upper right red spot is somewhat darker red, possibly a small thrombosed lacuna, but not clearly dark/black."
+    },
+    "updated": "2026-11-16T00:57:09.834Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "no_pigment_network",
+        "red_lacunae"
+      ],
+      "removed": []
+    }
+  },
   "DERM_971492": {
     "code": "lk",
     "patient_id": "PID_702078",
@@ -5385,6 +7859,45 @@
       "removed": []
     }
   },
+  "DERM_985569": {
+    "code": "scc",
+    "patient_id": "PID_999602",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "hairpin_vessels",
+      "keratin_scale",
+      "polymorphous_vessels",
+      "ulceration",
+      "white_structureless"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "keratin_scale": "Central lesion covered by white-yellow keratin mass with scaly surface.",
+      "white_structureless": "Opaque white-yellow structureless areas throughout the central keratinizing part of the lesion.",
+      "hairpin_vessels": "Looped red vessels with whitish halos at the upper and peripheral margins of the lesion.",
+      "polymorphous_vessels": "Combination of hairpin/looped, linear-irregular and possibly dotted/coiled vessels within the lesion, especially upper half.",
+      "ulceration": "Central red-brown to purple-black hemorrhagic crust/blood spots within the keratin mass."
+    },
+    "lowConfidence": {
+      "glomerular_vessels": "Upper rim of lesion shows some coiled/looping red vessels that may represent glomerular-type vessels, though many appear more hairpin/linear.",
+      "white_circles": "Possible whitish rings around follicular openings at the periphery, not clearly defined.",
+      "dotted_vessels": "A few tiny red dots within the central keratin may represent end-on vessels or blood spots."
+    },
+    "updated": "2026-11-16T00:57:09.834Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "keratin_scale",
+        "polymorphous_vessels",
+        "ulceration",
+        "white_structureless"
+      ],
+      "removed": []
+    }
+  },
   "DERM_985574": {
     "code": "ks",
     "patient_id": "PID_999605",
@@ -5413,6 +7926,43 @@
       "revertedOffList": [
         "no_pigment_network"
       ]
+    }
+  },
+  "DERM_999506": {
+    "code": "alm",
+    "patient_id": "PID_546040",
+    "status": "accepted",
+    "polarized": null,
+    "present": [
+      "asymmetric_multicomponent",
+      "irregular_diffuse_pigmentation",
+      "irregular_globules",
+      "multiple_colors",
+      "parallel_ridge"
+    ],
+    "highlights": [],
+    "atlas": [],
+    "note": "",
+    "evidence": {
+      "irregular_diffuse_pigmentation": "Large central area of structureless dark brown to black pigmentation of varying shades without a consistent furrow or ridge pattern",
+      "asymmetric_multicomponent": "Lesion combines structureless dark center, peripheral streak-like linear projections at the lower edge, scattered dots and gray areas, all unevenly distributed",
+      "multiple_colors": "Light brown at the periphery, dark brown, black in the center, and blue-gray areas in the left and central portions",
+      "irregular_globules": "Dark dots and globules of varying size scattered unevenly in the left and central lesion"
+    },
+    "lowConfidence": {
+      "parallel_ridge": "Lower and right periphery show parallel linear streak-like pigment bands extending outward, possibly following acral ridges, but the dense central pigmentation obscures any clear ridge pattern",
+      "blue_white_veil": "Left-central region shows a bluish-gray hazy area, but no definite white ground-glass overlay"
+    },
+    "updated": "2026-11-16T00:57:09.834Z",
+    "merged": {
+      "model": "claude-opus-5-5",
+      "added": [
+        "asymmetric_multicomponent",
+        "irregular_diffuse_pigmentation",
+        "irregular_globules",
+        "multiple_colors"
+      ],
+      "removed": []
     }
   }
 }

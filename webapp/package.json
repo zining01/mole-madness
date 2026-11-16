@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "export-cases": "node scripts/export_quiz_cases.mjs",
+    "check-practice": "node scripts/check_practice.mjs",
     "predev": "npm run export-cases",
     "dev": "vite",
     "prebuild": "npm run export-cases",

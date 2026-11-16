@@ -6,8 +6,8 @@ import styles from './Account.module.css';
 const SignIn = lazy(() => import('./SignIn.jsx').then((m) => ({ default: m.SignIn })));
 
 // Guest or reviewer. First-time visitors choose in a welcome box; reviewers who
-// aren't signed in get the sign-in box. Both sit over the quiz rather than
-// replacing it, so signing in mid-quiz keeps your place. Supabase is only
+// aren't signed in get the sign-in box. Both sit over the app rather than
+// replacing it, so signing in mid-session keeps your place. Supabase is only
 // loaded once someone chooses to be a reviewer.
 export function AccountProvider({ children }) {
   const [choice, setChoice] = useState(() => (accountsEnabled ? loadChoice() : 'guest'));
@@ -95,10 +95,10 @@ function AccountDialog({ box, onGuest, onReviewer }) {
       {box === 'welcome' ? (
         <>
           <h2>Welcome to the Mole Madness beta</h2>
-          <p>A dermoscopy quiz: pick a diagnosis for each image, then see the features that give it away.</p>
+          <p>Learn dermoscopy feature by feature: diagrams, real examples and short practice questions, plus a diagnosis quiz.</p>
           <div className={styles.choices}>
             <button type="button" className={styles.choice} onClick={onGuest}>
-              <strong>Try the quiz as a guest</strong>
+              <strong>Start learning as a guest</strong>
               <span>No sign-in needed.</span>
             </button>
             <button type="button" className={styles.choice} onClick={onReviewer}>

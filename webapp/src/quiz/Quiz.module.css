@@ -176,3 +176,5 @@
 .moreFeatures { margin: 4px 0 10px; }
 .moreFeatures summary { margin-bottom: 6px; color: #374151; font-size: 0.88rem; font-weight: 600; cursor: pointer; }
 .commentLabel { display: block; margin: 8px 0 6px; font-size: 0.88rem; font-weight: 600; }
+.featureLink { color: inherit; }
+.featureLink:hover { color: inherit; text-decoration: underline; }

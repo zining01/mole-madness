@@ -3,6 +3,9 @@
 //   node webapp/scripts/merge_suggestions.mjs            # preview only
 //   node webapp/scripts/merge_suggestions.mjs --apply    # write
 //   add --with-removals to also untick what the model calls absent (off by default)
+//   add --new-only to touch only images that have never had the model's calls applied:
+//     quick accepts from the feature hunt (which become full records) and images
+//     accepted in the editor without pre-tags. Earlier merges are left as they are.
 import fs from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { features } from '../src/data/features.js';
@@ -15,6 +18,7 @@ const SUGGESTIONS = fileURLToPath(
 );
 const apply = process.argv.includes('--apply');
 const applyRemovals = process.argv.includes('--with-removals');
+const newOnly = process.argv.includes('--new-only');
 
 const annotations = JSON.parse(fs.readFileSync(ANNOTATIONS, 'utf8'));
 const suggestions = JSON.parse(fs.readFileSync(SUGGESTIONS, 'utf8'));
@@ -28,9 +32,16 @@ let changed = 0;
 let conflicts = 0;
 let evidenceNotes = 0;
 let lowConfidence = 0;
+let completed = 0;
+const waiting = [];
 
 for (const [id, record] of Object.entries(annotations)) {
-  if (record.status !== 'accepted' || !suggestions[id]) continue;
+  if (record.status !== 'accepted') continue;
+  if (newOnly && (record.merged || record.prefilled)) continue;
+  if (!suggestions[id]) {
+    if (newOnly) waiting.push(id);
+    continue;
+  }
   const result = mergeClaude(record, suggestions[id], { applyRemovals });
   images++;
   if (result.added.length || result.removed.length) changed++;
@@ -40,7 +51,10 @@ for (const [id, record] of Object.entries(annotations)) {
   tally(kept, result.keptHighlighted);
   evidenceNotes += Object.keys(result.record.evidence).length;
   lowConfidence += Object.keys(result.record.lowConfidence).length;
-  annotations[id] = { ...result.record, updated: new Date().toISOString() };
+  // With the whole checklist answered, a quick accept is a full record.
+  const { partial, ...full } = result.record;
+  if (partial) completed++;
+  annotations[id] = { ...full, updated: new Date().toISOString() };
 }
 
 const top = (counts) =>
@@ -54,6 +68,8 @@ console.log(`Ticks added (${Object.values(added).reduce((a, b) => a + b, 0)}): $
 console.log(`Ticks removed (${Object.values(removed).reduce((a, b) => a + b, 0)}): ${top(removed)}`);
 console.log(`Kept because you highlighted them: ${top(kept)}`);
 console.log(`Network contradictions left for review: ${conflicts} images`);
+if (completed) console.log(`Quick accepts made into full records: ${completed}`);
+if (waiting.length) console.log(`Still waiting for a model run (${waiting.length}): run suggest_features.py --variant with_dx first`);
 console.log(`Claude notes stored: ${evidenceNotes} for present features, ${lowConfidence} low-confidence (hidden)`);
 
 if (apply) {

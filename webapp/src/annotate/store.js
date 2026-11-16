@@ -11,7 +11,8 @@ const check = async (res) => {
 export const loadAnnotations = async () => (await check(await fetch(ENDPOINT))).json();
 
 // Model second opinions keyed by image id; {} when none have been generated.
-// run: 'web' (600-px images, the default) or 'hires' (full-resolution originals).
+// run: 'web' (600-px images, the default), 'hires' (full-resolution originals),
+// 'second' (repeat of web) or 'hunt' (narrow screen for features short of examples).
 export const loadSuggestions = async (run = 'web') => (await check(await fetch(`/__suggestions/${run}`))).json();
 
 export const saveAnnotation = async (id, record) =>

@@ -26,9 +26,15 @@ const cases = Object.entries(annotations)
       src: `/${m.src}`, // local fallback in dev
       label: m.diagnosis, // dataset diagnosis name
       present: a.present,
+      // Unsure calls: never used as an example of the feature, or as a lesion without it.
+      uncertain: [...new Set([...Object.keys(a.lowConfidence ?? {}), ...(a.hiddenSuggestions ?? [])])]
+        .filter((f) => !a.present.includes(f))
+        .sort(),
       evidence: a.evidence ?? {},
       highlights: a.highlights ?? [],
       note: a.note ?? '',
+      // Accepted for single features from the feature hunt: the rest of the checklist wasn't assessed.
+      ...(a.partial && { partial: true }),
     };
   })
   .sort((x, y) => x.id.localeCompare(y.id));

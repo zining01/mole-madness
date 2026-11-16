@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { SHOW_HIGHLIGHTS } from '../data/display.js';
 import { CaseImage } from './CaseImage.jsx';
 import { AnswerReveal } from './AnswerReveal.jsx';
 import { answerOf, answers as answerChoices } from './quiz.js';
@@ -47,7 +48,7 @@ export function QuizSummary({ session, answers, mode, onAgain, onNewQuiz }) {
           <span>Missed case {reviewing + 1} of {missed.length}</span>
           <button type="button" className={styles.linkButton} onClick={() => setReviewing(null)}>Back to results</button>
         </div>
-        <CaseImage key={r.item.case.id} c={r.item.case} showHighlights focus={focus} />
+        <CaseImage key={r.item.case.id} c={r.item.case} showHighlights={SHOW_HIGHLIGHTS} focus={focus} />
         <AnswerReveal key={`reveal-${r.item.case.id}`} c={r.item.case} mode={mode} chosen={r.chosen} onFocus={setFocus} />
         <div className={styles.navRow}>
           <button type="button" className={styles.secondary} disabled={reviewing === 0} onClick={() => setReviewing(reviewing - 1)}>← Previous</button>

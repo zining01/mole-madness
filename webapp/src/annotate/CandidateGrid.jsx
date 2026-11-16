@@ -91,7 +91,9 @@ export function CandidateGrid({ dxId, index, annotations, target, codeNames, sug
           <h3>Accepted ({records.accepted.length})</h3>
           <div className={styles.grid}>
             {records.accepted.map((id) =>
-              thumb(id, annotations[id].code, `${annotations[id].present.length} features · ${annotations[id].highlights.length} highlights`)
+              thumb(id, annotations[id].code, annotations[id].partial
+                ? `quick accept · ${plural(annotations[id].present.length, 'feature')} only`
+                : `${annotations[id].present.length} features · ${annotations[id].highlights.length} highlights`)
             )}
           </div>
         </>

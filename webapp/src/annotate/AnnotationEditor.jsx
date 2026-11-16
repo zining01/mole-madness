@@ -366,6 +366,12 @@ export function AnnotationEditor({ image, dxId, existing, suggestion, second, on
               Saved as <strong>{existing.status}</strong> on {new Date(existing.updated).toLocaleString()}
             </p>
           )}
+          {existing?.partial && (
+            <p className={styles.warning}>
+              Quick accept from the feature hunt: only the ticked features were assessed. Go through the checklist and
+              accept to make this a full record.
+            </p>
+          )}
           {suggestion && (
             <p className={styles.meta}>
               Second opinion from {suggestion.served_by ?? suggestion.model}:{' '}
