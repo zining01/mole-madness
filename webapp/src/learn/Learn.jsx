@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { features } from '../data/features.js';
+import { diagnosisFeatures, features } from '../data/features.js';
+import { diagnosesForMode } from '../data/taxonomy.js';
 import { lookalikesOf } from '../data/lookalikes.js';
 import { CaseImage } from '../quiz/CaseImage.jsx';
 import { caseDiagnosis, diagnosesFor, examplesFor, featureOrder } from '../glossary/glossary.js';
@@ -8,7 +9,7 @@ import { SHOW_HIGHLIGHTS } from '../data/display.js';
 import { Schematic } from './Schematic.jsx';
 import styles from './Learn.module.css';
 
-// The feature map (every feature, grouped) and the
+// The feature map (every feature, grouped by category or by diagnosis) and the
 // page for one feature: diagram, definition, look-alikes, examples and practice.
 // `feature` comes from the address (#learn/<id>), so each page can be linked to.
 export function Learn({ feature }) {
@@ -21,16 +22,85 @@ export function Learn({ feature }) {
 
 const plural = (n, word) => `${n} ${word}${n === 1 ? '' : 's'}`;
 
-const groups = CURRICULUM.map((category) => ({
-  category,
-  ids: featureOrder.filter((id) => features[id].category === category),
-})).filter((g) => g.ids.length);
+const byCategory = CURRICULUM.map((category) => ({
+  id: category,
+  title: category,
+  practice: category,
+  lists: [{ ids: featureOrder.filter((id) => features[id].category === category) }],
+})).filter((g) => g.lists[0].ids.length);
+
+// The specific diagnoses, in the quiz's order grouped by superclass and malignancy, each with its key clues and the
+// features that support it. A feature can appear under several diagnoses.
+const specificDx = diagnosesForMode('advanced');
+const byDiagnosis = Object.entries(specificDx)
+  .filter(([dx]) => diagnosisFeatures[dx])
+  .map(([dx, info]) => {
+    const { key, supportive } = diagnosisFeatures[dx];
+    return {
+      id: dx,
+      title: info.name,
+      section: `${info.superclass} · ${info.malignancy}`,
+      practice: engine.lesionTypes.some((t) => t.id === dx) ? `dx:${dx}` : null,
+      lists: [
+        { label: 'Key clues', ids: key },
+        { label: 'Also seen', ids: supportive.filter((f) => !key.includes(f)) },
+      ],
+    };
+  })
+  // Keep each superclass · malignancy group together (the quiz order splits some).
+  .map((g, i, all) => ({ g, rank: all.findIndex((x) => x.section === g.section), i }))
+  .sort((x, y) => x.rank - y.rank || x.i - y.i)
+  .map(({ g }) => g);
+
+const VIEWS = { category: 'By category', diagnosis: 'By diagnosis' };
+const VIEW_KEY = 'mm.learn.view';
+const readView = () => {
+  try {
+    const saved = localStorage.getItem(VIEW_KEY);
+    return VIEWS[saved] ? saved : 'category';
+  } catch {
+    return 'category';
+  }
+};
+const writeView = (view) => {
+  try {
+    localStorage.setItem(VIEW_KEY, view);
+  } catch {
+    // private mode / blocked storage: the choice lasts until reload
+  }
+};
+
+function Tile({ id }) {
+  return (
+    <li>
+      <a href={`#learn/${id}`} className={styles.tile}>
+        <Schematic id={id} size={56} />
+        <span className={styles.tileText}>
+          <strong>{features[id].name}</strong>
+          <span className={styles.none}>{engine.isPracticable(id) ? plural(engine.exampleCount(id), 'example') : 'No examples yet'}</span>
+        </span>
+      </a>
+    </li>
+  );
+}
 
 function FeatureMap() {
   const [query, setQuery] = useState('');
+  const [view, setView] = useState(readView);
+  const chooseView = (v) => {
+    setView(v);
+    writeView(v);
+  };
+
   const q = query.trim().toLowerCase();
-  const matches = (id) => !q || `${features[id].name} ${features[id].description} ${features[id].category}`.toLowerCase().includes(q);
-  const shown = groups.map((g) => ({ ...g, ids: g.ids.filter(matches) })).filter((g) => g.ids.length);
+  const text = (id) => `${features[id].name} ${features[id].description} ${features[id].category}`.toLowerCase();
+  // A search matching a diagnosis name keeps all of that diagnosis' features.
+  const shown = (view === 'diagnosis' ? byDiagnosis : byCategory)
+    .map((g) => {
+      const whole = !q || g.title.toLowerCase().includes(q);
+      return { ...g, lists: g.lists.map((l) => ({ ...l, ids: whole ? l.ids : l.ids.filter((id) => text(id).includes(q)) })).filter((l) => l.ids.length) };
+    })
+    .filter((g) => g.lists.length);
 
   return (
     <>
@@ -44,38 +114,47 @@ function FeatureMap() {
       </div>
 
       <div className={styles.card}>
-        <input type="search" className={styles.search} placeholder="Search features" aria-label="Search features"
+        <div className={styles.viewToggle} role="tablist" aria-label="Organize features">
+          {Object.entries(VIEWS).map(([v, label]) => (
+            <button key={v} type="button" role="tab" aria-selected={view === v} className={view === v ? styles.viewOn : ''}
+              onClick={() => chooseView(v)}>
+              {label}
+            </button>
+          ))}
+        </div>
+        <input type="search" className={styles.search}
+          placeholder={view === 'diagnosis' ? 'Search features or diagnoses' : 'Search features'} aria-label="Search features"
           value={query} onChange={(e) => setQuery(e.target.value)} />
-        {shown.map(({ category, ids }) => {
-          const practicable = ids.filter(engine.isPracticable);
+        {shown.map((g, i) => {
+          const count = new Set(g.lists.flatMap((l) => l.ids)).size;
+          const sectionHead = g.section && g.section !== shown[i - 1]?.section && <p className={styles.dxSection}>{g.section}</p>;
           return (
-            <section key={category}>
-              <div className={styles.groupHead}>
-                <h3>{category}</h3>
-                <span className={styles.groupMeta}>
-                  {plural(ids.length, 'feature')}
-                  {practicable.length > 0 && !q && <> · <a href={practiceLink(category)}>Practice</a></>}
-                </span>
-              </div>
-              <ul className={styles.tiles}>
-                {ids.map((id) => (
-                  <li key={id}>
-                    <a href={`#learn/${id}`} className={styles.tile}>
-                      <Schematic id={id} size={56} />
-                      <span className={styles.tileText}>
-                        <strong>{features[id].name}</strong>
-                        <span className={styles.none}>{engine.isPracticable(id) ? plural(engine.exampleCount(id), 'example') : 'No examples yet'}</span>
-                      </span>
-                    </a>
-                  </li>
+            <React.Fragment key={g.id}>
+              {sectionHead}
+              <section>
+                <div className={styles.groupHead}>
+                  <h3>{g.title}</h3>
+                  <span className={styles.groupMeta}>
+                    {plural(count, 'feature')}
+                    {g.practice && !q && <> · <a href={practiceLink(g.practice)}>Practice</a></>}
+                  </span>
+                </div>
+                {g.lists.map((l) => (
+                  <React.Fragment key={l.label ?? 'all'}>
+                    {l.label && <p className={styles.listLabel}>{l.label}</p>}
+                    <ul className={styles.tiles}>
+                      {l.ids.map((id) => <Tile key={id} id={id} />)}
+                    </ul>
+                  </React.Fragment>
                 ))}
-              </ul>
-            </section>
+              </section>
+            </React.Fragment>
           );
         })}
         {!shown.length && <p className={styles.hint}>No features match "{query}".</p>}
         <p className={styles.footnote}>
           Terms follow the International Dermoscopy Society consensus.
+          {view === 'diagnosis' && ' Key clues and supporting features are the ones each diagnosis is assessed for in this app; a feature can appear under several diagnoses.'}
         </p>
       </div>
     </>

@@ -104,16 +104,22 @@
 }
 .cta:hover { background: #e5e7eb; color: #111827; }
 
+.viewToggle { display: inline-flex; gap: 2px; margin-bottom: 12px; padding: 3px; border-radius: 10px; background: #f3f4f6; }
+.viewToggle button { padding: 6px 14px; border: none; border-radius: 8px; background: none; color: #4b5563; font: inherit; font-size: 0.88rem; cursor: pointer; }
+.viewToggle .viewOn { background: #ffffff; color: #111827; font-weight: 600; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
+.dxSection { margin: 32px 0 -12px; padding-bottom: 6px; border-bottom: 1px solid #e5e7eb; color: #111827; font-size: 0.82rem; font-weight: 700; }
+.listLabel { margin: 10px 0 0 8px; color: #9ca3af; font-size: 0.75rem; }
+
 .groupHead { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-top: 24px; }
 .groupHead h3 { margin: 0; }
 .groupMeta { color: #9ca3af; font-size: 0.8rem; white-space: nowrap; }
 .groupMeta a { color: #374151; text-decoration: underline; }
 
 .tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 4px 8px; margin: 8px 0 0; padding: 0; list-style: none; }
-.tile { display: flex; align-items: center; gap: 12px; padding: 8px; border-radius: 12px; color: inherit; }
+.tile { display: flex; align-items: center; gap: 12px; min-width: 0; padding: 8px; border-radius: 12px; color: inherit; }
 .tile:hover { background: #f3f4f6; color: inherit; }
 .tileText { display: grid; gap: 6px; min-width: 0; }
-.tileText strong { font-size: 0.88rem; font-weight: 600; line-height: 1.25; }
+.tileText strong { font-size: 0.88rem; font-weight: 600; line-height: 1.25; overflow-wrap: anywhere; hyphens: auto; }
 .none { color: #9ca3af; font-size: 0.75rem; font-weight: 400; }
 
 .footnote { margin: 28px 0 0; color: #9ca3af; font-size: 0.8rem; line-height: 1.5; }
@@ -153,7 +159,7 @@
 @media (max-width: 600px) {
   .card { padding: 16px; border-radius: 16px; }
   .hero { padding: 20px 16px 16px; border-radius: 16px; }
-  .tiles { grid-template-columns: 1fr 1fr; }
+  .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .featureHead { align-items: flex-start; gap: 14px; }
   .featureHead svg { width: 84px; height: 84px; }
   .practiceBar { flex-direction: column; align-items: stretch; text-align: left; }
